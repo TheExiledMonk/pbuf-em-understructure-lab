@@ -1,0 +1,543 @@
+{
+  "count": 76,
+  "counts": {
+    "COMPATIBLE_NONUNIQUE": 14,
+    "INCOMPATIBLE": 2,
+    "NOT_ASSESSED": 60
+  },
+  "records": [
+    {
+      "historical_classification": "ACTIVATED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "fixed packet response is nonzero.",
+      "status": "COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "fixed packet response is nonzero.",
+      "status": "COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "fixed packet response is nonzero.",
+      "status": "COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "UNCHANGED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "fixed packet response is nonzero.",
+      "status": "COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "fixed packet response is nonzero.",
+      "status": "COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "fixed packet response is nonzero.",
+      "status": "COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "fixed packet response is nonzero.",
+      "status": "COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "fixed packet response is nonzero.",
+      "status": "COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "STATIC",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LOCAL_RELAY_DERIVED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LOCAL_RELAY_DERIVED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LOCAL_ONLY",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MAGNITUDE_ONLY",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MAGNITUDE_ONLY",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "fixed all-history transverse rank comparison.",
+      "status": "COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "fixed all-history transverse rank comparison.",
+      "status": "COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "fixed all-history transverse rank comparison.",
+      "status": "COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_0",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "fixed all-history transverse rank comparison.",
+      "status": "INCOMPATIBLE"
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "fixed all-history transverse rank comparison.",
+      "status": "COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "fixed all-history transverse rank comparison.",
+      "status": "COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "fixed all-history transverse rank comparison.",
+      "status": "COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PARITY_EVEN",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LONGITUDINAL_RANK_INCREMENT_GT1",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T19_LONGITUDINAL_CONDITIONAL_RANK",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "NOT_DERIVABLE",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T20_LONGITUDINAL_FROM_TRANSVERSE_PREDICTABILITY",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T22_LONGITUDINAL_TRANSVERSE_COTRANSPORT",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "STRAIN_DOMINATED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T23_LONGITUDINAL_FORCE_ORIGIN",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "TRANSVERSE_MODE_MIXING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_transverse_mode_split",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "TRANSVERSE_RESPONSE_MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_response_eigenstructure",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MODE_MIXING_PREVENTS_RATE_CLASSIFICATION",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_transport_comparison",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "DIFFERENT_PHASE_EVOLUTION",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_phase_comparison",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LONGITUDINAL_RESPONSE_CHANGED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_longitudinal_control",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "TRANSVERSE_SECTORS_INDEPENDENT",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t24_transverse_conditional_rank",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "TRANSIENT",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t27_mixing_persistence",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MIXING_CO_MOVING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t28_mixing_transport",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PREEXISTING_UNLOADED_ASYMMETRY",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T29_FIXED_FRAME_COMPONENT_ENERGY_ASYMMETRY",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "FIXED_SYMMETRY_MAGNITUDE_INVARIANT",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T30_FIXED_TRANSVERSE_SYMMETRY_CONTROLS",
+      "reason": "fixed symmetry equivariance comparison.",
+      "status": "INCOMPATIBLE"
+    },
+    {
+      "historical_classification": "TRANSVERSE_SECTORS_INDEPENDENT",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T31_UNLOADED_COMPONENT_STATE_INDEPENDENCE",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "FULL_WINDOW_NONLOCAL_SUPPORT",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T32_UNLOADED_ASYMMETRY_FULL_WINDOW_SUPPORT",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "FULL_STATE_PRESERVED_WITH_REDUCTION_SENSITIVITY",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T33_UNLOADED_ASYMMETRY_REPRESENTATION_RETENTION",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LOADED_RESPONSE_GEOMETRY_DISTANCE_REDUCED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T17_LOADED_GEOMETRY_TRACKING",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "ORIENTATION_REPRESENTATION_NONREDUCIBLE_TO_STRAIN",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T18_ORIENTATION_DECOUPLING",
+      "reason": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+      "status": "NOT_ASSESSED"
+    }
+  ],
+  "rule": "nonunique passes remain constraints; incompatibility is only for this exact frozen law."
+}

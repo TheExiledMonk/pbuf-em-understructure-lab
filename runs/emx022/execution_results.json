@@ -1,0 +1,41 @@
+{
+  "all_finite": true,
+  "loaded_unloaded_classification": "DIFFERENT",
+  "loaded_unloaded_response_l2": 0.0005972685030783706,
+  "ranks": {
+    "loaded": {
+      "xyz_p": 3,
+      "xyz_u": 3,
+      "yz_p": 2,
+      "yz_u": 2
+    },
+    "unloaded": {
+      "xyz_p": 3,
+      "xyz_u": 3,
+      "yz_p": 2,
+      "yz_u": 2
+    }
+  },
+  "symmetry": {
+    "e2_reflection": {
+      "exact": false,
+      "max_p_error": 3.2856118429029995e-05,
+      "max_u_error": 3.546191039112412e-05
+    },
+    "identity": {
+      "exact": true,
+      "max_p_error": 0.0,
+      "max_u_error": 0.0
+    },
+    "y_z_swap": {
+      "exact": false,
+      "max_p_error": 0.000829484944702206,
+      "max_u_error": 0.0010279043512639414
+    }
+  },
+  "trajectory_hashes": {
+    "loaded": "beeeb4466e60cba70c8a3e2b086a35bbbc232809426b998f51196389cf5f7dd2",
+    "unloaded": "61750ec884e68b0e85e3866c9cb551843e91b913f75739a336a6f986063c1f81"
+  },
+  "transverse_response_l2": 0.0008841669310266723
+}
