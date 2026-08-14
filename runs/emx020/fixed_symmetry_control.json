@@ -1,0 +1,23 @@
+{
+  "controls": {
+    "e2_reflection": {
+      "exact_at_tolerance": true,
+      "max_abs_p_equivariance_error": 0.0,
+      "max_abs_u_equivariance_error": 0.0,
+      "state_hash": "c0fc1222ba1fdf31093882f94a2d475b5c223c1a24a3a0b9441b0bf568228118"
+    },
+    "identity": {
+      "exact_at_tolerance": true,
+      "max_abs_p_equivariance_error": 0.0,
+      "max_abs_u_equivariance_error": 0.0,
+      "state_hash": "edf3ac1876e27fe4141b23c97c16354f5c7e94fc45179065a1b5eb50ee1172c2"
+    },
+    "transverse_swap": {
+      "exact_at_tolerance": true,
+      "max_abs_p_equivariance_error": 0.0,
+      "max_abs_u_equivariance_error": 0.0,
+      "state_hash": "4bafd70bd9d15e21ca5f26e7af41800b0aa7ecc204e0d499a6f9def85f7de018"
+    }
+  },
+  "definition": "identity, fixed y/z swap, and fixed e2 reflection: independent replays from transformed loaded initial state; compare to transformed identity replay over every frame/site/component"
+}

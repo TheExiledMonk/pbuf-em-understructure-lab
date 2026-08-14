@@ -1,0 +1,29 @@
+{
+  "EMX020_SELECTOR_FROZEN": true,
+  "EMX020_SELECTOR_VERIFIED": "FROZEN_ELASTIC_N6_ALTERNATIVE_COMPARISON_EXECUTION",
+  "authorization": "standing user authorization for the exact EMX019 frozen realization",
+  "candidate_id": "EMX019_ELASTIC_N6_UNIT_HARMONIC_LATTICE",
+  "contract_sha256": "7b7fa28d6c70ce2182545d96d6b127a5acd314acefc8dd6d3f006a2c00839306",
+  "parent_contract": "runs/emx019/frozen_alternative_model_authority_and_inputs_contract.json",
+  "predeclared_battery": {
+    "classification_vocabulary": [
+      "LOADED_UNLOADED_RESPONSE_DIFFERENT",
+      "LOADED_UNLOADED_RESPONSE_EQUAL"
+    ],
+    "invariant_reporting": "record harmonic Hamiltonian initial/final/min/max and relative excursion without fitted stability threshold",
+    "matched_response": "all frames 0..180, full 11^3 field: evolve loaded/unloaded background and corresponding packet-injected state independently, then subtract each same-law background history",
+    "state_rank": "rank at absolute tolerance 1e-12 of full-history response u and p components, including fixed x/y/z and transverse y/z reductions",
+    "symmetry_controls": "identity, fixed y/z swap, and fixed e2 reflection: independent replays from transformed loaded initial state; compare to transformed identity replay over every frame/site/component"
+  },
+  "prohibitions": {
+    "NO_ALTERNATIVE_CODE_IMPORT": true,
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_OR_QED_MAPPING": true,
+    "NO_HIDDEN_PARAMETERS": true,
+    "NO_LOAD_OR_GEOMETRY_SCAN": true,
+    "NO_NEW_LOADING": true,
+    "NO_NEW_PACKET": true,
+    "NO_PARAMETER_FITTING": true,
+    "NO_RESULT_SELECTED_AXIS_BASIS_TIME_REGION": true
+  }
+}

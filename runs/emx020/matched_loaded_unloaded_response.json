@@ -1,0 +1,8 @@
+{
+  "classification": "LOADED_UNLOADED_RESPONSE_EQUAL",
+  "definition": "all frames 0..180, full 11^3 field: evolve loaded/unloaded background and corresponding packet-injected state independently, then subtract each same-law background history",
+  "loaded_minus_unloaded_response_l2": 2.9952487040833525e-16,
+  "loaded_response_l2": 0.1926909914889194,
+  "no_claim": "A difference is an alternative-law response observation, not a unique mechanism selection or an EM/QED interpretation.",
+  "unloaded_response_l2": 0.1926909914889194
+}

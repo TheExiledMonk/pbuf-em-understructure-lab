@@ -1,0 +1,5 @@
+{
+  "EMX021_TEST_SELECTION": "ALTERNATIVE_LAW_RETAINED_CONSTRAINT_COMPATIBILITY_MATRIX",
+  "EMX021_TEST_SELECTION_FROZEN": true,
+  "basis": "EMX020 supplies one frozen alternative-law loaded/unloaded result, ranks, invariant records, and symmetry controls. EMX021 must classify joint compatibility against all retained constraints without treating non-unique passes as disposable."
+}

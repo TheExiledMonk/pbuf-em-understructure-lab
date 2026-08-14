@@ -1,0 +1,33 @@
+{
+  "definition": "record harmonic Hamiltonian initial/final/min/max and relative excursion without fitted stability threshold",
+  "histories": {
+    "loaded_background": {
+      "final": 0.0001826981431704467,
+      "initial": 0.00018379313045733812,
+      "maximum": 0.00018411574089703328,
+      "minimum": 0.00017874369924713115,
+      "relative_excursion": 0.029228740141346486
+    },
+    "loaded_probe": {
+      "final": 0.0005654759936300569,
+      "initial": 0.0005714453310569666,
+      "maximum": 0.0005714453310569666,
+      "minimum": 0.0005546349327860285,
+      "relative_excursion": 0.029417334182860556
+    },
+    "unloaded_background": {
+      "final": 6.813945932534724e-05,
+      "initial": 6.78219357632e-05,
+      "maximum": 6.876160256787824e-05,
+      "minimum": 6.581945352983543e-05,
+      "relative_excursion": 0.043380493419051216
+    },
+    "unloaded_probe": {
+      "final": 0.0001826981431704467,
+      "initial": 0.00018379313045733812,
+      "maximum": 0.00018411574089703328,
+      "minimum": 0.00017874369924713115,
+      "relative_excursion": 0.029228740141346486
+    }
+  }
+}
