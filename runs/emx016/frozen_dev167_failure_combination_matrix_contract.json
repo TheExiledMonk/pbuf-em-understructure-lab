@@ -1,0 +1,50 @@
+{
+  "EMX016_SELECTOR_FROZEN": true,
+  "EMX016_SELECTOR_VERIFIED": "DEV167_FAILURE_COMBINATION_MATRIX",
+  "contract_sha256": "f5c38ec41ba8d79ccfc415bc294e92c9f1cf609f56de96318f23d733809b6d92",
+  "external_evidence": {
+    "commit": "7b41901fea16e0e6e8ca3a5949536658102ceeee",
+    "no_import_or_execution_without_compatibility_authority_gate": true,
+    "read_only": true,
+    "repository": "https://github.com/TheExiledMonk/lab.git"
+  },
+  "positive_constraint_rule": "A pass, non-rejection, common, mixed, or partial response remains a retained constraint; it is not discarded merely because it is not unique alone.",
+  "prohibitions": {
+    "CANONICAL_REPO_READ_ONLY": true,
+    "NO_ALTERNATIVE_LAW_EXECUTION": true,
+    "NO_ALTERNATIVE_REPOSITORY_IMPORT": true,
+    "NO_B_FIELD": true,
+    "NO_DEV167_MODIFICATION": true,
+    "NO_DEV167_VARIANT_EXECUTION": true,
+    "NO_EM_QED_MAPPING": true,
+    "NO_E_FIELD": true,
+    "NO_GEOMETRY_SCAN": true,
+    "NO_LOAD_SCAN": true,
+    "NO_NEW_DOF": true,
+    "NO_NEW_DYNAMICS": true,
+    "NO_NEW_FORCE": true,
+    "NO_NEW_LOADING": true,
+    "NO_NEW_PACKET": true,
+    "NO_NEW_PHYSICS": true,
+    "NO_NEW_SOURCE": true,
+    "NO_PARAMETER_FITTING": true,
+    "NO_RESULT_SELECTED_AXIS": true,
+    "NO_RESULT_SELECTED_BASIS": true,
+    "NO_RESULT_SELECTED_REGION": true,
+    "NO_RESULT_SELECTED_TIME": true,
+    "NO_THRESHOLD_FITTING": true,
+    "NO_TOPOLOGY_EXECUTION": true
+  },
+  "required_categories": [
+    "REJECTED_UNDER_DEV167",
+    "UNTESTED_EXISTING_VALIDATED_PIECES",
+    "UNAVAILABLE_BLOCKED_DATA",
+    "GENUINELY_ALTERNATIVE_LAW_MECHANICS"
+  ],
+  "scope": "read-only classification of completed DEV167 combinations and external lab.git evidence",
+  "source_batteries": [
+    "EMX004 T01-T05",
+    "EMX006 T06-T10",
+    "EMX011-T15 fixed-history controls"
+  ]
+}
