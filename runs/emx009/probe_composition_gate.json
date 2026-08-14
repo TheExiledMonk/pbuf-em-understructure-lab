@@ -1,0 +1,6 @@
+{
+  "DEV195_CANONICAL_PACKET_PARENT": "AUTHORIZED_UNLOADED_ONLY",
+  "LOADED_PROBE_COMPOSITION": "BLOCKED_SOURCE",
+  "nonlinear_superposition_warning": "active; no X_loaded + X_packet construction",
+  "reason": "no exact loaded background or archived aggregate preparation"
+}

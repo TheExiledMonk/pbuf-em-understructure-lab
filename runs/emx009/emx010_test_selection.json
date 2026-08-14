@@ -1,0 +1,5 @@
+{
+  "EMX010_TEST_SELECTION": "LOADED_BACKGROUND_REPLAY_RECOVERY_GATE",
+  "EMX010_TEST_SELECTION_FROZEN": true,
+  "basis": "recover an exact archived loaded background and its source history before any aggregate probe preparation"
+}

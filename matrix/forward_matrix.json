@@ -9214,5 +9214,12 @@
       "result": "LONGITUDINAL_INDEPENDENT_MODE_RESOLVED",
       "selector": "DIRECTIONAL_LOADING_MODE_SPLIT_GATE"
     }
+  },
+  {
+    "EMX009_RECORD": "emx009_status",
+    "value": {
+      "result": "T16_BLOCKED_LOADING_REPRESENTATION",
+      "selector": "LOADED_BACKGROUND_REPLAY_RECOVERY_GATE"
+    }
   }
 ]

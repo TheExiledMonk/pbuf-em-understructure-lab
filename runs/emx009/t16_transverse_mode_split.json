@@ -1,0 +1,6 @@
+{
+  "classification": "BLOCKED_LOADING_REPRESENTATION",
+  "executed": false,
+  "reason": "authorization gate failed before any new dynamics",
+  "test_id": "T16_DIRECTIONAL_LOADING_TRANSVERSE_MODE_SPLIT"
+}

@@ -1,0 +1,42 @@
+{
+  "parent_state_priority": true,
+  "reason": "no representation has an authorized loaded/probe state",
+  "records": [
+    {
+      "PARENT_T16_RESULT": "BLOCKED_LOADING_REPRESENTATION",
+      "REDUCTION_T16_RESULT": "NOT_EXECUTED",
+      "RELATION": "PARTIAL",
+      "representation": "FULL_STATE"
+    },
+    {
+      "PARENT_T16_RESULT": "BLOCKED_LOADING_REPRESENTATION",
+      "REDUCTION_T16_RESULT": "NOT_EXECUTED",
+      "RELATION": "PARTIAL",
+      "representation": "RELATIONAL_CHANGE"
+    },
+    {
+      "PARENT_T16_RESULT": "BLOCKED_LOADING_REPRESENTATION",
+      "REDUCTION_T16_RESULT": "NOT_EXECUTED",
+      "RELATION": "PARTIAL",
+      "representation": "FULL_RELATIONAL_TENSOR"
+    },
+    {
+      "PARENT_T16_RESULT": "BLOCKED_LOADING_REPRESENTATION",
+      "REDUCTION_T16_RESULT": "NOT_EXECUTED",
+      "RELATION": "DESTROYED",
+      "representation": "ORIENTATION_STRESS"
+    },
+    {
+      "PARENT_T16_RESULT": "BLOCKED_LOADING_REPRESENTATION",
+      "REDUCTION_T16_RESULT": "NOT_EXECUTED",
+      "RELATION": "PARTIAL",
+      "representation": "FULL_FORCE_CHANGE"
+    },
+    {
+      "PARENT_T16_RESULT": "BLOCKED_LOADING_REPRESENTATION",
+      "REDUCTION_T16_RESULT": "NOT_EXECUTED",
+      "RELATION": "PARTIAL",
+      "representation": "SIGNED_NEIGHBOR_MISMATCH"
+    }
+  ]
+}

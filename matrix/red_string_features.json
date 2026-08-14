@@ -139,5 +139,10 @@
       "STRAIN_MAGNITUDE_LONGITUDINAL_FORCE_ORIGIN"
     ],
     "status": "PARENT_DERIVED"
+  },
+  {
+    "feature_id": "F11_LOADING_INDUCED_PROPAGATION_ANISOTROPY",
+    "reason": "EMX009 blocked loading replay recovery",
+    "status": "REGISTERED_UNTESTED"
   }
 ]

@@ -2,6 +2,39 @@
   "axis": "loading_regime",
   "blocked_cells_preserved": 20,
   "emx006_loading_status": "no authorized stationary loaded replay",
+  "emx009_loading_gate": {
+    "classification": "BLOCKED_SOURCE",
+    "conclusion": "no admissible directional loaded background exists",
+    "records": [
+      {
+        "availability": "BLOCKED_SOURCE",
+        "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+        "declared_loading": "STATIC_LOADED",
+        "reason": "maintenance rule and duration are not archived replay inputs; no reproducible trajectory"
+      },
+      {
+        "availability": "EXACT_EXISTING_STATE",
+        "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+        "declared_loading": "UNLOADED",
+        "reason": "DEV195 packet parent only; not a loaded background"
+      },
+      {
+        "availability": "BLOCKED_ARCHIVE",
+        "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+        "declared_loading": "UNLOADED",
+        "reason": "historical semantic record lacks complete time-resolved parent"
+      }
+    ],
+    "search_scope": [
+      "candidate_registry",
+      "loading_axis",
+      "DEV159/167/202/204/211 history",
+      "replay_registry",
+      "source-maintained states",
+      "existing trajectories",
+      "historical artifacts"
+    ]
+  },
   "no_weighted_score": true,
   "records": [
     {
