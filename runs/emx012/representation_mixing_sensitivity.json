@@ -1,0 +1,30 @@
+{
+  "C005": "BLOCKED_INFORMATION_LOSS",
+  "parent_state_priority": "FULL_STATE",
+  "records": [
+    {
+      "classification": "MIXING_PRESERVED",
+      "representation": "FULL_STATE"
+    },
+    {
+      "classification": "MIXING_PARTIAL",
+      "representation": "RELATIONAL_CHANGE"
+    },
+    {
+      "classification": "MIXING_PARTIAL",
+      "representation": "FULL_RELATIONAL_TENSOR"
+    },
+    {
+      "classification": "MIXING_DISTORTED",
+      "representation": "ORIENTATION_STRESS"
+    },
+    {
+      "classification": "MIXING_PARTIAL",
+      "representation": "FULL_FORCE_CHANGE"
+    },
+    {
+      "classification": "MIXING_DISTORTED",
+      "representation": "SIGNED_NEIGHBOR_MISMATCH"
+    }
+  ]
+}

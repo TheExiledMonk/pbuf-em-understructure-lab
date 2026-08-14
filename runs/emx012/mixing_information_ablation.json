@@ -1,0 +1,41 @@
+{
+  "C005": "BLOCKED_INFORMATION_LOSS",
+  "parent_state_priority": "FULL_STATE",
+  "records": [
+    {
+      "classification": "MIXING_PARTIAL",
+      "loaded_minus_unloaded_norm": 0.00034553807787985686,
+      "sector": "BOND_STRAIN"
+    },
+    {
+      "classification": "MIXING_PARTIAL",
+      "loaded_minus_unloaded_norm": 0.0006052794527374867,
+      "sector": "BOND_ORIENTATION"
+    },
+    {
+      "classification": "MIXING_PARTIAL",
+      "loaded_minus_unloaded_norm": 0.0003474018823531099,
+      "sector": "NODE_MOMENTUM"
+    },
+    {
+      "classification": "MIXING_PARTIAL",
+      "loaded_minus_unloaded_norm": 0.0006031385410924342,
+      "sector": "RELATIONAL_CHANGE"
+    },
+    {
+      "classification": "MIXING_PARTIAL",
+      "loaded_minus_unloaded_norm": 0.00046897054259410477,
+      "sector": "ORIENTATION_STRESS"
+    },
+    {
+      "classification": "MIXING_PARTIAL",
+      "loaded_minus_unloaded_norm": 0.00038417136258374796,
+      "sector": "FULL_FORCE_CHANGE"
+    },
+    {
+      "classification": "MIXING_PRESERVED",
+      "loaded_minus_unloaded_norm": 0.0005950369021830894,
+      "sector": "FULL_STATE"
+    }
+  ]
+}

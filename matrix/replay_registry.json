@@ -102,13 +102,5 @@
     "common_parent_trajectory": false,
     "parent_replay_id": "DEV228_FINITE_AGGREGATE",
     "reason": "finite aggregate source history is not uniquely archived"
-  },
-  {
-    "EMX010_RECORD": "emx010_loaded_background_replay",
-    "value": {
-      "background_id": "DEV195_DEV202_SELF_LOADED_PACKET",
-      "classification": "DETERMINISTIC_LOADED_REPLAY_AUTHORIZED",
-      "sha256": "118a680de0ba756cd56901fcf2db02cd2a765035357e7b38fb419927ae61afb4"
-    }
   }
 ]

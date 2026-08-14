@@ -1,0 +1,18 @@
+{
+  "classification": "TRANSVERSE_SECTORS_INDEPENDENT",
+  "loaded": {
+    "delta_r_1_given_2": 2,
+    "delta_r_2_given_1": 2,
+    "joint_rank": 4,
+    "mode_1_rank": 2,
+    "mode_2_rank": 2
+  },
+  "loading_comparison": "UNCHANGED_DEPENDENCE",
+  "unloaded": {
+    "delta_r_1_given_2": 2,
+    "delta_r_2_given_1": 2,
+    "joint_rank": 4,
+    "mode_1_rank": 2,
+    "mode_2_rank": 2
+  }
+}

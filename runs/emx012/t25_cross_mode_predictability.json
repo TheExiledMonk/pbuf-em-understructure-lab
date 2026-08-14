@@ -1,0 +1,11 @@
+{
+  "allowed_methods": [
+    "exact algebraic relation",
+    "predeclared linear projection",
+    "native relational identity"
+  ],
+  "classification": "NO_CROSS_MODE_PREDICTABILITY",
+  "loaded_exact_linear_dependence": false,
+  "no_fitted_predictor": true,
+  "unloaded_exact_linear_dependence": false
+}

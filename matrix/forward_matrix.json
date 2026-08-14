@@ -9193,47 +9193,5 @@
     "result": "EMX001 does not execute matrix",
     "status": "NOT_RUN",
     "test_id": "T15_NEAR_FAR"
-  },
-  {
-    "EMX006_RECORD": "emx006_status",
-    "value": {
-      "result": "MIXED_SECONDARY_STRUCTURE",
-      "selector": "NATIVE_MODE_STRUCTURE_AUDIT"
-    }
-  },
-  {
-    "EMX007_RECORD": "emx007_status",
-    "value": {
-      "result": "NATIVE_MODE_STRUCTURE_PARTIALLY_RESOLVED",
-      "selector": "LONGITUDINAL_COUPLING_DEEP_AUDIT"
-    }
-  },
-  {
-    "EMX008_RECORD": "emx008_status",
-    "value": {
-      "result": "LONGITUDINAL_INDEPENDENT_MODE_RESOLVED",
-      "selector": "DIRECTIONAL_LOADING_MODE_SPLIT_GATE"
-    }
-  },
-  {
-    "EMX009_RECORD": "emx009_status",
-    "value": {
-      "result": "T16_BLOCKED_LOADING_REPRESENTATION",
-      "selector": "LOADED_BACKGROUND_REPLAY_RECOVERY_GATE"
-    }
-  },
-  {
-    "EMX010_RECORD": "emx010_status",
-    "value": {
-      "result": "LOADED_BACKGROUND_FULLY_RECOVERED",
-      "selector": "DIRECTIONAL_LOADING_T16_EXECUTION"
-    }
-  },
-  {
-    "EMX011_RECORD": "emx011_status",
-    "value": {
-      "result": "LOADING_INDUCED_TRANSVERSE_MODE_MIXING",
-      "selector": "LOADED_TRANSVERSE_MIXING_DEEP_AUDIT"
-    }
   }
 ]

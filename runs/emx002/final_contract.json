@@ -48,7 +48,7 @@
   "TESTS_PASS": true,
   "TEST_BATTERY_FROZEN_BEFORE_RESULTS": true,
   "WORKTREE_CLEAN": true,
-  "local_head": "9ca7139b27e6f60736e64af513aee3ad42784a2f",
-  "origin_main": "9ca7139b27e6f60736e64af513aee3ad42784a2f",
+  "local_head": "c895baac467cd13d2d20b223e9d82d685c423919",
+  "origin_main": "c895baac467cd13d2d20b223e9d82d685c423919",
   "publication_note": "EMX001 dependency published before this direct-main EMX002 commit."
 }

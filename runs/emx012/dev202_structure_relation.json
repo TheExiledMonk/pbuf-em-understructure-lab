@@ -1,0 +1,4 @@
+{
+  "DEV202_TRANSVERSE_STIFFNESS_RELATION": "PARTIAL_OVERLAP",
+  "evidence": "both diagnostics use the same recovered DEV195/DEV202 self-loaded background, but this audit finds independent component-state ranks"
+}

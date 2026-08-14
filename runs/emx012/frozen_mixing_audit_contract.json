@@ -1,0 +1,64 @@
+{
+  "EMX012_TEST_SELECTION": "LOADED_TRANSVERSE_MIXING_DEEP_AUDIT",
+  "EMX012_TEST_SELECTION_FROZEN": true,
+  "NO_NEW_DYNAMICS": true,
+  "NO_RESULT_SELECTED_BASIS": true,
+  "NO_RESULT_SELECTED_ROTATION": true,
+  "TANGENT_RESPONSE_DIAGNOSTIC_ONLY": true,
+  "ablation_sectors": [
+    "BOND_STRAIN",
+    "BOND_ORIENTATION",
+    "NODE_MOMENTUM",
+    "RELATIONAL_CHANGE",
+    "ORIENTATION_STRESS",
+    "FULL_FORCE_CHANGE",
+    "FULL_STATE"
+  ],
+  "classification_vocabulary": "EMX012 frozen request vocabulary",
+  "conditional_rank_tests": "exact SVD rank at 1e-12",
+  "contract_sha256": "38d0dd8afaca1ac110490aac0242022d93b7013c0a11be693a8ab36ef18c0dfa",
+  "history_windows": [
+    0,
+    180
+  ],
+  "loading_axis": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "mixing_metrics": [
+    "rank increment",
+    "exact linear dependence",
+    "Q cross-correlation",
+    "fixed-frame spatial centroids"
+  ],
+  "mode_state_vectors": "[displacement_component,momentum_component]",
+  "propagation_direction": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "response_objects": "fixed local transverse Gram-change fields and EMX011 full-history R_perp",
+  "spatial_regions": "all periodic 11x11x11 nodes",
+  "symmetry_controls": [
+    "identity",
+    "e1/e2 swap",
+    "e2 sign reflection"
+  ],
+  "tolerances": {
+    "no_threshold_fitting": true,
+    "rank": 1e-12
+  },
+  "transverse_basis": {
+    "e1": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "e2": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  }
+}

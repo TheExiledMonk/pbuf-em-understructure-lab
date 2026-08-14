@@ -61,42 +61,6 @@
       "type": "LOSSLESS"
     }
   ],
-  "emx007_mode_information": {
-    "LONGITUDINAL_MODE": "MOMENTUM_RELATION_CORE_SUFFICIENT",
-    "MODE_COUPLING": "MOMENTUM_RELATION_CORE_SUFFICIENT",
-    "MODE_PHASE_RELATION": "MOMENTUM_RELATION_CORE_SUFFICIENT",
-    "TRANSVERSE_MODE_1": "MOMENTUM_RELATION_CORE_SUFFICIENT",
-    "TRANSVERSE_MODE_2": "MOMENTUM_RELATION_CORE_SUFFICIENT",
-    "basis": "EMX005 core retains time-resolved momentum and ordered relational state"
-  },
-  "emx008_longitudinal_core": {
-    "MOMENTUM_RELATION_CORE_LONGITUDINAL_SUFFICIENCY": "CORE_SUFFICIENT",
-    "basis": "parent (p_n,r_ab ordered) exposes rank increment and rejects exact transverse reconstruction"
-  },
-  "emx009_loading_dependencies": {
-    "requires": [
-      "source history",
-      "fixed loading geometry",
-      "reproducible background",
-      "authorized aggregate preparation"
-    ]
-  },
-  "emx010_loaded_dependencies": {
-    "requires": [
-      "DEV167 mechanics",
-      "DEV182 source geometry",
-      "DEV195 full u,p artifact",
-      "DEV196 injection rule"
-    ],
-    "satisfied": true
-  },
-  "emx011_t16": {
-    "requires": [
-      "EMX010 recovered background",
-      "DEV196 injection"
-    ],
-    "satisfied": true
-  },
   "nodes": [
     "X",
     "NODE_DISPLACEMENT",

@@ -15,13 +15,5 @@
     "schema": "NativeReplayTrajectory/v1",
     "state_artifact": "runs/dev195_local_force_balance_restoration/excited_trajectory.npz",
     "verification": "HASH_VERIFIED_ARTIFACT"
-  },
-  {
-    "EMX010_RECORD": "emx010_loaded_parent",
-    "value": {
-      "background_id": "DEV195_DEV202_SELF_LOADED_PACKET",
-      "source": "DEV195 excited trajectory",
-      "verification": "BYTE_EXACT"
-    }
   }
 ]

@@ -1,0 +1,26 @@
+import json, unittest
+from pathlib import Path
+R=Path(__file__).resolve().parents[1]/'runs'/'emx012'
+def j(n): return json.loads((R/n).read_text())
+class TestEMX012(unittest.TestCase):
+ def setUp(self): self.f=j('final_contract.json')
+ def test_emx012_starting_gate(self): self.assertTrue(j('starting_state.json')['EMX011_DEPENDENCY_VERIFIED'])
+ def test_emx012_frozen_contract(self): self.assertIn('contract_sha256',j('frozen_mixing_audit_contract.json'))
+ def test_emx012_emx011_trajectory_reuse(self): self.assertTrue(j('trajectory_reuse.json')['EMX011_TRAJECTORIES_REUSED'])
+ def test_emx012_t24_conditional_rank(self): self.assertEqual(j('t24_transverse_conditional_rank.json')['classification'],'TRANSVERSE_SECTORS_INDEPENDENT')
+ def test_emx012_t25_cross_predictability(self): self.assertEqual(j('t25_cross_mode_predictability.json')['classification'],'NO_CROSS_MODE_PREDICTABILITY')
+ def test_emx012_t26_exchange(self): self.assertIn(j('t26_transverse_exchange.json')['classification'],['COMMON_AMPLIFICATION','ANTI_CORRELATED_EXCHANGE','CORRELATED_GROWTH','ONE_WAY_TRANSFER','BIDIRECTIONAL_TRANSFER','NO_EXCHANGE_STRUCTURE'])
+ def test_emx012_t27_persistence(self): self.assertIn(j('t27_mixing_persistence.json')['classification'],['TRANSIENT','PERSISTENT_WHILE_LOADED','OSCILLATORY','SPATIALLY_LOCAL','CO_MOVING_WITH_PROBE','BACKGROUND_BOUND'])
+ def test_emx012_t28_transport(self): self.assertIn(j('t28_mixing_transport.json')['classification'],['MIXING_CO_MOVING','MIXING_LOCAL_TO_BACKGROUND','MIXING_SPREADING','MIXING_STATIC','MIXING_NONSEPARABLE'])
+ def test_emx012_unloaded_asymmetry_control(self): self.assertTrue(self.f['UNLOADED_ASYMMETRY_CONTROL_COMPLETE'])
+ def test_emx012_basis_artifact(self): self.assertTrue(self.f['BASIS_ARTIFACT_AUDIT_COMPLETE'])
+ def test_emx012_eigenstructure_stability(self): self.assertTrue(self.f['RESPONSE_EIGENSTRUCTURE_STABILITY_CLASSIFIED'])
+ def test_emx012_loading_axis_relation(self): self.assertEqual(j('loading_axis_relation.json')['classification'],'LOAD_PROJECTION_ZERO')
+ def test_emx012_information_ablation(self): self.assertTrue(self.f['MIXING_INFORMATION_ABLATION_COMPLETE'])
+ def test_emx012_force_origin(self): self.assertTrue(self.f['MIXING_FORCE_ORIGIN_CLASSIFIED'])
+ def test_emx012_dev202_relation(self): self.assertTrue(self.f['DEV202_STRUCTURE_RELATION_CLASSIFIED'])
+ def test_emx012_parent_priority(self): self.assertEqual(j('mixing_information_ablation.json')['parent_state_priority'],'FULL_STATE')
+ def test_emx012_no_qed_mapping(self): self.assertTrue(self.f['NO_QED_MAPPING'])
+ def test_emx012_no_t17_t18(self): self.assertFalse(self.f['T17_EXECUTED'] or self.f['T18_EXECUTED'])
+ def test_emx012_next_selector(self): self.assertTrue(self.f['EMX013_TEST_SELECTION_FROZEN'])
+if __name__=='__main__': unittest.main()

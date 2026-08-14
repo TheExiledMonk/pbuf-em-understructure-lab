@@ -1,0 +1,32 @@
+{
+  "R_perp": [
+    [
+      0.0004142797948349837,
+      0.009574258800173222
+    ],
+    [
+      0.009574258800173222,
+      0.0003653989798507929
+    ]
+  ],
+  "classification": "TIME_VARYING_RESPONSE_AXES",
+  "deterministic_replay_identical": true,
+  "eigenvalues": [
+    -0.009184450607545127,
+    0.009964129382230904
+  ],
+  "eigenvectors": [
+    [
+      0.7062036844054557,
+      -0.7080087260282597
+    ],
+    [
+      -0.7080087260282597,
+      -0.7062036844054557
+    ]
+  ],
+  "local_response_definition": "loaded-minus-unloaded fixed local transverse Gram field",
+  "observer_geometry_only": true,
+  "space_varying": true,
+  "time_varying": true
+}

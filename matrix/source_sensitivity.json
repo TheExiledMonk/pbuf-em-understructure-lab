@@ -1,7 +1,6 @@
 {
   "axis": "source_regime",
   "blocked_cells_preserved": 20,
-  "emx006_source_status": "no authorized source-change history; blocked branches preserved",
   "no_weighted_score": true,
   "records": [
     {

@@ -110,39 +110,5 @@
       "T04_NEIGHBOR_RELAY",
       "T05_STRESS_COUPLING"
     ]
-  },
-  {
-    "cross_independence_group": false,
-    "cross_source": false,
-    "feature_id": "F15_SECONDARY_STRUCTURE",
-    "features": [
-      "TWO_TRANSVERSE_DOF",
-      "LONGITUDINAL_CONTENT",
-      "PARITY_OR_HANDEDNESS_STRUCTURE"
-    ],
-    "status": "SAME_PARENT_RECURRENCE"
-  },
-  {
-    "feature_id": "F16_NATIVE_MODE_STRUCTURE",
-    "features": [
-      "NATIVE_TWO_TRANSVERSE_MODE_STRUCTURE",
-      "NATIVE_LONGITUDINAL_DYNAMIC_SECTOR",
-      "NATIVE_MODE_COUPLING_STRUCTURE"
-    ],
-    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
-    "status": "SAME_PARENT_PARENT_DERIVED"
-  },
-  {
-    "feature_id": "F17_LONGITUDINAL_DEPENDENCY",
-    "features": [
-      "NATIVE_LONGITUDINAL_DYNAMIC_SECTOR",
-      "STRAIN_MAGNITUDE_LONGITUDINAL_FORCE_ORIGIN"
-    ],
-    "status": "PARENT_DERIVED"
-  },
-  {
-    "feature_id": "F11_LOADING_INDUCED_PROPAGATION_ANISOTROPY",
-    "result": "LOADING_INDUCED_TRANSVERSE_MODE_MIXING",
-    "status": "NOT_SUPPORTED_THIS_REGIME"
   }
 ]

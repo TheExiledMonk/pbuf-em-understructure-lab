@@ -1,0 +1,11 @@
+{
+  "TANGENT_RESPONSE_DIAGNOSTIC_ONLY": true,
+  "classification": "MOMENTUM_RELATION_DEPENDENT",
+  "formula": "Delta F = Delta sigma r_hat + sigma Delta r_hat + Delta sigma Delta r_hat",
+  "term_norms": {
+    "FINITE_STEP_CROSS_TERM": 1.908944474413099e-06,
+    "MOMENTUM_RELATION_STATE": 0.1094716023478035,
+    "ORIENTATION_TERM": 3.09281673806901e-05,
+    "STRAIN_MAGNITUDE_TERM": 0.015586507434884066
+  }
+}
