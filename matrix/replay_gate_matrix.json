@@ -1,0 +1,457 @@
+[
+  {
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_EXISTING_STATE",
+    "test_id": "T01_QUIET_STATE",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_EXISTING_STATE",
+    "test_id": "T02_EXCITATION_ACTIVITY",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_EXISTING_STATE",
+    "test_id": "T03_PROPAGATION",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_EXISTING_STATE",
+    "test_id": "T04_NEIGHBOR_RELAY",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_EXISTING_STATE",
+    "test_id": "T05_STRESS_COUPLING",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T01_QUIET_STATE",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T02_EXCITATION_ACTIVITY",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T03_PROPAGATION",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T04_NEIGHBOR_RELAY",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T05_STRESS_COUPLING",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T01_QUIET_STATE",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T02_EXCITATION_ACTIVITY",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T03_PROPAGATION",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T04_NEIGHBOR_RELAY",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T05_STRESS_COUPLING",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T01_QUIET_STATE",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T02_EXCITATION_ACTIVITY",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T03_PROPAGATION",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T04_NEIGHBOR_RELAY",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T05_STRESS_COUPLING",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T01_QUIET_STATE",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T02_EXCITATION_ACTIVITY",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T03_PROPAGATION",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T04_NEIGHBOR_RELAY",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T05_STRESS_COUPLING",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T01_QUIET_STATE",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T02_EXCITATION_ACTIVITY",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T03_PROPAGATION",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T04_NEIGHBOR_RELAY",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T05_STRESS_COUPLING",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_ARCHIVE",
+    "test_id": "T01_QUIET_STATE",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_ARCHIVE",
+    "test_id": "T02_EXCITATION_ACTIVITY",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_ARCHIVE",
+    "test_id": "T03_PROPAGATION",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_ARCHIVE",
+    "test_id": "T04_NEIGHBOR_RELAY",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_ARCHIVE",
+    "test_id": "T05_STRESS_COUPLING",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_NONUNIQUE",
+    "test_id": "T01_QUIET_STATE",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_NONUNIQUE",
+    "test_id": "T02_EXCITATION_ACTIVITY",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_NONUNIQUE",
+    "test_id": "T03_PROPAGATION",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_NONUNIQUE",
+    "test_id": "T04_NEIGHBOR_RELAY",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_NONUNIQUE",
+    "test_id": "T05_STRESS_COUPLING",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_NONUNIQUE",
+    "test_id": "T01_QUIET_STATE",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_NONUNIQUE",
+    "test_id": "T02_EXCITATION_ACTIVITY",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_NONUNIQUE",
+    "test_id": "T03_PROPAGATION",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_NONUNIQUE",
+    "test_id": "T04_NEIGHBOR_RELAY",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_NONUNIQUE",
+    "test_id": "T05_STRESS_COUPLING",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T01_QUIET_STATE",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T02_EXCITATION_ACTIVITY",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T03_PROPAGATION",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T04_NEIGHBOR_RELAY",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T05_STRESS_COUPLING",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T01_QUIET_STATE",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T02_EXCITATION_ACTIVITY",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T03_PROPAGATION",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T04_NEIGHBOR_RELAY",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T05_STRESS_COUPLING",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T01_QUIET_STATE",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T02_EXCITATION_ACTIVITY",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T03_PROPAGATION",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T04_NEIGHBOR_RELAY",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "no_physics_test_executed": true,
+    "status": "AUTHORIZED_PARENT_DERIVATION",
+    "test_id": "T05_STRESS_COUPLING",
+    "time_resolution_sufficient": true
+  },
+  {
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_ARCHIVE",
+    "test_id": "T01_QUIET_STATE",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_ARCHIVE",
+    "test_id": "T02_EXCITATION_ACTIVITY",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_ARCHIVE",
+    "test_id": "T03_PROPAGATION",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_ARCHIVE",
+    "test_id": "T04_NEIGHBOR_RELAY",
+    "time_resolution_sufficient": false
+  },
+  {
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "no_physics_test_executed": true,
+    "status": "BLOCKED_ARCHIVE",
+    "test_id": "T05_STRESS_COUPLING",
+    "time_resolution_sufficient": false
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "artifact_recovery": "FAILED",
+  "candidate_ids": [
+    "C008_DEV211_STATIC_MAINTAINED_DEFORMATION"
+  ],
+  "mechanics_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
+  "no_replay_executed": true,
+  "replay_family_id": "DEV211_MAINTAINED_DEFORMATION",
+  "verification": "UNVERIFIED_NO_ARCHIVED_CHECK"
+}

@@ -1,0 +1,5 @@
+{
+  "EMX004_TEST_SELECTION": "UNLOCKED_PRIMITIVE_MATRIX_EXECUTION",
+  "EMX004_TEST_SELECTION_FROZEN": true,
+  "reason": "45 cell-level replay authorizations from one hash-verified full native parent trajectory."
+}

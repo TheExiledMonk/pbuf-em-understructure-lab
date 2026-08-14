@@ -1,0 +1,67 @@
+[
+  {
+    "authorized": true,
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "classification": "EXACT_STATE_ALREADY_AVAILABLE"
+  },
+  {
+    "authorized": true,
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "classification": "DERIVABLE_FROM_AUTHORIZED_PARENT_REPLAY"
+  },
+  {
+    "authorized": true,
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "classification": "DERIVABLE_FROM_AUTHORIZED_PARENT_REPLAY"
+  },
+  {
+    "authorized": true,
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "classification": "DERIVABLE_FROM_AUTHORIZED_PARENT_REPLAY"
+  },
+  {
+    "authorized": true,
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "classification": "DERIVABLE_FROM_AUTHORIZED_PARENT_REPLAY"
+  },
+  {
+    "authorized": true,
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "classification": "DERIVABLE_FROM_AUTHORIZED_PARENT_REPLAY"
+  },
+  {
+    "authorized": false,
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "classification": "BLOCKED_MISSING_SOURCE_HISTORY"
+  },
+  {
+    "authorized": false,
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "classification": "PARTIAL_REPLAY_ONLY"
+  },
+  {
+    "authorized": false,
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "classification": "PARTIAL_REPLAY_ONLY"
+  },
+  {
+    "authorized": true,
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "classification": "DERIVABLE_FROM_AUTHORIZED_PARENT_REPLAY"
+  },
+  {
+    "authorized": true,
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "classification": "DERIVABLE_FROM_AUTHORIZED_PARENT_REPLAY"
+  },
+  {
+    "authorized": true,
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "classification": "DERIVABLE_FROM_AUTHORIZED_PARENT_REPLAY"
+  },
+  {
+    "authorized": false,
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "classification": "BLOCKED_MISSING_SOURCE_HISTORY"
+  }
+]

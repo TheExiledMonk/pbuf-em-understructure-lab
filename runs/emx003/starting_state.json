@@ -1,0 +1,6 @@
+{
+  "EMX003_SELECTOR_VERIFIED": "ARCHIVAL_REPLAY_GATE",
+  "canonical_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+  "canonical_read_only": true,
+  "emx002_result": "BLOCKED_EXECUTION"
+}

@@ -1,0 +1,42 @@
+{
+  "canonical_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+  "edges": [
+    {
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "parent": "DEV195_CANONICAL_PACKET_PARENT"
+    },
+    {
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "parent": "DEV195_CANONICAL_PACKET_PARENT"
+    },
+    {
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "parent": "DEV195_CANONICAL_PACKET_PARENT"
+    },
+    {
+      "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "parent": "DEV195_CANONICAL_PACKET_PARENT"
+    },
+    {
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "parent": "DEV195_CANONICAL_PACKET_PARENT"
+    },
+    {
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "parent": "DEV195_CANONICAL_PACKET_PARENT"
+    },
+    {
+      "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "parent": "DEV195_CANONICAL_PACKET_PARENT"
+    },
+    {
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "parent": "DEV195_CANONICAL_PACKET_PARENT"
+    },
+    {
+      "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "parent": "DEV195_CANONICAL_PACKET_PARENT"
+    }
+  ],
+  "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT"
+}

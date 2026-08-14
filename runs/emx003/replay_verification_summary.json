@@ -1,0 +1,13 @@
+[
+  {
+    "artifact_sha256": "118a680de0ba756cd56901fcf2db02cd2a765035357e7b38fb419927ae61afb4",
+    "replay_executed": false,
+    "replay_family_id": "DEV195_CANONICAL_PACKET_PARENT",
+    "verification": "HASH_VERIFIED_ARTIFACT"
+  },
+  {
+    "replay_executed": false,
+    "replay_family_id": "OTHER_FAMILIES",
+    "verification": "UNVERIFIED_NO_ARCHIVED_CHECK"
+  }
+]

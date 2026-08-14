@@ -1,0 +1,10 @@
+{
+  "artifact_recovery": "FAILED",
+  "candidate_ids": [
+    "C009_DEV212_MOMENTUM_REVERSED_STATE"
+  ],
+  "mechanics_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
+  "no_replay_executed": true,
+  "replay_family_id": "DEV212_HISTORICAL_FAMILY",
+  "verification": "UNVERIFIED_NO_ARCHIVED_CHECK"
+}

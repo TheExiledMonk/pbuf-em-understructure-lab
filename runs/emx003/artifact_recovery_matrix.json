@@ -1,0 +1,27 @@
+[
+  {
+    "artifact_recovery": "RECOVERED",
+    "evidence": "/home/fabian/lab-main-consolidation/runs/dev195_local_force_balance_restoration/excited_trajectory.npz",
+    "replay_family_id": "DEV195_CANONICAL_PACKET_PARENT"
+  },
+  {
+    "artifact_recovery": "FAILED",
+    "evidence": "No complete trajectory artifact found in provenance-led history search.",
+    "replay_family_id": "DEV211_MAINTAINED_DEFORMATION"
+  },
+  {
+    "artifact_recovery": "FAILED",
+    "evidence": "No complete trajectory artifact found in provenance-led history search.",
+    "replay_family_id": "DEV212_HISTORICAL_FAMILY"
+  },
+  {
+    "artifact_recovery": "FAILED",
+    "evidence": "No complete trajectory artifact found in provenance-led history search.",
+    "replay_family_id": "DEV213_HISTORICAL_FAMILY"
+  },
+  {
+    "artifact_recovery": "FAILED",
+    "evidence": "No complete trajectory artifact found in provenance-led history search.",
+    "replay_family_id": "DEV228_FINITE_AGGREGATE"
+  }
+]

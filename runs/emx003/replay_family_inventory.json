@@ -1,0 +1,40 @@
+[
+  {
+    "candidate_ids": [
+      "C002_DEV167_FULL_VECTOR_STATE",
+      "C003_N6_RELATIONAL_CHANGE",
+      "C004_DEV203_RELATIONAL_TENSOR",
+      "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "C006_DEV204_ORIENTATION_STRESS",
+      "C007_DEV204_FULL_FORCE_CHANGE",
+      "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "C013_DEV225_TENSOR_NEIGHBOR_RELATION"
+    ],
+    "replay_family_id": "DEV195_CANONICAL_PACKET_PARENT"
+  },
+  {
+    "candidate_ids": [
+      "C008_DEV211_STATIC_MAINTAINED_DEFORMATION"
+    ],
+    "replay_family_id": "DEV211_MAINTAINED_DEFORMATION"
+  },
+  {
+    "candidate_ids": [
+      "C009_DEV212_MOMENTUM_REVERSED_STATE"
+    ],
+    "replay_family_id": "DEV212_HISTORICAL_FAMILY"
+  },
+  {
+    "candidate_ids": [
+      "C010_DEV213_TWO_STRUCTURE_AGGREGATE"
+    ],
+    "replay_family_id": "DEV213_HISTORICAL_FAMILY"
+  },
+  {
+    "candidate_ids": [
+      "C015_FINITE_X_AGGREGATE_FULL_STATE"
+    ],
+    "replay_family_id": "DEV228_FINITE_AGGREGATE"
+  }
+]

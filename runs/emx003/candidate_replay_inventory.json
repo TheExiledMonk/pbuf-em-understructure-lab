@@ -1,0 +1,106 @@
+[
+  {
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "canonical_provenance_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "classification": "EXACT_STATE_ALREADY_AVAILABLE",
+    "common_parent_trajectory": true,
+    "parent_replay_id": "DEV195_CANONICAL_PACKET_PARENT",
+    "reason": "NativeReplayTrajectory/v1 full (u,p) arrays exist"
+  },
+  {
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "canonical_provenance_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "classification": "DERIVABLE_FROM_AUTHORIZED_PARENT_REPLAY",
+    "common_parent_trajectory": true,
+    "parent_replay_id": "DEV195_CANONICAL_PACKET_PARENT",
+    "reason": "registered reduction is exact from the archived parent state"
+  },
+  {
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "canonical_provenance_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "classification": "DERIVABLE_FROM_AUTHORIZED_PARENT_REPLAY",
+    "common_parent_trajectory": true,
+    "parent_replay_id": "DEV195_CANONICAL_PACKET_PARENT",
+    "reason": "registered reduction is exact from the archived parent state"
+  },
+  {
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "canonical_provenance_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "classification": "DERIVABLE_FROM_AUTHORIZED_PARENT_REPLAY",
+    "common_parent_trajectory": true,
+    "parent_replay_id": "DEV195_CANONICAL_PACKET_PARENT",
+    "reason": "registered reduction is exact from the archived parent state"
+  },
+  {
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "canonical_provenance_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "classification": "DERIVABLE_FROM_AUTHORIZED_PARENT_REPLAY",
+    "common_parent_trajectory": true,
+    "parent_replay_id": "DEV195_CANONICAL_PACKET_PARENT",
+    "reason": "registered reduction is exact from the archived parent state"
+  },
+  {
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "canonical_provenance_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "classification": "DERIVABLE_FROM_AUTHORIZED_PARENT_REPLAY",
+    "common_parent_trajectory": true,
+    "parent_replay_id": "DEV195_CANONICAL_PACKET_PARENT",
+    "reason": "registered reduction is exact from the archived parent state"
+  },
+  {
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "canonical_provenance_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "classification": "BLOCKED_MISSING_SOURCE_HISTORY",
+    "common_parent_trajectory": false,
+    "parent_replay_id": "DEV211_MAINTAINED_DEFORMATION",
+    "reason": "maintenance rule/duration is not an archived replay input"
+  },
+  {
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "canonical_provenance_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "classification": "PARTIAL_REPLAY_ONLY",
+    "common_parent_trajectory": false,
+    "parent_replay_id": "DEV212_HISTORICAL_FAMILY",
+    "reason": "historical semantic records exist, but no complete time-resolved native parent trajectory"
+  },
+  {
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "canonical_provenance_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "classification": "PARTIAL_REPLAY_ONLY",
+    "common_parent_trajectory": false,
+    "parent_replay_id": "DEV213_HISTORICAL_FAMILY",
+    "reason": "historical semantic records exist, but no complete time-resolved native parent trajectory"
+  },
+  {
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "canonical_provenance_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "classification": "DERIVABLE_FROM_AUTHORIZED_PARENT_REPLAY",
+    "common_parent_trajectory": true,
+    "parent_replay_id": "DEV195_CANONICAL_PACKET_PARENT",
+    "reason": "registered reduction is exact from the archived parent state"
+  },
+  {
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "canonical_provenance_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "classification": "DERIVABLE_FROM_AUTHORIZED_PARENT_REPLAY",
+    "common_parent_trajectory": true,
+    "parent_replay_id": "DEV195_CANONICAL_PACKET_PARENT",
+    "reason": "registered reduction is exact from the archived parent state"
+  },
+  {
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "canonical_provenance_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "classification": "DERIVABLE_FROM_AUTHORIZED_PARENT_REPLAY",
+    "common_parent_trajectory": true,
+    "parent_replay_id": "DEV195_CANONICAL_PACKET_PARENT",
+    "reason": "registered reduction is exact from the archived parent state"
+  },
+  {
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "canonical_provenance_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "classification": "BLOCKED_MISSING_SOURCE_HISTORY",
+    "common_parent_trajectory": false,
+    "parent_replay_id": "DEV228_FINITE_AGGREGATE",
+    "reason": "finite aggregate source history is not uniquely archived"
+  }
+]

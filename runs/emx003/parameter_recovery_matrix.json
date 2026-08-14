@@ -1,0 +1,925 @@
+[
+  {
+    "authorization_fail_closed": false,
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "parameters": [
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "MECHANICS",
+        "required": true
+      },
+      {
+        "classification": "HASH_VERIFIED_ARTIFACT",
+        "parameter": "INITIAL_STATE",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "PREPARATION",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "SOURCE_HISTORY",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "GEOMETRY",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "BOUNDARY_CONDITIONS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "LATTICE_SIZE",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "TIMESTEP",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "INTEGRATOR",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "DURATION_OR_STOP_CONDITION",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "PARAMETERS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "RANDOM_SEED_IF_ANY",
+        "required": true
+      },
+      {
+        "classification": "HASH_VERIFIED_ARTIFACT",
+        "parameter": "OBSERVER_DERIVATION",
+        "required": true
+      }
+    ]
+  },
+  {
+    "authorization_fail_closed": false,
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "parameters": [
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "MECHANICS",
+        "required": true
+      },
+      {
+        "classification": "HASH_VERIFIED_ARTIFACT",
+        "parameter": "INITIAL_STATE",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "PREPARATION",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "SOURCE_HISTORY",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "GEOMETRY",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "BOUNDARY_CONDITIONS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "LATTICE_SIZE",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "TIMESTEP",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "INTEGRATOR",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "DURATION_OR_STOP_CONDITION",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "PARAMETERS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "RANDOM_SEED_IF_ANY",
+        "required": true
+      },
+      {
+        "classification": "HASH_VERIFIED_ARTIFACT",
+        "parameter": "OBSERVER_DERIVATION",
+        "required": true
+      }
+    ]
+  },
+  {
+    "authorization_fail_closed": false,
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "parameters": [
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "MECHANICS",
+        "required": true
+      },
+      {
+        "classification": "HASH_VERIFIED_ARTIFACT",
+        "parameter": "INITIAL_STATE",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "PREPARATION",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "SOURCE_HISTORY",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "GEOMETRY",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "BOUNDARY_CONDITIONS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "LATTICE_SIZE",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "TIMESTEP",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "INTEGRATOR",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "DURATION_OR_STOP_CONDITION",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "PARAMETERS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "RANDOM_SEED_IF_ANY",
+        "required": true
+      },
+      {
+        "classification": "HASH_VERIFIED_ARTIFACT",
+        "parameter": "OBSERVER_DERIVATION",
+        "required": true
+      }
+    ]
+  },
+  {
+    "authorization_fail_closed": false,
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "parameters": [
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "MECHANICS",
+        "required": true
+      },
+      {
+        "classification": "HASH_VERIFIED_ARTIFACT",
+        "parameter": "INITIAL_STATE",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "PREPARATION",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "SOURCE_HISTORY",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "GEOMETRY",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "BOUNDARY_CONDITIONS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "LATTICE_SIZE",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "TIMESTEP",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "INTEGRATOR",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "DURATION_OR_STOP_CONDITION",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "PARAMETERS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "RANDOM_SEED_IF_ANY",
+        "required": true
+      },
+      {
+        "classification": "HASH_VERIFIED_ARTIFACT",
+        "parameter": "OBSERVER_DERIVATION",
+        "required": true
+      }
+    ]
+  },
+  {
+    "authorization_fail_closed": false,
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "parameters": [
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "MECHANICS",
+        "required": true
+      },
+      {
+        "classification": "HASH_VERIFIED_ARTIFACT",
+        "parameter": "INITIAL_STATE",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "PREPARATION",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "SOURCE_HISTORY",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "GEOMETRY",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "BOUNDARY_CONDITIONS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "LATTICE_SIZE",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "TIMESTEP",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "INTEGRATOR",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "DURATION_OR_STOP_CONDITION",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "PARAMETERS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "RANDOM_SEED_IF_ANY",
+        "required": true
+      },
+      {
+        "classification": "HASH_VERIFIED_ARTIFACT",
+        "parameter": "OBSERVER_DERIVATION",
+        "required": true
+      }
+    ]
+  },
+  {
+    "authorization_fail_closed": false,
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "parameters": [
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "MECHANICS",
+        "required": true
+      },
+      {
+        "classification": "HASH_VERIFIED_ARTIFACT",
+        "parameter": "INITIAL_STATE",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "PREPARATION",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "SOURCE_HISTORY",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "GEOMETRY",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "BOUNDARY_CONDITIONS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "LATTICE_SIZE",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "TIMESTEP",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "INTEGRATOR",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "DURATION_OR_STOP_CONDITION",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "PARAMETERS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "RANDOM_SEED_IF_ANY",
+        "required": true
+      },
+      {
+        "classification": "HASH_VERIFIED_ARTIFACT",
+        "parameter": "OBSERVER_DERIVATION",
+        "required": true
+      }
+    ]
+  },
+  {
+    "authorization_fail_closed": true,
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "parameters": [
+      {
+        "classification": "UNKNOWN",
+        "parameter": "MECHANICS",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "INITIAL_STATE",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "PREPARATION",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "SOURCE_HISTORY",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "GEOMETRY",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "BOUNDARY_CONDITIONS",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "LATTICE_SIZE",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "TIMESTEP",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "INTEGRATOR",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "DURATION_OR_STOP_CONDITION",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "PARAMETERS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "RANDOM_SEED_IF_ANY",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "OBSERVER_DERIVATION",
+        "required": true
+      }
+    ]
+  },
+  {
+    "authorization_fail_closed": true,
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "parameters": [
+      {
+        "classification": "UNKNOWN",
+        "parameter": "MECHANICS",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "INITIAL_STATE",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "PREPARATION",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "SOURCE_HISTORY",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "GEOMETRY",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "BOUNDARY_CONDITIONS",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "LATTICE_SIZE",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "TIMESTEP",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "INTEGRATOR",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "DURATION_OR_STOP_CONDITION",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "PARAMETERS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "RANDOM_SEED_IF_ANY",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "OBSERVER_DERIVATION",
+        "required": true
+      }
+    ]
+  },
+  {
+    "authorization_fail_closed": true,
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "parameters": [
+      {
+        "classification": "UNKNOWN",
+        "parameter": "MECHANICS",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "INITIAL_STATE",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "PREPARATION",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "SOURCE_HISTORY",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "GEOMETRY",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "BOUNDARY_CONDITIONS",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "LATTICE_SIZE",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "TIMESTEP",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "INTEGRATOR",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "DURATION_OR_STOP_CONDITION",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "PARAMETERS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "RANDOM_SEED_IF_ANY",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "OBSERVER_DERIVATION",
+        "required": true
+      }
+    ]
+  },
+  {
+    "authorization_fail_closed": false,
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "parameters": [
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "MECHANICS",
+        "required": true
+      },
+      {
+        "classification": "HASH_VERIFIED_ARTIFACT",
+        "parameter": "INITIAL_STATE",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "PREPARATION",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "SOURCE_HISTORY",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "GEOMETRY",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "BOUNDARY_CONDITIONS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "LATTICE_SIZE",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "TIMESTEP",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "INTEGRATOR",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "DURATION_OR_STOP_CONDITION",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "PARAMETERS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "RANDOM_SEED_IF_ANY",
+        "required": true
+      },
+      {
+        "classification": "HASH_VERIFIED_ARTIFACT",
+        "parameter": "OBSERVER_DERIVATION",
+        "required": true
+      }
+    ]
+  },
+  {
+    "authorization_fail_closed": false,
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "parameters": [
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "MECHANICS",
+        "required": true
+      },
+      {
+        "classification": "HASH_VERIFIED_ARTIFACT",
+        "parameter": "INITIAL_STATE",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "PREPARATION",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "SOURCE_HISTORY",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "GEOMETRY",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "BOUNDARY_CONDITIONS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "LATTICE_SIZE",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "TIMESTEP",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "INTEGRATOR",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "DURATION_OR_STOP_CONDITION",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "PARAMETERS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "RANDOM_SEED_IF_ANY",
+        "required": true
+      },
+      {
+        "classification": "HASH_VERIFIED_ARTIFACT",
+        "parameter": "OBSERVER_DERIVATION",
+        "required": true
+      }
+    ]
+  },
+  {
+    "authorization_fail_closed": false,
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "parameters": [
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "MECHANICS",
+        "required": true
+      },
+      {
+        "classification": "HASH_VERIFIED_ARTIFACT",
+        "parameter": "INITIAL_STATE",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "PREPARATION",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "SOURCE_HISTORY",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "GEOMETRY",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "BOUNDARY_CONDITIONS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "LATTICE_SIZE",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "TIMESTEP",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "INTEGRATOR",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "DURATION_OR_STOP_CONDITION",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "PARAMETERS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "RANDOM_SEED_IF_ANY",
+        "required": true
+      },
+      {
+        "classification": "HASH_VERIFIED_ARTIFACT",
+        "parameter": "OBSERVER_DERIVATION",
+        "required": true
+      }
+    ]
+  },
+  {
+    "authorization_fail_closed": true,
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "parameters": [
+      {
+        "classification": "UNKNOWN",
+        "parameter": "MECHANICS",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "INITIAL_STATE",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "PREPARATION",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "SOURCE_HISTORY",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "GEOMETRY",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "BOUNDARY_CONDITIONS",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "LATTICE_SIZE",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "TIMESTEP",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "INTEGRATOR",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "DURATION_OR_STOP_CONDITION",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "PARAMETERS",
+        "required": true
+      },
+      {
+        "classification": "EXPLICIT_HISTORICAL",
+        "parameter": "RANDOM_SEED_IF_ANY",
+        "required": true
+      },
+      {
+        "classification": "UNKNOWN",
+        "parameter": "OBSERVER_DERIVATION",
+        "required": true
+      }
+    ]
+  }
+]
