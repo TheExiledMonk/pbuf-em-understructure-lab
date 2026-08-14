@@ -1,0 +1,6 @@
+{
+  "classification": "MIXED",
+  "reason": "no thresholded packet front or fitted transport speed introduced",
+  "receiver_regions": "identical full periodic lattice at every time",
+  "test_id": "T22_LONGITUDINAL_TRANSVERSE_COTRANSPORT"
+}

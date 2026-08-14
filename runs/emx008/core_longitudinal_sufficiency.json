@@ -1,0 +1,4 @@
+{
+  "MOMENTUM_RELATION_CORE_LONGITUDINAL_SUFFICIENCY": "CORE_SUFFICIENT",
+  "basis": "parent (p_n,r_ab ordered) exposes rank increment and rejects exact transverse reconstruction"
+}

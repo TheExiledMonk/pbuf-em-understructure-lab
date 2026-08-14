@@ -1,0 +1,10 @@
+{
+  "basis": [
+    "LONGITUDINAL_RANK_INCREMENT_GT1",
+    "NOT_DERIVABLE",
+    "MIXED",
+    "STRAIN_DOMINATED"
+  ],
+  "classification": "2_TRANSVERSE_PLUS_1_INDEPENDENT_LONGITUDINAL",
+  "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT"
+}

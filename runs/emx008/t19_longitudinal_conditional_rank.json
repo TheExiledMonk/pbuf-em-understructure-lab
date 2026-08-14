@@ -1,0 +1,8 @@
+{
+  "classification": "LONGITUDINAL_RANK_INCREMENT_GT1",
+  "parent_priority": "FULL_STATE",
+  "rank_combined": 6,
+  "rank_increment": 2,
+  "rank_transverse": 4,
+  "test_id": "T19_LONGITUDINAL_CONDITIONAL_RANK"
+}

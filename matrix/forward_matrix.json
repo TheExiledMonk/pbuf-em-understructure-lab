@@ -9207,5 +9207,12 @@
       "result": "NATIVE_MODE_STRUCTURE_PARTIALLY_RESOLVED",
       "selector": "LONGITUDINAL_COUPLING_DEEP_AUDIT"
     }
+  },
+  {
+    "EMX008_RECORD": "emx008_status",
+    "value": {
+      "result": "LONGITUDINAL_INDEPENDENT_MODE_RESOLVED",
+      "selector": "DIRECTIONAL_LOADING_MODE_SPLIT_GATE"
+    }
   }
 ]

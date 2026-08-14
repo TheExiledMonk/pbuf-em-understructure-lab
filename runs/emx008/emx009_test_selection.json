@@ -1,0 +1,5 @@
+{
+  "EMX009_TEST_SELECTION": "DIRECTIONAL_LOADING_MODE_SPLIT_GATE",
+  "EMX009_TEST_SELECTION_FROZEN": true,
+  "basis": "longitudinal rank increment and non-reconstructability resolve the unloaded baseline sufficiently for the already-gated directional loading route"
+}

@@ -131,5 +131,13 @@
     ],
     "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
     "status": "SAME_PARENT_PARENT_DERIVED"
+  },
+  {
+    "feature_id": "F17_LONGITUDINAL_DEPENDENCY",
+    "features": [
+      "NATIVE_LONGITUDINAL_DYNAMIC_SECTOR",
+      "STRAIN_MAGNITUDE_LONGITUDINAL_FORCE_ORIGIN"
+    ],
+    "status": "PARENT_DERIVED"
   }
 ]

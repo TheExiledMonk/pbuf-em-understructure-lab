@@ -1,0 +1,11 @@
+{
+  "FULL_STATE": "LONGITUDINAL_RANK_INCREMENT_GT1",
+  "ORIENTATION_STRESS": "LONGITUDINAL_RANK_INCREMENT_0",
+  "basis": "force-origin audit finds strain magnitude dominates longitudinal force contribution; orientation stress retains only orientation term",
+  "classification": "ORIENTATION_STRESS_LOSES_COUPLING_INFORMATION",
+  "discarded_information": [
+    "BOND_STRAIN",
+    "FULL_BOND_FORCE",
+    "MOMENTUM_RELATION_CORE"
+  ]
+}

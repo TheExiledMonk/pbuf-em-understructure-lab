@@ -1,0 +1,112 @@
+{
+  "EMX008_TEST_SELECTION": "LONGITUDINAL_COUPLING_DEEP_AUDIT",
+  "EMX008_TEST_SELECTION_FROZEN": true,
+  "candidate_representations": [
+    "FULL_STATE",
+    "RELATIONAL_CHANGE",
+    "FULL_RELATIONAL_TENSOR",
+    "ORIENTATION_STRESS",
+    "FULL_FORCE_CHANGE",
+    "SIGNED_NEIGHBOR_MISMATCH"
+  ],
+  "classification_vocabulary": {
+    "T19": [
+      "LONGITUDINAL_RANK_INCREMENT_0",
+      "LONGITUDINAL_RANK_INCREMENT_1",
+      "LONGITUDINAL_RANK_INCREMENT_GT1",
+      "INCONCLUSIVE"
+    ],
+    "T20": [
+      "EXACTLY_DERIVABLE",
+      "PARTIALLY_DERIVABLE",
+      "NOT_DERIVABLE",
+      "NONUNIQUE"
+    ],
+    "T21": [
+      "TRANSVERSE_LEADS_LONGITUDINAL",
+      "LONGITUDINAL_LEADS_TRANSVERSE",
+      "SIMULTANEOUS_WITHIN_INTEGRATOR_ORDER",
+      "VARIABLE_ORDER",
+      "NO_STABLE_ORDER"
+    ],
+    "T22": [
+      "CO_MOVE",
+      "SEPARATE_SPATIALLY",
+      "DIFFERENT_TRANSPORT_RATE",
+      "LONGITUDINAL_LOCAL_ONLY",
+      "TRANSVERSE_LOCAL_ONLY",
+      "MIXED"
+    ],
+    "T23": [
+      "STRAIN_DOMINATED",
+      "ORIENTATION_DOMINATED",
+      "MIXED_FORCE_ORIGIN",
+      "MOMENTUM_RELATION_DEPENDENT",
+      "UNRESOLVED"
+    ]
+  },
+  "contract_sha256": "4c0fcff0a6337f392b4145745161cb5b834e7f11c4d16d1e1a6d161a04f24a56",
+  "dependency_tests": "conditional matrix rank and predeclared complete-history linear projection only",
+  "direction_basis": {
+    "e1": [
+      0,
+      1,
+      0
+    ],
+    "e2": [
+      0,
+      0,
+      1
+    ],
+    "k_hat": [
+      1,
+      0,
+      0
+    ]
+  },
+  "lag_tests": {
+    "offsets": [
+      -1,
+      0,
+      1
+    ],
+    "reason": "one exact integrator step before/same/after; frozen before execution"
+  },
+  "longitudinal_transverse_decomposition": "T=(q1,q2,p1,p2); L=(q_parallel,p_parallel)",
+  "numerical_tolerances": {
+    "absolute_rank_and_exactness": 1e-12,
+    "no_threshold_fitting": true
+  },
+  "parent_state": "DEV195_CANONICAL_PACKET_PARENT excited-minus-background displacement and momentum",
+  "prohibitions": {
+    "CANONICAL_REPO_READ_ONLY": true,
+    "NO_ASSIGNED_POLARITY_SIGN": true,
+    "NO_BLACK_BOX_PREDICTOR": true,
+    "NO_B_FIELD": true,
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_FIELD": true,
+    "NO_MAXWELL_MAPPING": true,
+    "NO_NEW_DOF": true,
+    "NO_NEW_FORCE": true,
+    "NO_NEW_LOADING": true,
+    "NO_NEW_PACKET": true,
+    "NO_NEW_PHYSICS": true,
+    "NO_NEW_SOURCE": true,
+    "NO_PARAMETER_FITTING": true,
+    "NO_POLARIZATION_LABEL": true,
+    "NO_RESULT_SELECTED_AXIS": true,
+    "NO_RESULT_SELECTED_COMPONENT": true,
+    "NO_RESULT_SELECTED_LAG": true,
+    "NO_RESULT_SELECTED_REGION": true,
+    "NO_RESULT_SELECTED_TIME": true,
+    "NO_T16_T18_EXECUTION": true,
+    "NO_THRESHOLD_FITTING": true,
+    "NO_TOPOLOGY_EXECUTION": true
+  },
+  "projection_tests": "ordinary least-squares projection of L on T, reported only as permitted predeclared linear projection; no fitted model",
+  "rank_tests": {
+    "absolute_svd_tolerance": 1e-12
+  },
+  "spatial_samples": "full periodic 11x11x11 lattice; ordered N6 bonds uniformly aggregated where applicable",
+  "time_samples": "all t=0..360"
+}

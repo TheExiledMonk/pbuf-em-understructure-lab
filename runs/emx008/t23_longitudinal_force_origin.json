@@ -1,0 +1,11 @@
+{
+  "MOMENTUM_TRANSPORT": 0.15851864276238814,
+  "classification": "STRAIN_DOMINATED",
+  "identity": "Delta F=Delta sigma*rhat_background + sigma_background*Delta rhat + Delta sigma*Delta rhat",
+  "longitudinal_component_l2": {
+    "FINITE_STEP_CROSS_TERM": 8.283498485105082e-07,
+    "ORIENTATION_CHANGE": 3.747563648060131e-05,
+    "STRAIN_MAGNITUDE": 0.015569502836978121
+  },
+  "test_id": "T23_LONGITUDINAL_FORCE_ORIGIN"
+}

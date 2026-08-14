@@ -1,0 +1,10 @@
+{
+  "classification": "NO_STABLE_ORDER",
+  "integrator_sequence": "DEV167 kick-drift; no causal order inferred from correlation",
+  "lag_correlations": {
+    "-1": 0.3921976606349489,
+    "0": 0.3936083795178334,
+    "1": 0.39552357745498357
+  },
+  "test_id": "T21_LONGITUDINAL_TRANSVERSE_TEMPORAL_ORDER"
+}

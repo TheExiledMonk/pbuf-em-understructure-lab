@@ -1,0 +1,8 @@
+{
+  "allowed_construction": "predeclared linear projection",
+  "classification": "NOT_DERIVABLE",
+  "exact_algebraic_relation_found": false,
+  "parent_priority": "FULL_STATE",
+  "residual_l2": 0.2505090583431229,
+  "test_id": "T20_LONGITUDINAL_FROM_TRANSVERSE_PREDICTABILITY"
+}
