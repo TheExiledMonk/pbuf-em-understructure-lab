@@ -1,0 +1,3 @@
+# EMX019 alternative authority and frozen-inputs gate
+
+EMX019 freezes one independent unit-normalized harmonic N6 elastic lattice with the native (u,p) state, exact inherited packet/background hashes, zero source/noise, and fixed controls. This is a new independently declared alternative law, not a DEV167 change and not a claim that the law is derived from lab.git. No alternative dynamics were executed. All 76 retained positive constraints, including non-unique passes, remain mandatory future joint constraints. EMX020 requires a separate explicit authorization to execute this exact frozen contract.

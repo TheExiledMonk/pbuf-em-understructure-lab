@@ -1,0 +1,179 @@
+{
+  "EMX019_SELECTOR_FROZEN": true,
+  "EMX019_SELECTOR_VERIFIED": "EXPLICIT_ALTERNATIVE_MODEL_AUTHORITY_AND_FROZEN_INPUTS_GATE",
+  "authorization": "explicit user authorization to independently define and freeze one minimal alternative realization; dynamics execution remains outside EMX019",
+  "candidate_selection": {
+    "motivation": "LAB_ELASTIC_KINETIC_SECTOR identifies configuration plus momentum and an elastic kinetic closure as the closest structural family.",
+    "not_claimed": [
+      "derived from lab.git",
+      "a DEV167 modification",
+      "an EM or QED mapping",
+      "validated before execution"
+    ],
+    "provenance": {
+      "commit": "7b41901fea16e0e6e8ca3a5949536658102ceeee",
+      "evidence": "runs/inertia001/inertia_origin_report.md and runs/transport_research001/transport_research001_report.md",
+      "external_repository_read_only": true,
+      "repository": "https://github.com/TheExiledMonk/lab.git"
+    },
+    "selected_candidate": "EMX019_ELASTIC_N6_UNIT_HARMONIC_LATTICE",
+    "selection_rule": "Smallest candidate with the same native (u,p) state and therefore an explicit map for every retained observer/control; CORE-001 lacks p and Maxwell adds E/B fields."
+  },
+  "contract_sha256": "4d74a31150d9f7877285a0eae124cb967e114d5abf431fb5b4ee5b34d2c639c8",
+  "controls_and_observables": {
+    "directions": {
+      "basis": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "propagation_and_loading": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "loaded_unloaded_control": "Run the same frozen law and same packet separately from the two frozen initial states; their only prescribed input difference is the inherited background.",
+    "scope": "full 11^3 periodic lattice and all frames 0..180; no result-selected axis, basis, time, region, or threshold",
+    "symmetry_controls": {
+      "e2_reflection": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "identity": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "transverse_swap": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    }
+  },
+  "frozen_inputs": {
+    "initialization": {
+      "loaded": "u^0=excited_trajectory.displacement[0]+packet_u; p^0=excited_trajectory.momentum[0]+packet_p",
+      "rule": "The exact existing DEV196 valid-state addition is reused only as an initial-state construction; no trajectory superposition is permitted.",
+      "unloaded": "u^0=background_trajectory.displacement[0]+packet_u; p^0=background_trajectory.momentum[0]+packet_p"
+    },
+    "loaded_background": {
+      "arrays": [
+        "displacement",
+        "momentum"
+      ],
+      "artifact": "/home/fabian/lab-main-consolidation/runs/dev195_local_force_balance_restoration/excited_trajectory.npz",
+      "frame": 0,
+      "id": "DEV195_DEV202_SELF_LOADED_PACKET",
+      "sha256": "118a680de0ba756cd56901fcf2db02cd2a765035357e7b38fb419927ae61afb4"
+    },
+    "packet": {
+      "constructor": "generate_dev169_raw_abell_native_observer.packet using the frozen EMX011 preparation",
+      "displacement_sha256": "78c823853e12acd4d42cdd93e42acb741539082e617106c46d7de54188381843",
+      "injection_time": 0,
+      "momentum_sha256": "4a05ceb9bd8ab19160370af3e7f959d51a502a7ed9494eb8ee96d1c98c0bbd98",
+      "source": "existing DEV182/EMX011 canonical packet only"
+    },
+    "unloaded_background": {
+      "arrays": [
+        "displacement",
+        "momentum"
+      ],
+      "artifact": "/home/fabian/lab-main-consolidation/runs/dev195_local_force_balance_restoration/background_trajectory.npz",
+      "frame": 0,
+      "sha256": "67353948d6953f00348a37ea64fb83b0b7dd28b704dd2d3d8f88628647c191c4"
+    }
+  },
+  "integrator": {
+    "dt": 0.04,
+    "name": "explicit kick-drift (symplectic Euler) for the declared independent harmonic law",
+    "ordering": "force, kick, then drift; no substeps, adaptive stepping, filtering, or hidden solver tolerance",
+    "output_frames": "n=0 through n=180 inclusive",
+    "update_for_n_0_to_179": [
+      "p^(n+1)=p^n+0.04*F(u^n)",
+      "u^(n+1)=u^n+0.04*p^(n+1)"
+    ]
+  },
+  "normalization_and_law": {
+    "Hamiltonian": "H(u,p)=1/2 sum_i |p_i|^2 + 1/2 sum_i sum_a in {(1,0,0),(0,1,0),(0,0,1)} |u_{i+a}-u_i|^2",
+    "damping_term": "0 at every site and every time",
+    "force": "F_i(u)=sum_a in {(+/-1,0,0),(0,+/-1,0),(0,0,+/-1)} (u_{i+a}-u_i)",
+    "mass_per_site": 1.0,
+    "nearest_neighbor_spring_coefficient": 1.0,
+    "noise_term": "0 at every site and every time",
+    "onsite_coefficient": 0.0,
+    "parameter_rule": "All coefficients are defining unit normalizations fixed here before execution; none is fitted, inferred from results, or left configurable.",
+    "source_term": "0 at every site and every time",
+    "units": "dimensionless defining normalization"
+  },
+  "prohibitions": {
+    "NO_ALTERNATIVE_CODE_IMPORT": true,
+    "NO_ALTERNATIVE_DYNAMICS_EXECUTION_IN_EMX019": true,
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_OR_QED_MAPPING": true,
+    "NO_HIDDEN_PARAMETERS": true,
+    "NO_LOAD_OR_GEOMETRY_SCAN": true,
+    "NO_NEW_LOADING": true,
+    "NO_NEW_PACKET": true,
+    "NO_PARAMETER_FITTING": true,
+    "NO_RESULT_SELECTED_AXIS_BASIS_TIME_REGION": true
+  },
+  "retained_positive_constraint_rule": "A pass, non-rejection, common, mixed, or partial response remains a retained constraint; it is not discarded merely because it is not unique alone.",
+  "state": {
+    "boundary": "periodic N6 in all axes",
+    "degrees_of_freedom": "exactly the alternative displacement and momentum pair; no E/B, gauge, auxiliary, stochastic, or hidden state",
+    "shape": [
+      11,
+      11,
+      11,
+      3
+    ],
+    "site_coordinates": "i=(ix,iy,iz), each coordinate reduced modulo 11",
+    "variables": "u_i,p_i in R^3 for every i in Z_11 x Z_11 x Z_11"
+  }
+}

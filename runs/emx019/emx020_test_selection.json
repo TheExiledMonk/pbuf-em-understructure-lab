@@ -1,0 +1,7 @@
+{
+  "EMX020_TEST_SELECTION": "FROZEN_ELASTIC_N6_ALTERNATIVE_COMPARISON_EXECUTION",
+  "EMX020_TEST_SELECTION_FROZEN": true,
+  "authorization_required": "explicit user authorization before execution",
+  "basis": "The EMX019 independent harmonic realization is complete and implementation-ready, but no alternative dynamics ran in EMX019.",
+  "contract_to_execute": "runs/emx019/frozen_alternative_model_authority_and_inputs_contract.json"
+}

@@ -1,0 +1,16 @@
+{
+  "all_retained_constraints_preserved": true,
+  "candidate_id": "EMX019_ELASTIC_N6_UNIT_HARMONIC_LATTICE",
+  "classification": "ONE_COMPLETE_ALTERNATIVE_REALIZATION_FROZEN_EXECUTION_NOT_AUTHORIZED_IN_EMX019",
+  "complete_fields": [
+    "state",
+    "normalization_and_law",
+    "integrator",
+    "frozen_inputs",
+    "controls_and_observables",
+    "retained constraint maps"
+  ],
+  "execution_condition": "A separate explicit authorization for the exact EMX020 frozen contract is required.",
+  "execution_status": "NOT_EXECUTED",
+  "no_hidden_parameters": true
+}
