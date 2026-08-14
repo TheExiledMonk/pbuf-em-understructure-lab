@@ -110,5 +110,16 @@
       "T04_NEIGHBOR_RELAY",
       "T05_STRESS_COUPLING"
     ]
+  },
+  {
+    "cross_independence_group": false,
+    "cross_source": false,
+    "feature_id": "F15_SECONDARY_STRUCTURE",
+    "features": [
+      "TWO_TRANSVERSE_DOF",
+      "LONGITUDINAL_CONTENT",
+      "PARITY_OR_HANDEDNESS_STRUCTURE"
+    ],
+    "status": "SAME_PARENT_RECURRENCE"
   }
 ]

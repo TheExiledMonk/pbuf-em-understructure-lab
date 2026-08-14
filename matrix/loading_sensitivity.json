@@ -1,6 +1,7 @@
 {
   "axis": "loading_regime",
   "blocked_cells_preserved": 20,
+  "emx006_loading_status": "no authorized stationary loaded replay",
   "no_weighted_score": true,
   "records": [
     {

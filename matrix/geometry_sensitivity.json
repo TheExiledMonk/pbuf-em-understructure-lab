@@ -1,6 +1,7 @@
 {
   "axis": "geometry",
   "blocked_cells_preserved": 20,
+  "emx006_geometry_status": "one frozen canonical packet geometry only",
   "no_weighted_score": true,
   "records": [
     {

@@ -1,0 +1,145 @@
+[
+  {
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "counting": "SAME_PARENT_RECURRENCE",
+    "signature": [
+      "TRANSVERSE_RANK_2",
+      "LONGITUDINAL_PROPAGATING",
+      "PARITY_MIXED",
+      "NOT_APPLICABLE",
+      "BLOCKED_SOURCE_HISTORY"
+    ]
+  },
+  {
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "counting": "SAME_PARENT_RECURRENCE",
+    "signature": [
+      "TRANSVERSE_RANK_2",
+      "LONGITUDINAL_PROPAGATING",
+      "PARITY_MIXED",
+      "NOT_APPLICABLE",
+      "BLOCKED_SOURCE_HISTORY"
+    ]
+  },
+  {
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "counting": "SAME_PARENT_RECURRENCE",
+    "signature": [
+      "TRANSVERSE_RANK_2",
+      "LONGITUDINAL_PROPAGATING",
+      "PARITY_MIXED",
+      "NOT_APPLICABLE",
+      "BLOCKED_SOURCE_HISTORY"
+    ]
+  },
+  {
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "counting": "SAME_PARENT_RECURRENCE",
+    "signature": [
+      "TRANSVERSE_RANK_0",
+      "LONGITUDINAL_ZERO",
+      "PARITY_EVEN",
+      "NOT_APPLICABLE",
+      "BLOCKED_SOURCE_HISTORY"
+    ]
+  },
+  {
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "counting": "SAME_PARENT_RECURRENCE",
+    "signature": [
+      "TRANSVERSE_RANK_2",
+      "LONGITUDINAL_PROPAGATING",
+      "PARITY_MIXED",
+      "NOT_APPLICABLE",
+      "BLOCKED_SOURCE_HISTORY"
+    ]
+  },
+  {
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "counting": "SAME_PARENT_RECURRENCE",
+    "signature": [
+      "TRANSVERSE_RANK_2",
+      "LONGITUDINAL_PROPAGATING",
+      "PARITY_MIXED",
+      "NOT_APPLICABLE",
+      "BLOCKED_SOURCE_HISTORY"
+    ]
+  },
+  {
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "counting": "SAME_PARENT_RECURRENCE",
+    "signature": [
+      "BLOCKED_INFORMATION_LOSS",
+      "BLOCKED_INFORMATION_LOSS",
+      "PARITY_MIXED",
+      "NOT_APPLICABLE",
+      "BLOCKED_SOURCE_HISTORY"
+    ]
+  },
+  {
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "counting": "SAME_PARENT_RECURRENCE",
+    "signature": [
+      "TRANSVERSE_RANK_2",
+      "LONGITUDINAL_PROPAGATING",
+      "PARITY_MIXED",
+      "NOT_APPLICABLE",
+      "BLOCKED_SOURCE_HISTORY"
+    ]
+  },
+  {
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "counting": "SAME_PARENT_RECURRENCE",
+    "signature": [
+      "BLOCKED_INFORMATION_LOSS",
+      "BLOCKED_INFORMATION_LOSS",
+      "PARITY_MIXED",
+      "NOT_APPLICABLE",
+      "BLOCKED_SOURCE_HISTORY"
+    ]
+  },
+  {
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "counting": "BLOCKED_BRANCH",
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ]
+  },
+  {
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "counting": "BLOCKED_BRANCH",
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ]
+  },
+  {
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "counting": "BLOCKED_BRANCH",
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ]
+  },
+  {
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "counting": "BLOCKED_BRANCH",
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ]
+  }
+]

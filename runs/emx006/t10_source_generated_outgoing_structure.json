@@ -1,0 +1,153 @@
+{
+  "records": [
+    {
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "classification": "BLOCKED_SOURCE_HISTORY",
+      "metrics": {
+        "MATCHED_BACKGROUND_DEFINED": true,
+        "SOURCE_CHANGE_DEFINED": false,
+        "reason": "prepared packet is not an authorized source-change history"
+      },
+      "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+      "representation": "FULL_STATE",
+      "representation_sufficiency": "SOURCE_BLOCKED"
+    },
+    {
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "classification": "BLOCKED_SOURCE_HISTORY",
+      "metrics": {
+        "MATCHED_BACKGROUND_DEFINED": true,
+        "SOURCE_CHANGE_DEFINED": false,
+        "reason": "prepared packet is not an authorized source-change history"
+      },
+      "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+      "representation": "RELATIONAL_CHANGE",
+      "representation_sufficiency": "SOURCE_BLOCKED"
+    },
+    {
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "classification": "BLOCKED_SOURCE_HISTORY",
+      "metrics": {
+        "MATCHED_BACKGROUND_DEFINED": true,
+        "SOURCE_CHANGE_DEFINED": false,
+        "reason": "prepared packet is not an authorized source-change history"
+      },
+      "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+      "representation": "FULL_RELATIONAL_TENSOR",
+      "representation_sufficiency": "SOURCE_BLOCKED"
+    },
+    {
+      "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "classification": "BLOCKED_SOURCE_HISTORY",
+      "metrics": {
+        "MATCHED_BACKGROUND_DEFINED": true,
+        "SOURCE_CHANGE_DEFINED": false,
+        "reason": "prepared packet is not an authorized source-change history"
+      },
+      "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+      "representation": "ANTISYMMETRIC_TENSOR",
+      "representation_sufficiency": "SOURCE_BLOCKED"
+    },
+    {
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "classification": "BLOCKED_SOURCE_HISTORY",
+      "metrics": {
+        "MATCHED_BACKGROUND_DEFINED": true,
+        "SOURCE_CHANGE_DEFINED": false,
+        "reason": "prepared packet is not an authorized source-change history"
+      },
+      "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+      "representation": "ORIENTATION_STRESS",
+      "representation_sufficiency": "SOURCE_BLOCKED"
+    },
+    {
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "classification": "BLOCKED_SOURCE_HISTORY",
+      "metrics": {
+        "MATCHED_BACKGROUND_DEFINED": true,
+        "SOURCE_CHANGE_DEFINED": false,
+        "reason": "prepared packet is not an authorized source-change history"
+      },
+      "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+      "representation": "FULL_FORCE_CHANGE",
+      "representation_sufficiency": "SOURCE_BLOCKED"
+    },
+    {
+      "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "classification": "BLOCKED_SOURCE_HISTORY",
+      "metrics": {
+        "MATCHED_BACKGROUND_DEFINED": true,
+        "SOURCE_CHANGE_DEFINED": false,
+        "reason": "prepared packet is not an authorized source-change history"
+      },
+      "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+      "representation": "BOND_STRAIN",
+      "representation_sufficiency": "SOURCE_BLOCKED"
+    },
+    {
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "classification": "BLOCKED_SOURCE_HISTORY",
+      "metrics": {
+        "MATCHED_BACKGROUND_DEFINED": true,
+        "SOURCE_CHANGE_DEFINED": false,
+        "reason": "prepared packet is not an authorized source-change history"
+      },
+      "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+      "representation": "SIGNED_NEIGHBOR_MISMATCH",
+      "representation_sufficiency": "SOURCE_BLOCKED"
+    },
+    {
+      "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "classification": "BLOCKED_SOURCE_HISTORY",
+      "metrics": {
+        "MATCHED_BACKGROUND_DEFINED": true,
+        "SOURCE_CHANGE_DEFINED": false,
+        "reason": "prepared packet is not an authorized source-change history"
+      },
+      "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+      "representation": "TENSOR_NEIGHBOR_CONTRACTION",
+      "representation_sufficiency": "SOURCE_BLOCKED"
+    },
+    {
+      "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+      "classification": "BLOCKED_ARCHIVE",
+      "metrics": {
+        "reason": "no authorized replay artifact"
+      },
+      "parent_trajectory": null,
+      "representation": null,
+      "representation_sufficiency": "ARCHIVE_BLOCKED"
+    },
+    {
+      "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+      "classification": "BLOCKED_ARCHIVE",
+      "metrics": {
+        "reason": "no authorized replay artifact"
+      },
+      "parent_trajectory": null,
+      "representation": null,
+      "representation_sufficiency": "ARCHIVE_BLOCKED"
+    },
+    {
+      "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+      "classification": "BLOCKED_ARCHIVE",
+      "metrics": {
+        "reason": "no authorized replay artifact"
+      },
+      "parent_trajectory": null,
+      "representation": null,
+      "representation_sufficiency": "ARCHIVE_BLOCKED"
+    },
+    {
+      "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+      "classification": "BLOCKED_ARCHIVE",
+      "metrics": {
+        "reason": "no authorized replay artifact"
+      },
+      "parent_trajectory": null,
+      "representation": null,
+      "representation_sufficiency": "ARCHIVE_BLOCKED"
+    }
+  ],
+  "test_id": "T10_SOURCE_GENERATED_OUTGOING_STRUCTURE"
+}

@@ -1,0 +1,132 @@
+{
+  "C002_DEV167_FULL_VECTOR_STATE": {
+    "same_parent_only": true,
+    "signature": [
+      "TRANSVERSE_RANK_2",
+      "LONGITUDINAL_PROPAGATING",
+      "PARITY_MIXED",
+      "NOT_APPLICABLE",
+      "BLOCKED_SOURCE_HISTORY"
+    ]
+  },
+  "C003_N6_RELATIONAL_CHANGE": {
+    "same_parent_only": true,
+    "signature": [
+      "TRANSVERSE_RANK_2",
+      "LONGITUDINAL_PROPAGATING",
+      "PARITY_MIXED",
+      "NOT_APPLICABLE",
+      "BLOCKED_SOURCE_HISTORY"
+    ]
+  },
+  "C004_DEV203_RELATIONAL_TENSOR": {
+    "same_parent_only": true,
+    "signature": [
+      "TRANSVERSE_RANK_2",
+      "LONGITUDINAL_PROPAGATING",
+      "PARITY_MIXED",
+      "NOT_APPLICABLE",
+      "BLOCKED_SOURCE_HISTORY"
+    ]
+  },
+  "C005_DEV203_ANTISYMMETRIC_TENSOR": {
+    "same_parent_only": true,
+    "signature": [
+      "TRANSVERSE_RANK_0",
+      "LONGITUDINAL_ZERO",
+      "PARITY_EVEN",
+      "NOT_APPLICABLE",
+      "BLOCKED_SOURCE_HISTORY"
+    ]
+  },
+  "C006_DEV204_ORIENTATION_STRESS": {
+    "same_parent_only": true,
+    "signature": [
+      "TRANSVERSE_RANK_2",
+      "LONGITUDINAL_PROPAGATING",
+      "PARITY_MIXED",
+      "NOT_APPLICABLE",
+      "BLOCKED_SOURCE_HISTORY"
+    ]
+  },
+  "C007_DEV204_FULL_FORCE_CHANGE": {
+    "same_parent_only": true,
+    "signature": [
+      "TRANSVERSE_RANK_2",
+      "LONGITUDINAL_PROPAGATING",
+      "PARITY_MIXED",
+      "NOT_APPLICABLE",
+      "BLOCKED_SOURCE_HISTORY"
+    ]
+  },
+  "C008_DEV211_STATIC_MAINTAINED_DEFORMATION": {
+    "same_parent_only": false,
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ]
+  },
+  "C009_DEV212_MOMENTUM_REVERSED_STATE": {
+    "same_parent_only": false,
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ]
+  },
+  "C010_DEV213_TWO_STRUCTURE_AGGREGATE": {
+    "same_parent_only": false,
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ]
+  },
+  "C011_DEV221_DIRECTIONAL_GEOMETRY": {
+    "same_parent_only": true,
+    "signature": [
+      "BLOCKED_INFORMATION_LOSS",
+      "BLOCKED_INFORMATION_LOSS",
+      "PARITY_MIXED",
+      "NOT_APPLICABLE",
+      "BLOCKED_SOURCE_HISTORY"
+    ]
+  },
+  "C012_DEV223_SIGNED_PATTERN_MISMATCH": {
+    "same_parent_only": true,
+    "signature": [
+      "TRANSVERSE_RANK_2",
+      "LONGITUDINAL_PROPAGATING",
+      "PARITY_MIXED",
+      "NOT_APPLICABLE",
+      "BLOCKED_SOURCE_HISTORY"
+    ]
+  },
+  "C013_DEV225_TENSOR_NEIGHBOR_RELATION": {
+    "same_parent_only": true,
+    "signature": [
+      "BLOCKED_INFORMATION_LOSS",
+      "BLOCKED_INFORMATION_LOSS",
+      "PARITY_MIXED",
+      "NOT_APPLICABLE",
+      "BLOCKED_SOURCE_HISTORY"
+    ]
+  },
+  "C015_FINITE_X_AGGREGATE_FULL_STATE": {
+    "same_parent_only": false,
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ]
+  }
+}

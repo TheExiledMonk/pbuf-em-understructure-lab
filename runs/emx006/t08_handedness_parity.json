@@ -1,0 +1,153 @@
+{
+  "records": [
+    {
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "classification": "PARITY_MIXED",
+      "metrics": {
+        "handedness": "HANDEDNESS_PRESENT",
+        "parity_even_difference_l2": 0.2901975343522025,
+        "parity_odd_difference_l2": 0.3460654231181396
+      },
+      "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+      "representation": "FULL_STATE",
+      "representation_sufficiency": "REPRESENTATION_SUFFICIENT"
+    },
+    {
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "classification": "PARITY_MIXED",
+      "metrics": {
+        "handedness": "HANDEDNESS_PRESENT",
+        "parity_even_difference_l2": 0.2901975343522025,
+        "parity_odd_difference_l2": 0.3460654231181396
+      },
+      "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+      "representation": "RELATIONAL_CHANGE",
+      "representation_sufficiency": "REPRESENTATION_SUFFICIENT"
+    },
+    {
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "classification": "PARITY_MIXED",
+      "metrics": {
+        "handedness": "HANDEDNESS_PRESENT",
+        "parity_even_difference_l2": 0.41042827605592097,
+        "parity_odd_difference_l2": 0.4913740960406559
+      },
+      "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+      "representation": "FULL_RELATIONAL_TENSOR",
+      "representation_sufficiency": "REPRESENTATION_SUFFICIENT"
+    },
+    {
+      "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "classification": "PARITY_EVEN",
+      "metrics": {
+        "handedness": "HANDEDNESS_ABSENT",
+        "parity_even_difference_l2": 0.0,
+        "parity_odd_difference_l2": 0.0
+      },
+      "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+      "representation": "ANTISYMMETRIC_TENSOR",
+      "representation_sufficiency": "REPRESENTATION_SUFFICIENT"
+    },
+    {
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "classification": "PARITY_MIXED",
+      "metrics": {
+        "handedness": "HANDEDNESS_PRESENT",
+        "parity_even_difference_l2": 5.56080230338467e-05,
+        "parity_odd_difference_l2": 5.0253880042522154e-05
+      },
+      "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+      "representation": "ORIENTATION_STRESS",
+      "representation_sufficiency": "REPRESENTATION_SUFFICIENT"
+    },
+    {
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "classification": "PARITY_MIXED",
+      "metrics": {
+        "handedness": "HANDEDNESS_PRESENT",
+        "parity_even_difference_l2": 0.025361506518501754,
+        "parity_odd_difference_l2": 0.018105517550206868
+      },
+      "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+      "representation": "FULL_FORCE_CHANGE",
+      "representation_sufficiency": "REPRESENTATION_SUFFICIENT"
+    },
+    {
+      "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "classification": "PARITY_MIXED",
+      "metrics": {
+        "handedness": "HANDEDNESS_PRESENT",
+        "parity_even_difference_l2": 0.025361054724298865,
+        "parity_odd_difference_l2": 0.018105269151831353
+      },
+      "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+      "representation": "BOND_STRAIN",
+      "representation_sufficiency": "REPRESENTATION_SUFFICIENT"
+    },
+    {
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "classification": "PARITY_MIXED",
+      "metrics": {
+        "handedness": "HANDEDNESS_PRESENT",
+        "parity_even_difference_l2": 0.2901975343522025,
+        "parity_odd_difference_l2": 0.3460654231181396
+      },
+      "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+      "representation": "SIGNED_NEIGHBOR_MISMATCH",
+      "representation_sufficiency": "REPRESENTATION_SUFFICIENT"
+    },
+    {
+      "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "classification": "PARITY_MIXED",
+      "metrics": {
+        "handedness": "HANDEDNESS_PRESENT",
+        "parity_even_difference_l2": 0.03617275165288863,
+        "parity_odd_difference_l2": 0.05071141650303205
+      },
+      "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+      "representation": "TENSOR_NEIGHBOR_CONTRACTION",
+      "representation_sufficiency": "REPRESENTATION_SUFFICIENT"
+    },
+    {
+      "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+      "classification": "BLOCKED_ARCHIVE",
+      "metrics": {
+        "reason": "no authorized replay artifact"
+      },
+      "parent_trajectory": null,
+      "representation": null,
+      "representation_sufficiency": "ARCHIVE_BLOCKED"
+    },
+    {
+      "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+      "classification": "BLOCKED_ARCHIVE",
+      "metrics": {
+        "reason": "no authorized replay artifact"
+      },
+      "parent_trajectory": null,
+      "representation": null,
+      "representation_sufficiency": "ARCHIVE_BLOCKED"
+    },
+    {
+      "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+      "classification": "BLOCKED_ARCHIVE",
+      "metrics": {
+        "reason": "no authorized replay artifact"
+      },
+      "parent_trajectory": null,
+      "representation": null,
+      "representation_sufficiency": "ARCHIVE_BLOCKED"
+    },
+    {
+      "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+      "classification": "BLOCKED_ARCHIVE",
+      "metrics": {
+        "reason": "no authorized replay artifact"
+      },
+      "parent_trajectory": null,
+      "representation": null,
+      "representation_sufficiency": "ARCHIVE_BLOCKED"
+    }
+  ],
+  "test_id": "T08_HANDEDNESS_PARITY"
+}

@@ -1,0 +1,12 @@
+{
+  "not_registered_due_to_no_execution": [
+    "STATIC_LOADED_ORDER",
+    "SOURCE_GENERATED_OUTGOING_STRUCTURE"
+  ],
+  "registered_features": [
+    "TWO_TRANSVERSE_DOF",
+    "LONGITUDINAL_CONTENT",
+    "PARITY_OR_HANDEDNESS_STRUCTURE"
+  ],
+  "same_parent_caution": "all positive recurrence is reductions of DEV195, not cross-source or cross-independence confirmation"
+}

@@ -1,0 +1,457 @@
+[
+  {
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T06_TRANSVERSE_RELATIONAL_CONTENT"
+  },
+  {
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T07_LONGITUDINAL_CONTENT"
+  },
+  {
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T08_HANDEDNESS_PARITY"
+  },
+  {
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T09_STATIC_LOADED_ORGANIZATION"
+  },
+  {
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T10_SOURCE_GENERATED_OUTGOING_STRUCTURE"
+  },
+  {
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T06_TRANSVERSE_RELATIONAL_CONTENT"
+  },
+  {
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T07_LONGITUDINAL_CONTENT"
+  },
+  {
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T08_HANDEDNESS_PARITY"
+  },
+  {
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T09_STATIC_LOADED_ORGANIZATION"
+  },
+  {
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T10_SOURCE_GENERATED_OUTGOING_STRUCTURE"
+  },
+  {
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T06_TRANSVERSE_RELATIONAL_CONTENT"
+  },
+  {
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T07_LONGITUDINAL_CONTENT"
+  },
+  {
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T08_HANDEDNESS_PARITY"
+  },
+  {
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T09_STATIC_LOADED_ORGANIZATION"
+  },
+  {
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T10_SOURCE_GENERATED_OUTGOING_STRUCTURE"
+  },
+  {
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T06_TRANSVERSE_RELATIONAL_CONTENT"
+  },
+  {
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T07_LONGITUDINAL_CONTENT"
+  },
+  {
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T08_HANDEDNESS_PARITY"
+  },
+  {
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T09_STATIC_LOADED_ORGANIZATION"
+  },
+  {
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T10_SOURCE_GENERATED_OUTGOING_STRUCTURE"
+  },
+  {
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T06_TRANSVERSE_RELATIONAL_CONTENT"
+  },
+  {
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T07_LONGITUDINAL_CONTENT"
+  },
+  {
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T08_HANDEDNESS_PARITY"
+  },
+  {
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T09_STATIC_LOADED_ORGANIZATION"
+  },
+  {
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T10_SOURCE_GENERATED_OUTGOING_STRUCTURE"
+  },
+  {
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T06_TRANSVERSE_RELATIONAL_CONTENT"
+  },
+  {
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T07_LONGITUDINAL_CONTENT"
+  },
+  {
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T08_HANDEDNESS_PARITY"
+  },
+  {
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T09_STATIC_LOADED_ORGANIZATION"
+  },
+  {
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T10_SOURCE_GENERATED_OUTGOING_STRUCTURE"
+  },
+  {
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T06_TRANSVERSE_RELATIONAL_CONTENT"
+  },
+  {
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T07_LONGITUDINAL_CONTENT"
+  },
+  {
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T08_HANDEDNESS_PARITY"
+  },
+  {
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T09_STATIC_LOADED_ORGANIZATION"
+  },
+  {
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T10_SOURCE_GENERATED_OUTGOING_STRUCTURE"
+  },
+  {
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T06_TRANSVERSE_RELATIONAL_CONTENT"
+  },
+  {
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T07_LONGITUDINAL_CONTENT"
+  },
+  {
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T08_HANDEDNESS_PARITY"
+  },
+  {
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T09_STATIC_LOADED_ORGANIZATION"
+  },
+  {
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T10_SOURCE_GENERATED_OUTGOING_STRUCTURE"
+  },
+  {
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T06_TRANSVERSE_RELATIONAL_CONTENT"
+  },
+  {
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T07_LONGITUDINAL_CONTENT"
+  },
+  {
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T08_HANDEDNESS_PARITY"
+  },
+  {
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T09_STATIC_LOADED_ORGANIZATION"
+  },
+  {
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "representation_sufficiency": "REPRESENTATION_SUFFICIENT",
+    "source_regime": "PREPARED_PACKET",
+    "test_id": "T10_SOURCE_GENERATED_OUTGOING_STRUCTURE"
+  },
+  {
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
+    "test_id": "T06_TRANSVERSE_RELATIONAL_CONTENT"
+  },
+  {
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
+    "test_id": "T07_LONGITUDINAL_CONTENT"
+  },
+  {
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
+    "test_id": "T08_HANDEDNESS_PARITY"
+  },
+  {
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
+    "test_id": "T09_STATIC_LOADED_ORGANIZATION"
+  },
+  {
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
+    "test_id": "T10_SOURCE_GENERATED_OUTGOING_STRUCTURE"
+  },
+  {
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "VALID_STATE_INJECTION",
+    "test_id": "T06_TRANSVERSE_RELATIONAL_CONTENT"
+  },
+  {
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "VALID_STATE_INJECTION",
+    "test_id": "T07_LONGITUDINAL_CONTENT"
+  },
+  {
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "VALID_STATE_INJECTION",
+    "test_id": "T08_HANDEDNESS_PARITY"
+  },
+  {
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "VALID_STATE_INJECTION",
+    "test_id": "T09_STATIC_LOADED_ORGANIZATION"
+  },
+  {
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "VALID_STATE_INJECTION",
+    "test_id": "T10_SOURCE_GENERATED_OUTGOING_STRUCTURE"
+  },
+  {
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "TWO_PREPARATION_AGGREGATE",
+    "test_id": "T06_TRANSVERSE_RELATIONAL_CONTENT"
+  },
+  {
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "TWO_PREPARATION_AGGREGATE",
+    "test_id": "T07_LONGITUDINAL_CONTENT"
+  },
+  {
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "TWO_PREPARATION_AGGREGATE",
+    "test_id": "T08_HANDEDNESS_PARITY"
+  },
+  {
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "TWO_PREPARATION_AGGREGATE",
+    "test_id": "T09_STATIC_LOADED_ORGANIZATION"
+  },
+  {
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "TWO_PREPARATION_AGGREGATE",
+    "test_id": "T10_SOURCE_GENERATED_OUTGOING_STRUCTURE"
+  },
+  {
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "FINITE_X_AGGREGATE",
+    "test_id": "T06_TRANSVERSE_RELATIONAL_CONTENT"
+  },
+  {
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "FINITE_X_AGGREGATE",
+    "test_id": "T07_LONGITUDINAL_CONTENT"
+  },
+  {
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "FINITE_X_AGGREGATE",
+    "test_id": "T08_HANDEDNESS_PARITY"
+  },
+  {
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "FINITE_X_AGGREGATE",
+    "test_id": "T09_STATIC_LOADED_ORGANIZATION"
+  },
+  {
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "parent_trajectory": null,
+    "representation_sufficiency": "ARCHIVE_BLOCKED",
+    "source_regime": "FINITE_X_AGGREGATE",
+    "test_id": "T10_SOURCE_GENERATED_OUTGOING_STRUCTURE"
+  }
+]

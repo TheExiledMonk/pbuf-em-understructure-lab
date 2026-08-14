@@ -1,0 +1,3 @@
+# EMX006 handoff
+
+The authorized same-parent reductions retain a mixed directional dynamic structure: the vector/tensor representations with directional relation content show two transverse degrees of freedom and nonzero longitudinal propagating content under the pre-frozen x launch geometry. Scalar reductions are blocked by information loss, not negative findings. Reflection distinguishes native states in the directional records; the antisymmetric sector is zero here and is retained as a parity-even result, not removed. No stationary loaded archive or authorized source-change history was available, so T09/T10 do not establish structure. These are same-parent recurrences only and make no EM representation claim.

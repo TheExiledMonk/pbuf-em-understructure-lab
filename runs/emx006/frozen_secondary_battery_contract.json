@@ -1,0 +1,163 @@
+{
+  "EMX006_TEST_SELECTION": "SECONDARY_STRUCTURAL_MATRIX_BATTERY",
+  "EMX006_TEST_SELECTION_FROZEN": true,
+  "candidate_ids": [
+    "C002_DEV167_FULL_VECTOR_STATE",
+    "C003_N6_RELATIONAL_CHANGE",
+    "C004_DEV203_RELATIONAL_TENSOR",
+    "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "C006_DEV204_ORIENTATION_STRESS",
+    "C007_DEV204_FULL_FORCE_CHANGE",
+    "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "C015_FINITE_X_AGGREGATE_FULL_STATE"
+  ],
+  "classification_vocabularies": {
+    "T06": [
+      "TRANSVERSE_RANK_0",
+      "TRANSVERSE_RANK_1",
+      "TRANSVERSE_RANK_2",
+      "MIXED_NONSEPARABLE",
+      "BLOCKED_INFORMATION_LOSS",
+      "NOT_APPLICABLE"
+    ],
+    "T07": [
+      "LONGITUDINAL_ZERO",
+      "LONGITUDINAL_NONZERO_NONPROPAGATING",
+      "LONGITUDINAL_PROPAGATING",
+      "MIXED",
+      "BLOCKED_INFORMATION_LOSS",
+      "NOT_APPLICABLE"
+    ],
+    "T08": [
+      "PARITY_EVEN",
+      "PARITY_ODD",
+      "PARITY_MIXED",
+      "HANDEDNESS_PRESENT",
+      "HANDEDNESS_ABSENT",
+      "TRANSIENT_HANDEDNESS",
+      "BLOCKED_INFORMATION_LOSS",
+      "NOT_APPLICABLE"
+    ],
+    "T09": [
+      "STATIC_ORGANIZATION_PRESENT",
+      "STATIC_ORGANIZATION_ABSENT",
+      "DYNAMIC_ONLY",
+      "SOURCE_MAINTAINED_ONLY",
+      "BLOCKED_SOURCE",
+      "BLOCKED_ARCHIVE",
+      "NOT_APPLICABLE"
+    ],
+    "T10": [
+      "OUTGOING_STRUCTURE_DERIVED",
+      "OUTGOING_STRUCTURE_PARTIAL",
+      "LOCAL_SOURCE_RESPONSE_ONLY",
+      "BACKGROUND_CHANGE_WITHOUT_OUTGOING_STRUCTURE",
+      "BLOCKED_SOURCE_HISTORY",
+      "BLOCKED_ARCHIVE",
+      "NOT_APPLICABLE"
+    ]
+  },
+  "contract_sha256": "be26e4a47f3d9a4c20e5622d94bc4fbcec3ecf7ac1e896dcdf510fbf29c641ee",
+  "controls": "time-matched DEV195 background for every active trajectory record; no substitute control for blocked archives",
+  "numerical_tolerances": {
+    "exact_activity_absolute_l2": 1e-12,
+    "parity_absolute_l2": 1e-12,
+    "rank_svd_absolute": 1e-12,
+    "rule": "fixed before execution; no threshold fitting"
+  },
+  "parent_trajectories": {
+    "DEV195_CANONICAL_PACKET_PARENT": [
+      "C002_DEV167_FULL_VECTOR_STATE",
+      "C003_N6_RELATIONAL_CHANGE",
+      "C004_DEV203_RELATIONAL_TENSOR",
+      "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "C006_DEV204_ORIENTATION_STRESS",
+      "C007_DEV204_FULL_FORCE_CHANGE",
+      "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "C013_DEV225_TENSOR_NEIGHBOR_RELATION"
+    ]
+  },
+  "parity_operation": {
+    "definition": "periodic x reflection about frozen x=1 launch plane, with native vector x component sign reversal",
+    "name": "P_x"
+  },
+  "prohibitions": {
+    "CANONICAL_REPO_READ_ONLY": true,
+    "NO_BLOCKED_CELL_INFERENCE": true,
+    "NO_B_FIELD": true,
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_FIELD": true,
+    "NO_MAGNETISM_LABEL": true,
+    "NO_MAXWELL_MAPPING": true,
+    "NO_NEGATIVE_RESULT_MOTIVATED_MATRIX_EXPANSION": true,
+    "NO_NEW_DOF": true,
+    "NO_NEW_FORCE": true,
+    "NO_NEW_GEOMETRY": true,
+    "NO_NEW_LOADING": true,
+    "NO_NEW_PACKET": true,
+    "NO_NEW_PHYSICS": true,
+    "NO_NEW_SOURCE": true,
+    "NO_PACKET_TRUNCATION": true,
+    "NO_POLARIZATION_LABEL": true,
+    "NO_RESULT_SELECTED_AXIS": true,
+    "NO_RESULT_SELECTED_COMPONENT": true,
+    "NO_RESULT_SELECTED_PARITY_OPERATION": true,
+    "NO_RESULT_SELECTED_REGION": true,
+    "NO_RESULT_SELECTED_TIME": true,
+    "NO_SOURCE_RELEASE_REPAIR": true,
+    "NO_T16_T18_EXECUTION": true,
+    "NO_THRESHOLD_FITTING": true
+  },
+  "propagation_direction": {
+    "derivation": "pre-existing DEV182 x launch-plane geometry; fixed before array access",
+    "k_hat": [
+      1,
+      0,
+      0
+    ]
+  },
+  "required_information_sectors": {
+    "T06_TRANSVERSE_RELATIONAL_CONTENT": [
+      "ordered directional relational change",
+      "time-resolved state",
+      "frozen propagation direction"
+    ],
+    "T07_LONGITUDINAL_CONTENT": [
+      "ordered directional relational change",
+      "time-resolved state",
+      "frozen propagation direction"
+    ],
+    "T08_HANDEDNESS_PARITY": [
+      "exact native reflection operation",
+      "parity-sensitive native representation"
+    ],
+    "T09_STATIC_LOADED_ORGANIZATION": [
+      "authorized stationary loaded source regime",
+      "static and dynamic records"
+    ],
+    "T10_SOURCE_GENERATED_OUTGOING_STRUCTURE": [
+      "authorized source-change history",
+      "matched background",
+      "time-resolved outgoing state"
+    ]
+  },
+  "spatial_regions": {
+    "all_dynamic_tests": "full periodic 11x11x11 lattice",
+    "source_region": "frozen DEV182 center (1,5,5), canonical 7x7 launch support",
+    "transport": "all predeclared N6 shells; no first-arrival inference"
+  },
+  "temporal_windows": "all archived t=0..360",
+  "test_ids": [
+    "T06_TRANSVERSE_RELATIONAL_CONTENT",
+    "T07_LONGITUDINAL_CONTENT",
+    "T08_HANDEDNESS_PARITY",
+    "T09_STATIC_LOADED_ORGANIZATION",
+    "T10_SOURCE_GENERATED_OUTGOING_STRUCTURE"
+  ]
+}
