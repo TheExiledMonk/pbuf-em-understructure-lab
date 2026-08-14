@@ -1,0 +1,13 @@
+{
+  "EMX019_TEST_SELECTION": "EXPLICIT_ALTERNATIVE_MODEL_AUTHORITY_AND_FROZEN_INPUTS_GATE",
+  "EMX019_TEST_SELECTION_FROZEN": true,
+  "basis": "No pinned candidate supplies a complete authorized realization. EMX019 may only seek explicit model authority plus a fully frozen independent state/force/integrator, inputs, and retained-constraint maps; it does not authorize dynamics execution.",
+  "required_new_authority_or_data": [
+    "complete state variables, shapes, constraints, and initialization mapping",
+    "complete force or update equation including every coefficient, source, and stochastic term",
+    "complete integrator/update ordering and dt semantics",
+    "frozen lattice, boundary, packet, background, and matched-control realization",
+    "meaning-preserving predeclared observable and control map for every retained constraint",
+    "independent implementation identifier plus explicit authority to implement and execute"
+  ]
+}

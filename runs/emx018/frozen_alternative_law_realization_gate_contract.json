@@ -1,0 +1,54 @@
+{
+  "EMX018_SELECTOR_FROZEN": true,
+  "EMX018_SELECTOR_VERIFIED": "ALTERNATIVE_LAW_AUTHORITY_AND_FROZEN_REALIZATION_GATE",
+  "contract_sha256": "89398cdeaa7095d9215f3b55221a521e9fad15ed9a867aec49741146df6a3094",
+  "inputs": {
+    "emx016_matrix": "runs/emx016/dev167_failure_combination_matrix.json",
+    "emx017_final_contract": "runs/emx017/final_contract.json",
+    "external_commit": "7b41901fea16e0e6e8ca3a5949536658102ceeee",
+    "external_repository": "https://github.com/TheExiledMonk/lab.git",
+    "retained_positive_constraint_count": 76
+  },
+  "minimum_frozen_realization_requirements": [
+    "complete state variables, shapes, constraints, and initialization mapping",
+    "complete force or update equation including every coefficient, source, and stochastic term",
+    "complete integrator/update ordering and dt semantics",
+    "frozen lattice, boundary, packet, background, and matched-control realization",
+    "meaning-preserving predeclared observable and control map for every retained constraint",
+    "independent implementation identifier plus explicit authority to implement and execute"
+  ],
+  "mode": "READ_ONLY_ALTERNATIVE_REALIZATION_AUTHORITY_GATE",
+  "nonunique_constraint_rule": "A pass, non-rejection, common, mixed, or partial response remains a retained constraint; it is not discarded merely because it is not unique alone.",
+  "prohibitions": {
+    "EXTERNAL_REPOSITORY_READ_ONLY": true,
+    "NO_ALTERNATIVE_CODE_IMPORT": true,
+    "NO_ALTERNATIVE_DYNAMICS_EXECUTION": true,
+    "NO_ANALOGY_BASED_COMPATIBILITY_CLAIM": true,
+    "NO_DEV167_MODIFICATION": true,
+    "NO_EM_QED_MAPPING": true,
+    "NO_LOAD_OR_GEOMETRY_SCAN": true,
+    "NO_NEW_DOF": true,
+    "NO_NEW_FORCE": true,
+    "NO_NEW_LOADING": true,
+    "NO_NEW_PACKET": true,
+    "NO_NEW_SOURCE": true,
+    "NO_PARAMETER_FITTING": true,
+    "NO_RESULT_SELECTED_AXIS_BASIS_TIME_REGION": true
+  },
+  "shared_comparison_requirements": {
+    "backgrounds": "existing DEV195 unloaded and DEV195_DEV202 self-loaded histories only",
+    "boundary": "periodic N6",
+    "controls": "existing matched unloaded control and fixed y/z swap/reflection observer controls",
+    "dt": 0.04,
+    "lattice": "frozen N6 11^3",
+    "observables": "predeclared full-history native observables only",
+    "probe": "existing DEV182/EMX011 matched packet only"
+  },
+  "verdict_vocabulary": [
+    "SUFFICIENT_FROZEN_REALIZATION_AND_EXECUTION_AUTHORIZED",
+    "FROZEN_REALIZATION_POSSIBLE_BUT_EXECUTION_NOT_AUTHORIZED",
+    "MISSING_COMPLETE_REALIZATION_SPECIFICATION",
+    "INCOMPATIBLE_WITH_COMMON_OBSERVABLES_OR_CONTROLS",
+    "STRUCTURAL_EVIDENCE_ONLY"
+  ]
+}

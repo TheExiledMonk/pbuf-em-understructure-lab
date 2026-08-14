@@ -1,0 +1,88 @@
+{
+  "alternative_dynamics_executed": false,
+  "analogy_rejected": true,
+  "candidates": [
+    {
+      "candidate_id": "LAB_CORE001_OVERDAMPED_TRIPLET",
+      "common_observable_control_compatibility": "Not established: no meaning-preserving map from q histories to the existing native observables, packet injection, loaded/unloaded backgrounds, or y/z swap/reflection controls is supplied.",
+      "force_or_update": "F = epsilon_* sum_i [kappa_0|q_i|^2/2 + kappa_1 sum_<ij>|q_j-q_i|^2/2 - g_dev eta_i e.q_i]; tau dq_i/dt = -d(F/epsilon_*)/dq_i + xi_i.",
+      "integrator": "No discrete integrator, update ordering, dt meaning, or frozen numerical values for kappa_0, kappa_1, tau, eta_i, e, or xi_i are supplied by the pinned evidence.",
+      "missing_or_blocking": [
+        "all numerical coefficients and source/noise realization",
+        "11^3 periodic-N6 lattice and dt realization",
+        "fixed packet and matched loaded/unloaded initialization map",
+        "meaning-preserving observable/control map for the retained constraints",
+        "explicit independent implementation and execution authority"
+      ],
+      "provenance": {
+        "commit": "7b41901fea16e0e6e8ca3a5949536658102ceeee",
+        "evidence": "runs/em_transport001/em_transport001_report.md, M-CORE-03 and M-CORE-04",
+        "evidence_status": "read-only audited report",
+        "repository": "https://github.com/TheExiledMonk/lab.git"
+      },
+      "realization_authorized": false,
+      "realization_possible_without_hidden_choices": false,
+      "state": "q_i in R^3; it is not the authorized DEV167 VectorPairState (u,p).",
+      "verdict": "MISSING_COMPLETE_REALIZATION_SPECIFICATION"
+    },
+    {
+      "candidate_id": "LAB_ELASTIC_KINETIC_SECTOR",
+      "common_observable_control_compatibility": "Not established because there is no selected state/update law to map to the fixed packet, backgrounds, observables, or controls.",
+      "force_or_update": "Only an abstract elastic form is reported (rho u_tt = Div P_F); no constitutive W, P_F, rho, or discrete force law is selected as an alternative.",
+      "integrator": "No kinetic functional, Hamiltonian/symplectic form, equation normalization, discrete integrator, or dt semantics is specified.",
+      "missing_or_blocking": [
+        "selected kinetic functional and kinetic geometry",
+        "selected constitutive force and all coefficients",
+        "integrator and frozen initial/boundary realization",
+        "observable/control map for every retained constraint",
+        "explicit authority to define and execute a new law"
+      ],
+      "provenance": {
+        "commit": "7b41901fea16e0e6e8ca3a5949536658102ceeee",
+        "evidence": "runs/inertia001/inertia_origin_report.md, sections 0 and 2",
+        "evidence_status": "read-only necessary-closure audit; explicitly not a selected law",
+        "repository": "https://github.com/TheExiledMonk/lab.git"
+      },
+      "realization_authorized": false,
+      "realization_possible_without_hidden_choices": false,
+      "state": "Conceptual placement/displacement plus momentum-carrying kinetic sector; its kinetic geometry and state shape are not selected.",
+      "verdict": "MISSING_COMPLETE_REALIZATION_SPECIFICATION"
+    },
+    {
+      "candidate_id": "LAB_MAXWELL_CURL_PAIR",
+      "common_observable_control_compatibility": "Incompatible under this gate: the required E/B state, curl operator, and divergence/gauge controls cannot be translated to the fixed native DEV167 histories without changing their meanings.",
+      "force_or_update": "curl E = -dB/dt; curl B = mu_0 epsilon_0 dE/dt (vacuum), using mutual curl coupling rather than a central-pair force.",
+      "integrator": "No authorized discrete curl, constraint-preserving update, lattice embedding, or dt realization is supplied; adding one would define new dynamics and degrees of freedom.",
+      "missing_or_blocking": [
+        "authority for distinct E/B degrees of freedom and curl dynamics",
+        "complete constraint-preserving discretization and normalization",
+        "meaning-preserving mapping to fixed native observables and controls",
+        "independent implementation and execution authority"
+      ],
+      "provenance": {
+        "commit": "7b41901fea16e0e6e8ca3a5949536658102ceeee",
+        "evidence": "runs/transport_research001/transport_research001_report.md, section 2.4",
+        "evidence_status": "read-only comparative mechanism report",
+        "repository": "https://github.com/TheExiledMonk/lab.git"
+      },
+      "realization_authorized": false,
+      "realization_possible_without_hidden_choices": false,
+      "state": "Coupled E(x,t) and B(x,t), with div E = 0 and div B = 0 constraints; this is a distinct field-pair state.",
+      "verdict": "INCOMPATIBLE_WITH_COMMON_OBSERVABLES_OR_CONTROLS"
+    }
+  ],
+  "classification": "NO_AUTHORIZED_COMPLETE_ALTERNATIVE_REALIZATION",
+  "common_requirements": {
+    "criterion": "Every requirement must have an explicit, meaning-preserving frozen realization; structural resemblance does not satisfy it.",
+    "requirements": {
+      "backgrounds": "existing DEV195 unloaded and DEV195_DEV202 self-loaded histories only",
+      "boundary": "periodic N6",
+      "controls": "existing matched unloaded control and fixed y/z swap/reflection observer controls",
+      "dt": 0.04,
+      "lattice": "frozen N6 11^3",
+      "observables": "predeclared full-history native observables only",
+      "probe": "existing DEV182/EMX011 matched packet only"
+    }
+  },
+  "external_repository_read_only": true
+}

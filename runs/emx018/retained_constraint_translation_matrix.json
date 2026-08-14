@@ -1,0 +1,620 @@
+{
+  "candidate_translation_status": {
+    "LAB_CORE001_OVERDAMPED_TRIPLET": "NO_MEANING_PRESERVING_COMPLETE_MAP_ESTABLISHED",
+    "LAB_ELASTIC_KINETIC_SECTOR": "NO_MEANING_PRESERVING_COMPLETE_MAP_ESTABLISHED",
+    "LAB_MAXWELL_CURL_PAIR": "NO_MEANING_PRESERVING_COMPLETE_MAP_ESTABLISHED"
+  },
+  "joint_compatibility_rule": "A non-unique, common, mixed, or partial pass is retained as a joint requirement. It is neither uninformative nor sufficient alone, and it is contradicted only by an incompatible executed observation.",
+  "records": [
+    {
+      "classification": "ACTIVATED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "ACTIVATED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "ACTIVATED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "UNCHANGED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "ACTIVATED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "ACTIVATED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "ACTIVATED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "ACTIVATED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "ACTIVATED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "PROPAGATING",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "PROPAGATING",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "PROPAGATING",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "STATIC",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T03_PROPAGATION",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "PROPAGATING",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "PROPAGATING",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "PROPAGATING",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "PROPAGATING",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "PROPAGATING",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "LOCAL_RELAY_DERIVED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "LOCAL_RELAY_DERIVED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "LOCAL_ONLY",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "MIXED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "MIXED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "MIXED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "MIXED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "MIXED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "MAGNITUDE_ONLY",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "MIXED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "MAGNITUDE_ONLY",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "source_run": "EMX004"
+    },
+    {
+      "classification": "TRANSVERSE_RANK_2",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T06",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "TRANSVERSE_RANK_2",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T06",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "TRANSVERSE_RANK_2",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T06",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "TRANSVERSE_RANK_0",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T06",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "TRANSVERSE_RANK_2",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T06",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "TRANSVERSE_RANK_2",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T06",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "TRANSVERSE_RANK_2",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T06",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "LONGITUDINAL_PROPAGATING",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T07",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "LONGITUDINAL_PROPAGATING",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T07",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "LONGITUDINAL_PROPAGATING",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T07",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "LONGITUDINAL_PROPAGATING",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T07",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "LONGITUDINAL_PROPAGATING",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T07",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "LONGITUDINAL_PROPAGATING",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T07",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "PARITY_MIXED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T08",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "PARITY_MIXED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T08",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "PARITY_MIXED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T08",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "PARITY_EVEN",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T08",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "PARITY_MIXED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T08",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "PARITY_MIXED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T08",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "PARITY_MIXED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T08",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "PARITY_MIXED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T08",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "PARITY_MIXED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T08",
+      "source_run": "EMX006"
+    },
+    {
+      "classification": "LONGITUDINAL_RANK_INCREMENT_GT1",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T19_LONGITUDINAL_CONDITIONAL_RANK",
+      "source_run": "EMX008"
+    },
+    {
+      "classification": "NOT_DERIVABLE",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T20_LONGITUDINAL_FROM_TRANSVERSE_PREDICTABILITY",
+      "source_run": "EMX008"
+    },
+    {
+      "classification": "MIXED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T22_LONGITUDINAL_TRANSVERSE_COTRANSPORT",
+      "source_run": "EMX008"
+    },
+    {
+      "classification": "STRAIN_DOMINATED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T23_LONGITUDINAL_FORCE_ORIGIN",
+      "source_run": "EMX008"
+    },
+    {
+      "classification": "TRANSVERSE_MODE_MIXING",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "t16_transverse_mode_split",
+      "source_run": "EMX011"
+    },
+    {
+      "classification": "TRANSVERSE_RESPONSE_MIXED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "t16_response_eigenstructure",
+      "source_run": "EMX011"
+    },
+    {
+      "classification": "MODE_MIXING_PREVENTS_RATE_CLASSIFICATION",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "t16_transport_comparison",
+      "source_run": "EMX011"
+    },
+    {
+      "classification": "DIFFERENT_PHASE_EVOLUTION",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "t16_phase_comparison",
+      "source_run": "EMX011"
+    },
+    {
+      "classification": "LONGITUDINAL_RESPONSE_CHANGED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "t16_longitudinal_control",
+      "source_run": "EMX011"
+    },
+    {
+      "classification": "TRANSVERSE_SECTORS_INDEPENDENT",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "t24_transverse_conditional_rank",
+      "source_run": "EMX012"
+    },
+    {
+      "classification": "TRANSIENT",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "t27_mixing_persistence",
+      "source_run": "EMX012"
+    },
+    {
+      "classification": "MIXING_CO_MOVING",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "t28_mixing_transport",
+      "source_run": "EMX012"
+    },
+    {
+      "classification": "PREEXISTING_UNLOADED_ASYMMETRY",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T29_FIXED_FRAME_COMPONENT_ENERGY_ASYMMETRY",
+      "source_run": "EMX013"
+    },
+    {
+      "classification": "FIXED_SYMMETRY_MAGNITUDE_INVARIANT",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T30_FIXED_TRANSVERSE_SYMMETRY_CONTROLS",
+      "source_run": "EMX013"
+    },
+    {
+      "classification": "TRANSVERSE_SECTORS_INDEPENDENT",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T31_UNLOADED_COMPONENT_STATE_INDEPENDENCE",
+      "source_run": "EMX013"
+    },
+    {
+      "classification": "FULL_WINDOW_NONLOCAL_SUPPORT",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T32_UNLOADED_ASYMMETRY_FULL_WINDOW_SUPPORT",
+      "source_run": "EMX013"
+    },
+    {
+      "classification": "FULL_STATE_PRESERVED_WITH_REDUCTION_SENSITIVITY",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "observable_or_test": "T33_UNLOADED_ASYMMETRY_REPRESENTATION_RETENTION",
+      "source_run": "EMX013"
+    },
+    {
+      "classification": "LOADED_RESPONSE_GEOMETRY_DISTANCE_REDUCED",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T17_LOADED_GEOMETRY_TRACKING",
+      "source_run": "EMX015"
+    },
+    {
+      "classification": "ORIENTATION_REPRESENTATION_NONREDUCIBLE_TO_STRAIN",
+      "current_status": "NOT_DISCARDED; no candidate has supplied the required map.",
+      "future_comparison_requirement": "MANDATORY: predeclare a meaning-preserving observable and control map before an alternative may be compared.",
+      "interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "observable_or_test": "T18_ORIENTATION_DECOUPLING",
+      "source_run": "EMX015"
+    }
+  ],
+  "retained_positive_constraint_count": 76,
+  "rule": "A pass, non-rejection, common, mixed, or partial response remains a retained constraint; it is not discarded merely because it is not unique alone."
+}
