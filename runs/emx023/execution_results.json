@@ -1,0 +1,19 @@
+{
+  "all_finite": true,
+  "hashes": {
+    "loaded": "321c6657b13f28550a0ee37385c9f133cfec8c0409ca57635fcd359eb8133b9e",
+    "unloaded": "f2ddad479f75eee02722c32b322750f008c223e6ee06b76713f9c7e39b915f8d"
+  },
+  "loaded_unloaded_response_l2": 7.408333074560187e-16,
+  "ranks": {
+    "loaded": {
+      "xyz": 1,
+      "yz": 0
+    },
+    "unloaded": {
+      "xyz": 1,
+      "yz": 0
+    }
+  },
+  "transverse_response_l2": 0.0
+}
