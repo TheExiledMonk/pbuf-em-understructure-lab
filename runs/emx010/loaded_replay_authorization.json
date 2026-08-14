@@ -1,0 +1,11 @@
+{
+  "DEV167_COMPATIBLE": true,
+  "LOADED_REPLAY_AUTHORIZATION_COMPLETE": true,
+  "LOADING_DIRECTION_DERIVED": true,
+  "NO_LOAD_MAGNITUDE_SCAN": true,
+  "SOURCE_PREPARATION_EXACT": true,
+  "authorized": true,
+  "background_id": "DEV195_DEV202_SELF_LOADED_PACKET",
+  "classification": "DETERMINISTIC_LOADED_REPLAY_AUTHORIZED",
+  "loading_direction_basis": "DEV182 canonical packet geometry/support; no assigned axis"
+}

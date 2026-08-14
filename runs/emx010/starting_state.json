@@ -1,0 +1,11 @@
+{
+  "EMX009_DEPENDENCY_VERIFIED": true,
+  "EMX009_RESULT": "T16_BLOCKED_LOADING_REPRESENTATION",
+  "EMX010_TEST_SELECTION": "LOADED_BACKGROUND_REPLAY_RECOVERY_GATE",
+  "EMX010_TEST_SELECTION_FROZEN": true,
+  "T16_EXECUTED": false,
+  "T17_EXECUTED": false,
+  "T18_EXECUTED": false,
+  "canonical_repository": "TheExiledMonk/lab",
+  "canonical_repository_read_only": true
+}

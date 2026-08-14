@@ -1,0 +1,7 @@
+{
+  "authorization": "DETERMINISTIC_LOADED_REPLAY_AUTHORIZED",
+  "background_id": "DEV195_DEV202_SELF_LOADED_PACKET",
+  "canonical_source": "/home/fabian/lab-main-consolidation/runs/dev195_local_force_balance_restoration/excited_trajectory.npz",
+  "execution": "NOT_RUN_EMX010_RECOVERY_ONLY",
+  "frozen_mechanics": "DEV167"
+}

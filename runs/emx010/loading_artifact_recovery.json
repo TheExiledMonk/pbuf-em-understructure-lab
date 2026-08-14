@@ -1,0 +1,33 @@
+{
+  "LOADING_ARTIFACT_RECOVERY_COMPLETE": true,
+  "artifacts": [
+    {
+      "contents": [
+        "displacement/u",
+        "momentum/p",
+        "invariant"
+      ],
+      "path": "excited_trajectory.npz",
+      "sha256": "118a680de0ba756cd56901fcf2db02cd2a765035357e7b38fb419927ae61afb4",
+      "verification": "HASH_VERIFIED_ARTIFACT"
+    },
+    {
+      "contents": [
+        "displacement/u",
+        "momentum/p",
+        "invariant"
+      ],
+      "path": "background_trajectory.npz",
+      "sha256": "67353948d6953f00348a37ea64fb83b0b7dd28b704dd2d3d8f88628647c191c4",
+      "verification": "HASH_VERIFIED_ARTIFACT"
+    }
+  ],
+  "canonical_read_only_path": "/home/fabian/lab-main-consolidation/runs/dev195_local_force_balance_restoration",
+  "full_state_requirement": {
+    "p": true,
+    "source_maintenance_metadata": "no maintenance after t=0",
+    "source_state": "initial packet preparation metadata",
+    "time_index": true,
+    "u": true
+  }
+}

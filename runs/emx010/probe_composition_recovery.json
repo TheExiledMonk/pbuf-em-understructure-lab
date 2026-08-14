@@ -1,0 +1,8 @@
+{
+  "PROBE_COMPOSITION_AUTHORIZED": true,
+  "PROBE_COMPOSITION_RECOVERY_COMPLETE": true,
+  "background_id": "DEV195_DEV202_SELF_LOADED_PACKET",
+  "classification": "PROBE_COMPOSITION_AUTHORIZED_EXISTING_RULE",
+  "no_probe_executed": true,
+  "rule": "DEV196 existing canonical DEV182 valid-state packet injection onto a time-matched full native state"
+}

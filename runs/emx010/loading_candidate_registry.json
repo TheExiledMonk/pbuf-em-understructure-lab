@@ -1,0 +1,109 @@
+{
+  "ALL_LOADED_CANDIDATES_CLASSIFIED": true,
+  "candidates": [
+    {
+      "BACKGROUND_REPRODUCIBLE": true,
+      "DEV167_COMPATIBLE": true,
+      "DURATION_FIXED": true,
+      "FULL_STATE_AVAILABLE": true,
+      "LOADING_DIRECTION_DERIVED": true,
+      "SOURCE_GEOMETRY_FIXED": true,
+      "SOURCE_HISTORY_FIXED": true,
+      "SOURCE_MAGNITUDE_FIXED": true,
+      "background_id": "DEV195_DEV202_SELF_LOADED_PACKET",
+      "classification": "EXACT_LOADED_STATE_AVAILABLE",
+      "reason": "DEV195 excited NativeReplayTrajectory is hash-verified by DEV202; DEV202 calls it the self-loaded background."
+    },
+    {
+      "BACKGROUND_REPRODUCIBLE": false,
+      "DEV167_COMPATIBLE": true,
+      "DURATION_FIXED": false,
+      "FULL_STATE_AVAILABLE": false,
+      "LOADING_DIRECTION_DERIVED": false,
+      "SOURCE_GEOMETRY_FIXED": false,
+      "SOURCE_HISTORY_FIXED": false,
+      "SOURCE_MAGNITUDE_FIXED": false,
+      "background_id": "DEV211_MAINTAINED_DEFORMATION",
+      "classification": "BLOCKED_MISSING_SOURCE_HISTORY",
+      "reason": "finite-contact-patch regime is registered, but maintenance inputs and a complete native trajectory are absent from the archived replay family."
+    },
+    {
+      "BACKGROUND_REPRODUCIBLE": false,
+      "DEV167_COMPATIBLE": true,
+      "DURATION_FIXED": false,
+      "FULL_STATE_AVAILABLE": false,
+      "LOADING_DIRECTION_DERIVED": false,
+      "SOURCE_GEOMETRY_FIXED": false,
+      "SOURCE_HISTORY_FIXED": false,
+      "SOURCE_MAGNITUDE_FIXED": false,
+      "background_id": "DEV212_MOMENTUM_REVERSED",
+      "classification": "PARTIAL_LOADED_REPLAY_ONLY",
+      "reason": "semantic records exist, not a complete time-resolved native parent."
+    },
+    {
+      "BACKGROUND_REPRODUCIBLE": false,
+      "DEV167_COMPATIBLE": true,
+      "DURATION_FIXED": false,
+      "FULL_STATE_AVAILABLE": false,
+      "LOADING_DIRECTION_DERIVED": false,
+      "SOURCE_GEOMETRY_FIXED": false,
+      "SOURCE_HISTORY_FIXED": false,
+      "SOURCE_MAGNITUDE_FIXED": false,
+      "background_id": "DEV213_TWO_STRUCTURE",
+      "classification": "PARTIAL_LOADED_REPLAY_ONLY",
+      "reason": "two-preparation aggregate has no complete native parent trajectory."
+    },
+    {
+      "BACKGROUND_REPRODUCIBLE": false,
+      "DEV167_COMPATIBLE": false,
+      "DURATION_FIXED": false,
+      "FULL_STATE_AVAILABLE": false,
+      "LOADING_DIRECTION_DERIVED": false,
+      "SOURCE_GEOMETRY_FIXED": false,
+      "SOURCE_HISTORY_FIXED": false,
+      "SOURCE_MAGNITUDE_FIXED": false,
+      "background_id": "DEV217_PARTITION",
+      "classification": "IRRECOVERABLE_CURRENT_ARCHIVE",
+      "reason": "historical index records the partition branch but has no loaded-state artifact or source lane."
+    },
+    {
+      "BACKGROUND_REPRODUCIBLE": false,
+      "DEV167_COMPATIBLE": false,
+      "DURATION_FIXED": false,
+      "FULL_STATE_AVAILABLE": false,
+      "LOADING_DIRECTION_DERIVED": false,
+      "SOURCE_GEOMETRY_FIXED": false,
+      "SOURCE_HISTORY_FIXED": false,
+      "SOURCE_MAGNITUDE_FIXED": false,
+      "background_id": "DEV218_SEARCH_RECORD",
+      "classification": "IRRECOVERABLE_CURRENT_ARCHIVE",
+      "reason": "no DEV218-compatible loaded-state record occurs in registry, reachable history, code, or artifacts."
+    },
+    {
+      "BACKGROUND_REPRODUCIBLE": false,
+      "DEV167_COMPATIBLE": false,
+      "DURATION_FIXED": false,
+      "FULL_STATE_AVAILABLE": false,
+      "LOADING_DIRECTION_DERIVED": false,
+      "SOURCE_GEOMETRY_FIXED": false,
+      "SOURCE_HISTORY_FIXED": false,
+      "SOURCE_MAGNITUDE_FIXED": false,
+      "background_id": "DEV159_DEV163_SCALAR_CONTROL",
+      "classification": "HISTORICAL_MECHANICS_INCOMPATIBLE",
+      "reason": "scalar F03 control is explicitly outside frozen DEV167 native mechanics."
+    },
+    {
+      "BACKGROUND_REPRODUCIBLE": false,
+      "DEV167_COMPATIBLE": true,
+      "DURATION_FIXED": false,
+      "FULL_STATE_AVAILABLE": false,
+      "LOADING_DIRECTION_DERIVED": false,
+      "SOURCE_GEOMETRY_FIXED": false,
+      "SOURCE_HISTORY_FIXED": false,
+      "SOURCE_MAGNITUDE_FIXED": false,
+      "background_id": "DEV228_FINITE_AGGREGATE",
+      "classification": "BLOCKED_MISSING_SOURCE_HISTORY",
+      "reason": "finite aggregate source history is not uniquely archived."
+    }
+  ]
+}

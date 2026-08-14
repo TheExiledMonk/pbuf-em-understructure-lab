@@ -81,6 +81,15 @@
       "authorized aggregate preparation"
     ]
   },
+  "emx010_loaded_dependencies": {
+    "requires": [
+      "DEV167 mechanics",
+      "DEV182 source geometry",
+      "DEV195 full u,p artifact",
+      "DEV196 injection rule"
+    ],
+    "satisfied": true
+  },
   "nodes": [
     "X",
     "NODE_DISPLACEMENT",

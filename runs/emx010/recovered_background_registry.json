@@ -1,0 +1,11 @@
+{
+  "ALL_T16_READY_BACKGROUNDS_REGISTERED": true,
+  "backgrounds": [
+    {
+      "background_id": "DEV195_DEV202_SELF_LOADED_PACKET",
+      "state_artifact": "runs/emx010/replays/DEV195_DEV202_SELF_LOADED_PACKET/trajectory_manifest.json",
+      "status": "T16_READY_BACKGROUND_REGISTERED",
+      "t16_not_executed": true
+    }
+  ]
+}

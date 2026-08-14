@@ -1,0 +1,13 @@
+{
+  "BACKGROUND_STABILITY_CLASSIFIED": true,
+  "T16_suitable": true,
+  "background_id": "DEV195_DEV202_SELF_LOADED_PACKET",
+  "classification": "BOUNDED_DYNAMIC_BACKGROUND",
+  "evidence": "DEV195 local restoration is DERIVED_OSCILLATORY and DEV202 loaded transverse stability is OSCILLATORY",
+  "frozen_criteria": {
+    "criteria": "all archived u,p frames and invariant are retained; no threshold is introduced",
+    "window": "DEV195 predeclared t=0..180"
+  },
+  "native_rule": "unmodified DEV167, no damping and no maintained source",
+  "static_loaded_definition": "TRANSIENT_LOADED_BACKGROUND"
+}

@@ -1,0 +1,10 @@
+{
+  "DEV202_manifest_sha256": "118a680de0ba756cd56901fcf2db02cd2a765035357e7b38fb419927ae61afb4",
+  "LOADED_REPLAY_VERIFICATION_COMPLETE": true,
+  "artifact_sha256": "118a680de0ba756cd56901fcf2db02cd2a765035357e7b38fb419927ae61afb4",
+  "background_id": "DEV195_DEV202_SELF_LOADED_PACKET",
+  "historical_control": "DEV202 canonical_loaded_background_manifest",
+  "replay_executed": false,
+  "strongest_evidence": "BYTE_EXACT",
+  "verification_reason": "archived full trajectory is byte-hash verified; no new evolution was run."
+}

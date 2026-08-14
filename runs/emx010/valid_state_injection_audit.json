@@ -1,0 +1,7 @@
+{
+  "NO_LINEAR_TRAJECTORY_SUPERPOSITION": true,
+  "NO_UNAUTHORIZED_LOADED_PACKET_INJECTION": true,
+  "VALID_STATE_INJECTION_ON_LOADED_BACKGROUND": "AUTHORIZED",
+  "evidence": "DEV196 VectorPairState(state.displacement + packet_displacement, state.momentum + packet_momentum)",
+  "scope": "valid initial state injection before subsequent unmodified DEV167 evolution"
+}

@@ -1,0 +1,44 @@
+{
+  "LOADING_PARAMETER_RECOVERY_COMPLETE": true,
+  "NO_GUESSED_LOADING_INPUTS": true,
+  "SOURCE_PREPARATION_EXACT": true,
+  "background_id": "DEV195_DEV202_SELF_LOADED_PACKET",
+  "field_classification": {
+    "DEV167_mechanics": "EXPLICIT_HISTORICAL",
+    "boundary_conditions": "EXPLICIT_HISTORICAL",
+    "dt": "EXPLICIT_HISTORICAL",
+    "full_u_p_state": "HASH_VERIFIED_ARTIFACT",
+    "initial_state": "HASH_VERIFIED_ARTIFACT",
+    "integrator": "EXPLICIT_HISTORICAL",
+    "lattice_shape": "EXPLICIT_HISTORICAL",
+    "loaded_state_extraction_time": "EXPLICIT_HISTORICAL",
+    "loading_source_geometry": "EXPLICIT_HISTORICAL",
+    "loading_source_magnitude": "EXPLICIT_HISTORICAL",
+    "loading_source_support": "EXPLICIT_HISTORICAL",
+    "source_duration": "EXPLICIT_HISTORICAL",
+    "source_history": "EXPLICIT_HISTORICAL",
+    "source_maintenance_rule": "EXPLICIT_HISTORICAL",
+    "source_start_time": "EXPLICIT_HISTORICAL",
+    "step_count": "EXPLICIT_HISTORICAL"
+  },
+  "values": {
+    "authorized_extraction_window": "predeclared t=0..180",
+    "boundary": "periodic N6 all axes",
+    "dt": 0.04,
+    "history": "DEV182 packet then unmodified DEV167 evolution",
+    "integrator": "kick-drift",
+    "magnitude": 0.006,
+    "maintenance_rule": "none after canonical valid-state packet preparation",
+    "mechanics": "DEV167 frozen vector pair law",
+    "shape": [
+      11,
+      11,
+      11
+    ],
+    "source_duration": "initial-state preparation only",
+    "source_geometry": "DEV182 canonical packet centered at [1,5,5]",
+    "source_start_time": 0,
+    "source_support": "7x7 support (49 nodes)",
+    "step_count": 360
+  }
+}

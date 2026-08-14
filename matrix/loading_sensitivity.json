@@ -35,6 +35,10 @@
       "historical artifacts"
     ]
   },
+  "emx010_loaded_recovery": {
+    "authorized_background": "DEV195_DEV202_SELF_LOADED_PACKET",
+    "result": "LOADED_BACKGROUND_FULLY_RECOVERED"
+  },
   "no_weighted_score": true,
   "records": [
     {

@@ -1,0 +1,106 @@
+{
+  "HISTORICAL_LOADING_INVENTORY_COMPLETE": true,
+  "NO_OUTPUT_MATCHED_RECONSTRUCTION": true,
+  "minimum_lanes_inspected": [
+    "DEV159",
+    "DEV162",
+    "DEV163",
+    "DEV167",
+    "DEV195",
+    "DEV202",
+    "DEV204",
+    "DEV211",
+    "DEV212",
+    "DEV217",
+    "DEV218"
+  ],
+  "records": [
+    {
+      "background_id": "DEV195_DEV202_SELF_LOADED_PACKET",
+      "classification": "EXACT_LOADED_STATE_AVAILABLE",
+      "historical_lanes": [
+        "DEV167",
+        "DEV195",
+        "DEV196",
+        "DEV202",
+        "DEV204"
+      ],
+      "reason": "DEV195 excited NativeReplayTrajectory is hash-verified by DEV202; DEV202 calls it the self-loaded background.",
+      "state_kind": "TRANSIENT_LOADED_BACKGROUND"
+    },
+    {
+      "background_id": "DEV211_MAINTAINED_DEFORMATION",
+      "classification": "BLOCKED_MISSING_SOURCE_HISTORY",
+      "historical_lanes": [
+        "DEV167",
+        "DEV211"
+      ],
+      "reason": "finite-contact-patch regime is registered, but maintenance inputs and a complete native trajectory are absent from the archived replay family.",
+      "state_kind": "SOURCE_MAINTAINED_DYNAMIC_BACKGROUND"
+    },
+    {
+      "background_id": "DEV212_MOMENTUM_REVERSED",
+      "classification": "PARTIAL_LOADED_REPLAY_ONLY",
+      "historical_lanes": [
+        "DEV167",
+        "DEV212"
+      ],
+      "reason": "semantic records exist, not a complete time-resolved native parent.",
+      "state_kind": "TRANSIENT_LOADED_BACKGROUND"
+    },
+    {
+      "background_id": "DEV213_TWO_STRUCTURE",
+      "classification": "PARTIAL_LOADED_REPLAY_ONLY",
+      "historical_lanes": [
+        "DEV167",
+        "DEV213"
+      ],
+      "reason": "two-preparation aggregate has no complete native parent trajectory.",
+      "state_kind": "TRANSIENT_LOADED_BACKGROUND"
+    },
+    {
+      "background_id": "DEV217_PARTITION",
+      "classification": "IRRECOVERABLE_CURRENT_ARCHIVE",
+      "historical_lanes": [
+        "DEV217"
+      ],
+      "reason": "historical index records the partition branch but has no loaded-state artifact or source lane.",
+      "state_kind": "UNKNOWN"
+    },
+    {
+      "background_id": "DEV218_SEARCH_RECORD",
+      "classification": "IRRECOVERABLE_CURRENT_ARCHIVE",
+      "historical_lanes": [
+        "DEV218"
+      ],
+      "reason": "no DEV218-compatible loaded-state record occurs in registry, reachable history, code, or artifacts.",
+      "state_kind": "UNKNOWN"
+    },
+    {
+      "background_id": "DEV159_DEV163_SCALAR_CONTROL",
+      "classification": "HISTORICAL_MECHANICS_INCOMPATIBLE",
+      "historical_lanes": [
+        "DEV159",
+        "DEV163"
+      ],
+      "reason": "scalar F03 control is explicitly outside frozen DEV167 native mechanics.",
+      "state_kind": "TRANSIENT_LOADED_BACKGROUND"
+    },
+    {
+      "background_id": "DEV228_FINITE_AGGREGATE",
+      "classification": "BLOCKED_MISSING_SOURCE_HISTORY",
+      "historical_lanes": [
+        "DEV167",
+        "DEV228"
+      ],
+      "reason": "finite aggregate source history is not uniquely archived.",
+      "state_kind": "TRANSIENT_LOADED_BACKGROUND"
+    }
+  ],
+  "searches": [
+    "reachable git commits and branches",
+    "registry/ledger/historical index",
+    "canonical read-only code and run artifacts",
+    "artifact types npy,npz,json,csv,pickle,state,manifest,mask,trajectory"
+  ]
+}
