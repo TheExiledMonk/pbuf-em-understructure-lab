@@ -1,0 +1,27 @@
+{
+  "EMX021_SELECTOR_FROZEN": true,
+  "EMX021_SELECTOR_VERIFIED": "ALTERNATIVE_LAW_RETAINED_CONSTRAINT_COMPATIBILITY_MATRIX",
+  "classification_vocabulary": [
+    "COMPATIBLE_NONUNIQUE",
+    "CONTRADICTED_BY_FROZEN_ALTERNATIVE",
+    "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY"
+  ],
+  "contract_sha256": "7ae34a8bd5b1efb77e72c448389e5a175859c3dc2c5fe4948817dd4e284ed15c",
+  "inputs": {
+    "emx020_rank": "runs/emx020/full_history_state_rank.json",
+    "emx020_response": "runs/emx020/matched_loaded_unloaded_response.json",
+    "emx020_symmetry": "runs/emx020/fixed_symmetry_control.json",
+    "retained_matrix": "runs/emx016/dev167_failure_combination_matrix.json"
+  },
+  "mode": "READ_ONLY_JOINT_COMPATIBILITY_CLASSIFICATION_OF_EMX020_RESULTS",
+  "nonunique_rule": "A pass, non-rejection, common, mixed, or partial response remains a retained constraint; it is not discarded merely because it is not unique alone.",
+  "prohibitions": {
+    "NO_ALTERNATIVE_CODE_IMPORT": true,
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_OR_QED_MAPPING": true,
+    "NO_NEW_DYNAMICS": true,
+    "NO_PARAMETER_FITTING": true,
+    "NO_RESULT_SELECTED_DIAGNOSTIC": true
+  },
+  "scope_rule": "A contradiction rejects only the exact EMX019 unit-normalized harmonic realization under its frozen inputs. It does not reject an unimplemented alternative law class. A not-assessed row remains a retained constraint, not negative evidence."
+}

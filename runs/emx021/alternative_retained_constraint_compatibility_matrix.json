@@ -1,0 +1,725 @@
+{
+  "records": [
+    {
+      "alternative_status": "COMPATIBLE_NONUNIQUE",
+      "historical_classification": "ACTIVATED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "EMX020's fixed packet response has positive full-history norm.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "COMPATIBLE_NONUNIQUE",
+      "historical_classification": "ACTIVATED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "EMX020's fixed packet response has positive full-history norm.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "COMPATIBLE_NONUNIQUE",
+      "historical_classification": "ACTIVATED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "EMX020's fixed packet response has positive full-history norm.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "UNCHANGED",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "COMPATIBLE_NONUNIQUE",
+      "historical_classification": "ACTIVATED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "EMX020's fixed packet response has positive full-history norm.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "COMPATIBLE_NONUNIQUE",
+      "historical_classification": "ACTIVATED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "EMX020's fixed packet response has positive full-history norm.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "COMPATIBLE_NONUNIQUE",
+      "historical_classification": "ACTIVATED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "EMX020's fixed packet response has positive full-history norm.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "COMPATIBLE_NONUNIQUE",
+      "historical_classification": "ACTIVATED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "EMX020's fixed packet response has positive full-history norm.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "COMPATIBLE_NONUNIQUE",
+      "historical_classification": "ACTIVATED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "EMX020's fixed packet response has positive full-history norm.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "STATIC",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "LOCAL_RELAY_DERIVED",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "LOCAL_RELAY_DERIVED",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "LOCAL_ONLY",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "MAGNITUDE_ONLY",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "MAGNITUDE_ONLY",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX004"
+    },
+    {
+      "alternative_status": "CONTRADICTED_BY_FROZEN_ALTERNATIVE",
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "EMX020 has u_yz=p_yz=0, contrary to this retained transverse-rank-2 observation.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "CONTRADICTED_BY_FROZEN_ALTERNATIVE",
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "EMX020 has u_yz=p_yz=0, contrary to this retained transverse-rank-2 observation.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "CONTRADICTED_BY_FROZEN_ALTERNATIVE",
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "EMX020 has u_yz=p_yz=0, contrary to this retained transverse-rank-2 observation.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "COMPATIBLE_NONUNIQUE",
+      "historical_classification": "TRANSVERSE_RANK_0",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "EMX020 has u_yz=p_yz=0 at the fixed all-history rank tolerance.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "CONTRADICTED_BY_FROZEN_ALTERNATIVE",
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "EMX020 has u_yz=p_yz=0, contrary to this retained transverse-rank-2 observation.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "CONTRADICTED_BY_FROZEN_ALTERNATIVE",
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "EMX020 has u_yz=p_yz=0, contrary to this retained transverse-rank-2 observation.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "CONTRADICTED_BY_FROZEN_ALTERNATIVE",
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "EMX020 has u_yz=p_yz=0, contrary to this retained transverse-rank-2 observation.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "PARITY_MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "PARITY_MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "PARITY_MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "PARITY_EVEN",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "PARITY_MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "PARITY_MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "PARITY_MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "PARITY_MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "PARITY_MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX006"
+    },
+    {
+      "alternative_status": "CONTRADICTED_BY_FROZEN_ALTERNATIVE",
+      "historical_classification": "LONGITUDINAL_RANK_INCREMENT_GT1",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T19_LONGITUDINAL_CONDITIONAL_RANK",
+      "reason": "EMX020 full-history u_xyz and p_xyz ranks are each 1, not the retained increment greater than one.",
+      "source_run": "EMX008"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "NOT_DERIVABLE",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T20_LONGITUDINAL_FROM_TRANSVERSE_PREDICTABILITY",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX008"
+    },
+    {
+      "alternative_status": "CONTRADICTED_BY_FROZEN_ALTERNATIVE",
+      "historical_classification": "MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T22_LONGITUDINAL_TRANSVERSE_COTRANSPORT",
+      "reason": "EMX020 has no transverse response, so it cannot realize the retained mixed longitudinal/transverse co-transport observation.",
+      "source_run": "EMX008"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "STRAIN_DOMINATED",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T23_LONGITUDINAL_FORCE_ORIGIN",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX008"
+    },
+    {
+      "alternative_status": "CONTRADICTED_BY_FROZEN_ALTERNATIVE",
+      "historical_classification": "TRANSVERSE_MODE_MIXING",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_transverse_mode_split",
+      "reason": "EMX020 has equal matched loaded/unloaded responses and no transverse sector, so it cannot realize this retained loading/mixing observation.",
+      "source_run": "EMX011"
+    },
+    {
+      "alternative_status": "CONTRADICTED_BY_FROZEN_ALTERNATIVE",
+      "historical_classification": "TRANSVERSE_RESPONSE_MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_response_eigenstructure",
+      "reason": "EMX020 has equal matched loaded/unloaded responses and no transverse sector, so it cannot realize this retained loading/mixing observation.",
+      "source_run": "EMX011"
+    },
+    {
+      "alternative_status": "CONTRADICTED_BY_FROZEN_ALTERNATIVE",
+      "historical_classification": "MODE_MIXING_PREVENTS_RATE_CLASSIFICATION",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_transport_comparison",
+      "reason": "EMX020 has equal matched loaded/unloaded responses and no transverse sector, so it cannot realize this retained loading/mixing observation.",
+      "source_run": "EMX011"
+    },
+    {
+      "alternative_status": "CONTRADICTED_BY_FROZEN_ALTERNATIVE",
+      "historical_classification": "DIFFERENT_PHASE_EVOLUTION",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_phase_comparison",
+      "reason": "EMX020 has equal matched loaded/unloaded responses and no transverse sector, so it cannot realize this retained loading/mixing observation.",
+      "source_run": "EMX011"
+    },
+    {
+      "alternative_status": "CONTRADICTED_BY_FROZEN_ALTERNATIVE",
+      "historical_classification": "LONGITUDINAL_RESPONSE_CHANGED",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_longitudinal_control",
+      "reason": "EMX020 has equal matched loaded/unloaded responses and no transverse sector, so it cannot realize this retained loading/mixing observation.",
+      "source_run": "EMX011"
+    },
+    {
+      "alternative_status": "CONTRADICTED_BY_FROZEN_ALTERNATIVE",
+      "historical_classification": "TRANSVERSE_SECTORS_INDEPENDENT",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t24_transverse_conditional_rank",
+      "reason": "EMX020 has equal matched loaded/unloaded responses and no transverse sector, so it cannot realize this retained loading/mixing observation.",
+      "source_run": "EMX012"
+    },
+    {
+      "alternative_status": "CONTRADICTED_BY_FROZEN_ALTERNATIVE",
+      "historical_classification": "TRANSIENT",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t27_mixing_persistence",
+      "reason": "EMX020 has equal matched loaded/unloaded responses and no transverse sector, so it cannot realize this retained loading/mixing observation.",
+      "source_run": "EMX012"
+    },
+    {
+      "alternative_status": "CONTRADICTED_BY_FROZEN_ALTERNATIVE",
+      "historical_classification": "MIXING_CO_MOVING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t28_mixing_transport",
+      "reason": "EMX020 has equal matched loaded/unloaded responses and no transverse sector, so it cannot realize this retained loading/mixing observation.",
+      "source_run": "EMX012"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "PREEXISTING_UNLOADED_ASYMMETRY",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T29_FIXED_FRAME_COMPONENT_ENERGY_ASYMMETRY",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX013"
+    },
+    {
+      "alternative_status": "COMPATIBLE_NONUNIQUE",
+      "historical_classification": "FIXED_SYMMETRY_MAGNITUDE_INVARIANT",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T30_FIXED_TRANSVERSE_SYMMETRY_CONTROLS",
+      "reason": "EMX020 fixed identity, y/z-swap, and reflection controls are exactly equivariant at tolerance 1e-12.",
+      "source_run": "EMX013"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "TRANSVERSE_SECTORS_INDEPENDENT",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T31_UNLOADED_COMPONENT_STATE_INDEPENDENCE",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX013"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "FULL_WINDOW_NONLOCAL_SUPPORT",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T32_UNLOADED_ASYMMETRY_FULL_WINDOW_SUPPORT",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX013"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "FULL_STATE_PRESERVED_WITH_REDUCTION_SENSITIVITY",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T33_UNLOADED_ASYMMETRY_REPRESENTATION_RETENTION",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX013"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "LOADED_RESPONSE_GEOMETRY_DISTANCE_REDUCED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T17_LOADED_GEOMETRY_TRACKING",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX015"
+    },
+    {
+      "alternative_status": "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY",
+      "historical_classification": "ORIENTATION_REPRESENTATION_NONREDUCIBLE_TO_STRAIN",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "nonunique_status": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T18_ORIENTATION_DECOUPLING",
+      "reason": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+      "source_run": "EMX015"
+    }
+  ],
+  "summary": {
+    "alternative_id": "EMX019_ELASTIC_N6_UNIT_HARMONIC_LATTICE",
+    "counts": {
+      "COMPATIBLE_NONUNIQUE": 10,
+      "CONTRADICTED_BY_FROZEN_ALTERNATIVE": 16,
+      "NOT_ASSESSED_BY_THIS_FROZEN_BATTERY": 50
+    },
+    "emx020_frozen_observations": {
+      "all_fixed_symmetry_controls_exact": true,
+      "loaded_minus_unloaded_response_l2": 2.9952487040833525e-16,
+      "loaded_ranks": {
+        "p_x": 1,
+        "p_xyz": 1,
+        "p_yz": 0,
+        "u_x": 1,
+        "u_xyz": 1,
+        "u_yz": 0
+      },
+      "loaded_unloaded_classification": "LOADED_UNLOADED_RESPONSE_EQUAL",
+      "unloaded_ranks": {
+        "p_x": 1,
+        "p_xyz": 1,
+        "p_yz": 0,
+        "u_x": 1,
+        "u_xyz": 1,
+        "u_yz": 0
+      }
+    },
+    "joint_result": "FROZEN_UNIT_HARMONIC_ALTERNATIVE_INCOMPATIBLE_WITH_RETAINED_COMBINATION",
+    "limits": "The result rejects this exact frozen unit-normalized harmonic law, not elasticity in general and not any unimplemented nonlinear or orientation-sensitive law.",
+    "new_primitive_needed_for_next_step": [
+      "an explicitly authorized nonlinear background-dependent interaction capable of a loaded/unloaded response difference",
+      "an explicitly authorized transverse/orientation-sensitive interaction capable of a nonzero transverse sector",
+      "a complete state/force/integrator/normalization and meaning-preserving retained-constraint map for that new law"
+    ],
+    "retained_positive_rule_applied": "A pass, non-rejection, common, mixed, or partial response remains a retained constraint; it is not discarded merely because it is not unique alone."
+  }
+}
