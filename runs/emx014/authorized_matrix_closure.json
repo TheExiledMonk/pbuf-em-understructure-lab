@@ -1,0 +1,102 @@
+{
+  "authorized_run_count": 13,
+  "classification": "FULL_AUTHORIZED_MATRIX_CLOSED",
+  "no_further_selector": true,
+  "records": [
+    {
+      "final_evidence_sha256": "adf6aacc6a49c3f2ac942d7381f2bb1f29a3892640720fe11c067248e816c8ec",
+      "result": "MATRIX_V1_FROZEN",
+      "run": "EMX001"
+    },
+    {
+      "final_evidence_sha256": "1da1bafc05432d396569477014eb0e225afcd3c2209b4e8e053d00b53e614387",
+      "legacy_selector_field_absent": true,
+      "result": "BLOCKED_EXECUTION",
+      "run": "EMX002",
+      "selected_by": "COMMON_NATIVE_PRIMITIVE_BATTERY",
+      "selector_evidence_sha256": "66c6904cc2ef9eedf0cecd91293a9b316c2c558fcb41efcdbe2b75f8d797efa1"
+    },
+    {
+      "final_evidence_sha256": "77c8c61f0f21e0a89b209bc645c4473f9686b5a6c5865e7f02b7cb128e1e3b27",
+      "result": "REPLAY_BASE_SUBSTANTIALLY_RECOVERED",
+      "run": "EMX003",
+      "selected_by": "ARCHIVAL_REPLAY_GATE",
+      "selector_evidence_sha256": "86bc5e3924ff69cab1225c237afd6b68cf98fecf32f800b5d5a8bf37d908e41a"
+    },
+    {
+      "final_evidence_sha256": "024a063ea63c0d62ce82313ad424ab7e77535d02d13b896c526f726f49da3631",
+      "result": "PRIMITIVE_STRUCTURE_REPRESENTATION_SENSITIVE",
+      "run": "EMX004",
+      "selected_by": "UNLOCKED_PRIMITIVE_MATRIX_EXECUTION",
+      "selector_evidence_sha256": "bd6302981b48dba91236b700d24d07e0b7403202e861696f4416fdd52ea62075"
+    },
+    {
+      "final_evidence_sha256": "29eb8be3b29a81d80a35ed94f5b74a07890339a432b7858d8aec9f389df3495b",
+      "result": "PRIMITIVE_INFORMATION_CORE_IDENTIFIED",
+      "run": "EMX005",
+      "selected_by": "REPRESENTATION_INFORMATION_LOSS_AUDIT",
+      "selector_evidence_sha256": "9312c5fb9aead2e20022344c454982a38d01b30e4abcbbf67cc714538afd07f2"
+    },
+    {
+      "final_evidence_sha256": "65eb8fedbd35cd9e19f24adc175506571af8647510cafdc1478943e4ba857dda",
+      "result": "MIXED_SECONDARY_STRUCTURE",
+      "run": "EMX006",
+      "selected_by": "SECONDARY_STRUCTURAL_MATRIX_BATTERY",
+      "selector_evidence_sha256": "ee23a48867e4f1be14131d4f3405d30c2ad393fd357bf3ae173c3d735a5856d0"
+    },
+    {
+      "final_evidence_sha256": "740129a8cfe2774da7718a1138b6b206e03283e04d89178df29788dc5c26bcea",
+      "result": "NATIVE_MODE_STRUCTURE_PARTIALLY_RESOLVED",
+      "run": "EMX007",
+      "selected_by": "NATIVE_MODE_STRUCTURE_AUDIT",
+      "selector_evidence_sha256": "968bfa28ca605e3f9ad85550be64511d43ac83f0349d6d35c99fe57116d337ba"
+    },
+    {
+      "final_evidence_sha256": "376b80af3a336366a4b7213747cd2b4a8044cda8cfa096284c09041bfe1cba1e",
+      "result": "LONGITUDINAL_INDEPENDENT_MODE_RESOLVED",
+      "run": "EMX008",
+      "selected_by": "LONGITUDINAL_COUPLING_DEEP_AUDIT",
+      "selector_evidence_sha256": "a3cba1b9e7332e0ccc16b74940824a76fe961b6feb18ebd6313be8e2cf523cf7"
+    },
+    {
+      "final_evidence_sha256": "774d144bcb24d420bc01e66b589935cd5f377176ef742a6d0902bef8a6ea4442",
+      "result": "T16_BLOCKED_LOADING_REPRESENTATION",
+      "run": "EMX009",
+      "selected_by": "DIRECTIONAL_LOADING_MODE_SPLIT_GATE",
+      "selector_evidence_sha256": "33ed4b64daa559da3436882cf6dc7345dbf118d1971a0e6a5001b03ee6e53671"
+    },
+    {
+      "final_evidence_sha256": "249a60e6b8699757c266c011d8c0dc55feba46dba45a3da5bbe297d4e73fed7d",
+      "result": "LOADED_BACKGROUND_FULLY_RECOVERED",
+      "run": "EMX010",
+      "selected_by": "LOADED_BACKGROUND_REPLAY_RECOVERY_GATE",
+      "selector_evidence_sha256": "b1ceffd8fe0154ac89ab34c6a59eed0939477ee6ac28ba5b2e1e2aeed22e26ac"
+    },
+    {
+      "final_evidence_sha256": "d46246f524b86705dd15f92695e5740a8e7356f6c1df1ec85770c13353a7ecf4",
+      "result": "LOADING_INDUCED_TRANSVERSE_MODE_MIXING",
+      "run": "EMX011",
+      "selected_by": "DIRECTIONAL_LOADING_T16_EXECUTION",
+      "selector_evidence_sha256": "3d5cc40cf3ac393af97ddc0d7360493ab28c4a2e62df7f896208737420ac98d6"
+    },
+    {
+      "final_evidence_sha256": "c9950fc5d3d2f6f409b4cd5c58eb446d0e4561d6fa34cfbbb26c4726a46b2a90",
+      "result": "LOADING_AMPLIFIES_PREEXISTING_TRANSVERSE_ASYMMETRY",
+      "run": "EMX012",
+      "selected_by": "LOADED_TRANSVERSE_MIXING_DEEP_AUDIT",
+      "selector_evidence_sha256": "e2d32e6737903fe6135a905168434349213c23c13c9b09bd5dd87ad3ea4af436"
+    },
+    {
+      "final_evidence_sha256": "6efc1a9570b64522593ca80475d2f8adf5ebf46b36f708c171bb95bb1607d6cd",
+      "result": "UNLOADED_TRANSVERSE_ASYMMETRY_CONFIRMED",
+      "run": "EMX013",
+      "selected_by": "UNLOADED_TRANSVERSE_ASYMMETRY_DEEP_AUDIT",
+      "selector_evidence_sha256": "fc94693c3c390ef7eedd2e8663aef59bff400140db454c0e7dd8924c549bdc96"
+    }
+  ],
+  "selector_lineage_complete": true,
+  "t17_executed": false,
+  "t18_executed": false,
+  "terminal_selector": "EVIDENCE_CLOSURE_NO_FURTHER_EXECUTION",
+  "validation_is_read_only": true
+}

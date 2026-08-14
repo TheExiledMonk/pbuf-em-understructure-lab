@@ -1,0 +1,47 @@
+{
+  "EMX014_SELECTOR_FROZEN": true,
+  "EMX014_SELECTOR_VERIFIED": "EVIDENCE_CLOSURE_NO_FURTHER_EXECUTION",
+  "authorized_inputs": [
+    "EMX001 through EMX013 committed run artifacts",
+    "EMX013 final contract, handoff, and frozen EMX014 selector"
+  ],
+  "closure_requirements": {
+    "all_prior_final_contracts_present": true,
+    "all_selector_edges_frozen_and_continuous": true,
+    "no_new_execution": true,
+    "physical_mechanism_space_exhausted_in_emx013": true,
+    "t17_t18_remain_unexecuted": true,
+    "terminal_selector_matches_emx013": true
+  },
+  "contract_sha256": "bb5ca0ef747cabc73f24bda544a5a164dd5a161b6f2200a43673f7fef33be994",
+  "mode": "READ_ONLY_EVIDENCE_CLOSURE",
+  "prohibitions": {
+    "CANONICAL_REPO_READ_ONLY": true,
+    "NO_B_FIELD": true,
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_FIELD": true,
+    "NO_LOAD_SCAN": true,
+    "NO_NEW_DOF": true,
+    "NO_NEW_DYNAMICS": true,
+    "NO_NEW_EXECUTION": true,
+    "NO_NEW_FORCE": true,
+    "NO_NEW_LOADING": true,
+    "NO_NEW_PACKET": true,
+    "NO_NEW_PHYSICS": true,
+    "NO_NEW_SOURCE": true,
+    "NO_PARAMETER_FITTING": true,
+    "NO_POLARIZATION_LABEL": true,
+    "NO_PR_CREATED": true,
+    "NO_QED_MAPPING": true,
+    "NO_REFRACTIVE_INDEX": true,
+    "NO_RESULT_SELECTED_AXIS": true,
+    "NO_RESULT_SELECTED_BASIS": true,
+    "NO_RESULT_SELECTED_COMPONENT": true,
+    "NO_RESULT_SELECTED_REGION": true,
+    "NO_RESULT_SELECTED_TIME": true,
+    "NO_T17_EXECUTION": true,
+    "NO_T18_EXECUTION": true,
+    "NO_THRESHOLD_FITTING": true,
+    "NO_TOPOLOGY_EXECUTION": true
+  }
+}

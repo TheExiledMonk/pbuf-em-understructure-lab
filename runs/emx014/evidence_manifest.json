@@ -1,0 +1,71 @@
+{
+  "artifact_count": 13,
+  "artifacts": [
+    {
+      "result": "MATRIX_V1_FROZEN",
+      "run": "EMX001"
+    },
+    {
+      "result": "BLOCKED_EXECUTION",
+      "run": "EMX002",
+      "selected_by": "COMMON_NATIVE_PRIMITIVE_BATTERY"
+    },
+    {
+      "result": "REPLAY_BASE_SUBSTANTIALLY_RECOVERED",
+      "run": "EMX003",
+      "selected_by": "ARCHIVAL_REPLAY_GATE"
+    },
+    {
+      "result": "PRIMITIVE_STRUCTURE_REPRESENTATION_SENSITIVE",
+      "run": "EMX004",
+      "selected_by": "UNLOCKED_PRIMITIVE_MATRIX_EXECUTION"
+    },
+    {
+      "result": "PRIMITIVE_INFORMATION_CORE_IDENTIFIED",
+      "run": "EMX005",
+      "selected_by": "REPRESENTATION_INFORMATION_LOSS_AUDIT"
+    },
+    {
+      "result": "MIXED_SECONDARY_STRUCTURE",
+      "run": "EMX006",
+      "selected_by": "SECONDARY_STRUCTURAL_MATRIX_BATTERY"
+    },
+    {
+      "result": "NATIVE_MODE_STRUCTURE_PARTIALLY_RESOLVED",
+      "run": "EMX007",
+      "selected_by": "NATIVE_MODE_STRUCTURE_AUDIT"
+    },
+    {
+      "result": "LONGITUDINAL_INDEPENDENT_MODE_RESOLVED",
+      "run": "EMX008",
+      "selected_by": "LONGITUDINAL_COUPLING_DEEP_AUDIT"
+    },
+    {
+      "result": "T16_BLOCKED_LOADING_REPRESENTATION",
+      "run": "EMX009",
+      "selected_by": "DIRECTIONAL_LOADING_MODE_SPLIT_GATE"
+    },
+    {
+      "result": "LOADED_BACKGROUND_FULLY_RECOVERED",
+      "run": "EMX010",
+      "selected_by": "LOADED_BACKGROUND_REPLAY_RECOVERY_GATE"
+    },
+    {
+      "result": "LOADING_INDUCED_TRANSVERSE_MODE_MIXING",
+      "run": "EMX011",
+      "selected_by": "DIRECTIONAL_LOADING_T16_EXECUTION"
+    },
+    {
+      "result": "LOADING_AMPLIFIES_PREEXISTING_TRANSVERSE_ASYMMETRY",
+      "run": "EMX012",
+      "selected_by": "LOADED_TRANSVERSE_MIXING_DEEP_AUDIT"
+    },
+    {
+      "result": "UNLOADED_TRANSVERSE_ASYMMETRY_CONFIRMED",
+      "run": "EMX013",
+      "selected_by": "UNLOADED_TRANSVERSE_ASYMMETRY_DEEP_AUDIT"
+    }
+  ],
+  "manifest_sha256": "92f4c062237024a50b4d67aaab7905f986db64ceb239290977228a29845bbc5a",
+  "validation_scope": "final contracts and frozen selector artifacts only; no physics execution"
+}
