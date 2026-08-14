@@ -1,0 +1,30 @@
+{
+  "classification": "FIXED_SYMMETRY_MAGNITUDE_INVARIANT",
+  "interpretation_scope": "swap reverses the signed component ordering; reflection leaves component energies unchanged; only the magnitude is compared",
+  "original_difference_l2": 8.430760663447006e-10,
+  "reflection_difference_l2": 8.430760663447006e-10,
+  "swap_difference_l2": 8.430760663447006e-10,
+  "test_id": "T30_FIXED_TRANSVERSE_SYMMETRY_CONTROLS",
+  "transformations": {
+    "e2_reflection": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0
+      ]
+    ],
+    "swap": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ]
+  }
+}

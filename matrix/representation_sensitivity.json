@@ -350,6 +350,44 @@
     }
   ],
   "emx005_same_parent_only": true,
+  "emx013_unloaded_asymmetry": {
+    "classification": "FULL_STATE_PRESERVED_WITH_REDUCTION_SENSITIVITY",
+    "parent_state_priority": "FULL_STATE",
+    "records": [
+      {
+        "history_l2": 0.17744267070917488,
+        "relation": "PARENT_FULL_STATE",
+        "representation": "FULL_STATE"
+      },
+      {
+        "history_l2": 0.16356882118558,
+        "relation": "REDUCTION_OF_FULL_STATE",
+        "representation": "RELATIONAL_CHANGE"
+      },
+      {
+        "history_l2": 0.00038509861309016425,
+        "relation": "REDUCTION_OF_FULL_STATE",
+        "representation": "FULL_RELATIONAL_TENSOR"
+      },
+      {
+        "history_l2": 0.12838795772792838,
+        "relation": "REDUCTION_OF_FULL_STATE",
+        "representation": "ORIENTATION_STRESS"
+      },
+      {
+        "history_l2": 0.14602261120123128,
+        "relation": "REDUCTION_OF_FULL_STATE",
+        "representation": "FULL_FORCE_CHANGE"
+      },
+      {
+        "history_l2": 0.1635480805379881,
+        "relation": "REDUCTION_OF_FULL_STATE",
+        "representation": "SIGNED_NEIGHBOR_MISMATCH"
+      }
+    ],
+    "scope": "fixed predeclared EMX005 representation set; norms are descriptive and not a fitted selection rule",
+    "test_id": "T33_UNLOADED_ASYMMETRY_REPRESENTATION_RETENTION"
+  },
   "no_weighted_score": true,
   "records": [
     {

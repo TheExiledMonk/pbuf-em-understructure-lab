@@ -61,6 +61,12 @@
       "type": "LOSSLESS"
     }
   ],
+  "emx013_unloaded_asymmetry": {
+    "replay_only": true,
+    "requires": [
+      "EMX011 unloaded matched trajectory"
+    ]
+  },
   "nodes": [
     "X",
     "NODE_DISPLACEMENT",

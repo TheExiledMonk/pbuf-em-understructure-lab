@@ -1,0 +1,5 @@
+{
+  "EMX013_RESULT": "UNLOADED_TRANSVERSE_ASYMMETRY_CONFIRMED",
+  "F11_LOADING_INDUCED_PROPAGATION_ANISOTROPY": "NOT_SUPPORTED_THIS_REGIME",
+  "interpretation": "the fixed-frame component-energy asymmetry is already nonzero in the unloaded matched trajectory; the signed ordering swaps under the predeclared e1/e2 label exchange"
+}

@@ -1,0 +1,5 @@
+{
+  "EMX014_TEST_SELECTION": "EVIDENCE_CLOSURE_NO_FURTHER_EXECUTION",
+  "EMX014_TEST_SELECTION_FROZEN": true,
+  "basis": "terminal evidence closure: no further authorized physics, loading, basis, or topology test follows from the EMX013 observer-level audit"
+}

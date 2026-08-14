@@ -1,0 +1,12 @@
+{
+  "classification": "TRANSVERSE_SECTORS_INDEPENDENT",
+  "delta_r_1_given_2": 2,
+  "delta_r_2_given_1": 2,
+  "exact_linear_dependence": false,
+  "joint_rank": 4,
+  "mode_1_rank": 2,
+  "mode_2_rank": 2,
+  "scope": "same exact all-history, all-node state matrix as EMX012; no fitted predictor",
+  "test_id": "T31_UNLOADED_COMPONENT_STATE_INDEPENDENCE",
+  "tolerance": 1e-12
+}

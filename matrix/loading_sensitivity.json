@@ -1,6 +1,10 @@
 {
   "axis": "loading_regime",
   "blocked_cells_preserved": 20,
+  "emx013_unloaded_asymmetry": {
+    "comparison": "unloaded matched trajectory only",
+    "result": "UNLOADED_TRANSVERSE_ASYMMETRY_CONFIRMED"
+  },
   "no_weighted_score": true,
   "records": [
     {
