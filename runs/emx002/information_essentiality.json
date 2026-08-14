@@ -1,0 +1,67 @@
+[
+  {
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "classification": "UNRESOLVED",
+    "reason": "No comparable executed pair."
+  },
+  {
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "classification": "UNRESOLVED",
+    "reason": "No comparable executed pair."
+  },
+  {
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "classification": "UNRESOLVED",
+    "reason": "No comparable executed pair."
+  },
+  {
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "classification": "UNRESOLVED",
+    "reason": "No comparable executed pair."
+  },
+  {
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "classification": "UNRESOLVED",
+    "reason": "No comparable executed pair."
+  },
+  {
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "classification": "UNRESOLVED",
+    "reason": "No comparable executed pair."
+  },
+  {
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "classification": "UNRESOLVED",
+    "reason": "No comparable executed pair."
+  },
+  {
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "classification": "UNRESOLVED",
+    "reason": "No comparable executed pair."
+  },
+  {
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "classification": "UNRESOLVED",
+    "reason": "No comparable executed pair."
+  },
+  {
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "classification": "UNRESOLVED",
+    "reason": "No comparable executed pair."
+  },
+  {
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "classification": "UNRESOLVED",
+    "reason": "No comparable executed pair."
+  },
+  {
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "classification": "UNRESOLVED",
+    "reason": "No comparable executed pair."
+  },
+  {
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "classification": "UNRESOLVED",
+    "reason": "No comparable executed pair."
+  }
+]

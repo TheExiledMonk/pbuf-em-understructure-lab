@@ -1,0 +1,307 @@
+[
+  {
+    "background_loading_regimes": [
+      "STATIC_LOADED",
+      "UNLOADED"
+    ],
+    "blocked_candidates": [
+      "C002_DEV167_FULL_VECTOR_STATE",
+      "C003_N6_RELATIONAL_CHANGE",
+      "C004_DEV203_RELATIONAL_TENSOR",
+      "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "C006_DEV204_ORIENTATION_STRESS",
+      "C007_DEV204_FULL_FORCE_CHANGE",
+      "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+      "C009_DEV212_MOMENTUM_REVERSED_STATE",
+      "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+      "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "C015_FINITE_X_AGGREGATE_FULL_STATE"
+    ],
+    "geometries": [
+      "CANONICAL_DEV182_PACKET",
+      "FINITE_CONTACT_PATCH",
+      "FULL_PERIODIC_N6_VOLUME",
+      "TWO_SEPARATED_SOURCE_REGIONS"
+    ],
+    "independence_groups": [
+      "GROUP_DEV167_FULL_STATE",
+      "GROUP_DEV203_FULL_STATE",
+      "GROUP_DEV204_STRESS",
+      "GROUP_DEV211_MAINTAINED_STATIC",
+      "GROUP_DEV212_MULTISTATE",
+      "GROUP_DEV213_AGGREGATE",
+      "GROUP_DEV221_GEOMETRY",
+      "GROUP_DEV223_PATTERN",
+      "GROUP_DEV225_CONTRACTION"
+    ],
+    "not_applicable_candidates": [],
+    "observers": [
+      "ANTISYMMETRIC_TENSOR",
+      "BOND_FORCE",
+      "BOND_STRAIN",
+      "FULL_NATIVE_STATE",
+      "NEAREST_NEIGHBOR_CONTRACTION",
+      "NODE_MOMENTUM",
+      "ORDERED_N6_MISMATCH",
+      "RELATIONAL_TENSOR"
+    ],
+    "partial_candidates": [],
+    "rejecting_candidates": [],
+    "representation_families": [],
+    "source_regimes": [
+      "FINITE_X_AGGREGATE",
+      "PREPARED_PACKET",
+      "SOURCE_MAINTAINED_DEFORMATION",
+      "TWO_PREPARATION_AGGREGATE",
+      "VALID_STATE_INJECTION"
+    ],
+    "supporting_candidates": [],
+    "test_id": "T01_QUIET_STATE"
+  },
+  {
+    "background_loading_regimes": [
+      "STATIC_LOADED",
+      "UNLOADED"
+    ],
+    "blocked_candidates": [
+      "C002_DEV167_FULL_VECTOR_STATE",
+      "C003_N6_RELATIONAL_CHANGE",
+      "C004_DEV203_RELATIONAL_TENSOR",
+      "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "C006_DEV204_ORIENTATION_STRESS",
+      "C007_DEV204_FULL_FORCE_CHANGE",
+      "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+      "C009_DEV212_MOMENTUM_REVERSED_STATE",
+      "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+      "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "C015_FINITE_X_AGGREGATE_FULL_STATE"
+    ],
+    "geometries": [
+      "CANONICAL_DEV182_PACKET",
+      "FINITE_CONTACT_PATCH",
+      "FULL_PERIODIC_N6_VOLUME",
+      "TWO_SEPARATED_SOURCE_REGIONS"
+    ],
+    "independence_groups": [
+      "GROUP_DEV167_FULL_STATE",
+      "GROUP_DEV203_FULL_STATE",
+      "GROUP_DEV204_STRESS",
+      "GROUP_DEV211_MAINTAINED_STATIC",
+      "GROUP_DEV212_MULTISTATE",
+      "GROUP_DEV213_AGGREGATE",
+      "GROUP_DEV221_GEOMETRY",
+      "GROUP_DEV223_PATTERN",
+      "GROUP_DEV225_CONTRACTION"
+    ],
+    "not_applicable_candidates": [],
+    "observers": [
+      "ANTISYMMETRIC_TENSOR",
+      "BOND_FORCE",
+      "BOND_STRAIN",
+      "FULL_NATIVE_STATE",
+      "NEAREST_NEIGHBOR_CONTRACTION",
+      "NODE_MOMENTUM",
+      "ORDERED_N6_MISMATCH",
+      "RELATIONAL_TENSOR"
+    ],
+    "partial_candidates": [],
+    "rejecting_candidates": [],
+    "representation_families": [],
+    "source_regimes": [
+      "FINITE_X_AGGREGATE",
+      "PREPARED_PACKET",
+      "SOURCE_MAINTAINED_DEFORMATION",
+      "TWO_PREPARATION_AGGREGATE",
+      "VALID_STATE_INJECTION"
+    ],
+    "supporting_candidates": [],
+    "test_id": "T02_EXCITATION_ACTIVITY"
+  },
+  {
+    "background_loading_regimes": [
+      "STATIC_LOADED",
+      "UNLOADED"
+    ],
+    "blocked_candidates": [
+      "C002_DEV167_FULL_VECTOR_STATE",
+      "C003_N6_RELATIONAL_CHANGE",
+      "C004_DEV203_RELATIONAL_TENSOR",
+      "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "C006_DEV204_ORIENTATION_STRESS",
+      "C007_DEV204_FULL_FORCE_CHANGE",
+      "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+      "C009_DEV212_MOMENTUM_REVERSED_STATE",
+      "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+      "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "C015_FINITE_X_AGGREGATE_FULL_STATE"
+    ],
+    "geometries": [
+      "CANONICAL_DEV182_PACKET",
+      "FINITE_CONTACT_PATCH",
+      "FULL_PERIODIC_N6_VOLUME",
+      "TWO_SEPARATED_SOURCE_REGIONS"
+    ],
+    "independence_groups": [
+      "GROUP_DEV167_FULL_STATE",
+      "GROUP_DEV203_FULL_STATE",
+      "GROUP_DEV204_STRESS",
+      "GROUP_DEV211_MAINTAINED_STATIC",
+      "GROUP_DEV212_MULTISTATE",
+      "GROUP_DEV213_AGGREGATE",
+      "GROUP_DEV221_GEOMETRY",
+      "GROUP_DEV223_PATTERN",
+      "GROUP_DEV225_CONTRACTION"
+    ],
+    "not_applicable_candidates": [],
+    "observers": [
+      "ANTISYMMETRIC_TENSOR",
+      "BOND_FORCE",
+      "BOND_STRAIN",
+      "FULL_NATIVE_STATE",
+      "NEAREST_NEIGHBOR_CONTRACTION",
+      "NODE_MOMENTUM",
+      "ORDERED_N6_MISMATCH",
+      "RELATIONAL_TENSOR"
+    ],
+    "partial_candidates": [],
+    "rejecting_candidates": [],
+    "representation_families": [],
+    "source_regimes": [
+      "FINITE_X_AGGREGATE",
+      "PREPARED_PACKET",
+      "SOURCE_MAINTAINED_DEFORMATION",
+      "TWO_PREPARATION_AGGREGATE",
+      "VALID_STATE_INJECTION"
+    ],
+    "supporting_candidates": [],
+    "test_id": "T03_PROPAGATION"
+  },
+  {
+    "background_loading_regimes": [
+      "STATIC_LOADED",
+      "UNLOADED"
+    ],
+    "blocked_candidates": [
+      "C002_DEV167_FULL_VECTOR_STATE",
+      "C003_N6_RELATIONAL_CHANGE",
+      "C004_DEV203_RELATIONAL_TENSOR",
+      "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "C006_DEV204_ORIENTATION_STRESS",
+      "C007_DEV204_FULL_FORCE_CHANGE",
+      "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+      "C009_DEV212_MOMENTUM_REVERSED_STATE",
+      "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+      "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "C015_FINITE_X_AGGREGATE_FULL_STATE"
+    ],
+    "geometries": [
+      "CANONICAL_DEV182_PACKET",
+      "FINITE_CONTACT_PATCH",
+      "FULL_PERIODIC_N6_VOLUME",
+      "TWO_SEPARATED_SOURCE_REGIONS"
+    ],
+    "independence_groups": [
+      "GROUP_DEV167_FULL_STATE",
+      "GROUP_DEV203_FULL_STATE",
+      "GROUP_DEV204_STRESS",
+      "GROUP_DEV211_MAINTAINED_STATIC",
+      "GROUP_DEV212_MULTISTATE",
+      "GROUP_DEV213_AGGREGATE",
+      "GROUP_DEV221_GEOMETRY",
+      "GROUP_DEV223_PATTERN",
+      "GROUP_DEV225_CONTRACTION"
+    ],
+    "not_applicable_candidates": [],
+    "observers": [
+      "ANTISYMMETRIC_TENSOR",
+      "BOND_FORCE",
+      "BOND_STRAIN",
+      "FULL_NATIVE_STATE",
+      "NEAREST_NEIGHBOR_CONTRACTION",
+      "NODE_MOMENTUM",
+      "ORDERED_N6_MISMATCH",
+      "RELATIONAL_TENSOR"
+    ],
+    "partial_candidates": [],
+    "rejecting_candidates": [],
+    "representation_families": [],
+    "source_regimes": [
+      "FINITE_X_AGGREGATE",
+      "PREPARED_PACKET",
+      "SOURCE_MAINTAINED_DEFORMATION",
+      "TWO_PREPARATION_AGGREGATE",
+      "VALID_STATE_INJECTION"
+    ],
+    "supporting_candidates": [],
+    "test_id": "T04_NEIGHBOR_RELAY"
+  },
+  {
+    "background_loading_regimes": [
+      "STATIC_LOADED",
+      "UNLOADED"
+    ],
+    "blocked_candidates": [
+      "C002_DEV167_FULL_VECTOR_STATE",
+      "C003_N6_RELATIONAL_CHANGE",
+      "C004_DEV203_RELATIONAL_TENSOR",
+      "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "C006_DEV204_ORIENTATION_STRESS",
+      "C007_DEV204_FULL_FORCE_CHANGE",
+      "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+      "C009_DEV212_MOMENTUM_REVERSED_STATE",
+      "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+      "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "C015_FINITE_X_AGGREGATE_FULL_STATE"
+    ],
+    "geometries": [
+      "CANONICAL_DEV182_PACKET",
+      "FINITE_CONTACT_PATCH",
+      "FULL_PERIODIC_N6_VOLUME",
+      "TWO_SEPARATED_SOURCE_REGIONS"
+    ],
+    "independence_groups": [
+      "GROUP_DEV167_FULL_STATE",
+      "GROUP_DEV203_FULL_STATE",
+      "GROUP_DEV204_STRESS",
+      "GROUP_DEV211_MAINTAINED_STATIC",
+      "GROUP_DEV212_MULTISTATE",
+      "GROUP_DEV213_AGGREGATE",
+      "GROUP_DEV221_GEOMETRY",
+      "GROUP_DEV223_PATTERN",
+      "GROUP_DEV225_CONTRACTION"
+    ],
+    "not_applicable_candidates": [],
+    "observers": [
+      "ANTISYMMETRIC_TENSOR",
+      "BOND_FORCE",
+      "BOND_STRAIN",
+      "FULL_NATIVE_STATE",
+      "NEAREST_NEIGHBOR_CONTRACTION",
+      "NODE_MOMENTUM",
+      "ORDERED_N6_MISMATCH",
+      "RELATIONAL_TENSOR"
+    ],
+    "partial_candidates": [],
+    "rejecting_candidates": [],
+    "representation_families": [],
+    "source_regimes": [
+      "FINITE_X_AGGREGATE",
+      "PREPARED_PACKET",
+      "SOURCE_MAINTAINED_DEFORMATION",
+      "TWO_PREPARATION_AGGREGATE",
+      "VALID_STATE_INJECTION"
+    ],
+    "supporting_candidates": [],
+    "test_id": "T05_STRESS_COUPLING"
+  }
+]

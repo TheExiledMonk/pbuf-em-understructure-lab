@@ -1,0 +1,80 @@
+[
+  {
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "reason": "All EMX002 cells blocked before native result comparison.",
+    "representation_divergence": "NONCOMPARABLE"
+  },
+  {
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "reason": "All EMX002 cells blocked before native result comparison.",
+    "representation_divergence": "NONCOMPARABLE"
+  },
+  {
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "reason": "All EMX002 cells blocked before native result comparison.",
+    "representation_divergence": "NONCOMPARABLE"
+  },
+  {
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "reason": "All EMX002 cells blocked before native result comparison.",
+    "representation_divergence": "NONCOMPARABLE"
+  },
+  {
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "reason": "All EMX002 cells blocked before native result comparison.",
+    "representation_divergence": "NONCOMPARABLE"
+  },
+  {
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "reason": "All EMX002 cells blocked before native result comparison.",
+    "representation_divergence": "NONCOMPARABLE"
+  },
+  {
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "reason": "All EMX002 cells blocked before native result comparison.",
+    "representation_divergence": "NONCOMPARABLE"
+  },
+  {
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "reason": "All EMX002 cells blocked before native result comparison.",
+    "representation_divergence": "NONCOMPARABLE"
+  },
+  {
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "reason": "All EMX002 cells blocked before native result comparison.",
+    "representation_divergence": "NONCOMPARABLE"
+  },
+  {
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "reason": "All EMX002 cells blocked before native result comparison.",
+    "representation_divergence": "NONCOMPARABLE"
+  },
+  {
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "reason": "All EMX002 cells blocked before native result comparison.",
+    "representation_divergence": "NONCOMPARABLE"
+  },
+  {
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "reason": "All EMX002 cells blocked before native result comparison.",
+    "representation_divergence": "NONCOMPARABLE"
+  },
+  {
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "reason": "All EMX002 cells blocked before native result comparison.",
+    "representation_divergence": "NONCOMPARABLE"
+  }
+]

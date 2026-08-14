@@ -1,0 +1,98 @@
+{
+  "anti_circularity": {
+    "CANONICAL_REPO_READ_ONLY": true,
+    "EMX001_MATRIX_V1_IMMUTABLE": true,
+    "NO_B_FIELD": true,
+    "NO_DEV167_MODIFICATION": true,
+    "NO_DIRECT_N26_N27_FORCE": true,
+    "NO_E_FIELD": true,
+    "NO_MAXWELL_MAPPING": true,
+    "NO_NEW_DOF": true,
+    "NO_NEW_FORCE": true,
+    "NO_NEW_SOURCE_LAW": true,
+    "NO_PHOTON_MAPPING": true,
+    "NO_RESULT_SELECTED_CANDIDATES": true,
+    "NO_RESULT_SELECTED_DIRECTIONS": true,
+    "NO_RESULT_SELECTED_REGIONS": true,
+    "NO_RESULT_SELECTED_TESTS": true,
+    "NO_RESULT_SELECTED_WINDOWS": true,
+    "NO_ROTATION_REGISTRATION": true,
+    "NO_SOURCE_RELEASE_REPAIR": true,
+    "NO_THRESHOLD_FITTING": true
+  },
+  "candidate_ids": [
+    "C002_DEV167_FULL_VECTOR_STATE",
+    "C003_N6_RELATIONAL_CHANGE",
+    "C004_DEV203_RELATIONAL_TENSOR",
+    "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "C006_DEV204_ORIENTATION_STRESS",
+    "C007_DEV204_FULL_FORCE_CHANGE",
+    "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "C015_FINITE_X_AGGREGATE_FULL_STATE"
+  ],
+  "classification_vocabularies": {
+    "T01": [
+      "ZERO",
+      "NONZERO_STATIC",
+      "NONZERO_DYNAMIC",
+      "NOT_APPLICABLE",
+      "BLOCKED"
+    ],
+    "T02": [
+      "ACTIVATED",
+      "UNCHANGED",
+      "PARTIAL",
+      "NOT_APPLICABLE",
+      "BLOCKED_PREPARATION",
+      "BLOCKED_ARCHIVE"
+    ],
+    "T03": [
+      "PROPAGATING",
+      "SPREADING_NONORDERED",
+      "LOCAL_ONLY",
+      "STATIC",
+      "NOT_APPLICABLE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_PREPARATION",
+      "INCONCLUSIVE"
+    ],
+    "T04": [
+      "LOCAL_RELAY_DERIVED",
+      "LOCAL_RELAY_PARTIAL",
+      "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "LOCAL_ONLY",
+      "NOT_APPLICABLE",
+      "BLOCKED"
+    ],
+    "T05": [
+      "STRESS_COUPLED",
+      "MAGNITUDE_ONLY",
+      "ORIENTATION_ONLY",
+      "MIXED",
+      "NO_COUPLING",
+      "NOT_APPLICABLE",
+      "BLOCKED"
+    ]
+  },
+  "comparison_rules": {
+    "T02": "independently defined matched control required for ACTIVATED",
+    "T03": "noncompact receiver support prevents first-receipt causality claim",
+    "T04": "native integrator order and N6 update chain required"
+  },
+  "duration": "No new duration: replay is unauthorized.",
+  "metrics": "exact zero, topology, ordering, and archived native evidence only; no fitted thresholds",
+  "selector": "COMMON_NATIVE_PRIMITIVE_BATTERY",
+  "spatial_regions": "No result-selected regions; only frozen native supports/observers.",
+  "test_ids": [
+    "T01_QUIET_STATE",
+    "T02_EXCITATION_ACTIVITY",
+    "T03_PROPAGATION",
+    "T04_NEIGHBOR_RELAY",
+    "T05_STRESS_COUPLING"
+  ]
+}

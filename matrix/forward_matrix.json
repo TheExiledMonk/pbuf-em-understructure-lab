@@ -421,7 +421,9 @@
   },
   {
     "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -441,15 +443,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T01_QUIET_STATE"
   },
   {
     "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -469,15 +473,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T02_EXCITATION_ACTIVITY"
   },
   {
     "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -497,15 +503,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T03_PROPAGATION"
   },
   {
     "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -525,15 +533,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T04_NEIGHBOR_RELAY"
   },
   {
     "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -553,10 +563,10 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T05_STRESS_COUPLING"
   },
   {
@@ -841,7 +851,9 @@
   },
   {
     "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -861,15 +873,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T01_QUIET_STATE"
   },
   {
     "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -889,15 +903,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T02_EXCITATION_ACTIVITY"
   },
   {
     "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -917,15 +933,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T03_PROPAGATION"
   },
   {
     "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -945,15 +963,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T04_NEIGHBOR_RELAY"
   },
   {
     "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -973,10 +993,10 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T05_STRESS_COUPLING"
   },
   {
@@ -1261,7 +1281,9 @@
   },
   {
     "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -1281,15 +1303,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T01_QUIET_STATE"
   },
   {
     "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -1309,15 +1333,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T02_EXCITATION_ACTIVITY"
   },
   {
     "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -1337,15 +1363,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T03_PROPAGATION"
   },
   {
     "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -1365,15 +1393,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T04_NEIGHBOR_RELAY"
   },
   {
     "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -1393,10 +1423,10 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T05_STRESS_COUPLING"
   },
   {
@@ -1681,7 +1711,9 @@
   },
   {
     "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -1701,15 +1733,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T01_QUIET_STATE"
   },
   {
     "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -1729,15 +1763,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T02_EXCITATION_ACTIVITY"
   },
   {
     "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -1757,15 +1793,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T03_PROPAGATION"
   },
   {
     "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -1785,15 +1823,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T04_NEIGHBOR_RELAY"
   },
   {
     "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -1813,10 +1853,10 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T05_STRESS_COUPLING"
   },
   {
@@ -2101,7 +2141,9 @@
   },
   {
     "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -2121,15 +2163,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T01_QUIET_STATE"
   },
   {
     "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -2149,15 +2193,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T02_EXCITATION_ACTIVITY"
   },
   {
     "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -2177,15 +2223,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T03_PROPAGATION"
   },
   {
     "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -2205,15 +2253,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T04_NEIGHBOR_RELAY"
   },
   {
     "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -2233,10 +2283,10 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T05_STRESS_COUPLING"
   },
   {
@@ -2521,7 +2571,9 @@
   },
   {
     "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -2541,15 +2593,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T01_QUIET_STATE"
   },
   {
     "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -2569,15 +2623,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T02_EXCITATION_ACTIVITY"
   },
   {
     "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -2597,15 +2653,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T03_PROPAGATION"
   },
   {
     "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -2625,15 +2683,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T04_NEIGHBOR_RELAY"
   },
   {
     "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -2653,10 +2713,10 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T05_STRESS_COUPLING"
   },
   {
@@ -2941,7 +3001,9 @@
   },
   {
     "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -2961,15 +3023,17 @@
       "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
       "temporal_regime": "SOURCE_MAINTAINED"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T01_QUIET_STATE"
   },
   {
     "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -2989,15 +3053,17 @@
       "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
       "temporal_regime": "SOURCE_MAINTAINED"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T02_EXCITATION_ACTIVITY"
   },
   {
     "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -3017,15 +3083,17 @@
       "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
       "temporal_regime": "SOURCE_MAINTAINED"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T03_PROPAGATION"
   },
   {
     "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -3045,15 +3113,17 @@
       "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
       "temporal_regime": "SOURCE_MAINTAINED"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T04_NEIGHBOR_RELAY"
   },
   {
     "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -3073,10 +3143,10 @@
       "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
       "temporal_regime": "SOURCE_MAINTAINED"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T05_STRESS_COUPLING"
   },
   {
@@ -3361,7 +3431,9 @@
   },
   {
     "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -3381,15 +3453,17 @@
       "source_regime": "VALID_STATE_INJECTION",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T01_QUIET_STATE"
   },
   {
     "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -3409,15 +3483,17 @@
       "source_regime": "VALID_STATE_INJECTION",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T02_EXCITATION_ACTIVITY"
   },
   {
     "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -3437,15 +3513,17 @@
       "source_regime": "VALID_STATE_INJECTION",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T03_PROPAGATION"
   },
   {
     "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -3465,15 +3543,17 @@
       "source_regime": "VALID_STATE_INJECTION",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T04_NEIGHBOR_RELAY"
   },
   {
     "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -3493,10 +3573,10 @@
       "source_regime": "VALID_STATE_INJECTION",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T05_STRESS_COUPLING"
   },
   {
@@ -3781,7 +3861,9 @@
   },
   {
     "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -3801,15 +3883,17 @@
       "source_regime": "TWO_PREPARATION_AGGREGATE",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T01_QUIET_STATE"
   },
   {
     "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -3829,15 +3913,17 @@
       "source_regime": "TWO_PREPARATION_AGGREGATE",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T02_EXCITATION_ACTIVITY"
   },
   {
     "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -3857,15 +3943,17 @@
       "source_regime": "TWO_PREPARATION_AGGREGATE",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T03_PROPAGATION"
   },
   {
     "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -3885,15 +3973,17 @@
       "source_regime": "TWO_PREPARATION_AGGREGATE",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T04_NEIGHBOR_RELAY"
   },
   {
     "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -3913,10 +4003,10 @@
       "source_regime": "TWO_PREPARATION_AGGREGATE",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T05_STRESS_COUPLING"
   },
   {
@@ -4201,7 +4291,9 @@
   },
   {
     "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -4221,15 +4313,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T01_QUIET_STATE"
   },
   {
     "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -4249,15 +4343,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T02_EXCITATION_ACTIVITY"
   },
   {
     "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -4277,15 +4373,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T03_PROPAGATION"
   },
   {
     "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -4305,15 +4403,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T04_NEIGHBOR_RELAY"
   },
   {
     "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -4333,10 +4433,10 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "PROPAGATING"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T05_STRESS_COUPLING"
   },
   {
@@ -4621,7 +4721,9 @@
   },
   {
     "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -4641,15 +4743,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "BOUNDED_DYNAMIC"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T01_QUIET_STATE"
   },
   {
     "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -4669,15 +4773,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "BOUNDED_DYNAMIC"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T02_EXCITATION_ACTIVITY"
   },
   {
     "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -4697,15 +4803,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "BOUNDED_DYNAMIC"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T03_PROPAGATION"
   },
   {
     "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -4725,15 +4833,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "BOUNDED_DYNAMIC"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T04_NEIGHBOR_RELAY"
   },
   {
     "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -4753,10 +4863,10 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "BOUNDED_DYNAMIC"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T05_STRESS_COUPLING"
   },
   {
@@ -5041,7 +5151,9 @@
   },
   {
     "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -5061,15 +5173,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "BOUNDED_DYNAMIC"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T01_QUIET_STATE"
   },
   {
     "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -5089,15 +5203,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "BOUNDED_DYNAMIC"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T02_EXCITATION_ACTIVITY"
   },
   {
     "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -5117,15 +5233,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "BOUNDED_DYNAMIC"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T03_PROPAGATION"
   },
   {
     "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -5145,15 +5263,17 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "BOUNDED_DYNAMIC"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T04_NEIGHBOR_RELAY"
   },
   {
     "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -5173,10 +5293,10 @@
       "source_regime": "PREPARED_PACKET",
       "temporal_regime": "BOUNDED_DYNAMIC"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T05_STRESS_COUPLING"
   },
   {
@@ -5881,7 +6001,9 @@
   },
   {
     "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -5901,15 +6023,17 @@
       "source_regime": "FINITE_X_AGGREGATE",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T01_QUIET_STATE"
   },
   {
     "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -5929,15 +6053,17 @@
       "source_regime": "FINITE_X_AGGREGATE",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T02_EXCITATION_ACTIVITY"
   },
   {
     "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -5957,15 +6083,17 @@
       "source_regime": "FINITE_X_AGGREGATE",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T03_PROPAGATION"
   },
   {
     "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -5985,15 +6113,17 @@
       "source_regime": "FINITE_X_AGGREGATE",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T04_NEIGHBOR_RELAY"
   },
   {
     "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "classification": "BLOCKED_ARCHIVE",
     "dependency_review_status": "NOT_REVIEWED",
+    "emx002_result_ref": "matrix/emx002_primitive_result_matrix.json",
     "evidence": {
       "frozen_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
       "run_artifact": "IMPORTED_RESULT",
@@ -6013,10 +6143,10 @@
       "source_regime": "FINITE_X_AGGREGATE",
       "temporal_regime": "TRANSIENT"
     },
-    "historical_or_new": "FORWARD",
+    "historical_or_new": "EMX002",
     "physical_interpretation_confidence": "NOT_APPLICABLE",
-    "result": "EMX001 does not execute matrix",
-    "status": "NOT_RUN",
+    "result": "EMX002 archival execution blocker",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
     "test_id": "T05_STRESS_COUPLING"
   },
   {

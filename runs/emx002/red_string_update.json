@@ -1,0 +1,67 @@
+[
+  {
+    "candidate_support_count": 0,
+    "conclusion": [
+      "BLOCKED"
+    ],
+    "feature_id": "F01",
+    "geometry_support_count": 0,
+    "independence_group_support_count": 0,
+    "observer_support_count": 0,
+    "representation_family_support_count": 0,
+    "source_regime_support_count": 0,
+    "test_id": "T01_QUIET_STATE"
+  },
+  {
+    "candidate_support_count": 0,
+    "conclusion": [
+      "BLOCKED"
+    ],
+    "feature_id": "F02",
+    "geometry_support_count": 0,
+    "independence_group_support_count": 0,
+    "observer_support_count": 0,
+    "representation_family_support_count": 0,
+    "source_regime_support_count": 0,
+    "test_id": "T02_EXCITATION_ACTIVITY"
+  },
+  {
+    "candidate_support_count": 0,
+    "conclusion": [
+      "BLOCKED"
+    ],
+    "feature_id": "F03",
+    "geometry_support_count": 0,
+    "independence_group_support_count": 0,
+    "observer_support_count": 0,
+    "representation_family_support_count": 0,
+    "source_regime_support_count": 0,
+    "test_id": "T03_PROPAGATION"
+  },
+  {
+    "candidate_support_count": 0,
+    "conclusion": [
+      "BLOCKED"
+    ],
+    "feature_id": "F04",
+    "geometry_support_count": 0,
+    "independence_group_support_count": 0,
+    "observer_support_count": 0,
+    "representation_family_support_count": 0,
+    "source_regime_support_count": 0,
+    "test_id": "T04_NEIGHBOR_RELAY"
+  },
+  {
+    "candidate_support_count": 0,
+    "conclusion": [
+      "BLOCKED"
+    ],
+    "feature_id": "F05",
+    "geometry_support_count": 0,
+    "independence_group_support_count": 0,
+    "observer_support_count": 0,
+    "representation_family_support_count": 0,
+    "source_regime_support_count": 0,
+    "test_id": "T05_STRESS_COUPLING"
+  }
+]

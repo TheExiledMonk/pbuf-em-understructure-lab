@@ -1,0 +1,158 @@
+[
+  {
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "independence_group": "GROUP_DEV167_FULL_STATE",
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ],
+    "signature_relation": "EXACT_SIGNATURE_MATCH"
+  },
+  {
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ],
+    "signature_relation": "EXACT_SIGNATURE_MATCH"
+  },
+  {
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ],
+    "signature_relation": "EXACT_SIGNATURE_MATCH"
+  },
+  {
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ],
+    "signature_relation": "EXACT_SIGNATURE_MATCH"
+  },
+  {
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "independence_group": "GROUP_DEV204_STRESS",
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ],
+    "signature_relation": "EXACT_SIGNATURE_MATCH"
+  },
+  {
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "independence_group": "GROUP_DEV204_STRESS",
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ],
+    "signature_relation": "EXACT_SIGNATURE_MATCH"
+  },
+  {
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "independence_group": "GROUP_DEV211_MAINTAINED_STATIC",
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ],
+    "signature_relation": "EXACT_SIGNATURE_MATCH"
+  },
+  {
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "independence_group": "GROUP_DEV212_MULTISTATE",
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ],
+    "signature_relation": "EXACT_SIGNATURE_MATCH"
+  },
+  {
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "independence_group": "GROUP_DEV213_AGGREGATE",
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ],
+    "signature_relation": "EXACT_SIGNATURE_MATCH"
+  },
+  {
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "independence_group": "GROUP_DEV221_GEOMETRY",
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ],
+    "signature_relation": "EXACT_SIGNATURE_MATCH"
+  },
+  {
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "independence_group": "GROUP_DEV223_PATTERN",
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ],
+    "signature_relation": "EXACT_SIGNATURE_MATCH"
+  },
+  {
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "independence_group": "GROUP_DEV225_CONTRACTION",
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ],
+    "signature_relation": "EXACT_SIGNATURE_MATCH"
+  },
+  {
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "independence_group": "GROUP_DEV213_AGGREGATE",
+    "signature": [
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE",
+      "BLOCKED_ARCHIVE"
+    ],
+    "signature_relation": "EXACT_SIGNATURE_MATCH"
+  }
+]

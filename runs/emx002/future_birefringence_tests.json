@@ -1,0 +1,18 @@
+{
+  "DIRECTIONAL_LOADING_TESTS_EXECUTED": false,
+  "DIRECTIONAL_LOADING_TESTS_REGISTERED": true,
+  "tests": [
+    {
+      "status": "FUTURE_GATE",
+      "test_id": "T16_DIRECTIONAL_LOADING_TRANSVERSE_MODE_SPLIT"
+    },
+    {
+      "status": "FUTURE_GATE",
+      "test_id": "T17_LOADED_GEOMETRY_TRACKING"
+    },
+    {
+      "status": "FUTURE_GATE",
+      "test_id": "T18_ORIENTATION_DECOUPLING"
+    }
+  ]
+}

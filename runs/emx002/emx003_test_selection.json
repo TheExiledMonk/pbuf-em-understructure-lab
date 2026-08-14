@@ -1,0 +1,5 @@
+{
+  "EMX003_TEST_SELECTION": "ARCHIVAL_REPLAY_GATE",
+  "EMX003_TEST_SELECTION_FROZEN": true,
+  "reason": "The strongest unresolved discriminator is missing time-resolved native state/replay authorization."
+}

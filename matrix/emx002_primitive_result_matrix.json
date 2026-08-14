@@ -1,0 +1,3837 @@
+[
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R02",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV167_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "quiet-state activity",
+    "test_id": "T01_QUIET_STATE"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R02",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV167_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "excitation activity",
+    "test_id": "T02_EXCITATION_ACTIVITY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R02",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV167_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "spatial propagation",
+    "test_id": "T03_PROPAGATION"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R02",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV167_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "neighbor relay",
+    "test_id": "T04_NEIGHBOR_RELAY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R02",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV167_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "stress coupling",
+    "test_id": "T05_STRESS_COUPLING"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R06",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R06",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "quiet-state activity",
+    "test_id": "T01_QUIET_STATE"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R06",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R06",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "excitation activity",
+    "test_id": "T02_EXCITATION_ACTIVITY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R06",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R06",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "spatial propagation",
+    "test_id": "T03_PROPAGATION"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R06",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R06",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "neighbor relay",
+    "test_id": "T04_NEIGHBOR_RELAY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R06",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R06",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "stress coupling",
+    "test_id": "T05_STRESS_COUPLING"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "RELATIONAL_TENSOR",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R07",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "RELATIONAL_TENSOR",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R07",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "quiet-state activity",
+    "test_id": "T01_QUIET_STATE"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "RELATIONAL_TENSOR",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R07",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "RELATIONAL_TENSOR",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R07",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "excitation activity",
+    "test_id": "T02_EXCITATION_ACTIVITY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "RELATIONAL_TENSOR",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R07",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "RELATIONAL_TENSOR",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R07",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "spatial propagation",
+    "test_id": "T03_PROPAGATION"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "RELATIONAL_TENSOR",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R07",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "RELATIONAL_TENSOR",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R07",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "neighbor relay",
+    "test_id": "T04_NEIGHBOR_RELAY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "RELATIONAL_TENSOR",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R07",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "RELATIONAL_TENSOR",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R07",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "stress coupling",
+    "test_id": "T05_STRESS_COUPLING"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "ANTISYMMETRIC_TENSOR",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R08",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "ANTISYMMETRIC_TENSOR",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R08",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "quiet-state activity",
+    "test_id": "T01_QUIET_STATE"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "ANTISYMMETRIC_TENSOR",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R08",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "ANTISYMMETRIC_TENSOR",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R08",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "excitation activity",
+    "test_id": "T02_EXCITATION_ACTIVITY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "ANTISYMMETRIC_TENSOR",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R08",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "ANTISYMMETRIC_TENSOR",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R08",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "spatial propagation",
+    "test_id": "T03_PROPAGATION"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "ANTISYMMETRIC_TENSOR",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R08",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "ANTISYMMETRIC_TENSOR",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R08",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "neighbor relay",
+    "test_id": "T04_NEIGHBOR_RELAY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "ANTISYMMETRIC_TENSOR",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R08",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "ANTISYMMETRIC_TENSOR",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R08",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "stress coupling",
+    "test_id": "T05_STRESS_COUPLING"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "BOND_FORCE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R10",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV204_STRESS",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_FORCE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R10",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "quiet-state activity",
+    "test_id": "T01_QUIET_STATE"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "BOND_FORCE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R10",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV204_STRESS",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_FORCE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R10",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "excitation activity",
+    "test_id": "T02_EXCITATION_ACTIVITY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "BOND_FORCE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R10",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV204_STRESS",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_FORCE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R10",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "spatial propagation",
+    "test_id": "T03_PROPAGATION"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "BOND_FORCE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R10",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV204_STRESS",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_FORCE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R10",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "neighbor relay",
+    "test_id": "T04_NEIGHBOR_RELAY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "BOND_FORCE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R10",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV204_STRESS",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_FORCE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R10",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "stress coupling",
+    "test_id": "T05_STRESS_COUPLING"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "BOND_FORCE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R11",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV204_STRESS",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_FORCE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R11",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "quiet-state activity",
+    "test_id": "T01_QUIET_STATE"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "BOND_FORCE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R11",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV204_STRESS",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_FORCE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R11",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "excitation activity",
+    "test_id": "T02_EXCITATION_ACTIVITY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "BOND_FORCE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R11",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV204_STRESS",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_FORCE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R11",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "spatial propagation",
+    "test_id": "T03_PROPAGATION"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "BOND_FORCE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R11",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV204_STRESS",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_FORCE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R11",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "neighbor relay",
+    "test_id": "T04_NEIGHBOR_RELAY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "BOND_FORCE",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R11",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV204_STRESS",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_FORCE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R11",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "stress coupling",
+    "test_id": "T05_STRESS_COUPLING"
+  },
+  {
+    "background_loading_regime": "STATIC_LOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "STATIC_LOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "FINITE_CONTACT_PATCH",
+      "observer": "BOND_FORCE",
+      "preparation": "SOURCE_MAINTAINED_DEFORMATION",
+      "representation": "R05",
+      "source_count": 1,
+      "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
+      "temporal_regime": "SOURCE_MAINTAINED"
+    },
+    "geometry": "FINITE_CONTACT_PATCH",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV211_MAINTAINED_STATIC",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_FORCE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "SOURCE_MAINTAINED_DEFORMATION",
+    "representation": "R05",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "SOURCE_MAINTAINED",
+    "test_definition": "quiet-state activity",
+    "test_id": "T01_QUIET_STATE"
+  },
+  {
+    "background_loading_regime": "STATIC_LOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "STATIC_LOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "FINITE_CONTACT_PATCH",
+      "observer": "BOND_FORCE",
+      "preparation": "SOURCE_MAINTAINED_DEFORMATION",
+      "representation": "R05",
+      "source_count": 1,
+      "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
+      "temporal_regime": "SOURCE_MAINTAINED"
+    },
+    "geometry": "FINITE_CONTACT_PATCH",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV211_MAINTAINED_STATIC",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_FORCE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "SOURCE_MAINTAINED_DEFORMATION",
+    "representation": "R05",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "SOURCE_MAINTAINED",
+    "test_definition": "excitation activity",
+    "test_id": "T02_EXCITATION_ACTIVITY"
+  },
+  {
+    "background_loading_regime": "STATIC_LOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "STATIC_LOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "FINITE_CONTACT_PATCH",
+      "observer": "BOND_FORCE",
+      "preparation": "SOURCE_MAINTAINED_DEFORMATION",
+      "representation": "R05",
+      "source_count": 1,
+      "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
+      "temporal_regime": "SOURCE_MAINTAINED"
+    },
+    "geometry": "FINITE_CONTACT_PATCH",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV211_MAINTAINED_STATIC",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_FORCE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "SOURCE_MAINTAINED_DEFORMATION",
+    "representation": "R05",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "SOURCE_MAINTAINED",
+    "test_definition": "spatial propagation",
+    "test_id": "T03_PROPAGATION"
+  },
+  {
+    "background_loading_regime": "STATIC_LOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "STATIC_LOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "FINITE_CONTACT_PATCH",
+      "observer": "BOND_FORCE",
+      "preparation": "SOURCE_MAINTAINED_DEFORMATION",
+      "representation": "R05",
+      "source_count": 1,
+      "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
+      "temporal_regime": "SOURCE_MAINTAINED"
+    },
+    "geometry": "FINITE_CONTACT_PATCH",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV211_MAINTAINED_STATIC",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_FORCE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "SOURCE_MAINTAINED_DEFORMATION",
+    "representation": "R05",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "SOURCE_MAINTAINED",
+    "test_definition": "neighbor relay",
+    "test_id": "T04_NEIGHBOR_RELAY"
+  },
+  {
+    "background_loading_regime": "STATIC_LOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "STATIC_LOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "FINITE_CONTACT_PATCH",
+      "observer": "BOND_FORCE",
+      "preparation": "SOURCE_MAINTAINED_DEFORMATION",
+      "representation": "R05",
+      "source_count": 1,
+      "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
+      "temporal_regime": "SOURCE_MAINTAINED"
+    },
+    "geometry": "FINITE_CONTACT_PATCH",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV211_MAINTAINED_STATIC",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_FORCE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "SOURCE_MAINTAINED_DEFORMATION",
+    "representation": "R05",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "SOURCE_MAINTAINED",
+    "test_definition": "stress coupling",
+    "test_id": "T05_STRESS_COUPLING"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "NODE_MOMENTUM",
+      "preparation": "VALID_STATE_INJECTION",
+      "representation": "R02",
+      "source_count": 1,
+      "source_regime": "VALID_STATE_INJECTION",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV212_MULTISTATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "NODE_MOMENTUM",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "VALID_STATE_INJECTION",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "VALID_STATE_INJECTION",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "quiet-state activity",
+    "test_id": "T01_QUIET_STATE"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "NODE_MOMENTUM",
+      "preparation": "VALID_STATE_INJECTION",
+      "representation": "R02",
+      "source_count": 1,
+      "source_regime": "VALID_STATE_INJECTION",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV212_MULTISTATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "NODE_MOMENTUM",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "VALID_STATE_INJECTION",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "VALID_STATE_INJECTION",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "excitation activity",
+    "test_id": "T02_EXCITATION_ACTIVITY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "NODE_MOMENTUM",
+      "preparation": "VALID_STATE_INJECTION",
+      "representation": "R02",
+      "source_count": 1,
+      "source_regime": "VALID_STATE_INJECTION",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV212_MULTISTATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "NODE_MOMENTUM",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "VALID_STATE_INJECTION",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "VALID_STATE_INJECTION",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "spatial propagation",
+    "test_id": "T03_PROPAGATION"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "NODE_MOMENTUM",
+      "preparation": "VALID_STATE_INJECTION",
+      "representation": "R02",
+      "source_count": 1,
+      "source_regime": "VALID_STATE_INJECTION",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV212_MULTISTATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "NODE_MOMENTUM",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "VALID_STATE_INJECTION",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "VALID_STATE_INJECTION",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "neighbor relay",
+    "test_id": "T04_NEIGHBOR_RELAY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "NODE_MOMENTUM",
+      "preparation": "VALID_STATE_INJECTION",
+      "representation": "R02",
+      "source_count": 1,
+      "source_regime": "VALID_STATE_INJECTION",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV212_MULTISTATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "NODE_MOMENTUM",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "VALID_STATE_INJECTION",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "VALID_STATE_INJECTION",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "stress coupling",
+    "test_id": "T05_STRESS_COUPLING"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "MULTI_STEP_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "MULTI_STEP_N6",
+      "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "TWO_PREPARATION_AGGREGATE",
+      "representation": "R02",
+      "source_count": 2,
+      "source_regime": "TWO_PREPARATION_AGGREGATE",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV213_AGGREGATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "TWO_PREPARATION_AGGREGATE",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 2,
+    "source_regime": "TWO_PREPARATION_AGGREGATE",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "quiet-state activity",
+    "test_id": "T01_QUIET_STATE"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "MULTI_STEP_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "MULTI_STEP_N6",
+      "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "TWO_PREPARATION_AGGREGATE",
+      "representation": "R02",
+      "source_count": 2,
+      "source_regime": "TWO_PREPARATION_AGGREGATE",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV213_AGGREGATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "TWO_PREPARATION_AGGREGATE",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 2,
+    "source_regime": "TWO_PREPARATION_AGGREGATE",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "excitation activity",
+    "test_id": "T02_EXCITATION_ACTIVITY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "MULTI_STEP_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "MULTI_STEP_N6",
+      "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "TWO_PREPARATION_AGGREGATE",
+      "representation": "R02",
+      "source_count": 2,
+      "source_regime": "TWO_PREPARATION_AGGREGATE",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV213_AGGREGATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "TWO_PREPARATION_AGGREGATE",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 2,
+    "source_regime": "TWO_PREPARATION_AGGREGATE",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "spatial propagation",
+    "test_id": "T03_PROPAGATION"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "MULTI_STEP_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "MULTI_STEP_N6",
+      "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "TWO_PREPARATION_AGGREGATE",
+      "representation": "R02",
+      "source_count": 2,
+      "source_regime": "TWO_PREPARATION_AGGREGATE",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV213_AGGREGATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "TWO_PREPARATION_AGGREGATE",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 2,
+    "source_regime": "TWO_PREPARATION_AGGREGATE",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "neighbor relay",
+    "test_id": "T04_NEIGHBOR_RELAY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "MULTI_STEP_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "MULTI_STEP_N6",
+      "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "TWO_PREPARATION_AGGREGATE",
+      "representation": "R02",
+      "source_count": 2,
+      "source_regime": "TWO_PREPARATION_AGGREGATE",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV213_AGGREGATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "TWO_PREPARATION_AGGREGATE",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 2,
+    "source_regime": "TWO_PREPARATION_AGGREGATE",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "stress coupling",
+    "test_id": "T05_STRESS_COUPLING"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "BOND_STRAIN",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R03",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV221_GEOMETRY",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_STRAIN",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R03",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "quiet-state activity",
+    "test_id": "T01_QUIET_STATE"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "BOND_STRAIN",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R03",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV221_GEOMETRY",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_STRAIN",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R03",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "excitation activity",
+    "test_id": "T02_EXCITATION_ACTIVITY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "BOND_STRAIN",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R03",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV221_GEOMETRY",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_STRAIN",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R03",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "spatial propagation",
+    "test_id": "T03_PROPAGATION"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "BOND_STRAIN",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R03",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV221_GEOMETRY",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_STRAIN",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R03",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "neighbor relay",
+    "test_id": "T04_NEIGHBOR_RELAY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "CANONICAL_DEV182_PACKET",
+      "observer": "BOND_STRAIN",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R03",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "PROPAGATING"
+    },
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV221_GEOMETRY",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "BOND_STRAIN",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R03",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "PROPAGATING",
+    "test_definition": "stress coupling",
+    "test_id": "T05_STRESS_COUPLING"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "FULL_PERIODIC_N6_VOLUME",
+      "observer": "ORDERED_N6_MISMATCH",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R13",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "BOUNDED_DYNAMIC"
+    },
+    "geometry": "FULL_PERIODIC_N6_VOLUME",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV223_PATTERN",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "ORDERED_N6_MISMATCH",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R13",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "BOUNDED_DYNAMIC",
+    "test_definition": "quiet-state activity",
+    "test_id": "T01_QUIET_STATE"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "FULL_PERIODIC_N6_VOLUME",
+      "observer": "ORDERED_N6_MISMATCH",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R13",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "BOUNDED_DYNAMIC"
+    },
+    "geometry": "FULL_PERIODIC_N6_VOLUME",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV223_PATTERN",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "ORDERED_N6_MISMATCH",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R13",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "BOUNDED_DYNAMIC",
+    "test_definition": "excitation activity",
+    "test_id": "T02_EXCITATION_ACTIVITY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "FULL_PERIODIC_N6_VOLUME",
+      "observer": "ORDERED_N6_MISMATCH",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R13",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "BOUNDED_DYNAMIC"
+    },
+    "geometry": "FULL_PERIODIC_N6_VOLUME",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV223_PATTERN",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "ORDERED_N6_MISMATCH",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R13",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "BOUNDED_DYNAMIC",
+    "test_definition": "spatial propagation",
+    "test_id": "T03_PROPAGATION"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "FULL_PERIODIC_N6_VOLUME",
+      "observer": "ORDERED_N6_MISMATCH",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R13",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "BOUNDED_DYNAMIC"
+    },
+    "geometry": "FULL_PERIODIC_N6_VOLUME",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV223_PATTERN",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "ORDERED_N6_MISMATCH",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R13",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "BOUNDED_DYNAMIC",
+    "test_definition": "neighbor relay",
+    "test_id": "T04_NEIGHBOR_RELAY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "FULL_PERIODIC_N6_VOLUME",
+      "observer": "ORDERED_N6_MISMATCH",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R13",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "BOUNDED_DYNAMIC"
+    },
+    "geometry": "FULL_PERIODIC_N6_VOLUME",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV223_PATTERN",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "ORDERED_N6_MISMATCH",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R13",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "BOUNDED_DYNAMIC",
+    "test_definition": "stress coupling",
+    "test_id": "T05_STRESS_COUPLING"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "FULL_PERIODIC_N6_VOLUME",
+      "observer": "NEAREST_NEIGHBOR_CONTRACTION",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R14",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "BOUNDED_DYNAMIC"
+    },
+    "geometry": "FULL_PERIODIC_N6_VOLUME",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV225_CONTRACTION",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "NEAREST_NEIGHBOR_CONTRACTION",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R14",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "BOUNDED_DYNAMIC",
+    "test_definition": "quiet-state activity",
+    "test_id": "T01_QUIET_STATE"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "FULL_PERIODIC_N6_VOLUME",
+      "observer": "NEAREST_NEIGHBOR_CONTRACTION",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R14",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "BOUNDED_DYNAMIC"
+    },
+    "geometry": "FULL_PERIODIC_N6_VOLUME",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV225_CONTRACTION",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "NEAREST_NEIGHBOR_CONTRACTION",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R14",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "BOUNDED_DYNAMIC",
+    "test_definition": "excitation activity",
+    "test_id": "T02_EXCITATION_ACTIVITY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "FULL_PERIODIC_N6_VOLUME",
+      "observer": "NEAREST_NEIGHBOR_CONTRACTION",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R14",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "BOUNDED_DYNAMIC"
+    },
+    "geometry": "FULL_PERIODIC_N6_VOLUME",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV225_CONTRACTION",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "NEAREST_NEIGHBOR_CONTRACTION",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R14",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "BOUNDED_DYNAMIC",
+    "test_definition": "spatial propagation",
+    "test_id": "T03_PROPAGATION"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "FULL_PERIODIC_N6_VOLUME",
+      "observer": "NEAREST_NEIGHBOR_CONTRACTION",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R14",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "BOUNDED_DYNAMIC"
+    },
+    "geometry": "FULL_PERIODIC_N6_VOLUME",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV225_CONTRACTION",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "NEAREST_NEIGHBOR_CONTRACTION",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R14",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "BOUNDED_DYNAMIC",
+    "test_definition": "neighbor relay",
+    "test_id": "T04_NEIGHBOR_RELAY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "DIRECT_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "DIRECT_N6",
+      "geometry": "FULL_PERIODIC_N6_VOLUME",
+      "observer": "NEAREST_NEIGHBOR_CONTRACTION",
+      "preparation": "PREPARED_PACKET",
+      "representation": "R14",
+      "source_count": 1,
+      "source_regime": "PREPARED_PACKET",
+      "temporal_regime": "BOUNDED_DYNAMIC"
+    },
+    "geometry": "FULL_PERIODIC_N6_VOLUME",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV225_CONTRACTION",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "NEAREST_NEIGHBOR_CONTRACTION",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R14",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "BOUNDED_DYNAMIC",
+    "test_definition": "stress coupling",
+    "test_id": "T05_STRESS_COUPLING"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "MULTI_STEP_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "MULTI_STEP_N6",
+      "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "FINITE_X_AGGREGATE",
+      "representation": "R02",
+      "source_count": 2,
+      "source_regime": "FINITE_X_AGGREGATE",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV213_AGGREGATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "FINITE_X_AGGREGATE",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 2,
+    "source_regime": "FINITE_X_AGGREGATE",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "quiet-state activity",
+    "test_id": "T01_QUIET_STATE"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "MULTI_STEP_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "MULTI_STEP_N6",
+      "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "FINITE_X_AGGREGATE",
+      "representation": "R02",
+      "source_count": 2,
+      "source_regime": "FINITE_X_AGGREGATE",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV213_AGGREGATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "FINITE_X_AGGREGATE",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 2,
+    "source_regime": "FINITE_X_AGGREGATE",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "excitation activity",
+    "test_id": "T02_EXCITATION_ACTIVITY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "MULTI_STEP_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "MULTI_STEP_N6",
+      "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "FINITE_X_AGGREGATE",
+      "representation": "R02",
+      "source_count": 2,
+      "source_regime": "FINITE_X_AGGREGATE",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV213_AGGREGATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "FINITE_X_AGGREGATE",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 2,
+    "source_regime": "FINITE_X_AGGREGATE",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "spatial propagation",
+    "test_id": "T03_PROPAGATION"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "MULTI_STEP_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "MULTI_STEP_N6",
+      "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "FINITE_X_AGGREGATE",
+      "representation": "R02",
+      "source_count": 2,
+      "source_regime": "FINITE_X_AGGREGATE",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV213_AGGREGATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "FINITE_X_AGGREGATE",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 2,
+    "source_regime": "FINITE_X_AGGREGATE",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "neighbor relay",
+    "test_id": "T04_NEIGHBOR_RELAY"
+  },
+  {
+    "background_loading_regime": "UNLOADED",
+    "boundary_conditions": "PERIODIC_N6",
+    "broader_claims_not_authorized": [
+      "physical mechanism absent",
+      "representation fails",
+      "source family fails"
+    ],
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "classification": "BLOCKED_ARCHIVE",
+    "closure_scope": "No physical cell closure: execution is blocked by missing archival state.",
+    "collective_scale": "MULTI_STEP_N6",
+    "execution_confidence": "HIGH",
+    "frozen_conditions": {
+      "background_loading_regime": "UNLOADED",
+      "boundary_conditions": "PERIODIC_N6",
+      "collective_scale": "MULTI_STEP_N6",
+      "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+      "observer": "FULL_NATIVE_STATE",
+      "preparation": "FINITE_X_AGGREGATE",
+      "representation": "R02",
+      "source_count": 2,
+      "source_regime": "FINITE_X_AGGREGATE",
+      "temporal_regime": "TRANSIENT"
+    },
+    "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+    "historical_or_new": "EMX002_EXECUTION_BLOCKED",
+    "independence_group": "GROUP_DEV213_AGGREGATE",
+    "information_loss_relevance": "NONCOMPARABLE",
+    "initial_support_class": "UNAVAILABLE_ARCHIVAL_INFORMATION",
+    "matched_control": {
+      "present": false,
+      "rule": "No T02 ACTIVATED result without an independently defined matched control.",
+      "status": "BLOCKED_ARCHIVAL_INFORMATION"
+    },
+    "native_evidence": {
+      "deterministic_replay_authorized": false,
+      "historical_status": "VALID_REPRODUCIBLE",
+      "origin_files": [
+        "docs/PBUF_MECHANISM_REGISTRY.json",
+        "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+      ],
+      "replay_required": true
+    },
+    "observer": "FULL_NATIVE_STATE",
+    "physical_interpretation_confidence": "NOT_AUTHORIZED",
+    "preparation": "FINITE_X_AGGREGATE",
+    "representation": "R02",
+    "result_metrics": {
+      "reason": "No time-resolved native state in EMX001 import.",
+      "status": "NOT_COMPUTED"
+    },
+    "source_count": 2,
+    "source_regime": "FINITE_X_AGGREGATE",
+    "status": "BLOCKED_ARCHIVAL_INFORMATION",
+    "temporal_regime": "TRANSIENT",
+    "test_definition": "stress coupling",
+    "test_id": "T05_STRESS_COUPLING"
+  }
+]

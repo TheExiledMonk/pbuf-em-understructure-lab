@@ -73,5 +73,20 @@
     "definition": "near/far evolution",
     "execution": "FROZEN_NOT_RUN",
     "test_id": "T15_NEAR_FAR"
+  },
+  {
+    "definition": "directional loading transverse mode split",
+    "execution": "FUTURE_GATE",
+    "test_id": "T16_DIRECTIONAL_LOADING_TRANSVERSE_MODE_SPLIT"
+  },
+  {
+    "definition": "loaded geometry tracking",
+    "execution": "FUTURE_GATE",
+    "test_id": "T17_LOADED_GEOMETRY_TRACKING"
+  },
+  {
+    "definition": "orientation decoupling",
+    "execution": "FUTURE_GATE",
+    "test_id": "T18_ORIENTATION_DECOUPLING"
   }
 ]
