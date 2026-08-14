@@ -1,0 +1,44 @@
+{
+  "EMX017_SELECTOR_FROZEN": true,
+  "EMX017_SELECTOR_VERIFIED": "ALTERNATIVE_LAW_COMPATIBILITY_AUTHORITY_GATE",
+  "contract_sha256": "4f179f5fd8a689aa8b5beb20d7d492c14742352e247c4b67d5b97f7127dc256d",
+  "inputs": {
+    "emx016_matrix": "runs/emx016/dev167_failure_combination_matrix.json",
+    "external_commit": "7b41901fea16e0e6e8ca3a5949536658102ceeee",
+    "external_repository": "https://github.com/TheExiledMonk/lab.git",
+    "retained_positive_constraint_count": 76
+  },
+  "mode": "READ_ONLY_COMPATIBILITY_AND_AUTHORITY_GATE",
+  "nonunique_constraint_rule": "A pass, non-rejection, common, mixed, or partial response remains a retained constraint; it is not discarded merely because it is not unique alone.",
+  "prohibitions": {
+    "CANONICAL_REPO_READ_ONLY": true,
+    "EXTERNAL_REPOSITORY_READ_ONLY": true,
+    "NO_ALTERNATIVE_CODE_IMPORT": true,
+    "NO_ALTERNATIVE_DYNAMICS_EXECUTION": true,
+    "NO_DEV167_MODIFICATION": true,
+    "NO_EM_QED_MAPPING": true,
+    "NO_LOAD_OR_GEOMETRY_SCAN": true,
+    "NO_NEW_DOF": true,
+    "NO_NEW_FORCE": true,
+    "NO_NEW_LOADING": true,
+    "NO_NEW_PACKET": true,
+    "NO_NEW_SOURCE": true,
+    "NO_PARAMETER_FITTING": true,
+    "NO_RESULT_SELECTED_AXIS_BASIS_TIME_REGION": true
+  },
+  "shared_fair_comparison_requirements": {
+    "backgrounds": "existing DEV195 unloaded and DEV195_DEV202 self-loaded histories only",
+    "boundary": "periodic N6",
+    "comparison": "predeclared full-history native observables only",
+    "controls": "existing matched unloaded control and fixed y/z swap/reflection observer controls",
+    "dt": 0.04,
+    "lattice": "frozen N6 11^3",
+    "probe": "existing DEV182/EMX011 matched packet only"
+  },
+  "verdict_vocabulary": [
+    "SUFFICIENT_FOR_FAIR_FROZEN_COMPARISON",
+    "MISSING_EXECUTABLE_DEFINITION_OR_AUTHORITY",
+    "INCOMPATIBLE_STATE_FORCE_OR_INTEGRATOR",
+    "STRUCTURAL_COMPARISON_ONLY"
+  ]
+}
