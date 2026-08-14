@@ -1,0 +1,5 @@
+{
+  "EMX008_TEST_SELECTION": "LONGITUDINAL_COUPLING_DEEP_AUDIT",
+  "EMX008_TEST_SELECTION_FROZEN": true,
+  "basis": "parent longitudinal sector is present but its coupling requires a deeper exact dependency audit"
+}

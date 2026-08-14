@@ -1,0 +1,95 @@
+{
+  "EMX007_TEST_SELECTION": "NATIVE_MODE_STRUCTURE_AUDIT",
+  "EMX007_TEST_SELECTION_FROZEN": true,
+  "candidate_representations": [
+    "FULL_STATE",
+    "RELATIONAL_CHANGE",
+    "FULL_RELATIONAL_TENSOR",
+    "ORIENTATION_STRESS",
+    "FULL_FORCE_CHANGE",
+    "SIGNED_NEIGHBOR_MISMATCH",
+    "C005_DEV203_ANTISYMMETRIC_TENSOR:ZERO_TRANSVERSE_DYNAMIC_RANK"
+  ],
+  "classification_vocabulary": {
+    "T11": [
+      "TWO_INDEPENDENT_TRANSVERSE_MODES",
+      "ONE_TRANSVERSE_MODE_TWO_COMPONENTS",
+      "DEGENERATE_TRANSVERSE_SECTOR",
+      "TRANSVERSE_MODE_COUPLED_NONSEPARABLE",
+      "BLOCKED_INFORMATION_LOSS"
+    ],
+    "T12": [
+      "TRANSVERSE_DEGENERATE",
+      "TRANSVERSE_SPLIT",
+      "TRANSVERSE_PARTIAL_DEGENERACY",
+      "INCONCLUSIVE"
+    ],
+    "T13": [
+      "LONGITUDINAL_INDEPENDENT_MODE",
+      "LONGITUDINAL_COUPLED_TO_TRANSVERSE",
+      "LONGITUDINAL_GEOMETRIC_BYPRODUCT",
+      "LONGITUDINAL_CONSTRAINT_RESPONSE",
+      "MIXED_NONSEPARABLE",
+      "INCONCLUSIVE"
+    ]
+  },
+  "contract_sha256": "d8e1565a088192b006585749b29e6a5229647ec7408b0096fc447777560fa54d",
+  "mode_decomposition": "Psi=(q1,q2,q_parallel,p1,p2,p_parallel), excited-minus-background only",
+  "numerical_tolerances": {
+    "absolute_activity_and_rank": 1e-12,
+    "rule": "fixed before analysis; no threshold fitting"
+  },
+  "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+  "phase_correlation_diagnostics": "normalized inner products of complete frozen time-space histories; no fitted frequency",
+  "prohibitions": {
+    "CANONICAL_REPO_READ_ONLY": true,
+    "NO_ASSIGNED_POLARITY_SIGN": true,
+    "NO_B_FIELD": true,
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_FIELD": true,
+    "NO_MAXWELL_MAPPING": true,
+    "NO_NEW_DOF": true,
+    "NO_NEW_FORCE": true,
+    "NO_NEW_LOADING": true,
+    "NO_NEW_PACKET": true,
+    "NO_NEW_PHYSICS": true,
+    "NO_NEW_SOURCE": true,
+    "NO_POLARIZATION_LABEL": true,
+    "NO_RESULT_SELECTED_AXIS": true,
+    "NO_RESULT_SELECTED_BASIS": true,
+    "NO_RESULT_SELECTED_FREQUENCY": true,
+    "NO_RESULT_SELECTED_PHASE": true,
+    "NO_RESULT_SELECTED_REGION": true,
+    "NO_RESULT_SELECTED_TIME": true,
+    "NO_T16_T18_EXECUTION": true,
+    "NO_THRESHOLD_FITTING": true,
+    "NO_TOPOLOGY_POLARITY_EXECUTION": true
+  },
+  "propagation_direction": {
+    "derivation": "frozen DEV182 launch geometry",
+    "k_hat": [
+      1,
+      0,
+      0
+    ]
+  },
+  "rank_tests": {
+    "absolute_svd_tolerance": 1e-12,
+    "matrix": "time-space rows, transverse q1,q2,p1,p2 columns"
+  },
+  "spatial_samples": "full periodic 11x11x11 lattice; bond quantities uniformly averaged over all ordered N6 bonds",
+  "time_samples": "all archived t=0..360",
+  "transverse_plane": {
+    "basis_e1": [
+      0,
+      1,
+      0
+    ],
+    "basis_e2": [
+      0,
+      0,
+      1
+    ],
+    "derivation": "lattice y then z axes after fixed x propagation axis"
+  }
+}

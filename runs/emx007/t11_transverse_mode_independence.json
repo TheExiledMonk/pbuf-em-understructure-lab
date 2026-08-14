@@ -1,0 +1,161 @@
+{
+  "records": [
+    {
+      "classification": "TWO_INDEPENDENT_TRANSVERSE_MODES",
+      "metrics": {
+        "component_state_ranks": [
+          2,
+          2
+        ],
+        "exchange_correlation": 0.0,
+        "longitudinal_transverse_correlation": 0.025954888463503006,
+        "sector_norms": [
+          0.00045197590009726633,
+          0.0004008833464423642,
+          0.25080311270538935
+        ],
+        "singular_values": [
+          0.0003641405775802481,
+          0.0003328858273966982,
+          0.00026778762360958624,
+          0.00022331172392660523
+        ],
+        "transverse_cross_correlation": 0.008942986573068669,
+        "transverse_full_state_rank": 4
+      },
+      "parent_priority": "FULL_STATE_DERIVED",
+      "representation": "FULL_STATE"
+    },
+    {
+      "classification": "TWO_INDEPENDENT_TRANSVERSE_MODES",
+      "metrics": {
+        "component_state_ranks": [
+          2,
+          2
+        ],
+        "exchange_correlation": 0.0,
+        "longitudinal_transverse_correlation": 0.1402275263317945,
+        "sector_norms": [
+          0.0002498440351458421,
+          0.0002666689373224617,
+          0.11928598501059036
+        ],
+        "singular_values": [
+          0.00021736624283298005,
+          0.00018985882716275943,
+          0.00016261512664999614,
+          0.00015426025683993414
+        ],
+        "transverse_cross_correlation": 0.022733195814158315,
+        "transverse_full_state_rank": 4
+      },
+      "parent_priority": "REDUCTION_PRESERVED",
+      "representation": "RELATIONAL_CHANGE"
+    },
+    {
+      "classification": "TWO_INDEPENDENT_TRANSVERSE_MODES",
+      "metrics": {
+        "component_state_ranks": [
+          2,
+          2
+        ],
+        "exchange_correlation": 0.05163423046784146,
+        "longitudinal_transverse_correlation": 0.20827822699858028,
+        "sector_norms": [
+          0.25594737660443084,
+          0.20501405988347904,
+          0.04833620995016406
+        ],
+        "singular_values": [
+          0.20756912653120937,
+          0.17586827183499107,
+          0.14300638968263435,
+          0.11434336676612078
+        ],
+        "transverse_cross_correlation": 0.2581339246528288,
+        "transverse_full_state_rank": 4
+      },
+      "parent_priority": "REDUCTION_PRESERVED",
+      "representation": "FULL_RELATIONAL_TENSOR"
+    },
+    {
+      "classification": "TWO_INDEPENDENT_TRANSVERSE_MODES",
+      "metrics": {
+        "component_state_ranks": [
+          2,
+          2
+        ],
+        "exchange_correlation": 0.0,
+        "longitudinal_transverse_correlation": 0.0,
+        "sector_norms": [
+          1.2994914253279839e-08,
+          1.2038326998856567e-08,
+          1.235023987128976e-05
+        ],
+        "singular_values": [
+          1.345535671512669e-08,
+          1.1521347477701291e-08,
+          3.020791829320505e-11,
+          1.1350332774733429e-11
+        ],
+        "transverse_cross_correlation": 0.0,
+        "transverse_full_state_rank": 4
+      },
+      "parent_priority": "REDUCTION_PRESERVED",
+      "representation": "ORIENTATION_STRESS"
+    },
+    {
+      "classification": "TWO_INDEPENDENT_TRANSVERSE_MODES",
+      "metrics": {
+        "component_state_ranks": [
+          2,
+          2
+        ],
+        "exchange_correlation": 0.0,
+        "longitudinal_transverse_correlation": 0.04180346550611595,
+        "sector_norms": [
+          0.0001897918099790678,
+          0.00018168074959121802,
+          0.008055830194173615
+        ],
+        "singular_values": [
+          0.0001549666322449765,
+          0.00014668355290913446,
+          0.00011707338231821448,
+          9.895416745313315e-05
+        ],
+        "transverse_cross_correlation": 0.10846320430223491,
+        "transverse_full_state_rank": 4
+      },
+      "parent_priority": "REDUCTION_PRESERVED",
+      "representation": "FULL_FORCE_CHANGE"
+    },
+    {
+      "classification": "TWO_INDEPENDENT_TRANSVERSE_MODES",
+      "metrics": {
+        "component_state_ranks": [
+          2,
+          2
+        ],
+        "exchange_correlation": 0.0,
+        "longitudinal_transverse_correlation": 0.1402275263317945,
+        "sector_norms": [
+          0.0002498440351458421,
+          0.0002666689373224617,
+          0.11928598501059036
+        ],
+        "singular_values": [
+          0.00021736624283298005,
+          0.00018985882716275943,
+          0.00016261512664999614,
+          0.00015426025683993414
+        ],
+        "transverse_cross_correlation": 0.022733195814158315,
+        "transverse_full_state_rank": 4
+      },
+      "parent_priority": "REDUCTION_PRESERVED",
+      "representation": "SIGNED_NEIGHBOR_MISMATCH"
+    }
+  ],
+  "test_id": "T11"
+}

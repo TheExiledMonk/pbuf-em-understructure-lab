@@ -1,0 +1,9 @@
+{
+  "ASSIGNED_POLARITY_SIGN": "FORBIDDEN",
+  "DERIVED_NATIVE_ORIENTATION_SIGN": "ADMISSIBLE_FUTURE_TEST",
+  "F14_TOPOLOGY_CARRIED_STATE": "REGISTERED_NOT_EXECUTED",
+  "F15_NATIVE_ORIENTATION_SIGN": "REGISTERED_NOT_EXECUTED",
+  "F16_JUNCTION_OR_CYCLE_INVARIANT": "REGISTERED_NOT_EXECUTED",
+  "TOPOLOGY_CARRIED_STATE_LANE": "FUTURE_GATE",
+  "question": "Does existing native relational dynamics contain a multi-relation orientation/topology state not reducible to an individual node or bond?"
+}

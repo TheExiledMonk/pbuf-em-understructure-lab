@@ -1,0 +1,29 @@
+{
+  "method": "normalized inner products of complete frozen time-space histories; no fitted frequency",
+  "records": [
+    {
+      "classification": "VARIABLE_PHASE",
+      "representation": "FULL_STATE"
+    },
+    {
+      "classification": "VARIABLE_PHASE",
+      "representation": "RELATIONAL_CHANGE"
+    },
+    {
+      "classification": "VARIABLE_PHASE",
+      "representation": "FULL_RELATIONAL_TENSOR"
+    },
+    {
+      "classification": "NO_STABLE_PHASE_RELATION",
+      "representation": "ORIENTATION_STRESS"
+    },
+    {
+      "classification": "VARIABLE_PHASE",
+      "representation": "FULL_FORCE_CHANGE"
+    },
+    {
+      "classification": "VARIABLE_PHASE",
+      "representation": "SIGNED_NEIGHBOR_MISMATCH"
+    }
+  ]
+}

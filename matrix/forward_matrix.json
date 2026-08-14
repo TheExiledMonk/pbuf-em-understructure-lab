@@ -9200,5 +9200,12 @@
       "result": "MIXED_SECONDARY_STRUCTURE",
       "selector": "NATIVE_MODE_STRUCTURE_AUDIT"
     }
+  },
+  {
+    "EMX007_RECORD": "emx007_status",
+    "value": {
+      "result": "NATIVE_MODE_STRUCTURE_PARTIALLY_RESOLVED",
+      "selector": "LONGITUDINAL_COUPLING_DEEP_AUDIT"
+    }
   }
 ]

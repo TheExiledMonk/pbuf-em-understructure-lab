@@ -121,5 +121,15 @@
       "PARITY_OR_HANDEDNESS_STRUCTURE"
     ],
     "status": "SAME_PARENT_RECURRENCE"
+  },
+  {
+    "feature_id": "F16_NATIVE_MODE_STRUCTURE",
+    "features": [
+      "NATIVE_TWO_TRANSVERSE_MODE_STRUCTURE",
+      "NATIVE_LONGITUDINAL_DYNAMIC_SECTOR",
+      "NATIVE_MODE_COUPLING_STRUCTURE"
+    ],
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "status": "SAME_PARENT_PARENT_DERIVED"
   }
 ]

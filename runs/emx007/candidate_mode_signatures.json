@@ -1,0 +1,267 @@
+{
+  "C005_DEV203_ANTISYMMETRIC_TENSOR": {
+    "classification": "DEGENERATE_TRANSVERSE_SECTOR",
+    "known_zero_transverse_dynamic_rank": 0,
+    "parent_priority": "REDUCTION_DESTROYED"
+  },
+  "signatures": {
+    "FULL_FORCE_CHANGE": {
+      "T11": "TWO_INDEPENDENT_TRANSVERSE_MODES",
+      "T12": "TRANSVERSE_PARTIAL_DEGENERACY",
+      "T13": "LONGITUDINAL_COUPLED_TO_TRANSVERSE",
+      "T14": {
+        "LONGITUDINAL_PROPAGATING": true,
+        "TRANSVERSE_1_PROPAGATING": true,
+        "TRANSVERSE_2_PROPAGATING": true,
+        "transport": "CO_MOVING"
+      },
+      "T15": "NO_MODE_EXCHANGE",
+      "metrics": {
+        "component_state_ranks": [
+          2,
+          2
+        ],
+        "exchange_correlation": 0.0,
+        "longitudinal_transverse_correlation": 0.04180346550611595,
+        "sector_norms": [
+          0.0001897918099790678,
+          0.00018168074959121802,
+          0.008055830194173615
+        ],
+        "singular_values": [
+          0.0001549666322449765,
+          0.00014668355290913446,
+          0.00011707338231821448,
+          9.895416745313315e-05
+        ],
+        "transverse_cross_correlation": 0.10846320430223491,
+        "transverse_full_state_rank": 4
+      },
+      "parent_priority": "REDUCTION_PRESERVED",
+      "phase_relation": "VARIABLE_PHASE",
+      "representation": "FULL_FORCE_CHANGE",
+      "signature": [
+        "TWO_INDEPENDENT_TRANSVERSE_MODES",
+        "TRANSVERSE_PARTIAL_DEGENERACY",
+        "LONGITUDINAL_COUPLED_TO_TRANSVERSE",
+        "CO_MOVING",
+        "NO_MODE_EXCHANGE"
+      ]
+    },
+    "FULL_RELATIONAL_TENSOR": {
+      "T11": "TWO_INDEPENDENT_TRANSVERSE_MODES",
+      "T12": "TRANSVERSE_PARTIAL_DEGENERACY",
+      "T13": "LONGITUDINAL_COUPLED_TO_TRANSVERSE",
+      "T14": {
+        "LONGITUDINAL_PROPAGATING": true,
+        "TRANSVERSE_1_PROPAGATING": true,
+        "TRANSVERSE_2_PROPAGATING": true,
+        "transport": "CO_MOVING"
+      },
+      "T15": "TRANSVERSE_LONGITUDINAL_EXCHANGE",
+      "metrics": {
+        "component_state_ranks": [
+          2,
+          2
+        ],
+        "exchange_correlation": 0.05163423046784146,
+        "longitudinal_transverse_correlation": 0.20827822699858028,
+        "sector_norms": [
+          0.25594737660443084,
+          0.20501405988347904,
+          0.04833620995016406
+        ],
+        "singular_values": [
+          0.20756912653120937,
+          0.17586827183499107,
+          0.14300638968263435,
+          0.11434336676612078
+        ],
+        "transverse_cross_correlation": 0.2581339246528288,
+        "transverse_full_state_rank": 4
+      },
+      "parent_priority": "REDUCTION_PRESERVED",
+      "phase_relation": "VARIABLE_PHASE",
+      "representation": "FULL_RELATIONAL_TENSOR",
+      "signature": [
+        "TWO_INDEPENDENT_TRANSVERSE_MODES",
+        "TRANSVERSE_PARTIAL_DEGENERACY",
+        "LONGITUDINAL_COUPLED_TO_TRANSVERSE",
+        "CO_MOVING",
+        "TRANSVERSE_LONGITUDINAL_EXCHANGE"
+      ]
+    },
+    "FULL_STATE": {
+      "T11": "TWO_INDEPENDENT_TRANSVERSE_MODES",
+      "T12": "TRANSVERSE_PARTIAL_DEGENERACY",
+      "T13": "LONGITUDINAL_COUPLED_TO_TRANSVERSE",
+      "T14": {
+        "LONGITUDINAL_PROPAGATING": true,
+        "TRANSVERSE_1_PROPAGATING": true,
+        "TRANSVERSE_2_PROPAGATING": true,
+        "transport": "CO_MOVING"
+      },
+      "T15": "NO_MODE_EXCHANGE",
+      "metrics": {
+        "component_state_ranks": [
+          2,
+          2
+        ],
+        "exchange_correlation": 0.0,
+        "longitudinal_transverse_correlation": 0.025954888463503006,
+        "sector_norms": [
+          0.00045197590009726633,
+          0.0004008833464423642,
+          0.25080311270538935
+        ],
+        "singular_values": [
+          0.0003641405775802481,
+          0.0003328858273966982,
+          0.00026778762360958624,
+          0.00022331172392660523
+        ],
+        "transverse_cross_correlation": 0.008942986573068669,
+        "transverse_full_state_rank": 4
+      },
+      "parent_priority": "FULL_STATE_DERIVED",
+      "phase_relation": "VARIABLE_PHASE",
+      "representation": "FULL_STATE",
+      "signature": [
+        "TWO_INDEPENDENT_TRANSVERSE_MODES",
+        "TRANSVERSE_PARTIAL_DEGENERACY",
+        "LONGITUDINAL_COUPLED_TO_TRANSVERSE",
+        "CO_MOVING",
+        "NO_MODE_EXCHANGE"
+      ]
+    },
+    "ORIENTATION_STRESS": {
+      "T11": "TWO_INDEPENDENT_TRANSVERSE_MODES",
+      "T12": "TRANSVERSE_PARTIAL_DEGENERACY",
+      "T13": "LONGITUDINAL_INDEPENDENT_MODE",
+      "T14": {
+        "LONGITUDINAL_PROPAGATING": true,
+        "TRANSVERSE_1_PROPAGATING": true,
+        "TRANSVERSE_2_PROPAGATING": true,
+        "transport": "CO_MOVING"
+      },
+      "T15": "NO_MODE_EXCHANGE",
+      "metrics": {
+        "component_state_ranks": [
+          2,
+          2
+        ],
+        "exchange_correlation": 0.0,
+        "longitudinal_transverse_correlation": 0.0,
+        "sector_norms": [
+          1.2994914253279839e-08,
+          1.2038326998856567e-08,
+          1.235023987128976e-05
+        ],
+        "singular_values": [
+          1.345535671512669e-08,
+          1.1521347477701291e-08,
+          3.020791829320505e-11,
+          1.1350332774733429e-11
+        ],
+        "transverse_cross_correlation": 0.0,
+        "transverse_full_state_rank": 4
+      },
+      "parent_priority": "REDUCTION_PRESERVED",
+      "phase_relation": "NO_STABLE_PHASE_RELATION",
+      "representation": "ORIENTATION_STRESS",
+      "signature": [
+        "TWO_INDEPENDENT_TRANSVERSE_MODES",
+        "TRANSVERSE_PARTIAL_DEGENERACY",
+        "LONGITUDINAL_INDEPENDENT_MODE",
+        "CO_MOVING",
+        "NO_MODE_EXCHANGE"
+      ]
+    },
+    "RELATIONAL_CHANGE": {
+      "T11": "TWO_INDEPENDENT_TRANSVERSE_MODES",
+      "T12": "TRANSVERSE_PARTIAL_DEGENERACY",
+      "T13": "LONGITUDINAL_COUPLED_TO_TRANSVERSE",
+      "T14": {
+        "LONGITUDINAL_PROPAGATING": true,
+        "TRANSVERSE_1_PROPAGATING": true,
+        "TRANSVERSE_2_PROPAGATING": true,
+        "transport": "CO_MOVING"
+      },
+      "T15": "NO_MODE_EXCHANGE",
+      "metrics": {
+        "component_state_ranks": [
+          2,
+          2
+        ],
+        "exchange_correlation": 0.0,
+        "longitudinal_transverse_correlation": 0.1402275263317945,
+        "sector_norms": [
+          0.0002498440351458421,
+          0.0002666689373224617,
+          0.11928598501059036
+        ],
+        "singular_values": [
+          0.00021736624283298005,
+          0.00018985882716275943,
+          0.00016261512664999614,
+          0.00015426025683993414
+        ],
+        "transverse_cross_correlation": 0.022733195814158315,
+        "transverse_full_state_rank": 4
+      },
+      "parent_priority": "REDUCTION_PRESERVED",
+      "phase_relation": "VARIABLE_PHASE",
+      "representation": "RELATIONAL_CHANGE",
+      "signature": [
+        "TWO_INDEPENDENT_TRANSVERSE_MODES",
+        "TRANSVERSE_PARTIAL_DEGENERACY",
+        "LONGITUDINAL_COUPLED_TO_TRANSVERSE",
+        "CO_MOVING",
+        "NO_MODE_EXCHANGE"
+      ]
+    },
+    "SIGNED_NEIGHBOR_MISMATCH": {
+      "T11": "TWO_INDEPENDENT_TRANSVERSE_MODES",
+      "T12": "TRANSVERSE_PARTIAL_DEGENERACY",
+      "T13": "LONGITUDINAL_COUPLED_TO_TRANSVERSE",
+      "T14": {
+        "LONGITUDINAL_PROPAGATING": true,
+        "TRANSVERSE_1_PROPAGATING": true,
+        "TRANSVERSE_2_PROPAGATING": true,
+        "transport": "CO_MOVING"
+      },
+      "T15": "NO_MODE_EXCHANGE",
+      "metrics": {
+        "component_state_ranks": [
+          2,
+          2
+        ],
+        "exchange_correlation": 0.0,
+        "longitudinal_transverse_correlation": 0.1402275263317945,
+        "sector_norms": [
+          0.0002498440351458421,
+          0.0002666689373224617,
+          0.11928598501059036
+        ],
+        "singular_values": [
+          0.00021736624283298005,
+          0.00018985882716275943,
+          0.00016261512664999614,
+          0.00015426025683993414
+        ],
+        "transverse_cross_correlation": 0.022733195814158315,
+        "transverse_full_state_rank": 4
+      },
+      "parent_priority": "REDUCTION_PRESERVED",
+      "phase_relation": "VARIABLE_PHASE",
+      "representation": "SIGNED_NEIGHBOR_MISMATCH",
+      "signature": [
+        "TWO_INDEPENDENT_TRANSVERSE_MODES",
+        "TRANSVERSE_PARTIAL_DEGENERACY",
+        "LONGITUDINAL_COUPLED_TO_TRANSVERSE",
+        "CO_MOVING",
+        "NO_MODE_EXCHANGE"
+      ]
+    }
+  }
+}
