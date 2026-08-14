@@ -39,6 +39,10 @@
     "authorized_background": "DEV195_DEV202_SELF_LOADED_PACKET",
     "result": "LOADED_BACKGROUND_FULLY_RECOVERED"
   },
+  "emx011_t16": {
+    "background_id": "DEV195_DEV202_SELF_LOADED_PACKET",
+    "result": "LOADING_INDUCED_TRANSVERSE_MODE_MIXING"
+  },
   "no_weighted_score": true,
   "records": [
     {

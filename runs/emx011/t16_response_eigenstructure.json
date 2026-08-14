@@ -1,0 +1,19 @@
+{
+  "classification": "TRANSVERSE_RESPONSE_MIXED",
+  "eigenvalue_degeneracy": false,
+  "eigenvalues": [
+    -0.009184450607545127,
+    0.009964129382230904
+  ],
+  "eigenvector_stability": "DETERMINISTIC_SINGLE_REPLAY_BASIS",
+  "eigenvectors": [
+    [
+      0.7062036844054557,
+      -0.7080087260282597
+    ],
+    [
+      -0.7080087260282597,
+      -0.7062036844054557
+    ]
+  ]
+}

@@ -142,7 +142,7 @@
   },
   {
     "feature_id": "F11_LOADING_INDUCED_PROPAGATION_ANISOTROPY",
-    "reason": "EMX009 blocked loading replay recovery",
-    "status": "REGISTERED_UNTESTED"
+    "result": "LOADING_INDUCED_TRANSVERSE_MODE_MIXING",
+    "status": "NOT_SUPPORTED_THIS_REGIME"
   }
 ]

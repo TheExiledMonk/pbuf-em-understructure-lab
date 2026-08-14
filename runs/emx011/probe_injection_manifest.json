@@ -1,0 +1,15 @@
+{
+  "NO_LINEAR_TRAJECTORY_SUPERPOSITION": true,
+  "ONLY_BACKGROUND_LOADING_DIFFERS": true,
+  "SAME_ANALYSIS": true,
+  "SAME_BOUNDARY": true,
+  "SAME_DT": true,
+  "SAME_DYNAMICS": true,
+  "SAME_LATTICE": true,
+  "SAME_PROBE": true,
+  "VALID_STATE_INJECTION_VERIFIED": true,
+  "injection_timestep": 0,
+  "operation": "DEV196 VectorPairState(state.displacement + packet_displacement, state.momentum + packet_momentum)",
+  "packet_displacement_sha256": "78c823853e12acd4d42cdd93e42acb741539082e617106c46d7de54188381843",
+  "packet_momentum_sha256": "4a05ceb9bd8ab19160370af3e7f959d51a502a7ed9494eb8ee96d1c98c0bbd98"
+}

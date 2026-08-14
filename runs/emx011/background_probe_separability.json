@@ -1,0 +1,8 @@
+{
+  "OBSERVER_DIFFERENCING_ONLY": true,
+  "classification": "PROBE_RESPONSE_SEPARABLE",
+  "loaded_background_norm": 0.2079557470565144,
+  "loaded_probe_difference_norm": 0.1774404924117693,
+  "no_trajectory_superposition": true,
+  "unloaded_probe_difference_norm": 0.17744267070916628
+}

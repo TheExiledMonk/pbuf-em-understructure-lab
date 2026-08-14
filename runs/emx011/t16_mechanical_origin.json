@@ -1,0 +1,9 @@
+{
+  "DEV167_terms": {
+    "finite_step_cross_term": 0.00014775017941524648,
+    "orientation_background": 0.00012448511847503718,
+    "strain_background": 0.15114916280979537
+  },
+  "classification": "NO_SPLIT",
+  "formula": "DeltaF = Delta_sigma r_hat + sigma Delta_r_hat + Delta_sigma Delta_r_hat"
+}

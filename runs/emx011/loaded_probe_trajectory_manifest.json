@@ -1,0 +1,8 @@
+{
+  "NO_LINEAR_TRAJECTORY_SUPERPOSITION": true,
+  "background_trajectory_hash": "530cf5cfef6078ccb630270209e7f8ea3efa7289d2f6a12d19382580d2b084e3",
+  "frames": 181,
+  "observer_difference": "probe_plus_background minus separately evolved background",
+  "trajectory_hash": "8e41064c4fdb991e1c832b4e768a659f7a2d210deb49e70ccac53eb48f260307",
+  "valid_native_state_evolved": true
+}

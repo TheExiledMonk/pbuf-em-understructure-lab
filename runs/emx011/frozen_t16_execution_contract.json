@@ -1,0 +1,87 @@
+{
+  "EMX011_TEST_SELECTION": "DIRECTIONAL_LOADING_T16_EXECUTION",
+  "EMX011_TEST_SELECTION_FROZEN": true,
+  "NO_LINEAR_TRAJECTORY_SUPERPOSITION": true,
+  "NO_RESULT_SELECTED_BASIS": true,
+  "OBSERVER_DIFFERENCING_ONLY": true,
+  "analysis_timestep_range": [
+    0,
+    180
+  ],
+  "boundary": "periodic N6 all axes",
+  "canonical_repository_read_only": true,
+  "classification_vocabulary": [
+    "LOADING_INDUCED_TRANSVERSE_MODE_SPLIT",
+    "COMMON_TRANSVERSE_SHIFT_NO_SPLIT",
+    "TRANSVERSE_MODE_MIXING",
+    "TRANSVERSE_MODE_SUPPRESSION",
+    "NO_LOADING_INDUCED_MODE_CHANGE",
+    "LOADED_BACKGROUND_DOMINATES_PROBE",
+    "T16_REPLAY_CONFLICT",
+    "T16_INCONCLUSIVE"
+  ],
+  "contract_sha256": "99d876797eda92cc2011564255caea97aae89179fc46f4a6f255fe72e18af182",
+  "dt": 0.04,
+  "injection_rule": "DEV196 VectorPairState(state.displacement + packet_displacement, state.momentum + packet_momentum)",
+  "injection_timestep": 0,
+  "lattice": [
+    11,
+    11,
+    11
+  ],
+  "loaded_background": {
+    "artifact": "/home/fabian/lab-main-consolidation/runs/dev195_local_force_balance_restoration/excited_trajectory.npz",
+    "id": "DEV195_DEV202_SELF_LOADED_PACKET",
+    "sha256": "118a680de0ba756cd56901fcf2db02cd2a765035357e7b38fb419927ae61afb4"
+  },
+  "loading_direction": {
+    "L_hat": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "derivation": "DEV182 canonical packet geometry/history; mean packet momentum direction"
+  },
+  "mode_metrics": [
+    "rank",
+    "norm",
+    "time-history",
+    "spatial-transport",
+    "phase-history",
+    "transport-coherence"
+  ],
+  "numerical_tolerances": {
+    "absolute_activity_rank_and_equality": 1e-12,
+    "no_threshold_fitting": true
+  },
+  "probe_preparation": {
+    "amplitude": 0.006,
+    "constructor": "generate_dev169_raw_abell_native_observer.packet",
+    "source": "DEV182 canonical packet"
+  },
+  "propagation_direction": {
+    "derivation": "frozen DEV182 launch geometry",
+    "k_hat": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "transverse_basis": {
+    "e1": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "e2": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rule": "EMX007/008 lattice y then z after frozen x propagation"
+  },
+  "unloaded_control": {
+    "artifact": "/home/fabian/lab-main-consolidation/runs/dev195_local_force_balance_restoration/background_trajectory.npz",
+    "sha256": "67353948d6953f00348a37ea64fb83b0b7dd28b704dd2d3d8f88628647c191c4"
+  }
+}

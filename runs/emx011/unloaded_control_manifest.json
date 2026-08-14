@@ -1,0 +1,7 @@
+{
+  "artifact_sha256": "67353948d6953f00348a37ea64fb83b0b7dd28b704dd2d3d8f88628647c191c4",
+  "background_kind": "DEV195 matched unloaded background",
+  "dt": 0.04,
+  "dynamics": "unmodified DEV167 kick-drift with archived fixed source force",
+  "initial_frame": 0
+}

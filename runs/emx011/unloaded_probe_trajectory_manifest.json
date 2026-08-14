@@ -1,0 +1,7 @@
+{
+  "background_trajectory_hash": "a051c80cc190a54c5dddacaec2719b11c120fff63dc1b65d0bf165e96aef8d4e",
+  "frames": 181,
+  "observer_difference": "probe_plus_background minus separately evolved background",
+  "trajectory_hash": "5a3f9da99cab0385b16bb177ee2cbdcba1d3eae21b4cecd0fc2423911f566934",
+  "valid_native_state_evolved": true
+}

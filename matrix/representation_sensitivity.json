@@ -837,6 +837,38 @@
       "representation": "SIGNED_NEIGHBOR_MISMATCH"
     }
   ],
+  "emx011_t16": [
+    {
+      "PARENT_RESULT": "LOADING_INDUCED_TRANSVERSE_MODE_MIXING",
+      "REDUCTION_RESULT": "TRANSVERSE_MODE_MIXING",
+      "RELATION": "PRESERVED",
+      "representation": "FULL_STATE"
+    },
+    {
+      "PARENT_RESULT": "LOADING_INDUCED_TRANSVERSE_MODE_MIXING",
+      "REDUCTION_RESULT": "INFORMATION_REDUCTION_ONLY",
+      "RELATION": "PARTIAL",
+      "representation": "BOND_STRAIN"
+    },
+    {
+      "PARENT_RESULT": "LOADING_INDUCED_TRANSVERSE_MODE_MIXING",
+      "REDUCTION_RESULT": "INFORMATION_REDUCTION_ONLY",
+      "RELATION": "PARTIAL",
+      "representation": "BOND_ORIENTATION"
+    },
+    {
+      "PARENT_RESULT": "LOADING_INDUCED_TRANSVERSE_MODE_MIXING",
+      "REDUCTION_RESULT": "INFORMATION_REDUCTION_ONLY",
+      "RELATION": "PARTIAL",
+      "representation": "NODE_MOMENTUM"
+    },
+    {
+      "PARENT_RESULT": "LOADING_INDUCED_TRANSVERSE_MODE_MIXING",
+      "REDUCTION_RESULT": "TRANSVERSE_MODE_MIXING",
+      "RELATION": "PRESERVED",
+      "representation": "FULL_RELATIONAL_STATE"
+    }
+  ],
   "no_weighted_score": true,
   "records": [
     {

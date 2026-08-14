@@ -1,0 +1,12 @@
+{
+  "classification": "MODE_MIXING_PREVENTS_RATE_CLASSIFICATION",
+  "loaded": [
+    0.0005578234088847911,
+    0.0004935900690020878
+  ],
+  "units": "native lattice/time units",
+  "unloaded": [
+    0.00021560505412248146,
+    0.0001999398887858824
+  ]
+}

@@ -90,6 +90,13 @@
     ],
     "satisfied": true
   },
+  "emx011_t16": {
+    "requires": [
+      "EMX010 recovered background",
+      "DEV196 injection"
+    ],
+    "satisfied": true
+  },
   "nodes": [
     "X",
     "NODE_DISPLACEMENT",

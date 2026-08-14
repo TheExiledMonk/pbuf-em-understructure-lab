@@ -9228,5 +9228,12 @@
       "result": "LOADED_BACKGROUND_FULLY_RECOVERED",
       "selector": "DIRECTIONAL_LOADING_T16_EXECUTION"
     }
+  },
+  {
+    "EMX011_RECORD": "emx011_status",
+    "value": {
+      "result": "LOADING_INDUCED_TRANSVERSE_MODE_MIXING",
+      "selector": "LOADED_TRANSVERSE_MIXING_DEEP_AUDIT"
+    }
   }
 ]

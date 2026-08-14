@@ -1,0 +1,8 @@
+{
+  "artifact_sha256": "118a680de0ba756cd56901fcf2db02cd2a765035357e7b38fb419927ae61afb4",
+  "background_id": "DEV195_DEV202_SELF_LOADED_PACKET",
+  "classification": "BOUNDED_DYNAMIC_BACKGROUND",
+  "dt": 0.04,
+  "dynamics": "unmodified DEV167 kick-drift with archived fixed source force",
+  "initial_frame": 0
+}

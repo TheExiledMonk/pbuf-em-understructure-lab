@@ -1,0 +1,25 @@
+import json, unittest
+from pathlib import Path
+R=Path(__file__).resolve().parents[1]/'runs'/'emx011'
+def j(n): return json.loads((R/n).read_text())
+class TestEMX011(unittest.TestCase):
+ def setUp(self): self.f=j('final_contract.json')
+ def test_emx011_starting_gate(self): self.assertEqual(j('starting_state.json')['T16_READINESS'],'AUTHORIZED')
+ def test_emx011_t16_ready_background(self): self.assertEqual(j('loaded_background_manifest.json')['background_id'],'DEV195_DEV202_SELF_LOADED_PACKET')
+ def test_emx011_frozen_contract(self): self.assertIn('contract_sha256',j('frozen_t16_execution_contract.json'))
+ def test_emx011_valid_state_injection(self): self.assertTrue(j('probe_injection_manifest.json')['VALID_STATE_INJECTION_VERIFIED'])
+ def test_emx011_matched_control(self): self.assertTrue(self.f['UNLOADED_MATCHED_CONTROL_COMPLETE'] and self.f['LOADED_MATCHED_RUN_COMPLETE'])
+ def test_emx011_no_trajectory_superposition(self): self.assertTrue(self.f['NO_LINEAR_TRAJECTORY_SUPERPOSITION'])
+ def test_emx011_probe_separability(self): self.assertTrue(self.f['BACKGROUND_PROBE_SEPARABILITY_CLASSIFIED'])
+ def test_emx011_transverse_response(self): self.assertEqual(len(j('t16_transverse_response_matrix.json')['R_perp']),2)
+ def test_emx011_response_eigenstructure(self): self.assertIn(j('t16_response_eigenstructure.json')['classification'],['TRANSVERSE_RESPONSE_DEGENERATE','TRANSVERSE_RESPONSE_SPLIT','TRANSVERSE_RESPONSE_MIXED'])
+ def test_emx011_loading_axis_relation(self): self.assertEqual(j('t16_loading_axis_relation.json')['classification'],'LOAD_PROJECTION_ZERO')
+ def test_emx011_transport_comparison(self): self.assertTrue(self.f['T16_TRANSPORT_CLASSIFIED'])
+ def test_emx011_phase_comparison(self): self.assertTrue(self.f['T16_PHASE_CLASSIFIED'])
+ def test_emx011_longitudinal_control(self): self.assertTrue(self.f['T16_LONGITUDINAL_CONTROL_COMPLETE'])
+ def test_emx011_mechanical_origin(self): self.assertTrue(self.f['T16_MECHANICAL_ORIGIN_CLASSIFIED'])
+ def test_emx011_repeatability(self): self.assertTrue(j('t16_repeatability.json')['LOADED_RUN_REPRODUCIBLE'] and j('t16_repeatability.json')['UNLOADED_RUN_REPRODUCIBLE'])
+ def test_emx011_no_qed_mapping(self): self.assertTrue(self.f['NO_QED_MAPPING'])
+ def test_emx011_no_t17_t18(self): self.assertFalse(self.f['T17_EXECUTED'] or self.f['T18_EXECUTED'])
+ def test_emx011_next_selector(self): self.assertTrue(self.f['EMX012_TEST_SELECTION_FROZEN'])
+if __name__=='__main__': unittest.main()

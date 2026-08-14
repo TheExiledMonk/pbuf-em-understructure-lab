@@ -1,0 +1,5 @@
+{
+  "LOADED_RUN_REPRODUCIBLE": true,
+  "UNLOADED_RUN_REPRODUCIBLE": true,
+  "method": "byte hash of deterministic float64 trajectory arrays"
+}
