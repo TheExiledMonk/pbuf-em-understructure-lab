@@ -1,0 +1,16 @@
+{
+  "all_finite": true,
+  "hashes": {
+    "loaded": "737b441444999b441ab769f22202acffa8e6cf7ba9ebc5bac3d8bfc8810b5725",
+    "unloaded": "32e3a742aea73241ca092c6460db56f40e355b2e43e8a4ad19e1ffbf01beaf99"
+  },
+  "loaded_unloaded_response_l2": 3.6228771342553494e-16,
+  "orientation_response_l2": 0.059580215695036375,
+  "ranks": {
+    "loaded_s_xyz": 2,
+    "loaded_s_yz": 2,
+    "loaded_u_xyz": 3,
+    "loaded_u_yz": 2
+  },
+  "transverse_response_l2": 0.010911796702243792
+}
