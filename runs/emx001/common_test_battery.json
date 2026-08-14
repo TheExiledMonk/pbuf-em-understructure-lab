@@ -1,0 +1,77 @@
+[
+  {
+    "definition": "quiet-state activity",
+    "execution": "FROZEN_NOT_RUN",
+    "test_id": "T01_QUIET_STATE"
+  },
+  {
+    "definition": "excitation response",
+    "execution": "FROZEN_NOT_RUN",
+    "test_id": "T02_EXCITATION_ACTIVITY"
+  },
+  {
+    "definition": "spatial propagation",
+    "execution": "FROZEN_NOT_RUN",
+    "test_id": "T03_PROPAGATION"
+  },
+  {
+    "definition": "causal neighbor relay",
+    "execution": "FROZEN_NOT_RUN",
+    "test_id": "T04_NEIGHBOR_RELAY"
+  },
+  {
+    "definition": "stress response",
+    "execution": "FROZEN_NOT_RUN",
+    "test_id": "T05_STRESS_COUPLING"
+  },
+  {
+    "definition": "orientation information",
+    "execution": "FROZEN_NOT_RUN",
+    "test_id": "T06_ORIENTATION"
+  },
+  {
+    "definition": "transverse relational content",
+    "execution": "FROZEN_NOT_RUN",
+    "test_id": "T07_TRANSVERSE"
+  },
+  {
+    "definition": "longitudinal content",
+    "execution": "FROZEN_NOT_RUN",
+    "test_id": "T08_LONGITUDINAL"
+  },
+  {
+    "definition": "handedness/parity",
+    "execution": "FROZEN_NOT_RUN",
+    "test_id": "T09_HANDEDNESS"
+  },
+  {
+    "definition": "momentum-transfer closure",
+    "execution": "FROZEN_NOT_RUN",
+    "test_id": "T10_MOMENTUM_TRANSFER"
+  },
+  {
+    "definition": "persistence after source change",
+    "execution": "FROZEN_NOT_RUN",
+    "test_id": "T11_PERSISTENCE"
+  },
+  {
+    "definition": "static loaded organization",
+    "execution": "FROZEN_NOT_RUN",
+    "test_id": "T12_STATIC_ORGANIZATION"
+  },
+  {
+    "definition": "source-generated outgoing structure",
+    "execution": "FROZEN_NOT_RUN",
+    "test_id": "T13_SOURCE_OUTGOING"
+  },
+  {
+    "definition": "multi-source composition",
+    "execution": "FROZEN_NOT_RUN",
+    "test_id": "T14_MULTISOURCE"
+  },
+  {
+    "definition": "near/far evolution",
+    "execution": "FROZEN_NOT_RUN",
+    "test_id": "T15_NEAR_FAR"
+  }
+]

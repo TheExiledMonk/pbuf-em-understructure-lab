@@ -1,0 +1,20 @@
+[
+  {
+    "boundary": "PERIODIC_N6",
+    "collective_scale": "DIRECT_N6",
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "invalid_broader_claims": [
+      "all representations fail",
+      "all source regimes fail"
+    ],
+    "mechanics": "HISTORICAL_MECHANICS_ONLY",
+    "negative_id": "NEG_SCALAR_F03_DEV163",
+    "observer": "FULL_NATIVE_STATE",
+    "preparation": "scalar loaded F03",
+    "representation": "R01",
+    "source": "UNLOADED_QUIET",
+    "source_count": 1,
+    "time_regime": "PROPAGATING",
+    "valid_closure": "scalar loaded F03 under DEV163 frozen operator"
+  }
+]

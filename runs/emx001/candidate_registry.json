@@ -1,0 +1,667 @@
+[
+  {
+    "admissibility_status": "HISTORICAL_CONTROL",
+    "admission_basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "boundary_conditions": "PERIODIC_N6",
+    "candidate_id": "C001_SCALAR_F03_PROPAGATION",
+    "collective_scale": "DIRECT_N6",
+    "dependency_classes": [
+      "STRUCTURAL",
+      "INTERPRETIVE"
+    ],
+    "exclusion_reason": null,
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_origin": true,
+    "historical_status": "VALID_REPRODUCIBLE",
+    "independence_group": "GROUP_DEV159_SCALAR_SOURCE",
+    "information_loss": "LOSSY_KNOWN",
+    "mechanics_contract": "HISTORICAL_MECHANICS_ONLY",
+    "name": "C001 SCALAR F03 PROPAGATION",
+    "observer": "FULL_NATIVE_STATE",
+    "origin_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "origin_dev": "DEV163",
+    "origin_files": [
+      "docs/PBUF_MECHANISM_REGISTRY.json",
+      "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+    ],
+    "physical_status": "REPRESENTATION_DEPENDENT",
+    "preparation": "UNLOADED_QUIET",
+    "representation": "R01",
+    "source_count": 1,
+    "source_regime": "UNLOADED_QUIET",
+    "temporal_regime": "PROPAGATING"
+  },
+  {
+    "admissibility_status": "ACTIVE",
+    "admission_basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "boundary_conditions": "PERIODIC_N6",
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "collective_scale": "DIRECT_N6",
+    "dependency_classes": [
+      "STRUCTURAL",
+      "INTERPRETIVE"
+    ],
+    "exclusion_reason": null,
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_origin": true,
+    "historical_status": "VALID_REPRODUCIBLE",
+    "independence_group": "GROUP_DEV167_FULL_STATE",
+    "information_loss": "LOSSLESS",
+    "mechanics_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
+    "name": "C002 DEV167 FULL VECTOR STATE",
+    "observer": "FULL_NATIVE_STATE",
+    "origin_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "origin_dev": "DEV167",
+    "origin_files": [
+      "docs/PBUF_MECHANISM_REGISTRY.json",
+      "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+    ],
+    "physical_status": "REPRESENTATION_DEPENDENT",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R02",
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "temporal_regime": "PROPAGATING"
+  },
+  {
+    "admissibility_status": "ACTIVE",
+    "admission_basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "boundary_conditions": "PERIODIC_N6",
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "collective_scale": "DIRECT_N6",
+    "dependency_classes": [
+      "STRUCTURAL",
+      "INTERPRETIVE"
+    ],
+    "exclusion_reason": null,
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_origin": true,
+    "historical_status": "VALID_REPRODUCIBLE",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "information_loss": "LOSSY_KNOWN",
+    "mechanics_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
+    "name": "C003 N6 RELATIONAL CHANGE",
+    "observer": "FULL_NATIVE_STATE",
+    "origin_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "origin_dev": "DEV203",
+    "origin_files": [
+      "docs/PBUF_MECHANISM_REGISTRY.json",
+      "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+    ],
+    "physical_status": "REPRESENTATION_DEPENDENT",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R06",
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "temporal_regime": "TRANSIENT"
+  },
+  {
+    "admissibility_status": "ACTIVE",
+    "admission_basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "boundary_conditions": "PERIODIC_N6",
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "collective_scale": "DIRECT_N6",
+    "dependency_classes": [
+      "STRUCTURAL",
+      "INTERPRETIVE"
+    ],
+    "exclusion_reason": null,
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_origin": true,
+    "historical_status": "VALID_REPRODUCIBLE",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "information_loss": "LOSSY_KNOWN",
+    "mechanics_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
+    "name": "C004 DEV203 RELATIONAL TENSOR",
+    "observer": "RELATIONAL_TENSOR",
+    "origin_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "origin_dev": "DEV203",
+    "origin_files": [
+      "docs/PBUF_MECHANISM_REGISTRY.json",
+      "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+    ],
+    "physical_status": "REPRESENTATION_DEPENDENT",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R07",
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "temporal_regime": "PROPAGATING"
+  },
+  {
+    "admissibility_status": "ACTIVE",
+    "admission_basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "boundary_conditions": "PERIODIC_N6",
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "collective_scale": "DIRECT_N6",
+    "dependency_classes": [
+      "STRUCTURAL",
+      "INTERPRETIVE"
+    ],
+    "exclusion_reason": null,
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_origin": true,
+    "historical_status": "VALID_REPRODUCIBLE",
+    "independence_group": "GROUP_DEV203_FULL_STATE",
+    "information_loss": "LOSSY_KNOWN",
+    "mechanics_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
+    "name": "C005 DEV203 ANTISYMMETRIC TENSOR",
+    "observer": "ANTISYMMETRIC_TENSOR",
+    "origin_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "origin_dev": "DEV203",
+    "origin_files": [
+      "docs/PBUF_MECHANISM_REGISTRY.json",
+      "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+    ],
+    "physical_status": "REPRESENTATION_DEPENDENT",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R08",
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "temporal_regime": "PROPAGATING"
+  },
+  {
+    "admissibility_status": "ACTIVE",
+    "admission_basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "boundary_conditions": "PERIODIC_N6",
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "collective_scale": "DIRECT_N6",
+    "dependency_classes": [
+      "STRUCTURAL",
+      "INTERPRETIVE"
+    ],
+    "exclusion_reason": null,
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_origin": true,
+    "historical_status": "VALID_REPRODUCIBLE",
+    "independence_group": "GROUP_DEV204_STRESS",
+    "information_loss": "LOSSY_KNOWN",
+    "mechanics_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
+    "name": "C006 DEV204 ORIENTATION STRESS",
+    "observer": "BOND_FORCE",
+    "origin_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "origin_dev": "DEV204",
+    "origin_files": [
+      "docs/PBUF_MECHANISM_REGISTRY.json",
+      "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+    ],
+    "physical_status": "REPRESENTATION_DEPENDENT",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R10",
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "temporal_regime": "TRANSIENT"
+  },
+  {
+    "admissibility_status": "ACTIVE",
+    "admission_basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "boundary_conditions": "PERIODIC_N6",
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "collective_scale": "DIRECT_N6",
+    "dependency_classes": [
+      "STRUCTURAL",
+      "INTERPRETIVE"
+    ],
+    "exclusion_reason": null,
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_origin": true,
+    "historical_status": "VALID_REPRODUCIBLE",
+    "independence_group": "GROUP_DEV204_STRESS",
+    "information_loss": "LOSSY_KNOWN",
+    "mechanics_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
+    "name": "C007 DEV204 FULL FORCE CHANGE",
+    "observer": "BOND_FORCE",
+    "origin_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "origin_dev": "DEV204",
+    "origin_files": [
+      "docs/PBUF_MECHANISM_REGISTRY.json",
+      "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+    ],
+    "physical_status": "REPRESENTATION_DEPENDENT",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R11",
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "temporal_regime": "TRANSIENT"
+  },
+  {
+    "admissibility_status": "ACTIVE",
+    "admission_basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "boundary_conditions": "PERIODIC_N6",
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "collective_scale": "DIRECT_N6",
+    "dependency_classes": [
+      "STRUCTURAL",
+      "INTERPRETIVE"
+    ],
+    "exclusion_reason": null,
+    "geometry": "FINITE_CONTACT_PATCH",
+    "historical_origin": true,
+    "historical_status": "VALID_REPRODUCIBLE",
+    "independence_group": "GROUP_DEV211_MAINTAINED_STATIC",
+    "information_loss": "LOSSY_KNOWN",
+    "mechanics_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
+    "name": "C008 DEV211 STATIC MAINTAINED DEFORMATION",
+    "observer": "BOND_FORCE",
+    "origin_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "origin_dev": "DEV211",
+    "origin_files": [
+      "docs/PBUF_MECHANISM_REGISTRY.json",
+      "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+    ],
+    "physical_status": "REPRESENTATION_DEPENDENT",
+    "preparation": "SOURCE_MAINTAINED_DEFORMATION",
+    "representation": "R05",
+    "source_count": 1,
+    "source_regime": "SOURCE_MAINTAINED_DEFORMATION",
+    "temporal_regime": "SOURCE_MAINTAINED"
+  },
+  {
+    "admissibility_status": "ACTIVE",
+    "admission_basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "boundary_conditions": "PERIODIC_N6",
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "collective_scale": "DIRECT_N6",
+    "dependency_classes": [
+      "STRUCTURAL",
+      "INTERPRETIVE"
+    ],
+    "exclusion_reason": null,
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_origin": true,
+    "historical_status": "VALID_REPRODUCIBLE",
+    "independence_group": "GROUP_DEV212_MULTISTATE",
+    "information_loss": "LOSSLESS",
+    "mechanics_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
+    "name": "C009 DEV212 MOMENTUM REVERSED STATE",
+    "observer": "NODE_MOMENTUM",
+    "origin_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "origin_dev": "DEV212",
+    "origin_files": [
+      "docs/PBUF_MECHANISM_REGISTRY.json",
+      "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+    ],
+    "physical_status": "REPRESENTATION_DEPENDENT",
+    "preparation": "VALID_STATE_INJECTION",
+    "representation": "R02",
+    "source_count": 1,
+    "source_regime": "VALID_STATE_INJECTION",
+    "temporal_regime": "TRANSIENT"
+  },
+  {
+    "admissibility_status": "ACTIVE",
+    "admission_basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "boundary_conditions": "PERIODIC_N6",
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "collective_scale": "MULTI_STEP_N6",
+    "dependency_classes": [
+      "STRUCTURAL",
+      "INTERPRETIVE"
+    ],
+    "exclusion_reason": null,
+    "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+    "historical_origin": true,
+    "historical_status": "VALID_REPRODUCIBLE",
+    "independence_group": "GROUP_DEV213_AGGREGATE",
+    "information_loss": "LOSSLESS",
+    "mechanics_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
+    "name": "C010 DEV213 TWO STRUCTURE AGGREGATE",
+    "observer": "FULL_NATIVE_STATE",
+    "origin_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "origin_dev": "DEV213",
+    "origin_files": [
+      "docs/PBUF_MECHANISM_REGISTRY.json",
+      "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+    ],
+    "physical_status": "REPRESENTATION_DEPENDENT",
+    "preparation": "TWO_PREPARATION_AGGREGATE",
+    "representation": "R02",
+    "source_count": 2,
+    "source_regime": "TWO_PREPARATION_AGGREGATE",
+    "temporal_regime": "TRANSIENT"
+  },
+  {
+    "admissibility_status": "ACTIVE",
+    "admission_basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "boundary_conditions": "PERIODIC_N6",
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "collective_scale": "DIRECT_N6",
+    "dependency_classes": [
+      "STRUCTURAL",
+      "INTERPRETIVE"
+    ],
+    "exclusion_reason": null,
+    "geometry": "CANONICAL_DEV182_PACKET",
+    "historical_origin": true,
+    "historical_status": "VALID_REPRODUCIBLE",
+    "independence_group": "GROUP_DEV221_GEOMETRY",
+    "information_loss": "LOSSY_KNOWN",
+    "mechanics_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
+    "name": "C011 DEV221 DIRECTIONAL GEOMETRY",
+    "observer": "BOND_STRAIN",
+    "origin_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "origin_dev": "DEV221",
+    "origin_files": [
+      "docs/PBUF_MECHANISM_REGISTRY.json",
+      "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+    ],
+    "physical_status": "REPRESENTATION_DEPENDENT",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R03",
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "temporal_regime": "PROPAGATING"
+  },
+  {
+    "admissibility_status": "ACTIVE",
+    "admission_basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "boundary_conditions": "PERIODIC_N6",
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "collective_scale": "DIRECT_N6",
+    "dependency_classes": [
+      "STRUCTURAL",
+      "INTERPRETIVE"
+    ],
+    "exclusion_reason": null,
+    "geometry": "FULL_PERIODIC_N6_VOLUME",
+    "historical_origin": true,
+    "historical_status": "VALID_REPRODUCIBLE",
+    "independence_group": "GROUP_DEV223_PATTERN",
+    "information_loss": "LOSSY_UNKNOWN",
+    "mechanics_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
+    "name": "C012 DEV223 SIGNED PATTERN MISMATCH",
+    "observer": "ORDERED_N6_MISMATCH",
+    "origin_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "origin_dev": "DEV223",
+    "origin_files": [
+      "docs/PBUF_MECHANISM_REGISTRY.json",
+      "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+    ],
+    "physical_status": "REPRESENTATION_DEPENDENT",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R13",
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "temporal_regime": "BOUNDED_DYNAMIC"
+  },
+  {
+    "admissibility_status": "ACTIVE",
+    "admission_basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "boundary_conditions": "PERIODIC_N6",
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "collective_scale": "DIRECT_N6",
+    "dependency_classes": [
+      "STRUCTURAL",
+      "INTERPRETIVE"
+    ],
+    "exclusion_reason": null,
+    "geometry": "FULL_PERIODIC_N6_VOLUME",
+    "historical_origin": true,
+    "historical_status": "VALID_REPRODUCIBLE",
+    "independence_group": "GROUP_DEV225_CONTRACTION",
+    "information_loss": "LOSSY_KNOWN",
+    "mechanics_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
+    "name": "C013 DEV225 TENSOR NEIGHBOR RELATION",
+    "observer": "NEAREST_NEIGHBOR_CONTRACTION",
+    "origin_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "origin_dev": "DEV225",
+    "origin_files": [
+      "docs/PBUF_MECHANISM_REGISTRY.json",
+      "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+    ],
+    "physical_status": "REPRESENTATION_DEPENDENT",
+    "preparation": "PREPARED_PACKET",
+    "representation": "R14",
+    "source_count": 1,
+    "source_regime": "PREPARED_PACKET",
+    "temporal_regime": "BOUNDED_DYNAMIC"
+  },
+  {
+    "admissibility_status": "BLOCKED_SOURCE",
+    "admission_basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "boundary_conditions": "PERIODIC_N6",
+    "candidate_id": "C014_TWO_BODY_INTERSTITIAL_FULL_STATE",
+    "collective_scale": "DIRECT_N6",
+    "dependency_classes": [
+      "STRUCTURAL",
+      "INTERPRETIVE"
+    ],
+    "exclusion_reason": null,
+    "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+    "historical_origin": true,
+    "historical_status": "AMBIGUOUS",
+    "independence_group": "GROUP_TWO_BODY_INTERSTITIAL",
+    "information_loss": "LOSSLESS",
+    "mechanics_contract": "HISTORICAL_MECHANICS_ONLY",
+    "name": "C014 TWO BODY INTERSTITIAL FULL STATE",
+    "observer": "FULL_NATIVE_STATE",
+    "origin_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "origin_dev": "DEV205",
+    "origin_files": [
+      "docs/PBUF_MECHANISM_REGISTRY.json",
+      "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+    ],
+    "physical_status": "REPRESENTATION_DEPENDENT",
+    "preparation": "STATIC_EXTERNAL_CONTACT",
+    "representation": "R02",
+    "source_count": 2,
+    "source_regime": "STATIC_EXTERNAL_CONTACT",
+    "temporal_regime": "STATIC"
+  },
+  {
+    "admissibility_status": "ACTIVE",
+    "admission_basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "boundary_conditions": "PERIODIC_N6",
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "collective_scale": "MULTI_STEP_N6",
+    "dependency_classes": [
+      "STRUCTURAL",
+      "INTERPRETIVE"
+    ],
+    "exclusion_reason": null,
+    "geometry": "TWO_SEPARATED_SOURCE_REGIONS",
+    "historical_origin": true,
+    "historical_status": "VALID_REPRODUCIBLE",
+    "independence_group": "GROUP_DEV213_AGGREGATE",
+    "information_loss": "LOSSLESS",
+    "mechanics_contract": "DEV167_FROZEN_NATIVE_MECHANICS",
+    "name": "C015 FINITE X AGGREGATE FULL STATE",
+    "observer": "FULL_NATIVE_STATE",
+    "origin_commit": "490e408abd3fe722403eed8416c5ed20e0c8861a",
+    "origin_dev": "DEV228",
+    "origin_files": [
+      "docs/PBUF_MECHANISM_REGISTRY.json",
+      "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.json"
+    ],
+    "physical_status": "REPRESENTATION_DEPENDENT",
+    "preparation": "FINITE_X_AGGREGATE",
+    "representation": "R02",
+    "source_count": 2,
+    "source_regime": "FINITE_X_AGGREGATE",
+    "temporal_regime": "TRANSIENT"
+  },
+  {
+    "admissibility_status": "FUTURE_GATE",
+    "admission_basis": [
+      "INDEPENDENT_PHYSICAL_REASON"
+    ],
+    "boundary_conditions": "NOT_APPLICABLE",
+    "candidate_id": "C_FUTURE_PASSIVE_MATERIAL",
+    "collective_scale": "EXTENDED_COLLECTIVE",
+    "dependency_classes": [],
+    "exclusion_reason": "registered future route; execution forbidden in EMX001",
+    "geometry": "PASSIVE_RESPONSE_CANDIDATE",
+    "historical_origin": false,
+    "historical_status": "NOT_RUN",
+    "independence_group": "GROUP_FUTURE_GATES",
+    "information_loss": "LOSSLESS",
+    "mechanics_contract": "NO_NEW_PHYSICS",
+    "name": "C FUTURE PASSIVE MATERIAL",
+    "observer": "FULL_NATIVE_STATE",
+    "origin_commit": null,
+    "origin_dev": null,
+    "origin_files": [],
+    "physical_status": "UNASSESSED",
+    "preparation": "NOT_APPLICABLE",
+    "representation": "R02",
+    "source_count": null,
+    "source_regime": "FUTURE_GATE",
+    "temporal_regime": "NOT_APPLICABLE"
+  },
+  {
+    "admissibility_status": "FUTURE_GATE",
+    "admission_basis": [
+      "INDEPENDENT_PHYSICAL_REASON"
+    ],
+    "boundary_conditions": "NOT_APPLICABLE",
+    "candidate_id": "C_FUTURE_THREE_SOURCE",
+    "collective_scale": "EXTENDED_COLLECTIVE",
+    "dependency_classes": [],
+    "exclusion_reason": "registered future route; execution forbidden in EMX001",
+    "geometry": "THREE_SOURCE_GEOMETRY",
+    "historical_origin": false,
+    "historical_status": "NOT_RUN",
+    "independence_group": "GROUP_FUTURE_GATES",
+    "information_loss": "LOSSLESS",
+    "mechanics_contract": "NO_NEW_PHYSICS",
+    "name": "C FUTURE THREE SOURCE",
+    "observer": "FULL_NATIVE_STATE",
+    "origin_commit": null,
+    "origin_dev": null,
+    "origin_files": [],
+    "physical_status": "UNASSESSED",
+    "preparation": "NOT_APPLICABLE",
+    "representation": "R02",
+    "source_count": 3,
+    "source_regime": "FUTURE_GATE",
+    "temporal_regime": "NOT_APPLICABLE"
+  },
+  {
+    "admissibility_status": "FUTURE_GATE",
+    "admission_basis": [
+      "INDEPENDENT_PHYSICAL_REASON"
+    ],
+    "boundary_conditions": "NOT_APPLICABLE",
+    "candidate_id": "C_FUTURE_THREE_CONSTITUENT_COMPOSITE",
+    "collective_scale": "EXTENDED_COLLECTIVE",
+    "dependency_classes": [],
+    "exclusion_reason": "registered future route; execution forbidden in EMX001",
+    "geometry": "AABvsABB",
+    "historical_origin": false,
+    "historical_status": "NOT_RUN",
+    "independence_group": "GROUP_FUTURE_GATES",
+    "information_loss": "LOSSLESS",
+    "mechanics_contract": "NO_NEW_PHYSICS",
+    "name": "C FUTURE THREE CONSTITUENT COMPOSITE",
+    "observer": "FULL_NATIVE_STATE",
+    "origin_commit": null,
+    "origin_dev": null,
+    "origin_files": [],
+    "physical_status": "UNASSESSED",
+    "preparation": "NOT_APPLICABLE",
+    "representation": "R02",
+    "source_count": 3,
+    "source_regime": "FUTURE_GATE",
+    "temporal_regime": "NOT_APPLICABLE"
+  },
+  {
+    "admissibility_status": "FUTURE_GATE",
+    "admission_basis": [
+      "INDEPENDENT_PHYSICAL_REASON"
+    ],
+    "boundary_conditions": "NOT_APPLICABLE",
+    "candidate_id": "C_FUTURE_COLLECTIVE_EM_GENERATOR",
+    "collective_scale": "EXTENDED_COLLECTIVE",
+    "dependency_classes": [],
+    "exclusion_reason": "registered future route; execution forbidden in EMX001",
+    "geometry": "EXTENDED_COLLECTIVE",
+    "historical_origin": false,
+    "historical_status": "NOT_RUN",
+    "independence_group": "GROUP_FUTURE_GATES",
+    "information_loss": "LOSSLESS",
+    "mechanics_contract": "NO_NEW_PHYSICS",
+    "name": "C FUTURE COLLECTIVE EM GENERATOR",
+    "observer": "FULL_NATIVE_STATE",
+    "origin_commit": null,
+    "origin_dev": null,
+    "origin_files": [],
+    "physical_status": "UNASSESSED",
+    "preparation": "NOT_APPLICABLE",
+    "representation": "R02",
+    "source_count": null,
+    "source_regime": "FUTURE_GATE",
+    "temporal_regime": "NOT_APPLICABLE"
+  },
+  {
+    "admissibility_status": "FUTURE_GATE",
+    "admission_basis": [
+      "INDEPENDENT_PHYSICAL_REASON"
+    ],
+    "boundary_conditions": "NOT_APPLICABLE",
+    "candidate_id": "C_FUTURE_3x3x3_EMERGENT_NEIGHBORHOOD",
+    "collective_scale": "EMERGENT_3x3x3_COLLECTIVE",
+    "dependency_classes": [],
+    "exclusion_reason": "registered future route; execution forbidden in EMX001",
+    "geometry": "EMERGENT_3x3x3_COLLECTIVE",
+    "historical_origin": false,
+    "historical_status": "NOT_RUN",
+    "independence_group": "GROUP_FUTURE_GATES",
+    "information_loss": "LOSSLESS",
+    "mechanics_contract": "NO_NEW_PHYSICS",
+    "name": "C FUTURE 3x3x3 EMERGENT NEIGHBORHOOD",
+    "observer": "FULL_NATIVE_STATE",
+    "origin_commit": null,
+    "origin_dev": null,
+    "origin_files": [],
+    "physical_status": "UNASSESSED",
+    "preparation": "NOT_APPLICABLE",
+    "representation": "R02",
+    "source_count": null,
+    "source_regime": "FUTURE_GATE",
+    "temporal_regime": "NOT_APPLICABLE"
+  }
+]

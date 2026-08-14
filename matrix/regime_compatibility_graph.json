@@ -1,0 +1,14 @@
+{
+  "only_physically_admissible_combinations": true,
+  "rules": [
+    {
+      "rule": "source_count > 2 requires FUTURE_GATE in Matrix v1"
+    },
+    {
+      "rule": "EMERGENT_3x3x3_COLLECTIVE is registered, not tested"
+    },
+    {
+      "rule": "historical controls retain historical mechanics only"
+    }
+  ]
+}

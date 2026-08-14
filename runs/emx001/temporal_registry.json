@@ -1,0 +1,34 @@
+[
+  {
+    "id": "STATIC",
+    "registered_not_tested": false
+  },
+  {
+    "id": "STEP_CHANGE",
+    "registered_not_tested": false
+  },
+  {
+    "id": "TRANSIENT",
+    "registered_not_tested": false
+  },
+  {
+    "id": "PROPAGATING",
+    "registered_not_tested": false
+  },
+  {
+    "id": "OSCILLATORY",
+    "registered_not_tested": false
+  },
+  {
+    "id": "BOUNDED_DYNAMIC",
+    "registered_not_tested": false
+  },
+  {
+    "id": "SOURCE_MAINTAINED",
+    "registered_not_tested": false
+  },
+  {
+    "id": "POST_SOURCE",
+    "registered_not_tested": false
+  }
+]

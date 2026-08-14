@@ -1,0 +1,177 @@
+[
+  {
+    "basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "candidate_id": "C001_SCALAR_F03_PROPAGATION",
+    "exclusion_reason": null,
+    "status": "HISTORICAL_CONTROL"
+  },
+  {
+    "basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "exclusion_reason": null,
+    "status": "ACTIVE"
+  },
+  {
+    "basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "exclusion_reason": null,
+    "status": "ACTIVE"
+  },
+  {
+    "basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "exclusion_reason": null,
+    "status": "ACTIVE"
+  },
+  {
+    "basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "exclusion_reason": null,
+    "status": "ACTIVE"
+  },
+  {
+    "basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "exclusion_reason": null,
+    "status": "ACTIVE"
+  },
+  {
+    "basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "exclusion_reason": null,
+    "status": "ACTIVE"
+  },
+  {
+    "basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "candidate_id": "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+    "exclusion_reason": null,
+    "status": "ACTIVE"
+  },
+  {
+    "basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "candidate_id": "C009_DEV212_MOMENTUM_REVERSED_STATE",
+    "exclusion_reason": null,
+    "status": "ACTIVE"
+  },
+  {
+    "basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "candidate_id": "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+    "exclusion_reason": null,
+    "status": "ACTIVE"
+  },
+  {
+    "basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "exclusion_reason": null,
+    "status": "ACTIVE"
+  },
+  {
+    "basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "exclusion_reason": null,
+    "status": "ACTIVE"
+  },
+  {
+    "basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "exclusion_reason": null,
+    "status": "ACTIVE"
+  },
+  {
+    "basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "candidate_id": "C014_TWO_BODY_INTERSTITIAL_FULL_STATE",
+    "exclusion_reason": null,
+    "status": "BLOCKED_SOURCE"
+  },
+  {
+    "basis": [
+      "EXISTING_CODE",
+      "EXISTING_ARTIFACT"
+    ],
+    "candidate_id": "C015_FINITE_X_AGGREGATE_FULL_STATE",
+    "exclusion_reason": null,
+    "status": "ACTIVE"
+  },
+  {
+    "basis": [
+      "INDEPENDENT_PHYSICAL_REASON"
+    ],
+    "candidate_id": "C_FUTURE_PASSIVE_MATERIAL",
+    "exclusion_reason": "registered future route; execution forbidden in EMX001",
+    "status": "FUTURE_GATE"
+  },
+  {
+    "basis": [
+      "INDEPENDENT_PHYSICAL_REASON"
+    ],
+    "candidate_id": "C_FUTURE_THREE_SOURCE",
+    "exclusion_reason": "registered future route; execution forbidden in EMX001",
+    "status": "FUTURE_GATE"
+  },
+  {
+    "basis": [
+      "INDEPENDENT_PHYSICAL_REASON"
+    ],
+    "candidate_id": "C_FUTURE_THREE_CONSTITUENT_COMPOSITE",
+    "exclusion_reason": "registered future route; execution forbidden in EMX001",
+    "status": "FUTURE_GATE"
+  },
+  {
+    "basis": [
+      "INDEPENDENT_PHYSICAL_REASON"
+    ],
+    "candidate_id": "C_FUTURE_COLLECTIVE_EM_GENERATOR",
+    "exclusion_reason": "registered future route; execution forbidden in EMX001",
+    "status": "FUTURE_GATE"
+  },
+  {
+    "basis": [
+      "INDEPENDENT_PHYSICAL_REASON"
+    ],
+    "candidate_id": "C_FUTURE_3x3x3_EMERGENT_NEIGHBORHOOD",
+    "exclusion_reason": "registered future route; execution forbidden in EMX001",
+    "status": "FUTURE_GATE"
+  }
+]

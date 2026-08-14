@@ -1,0 +1,50 @@
+[
+  {
+    "group_id": "GROUP_DEV159_SCALAR_SOURCE",
+    "rule": "common upstream state; reductions are not independent confirmations"
+  },
+  {
+    "group_id": "GROUP_DEV167_FULL_STATE",
+    "rule": "common upstream state; reductions are not independent confirmations"
+  },
+  {
+    "group_id": "GROUP_DEV203_FULL_STATE",
+    "rule": "common upstream state; reductions are not independent confirmations"
+  },
+  {
+    "group_id": "GROUP_DEV204_STRESS",
+    "rule": "common upstream state; reductions are not independent confirmations"
+  },
+  {
+    "group_id": "GROUP_DEV211_MAINTAINED_STATIC",
+    "rule": "common upstream state; reductions are not independent confirmations"
+  },
+  {
+    "group_id": "GROUP_DEV212_MULTISTATE",
+    "rule": "common upstream state; reductions are not independent confirmations"
+  },
+  {
+    "group_id": "GROUP_DEV213_AGGREGATE",
+    "rule": "common upstream state; reductions are not independent confirmations"
+  },
+  {
+    "group_id": "GROUP_DEV221_GEOMETRY",
+    "rule": "common upstream state; reductions are not independent confirmations"
+  },
+  {
+    "group_id": "GROUP_DEV223_PATTERN",
+    "rule": "common upstream state; reductions are not independent confirmations"
+  },
+  {
+    "group_id": "GROUP_DEV225_CONTRACTION",
+    "rule": "common upstream state; reductions are not independent confirmations"
+  },
+  {
+    "group_id": "GROUP_FUTURE_GATES",
+    "rule": "common upstream state; reductions are not independent confirmations"
+  },
+  {
+    "group_id": "GROUP_TWO_BODY_INTERSTITIAL",
+    "rule": "common upstream state; reductions are not independent confirmations"
+  }
+]

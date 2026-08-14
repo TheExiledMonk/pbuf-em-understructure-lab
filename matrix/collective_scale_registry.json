@@ -1,0 +1,18 @@
+[
+  {
+    "id": "DIRECT_N6",
+    "registered_not_tested": false
+  },
+  {
+    "id": "MULTI_STEP_N6",
+    "registered_not_tested": false
+  },
+  {
+    "id": "EMERGENT_3x3x3_COLLECTIVE",
+    "registered_not_tested": true
+  },
+  {
+    "id": "EXTENDED_COLLECTIVE",
+    "registered_not_tested": false
+  }
+]

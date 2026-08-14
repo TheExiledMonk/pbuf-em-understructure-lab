@@ -1,0 +1,38 @@
+[
+  {
+    "id": "SINGLE_NODE_CONTACT",
+    "registered_not_tested": false
+  },
+  {
+    "id": "FINITE_CONTACT_PATCH",
+    "registered_not_tested": false
+  },
+  {
+    "id": "CANONICAL_DEV182_PACKET",
+    "registered_not_tested": false
+  },
+  {
+    "id": "REFLECTED_PACKET_PAIR",
+    "registered_not_tested": false
+  },
+  {
+    "id": "TWO_SEPARATED_SOURCE_REGIONS",
+    "registered_not_tested": false
+  },
+  {
+    "id": "DEV217_PARTITION",
+    "registered_not_tested": false
+  },
+  {
+    "id": "SOURCE_CENTERED_LOOP",
+    "registered_not_tested": false
+  },
+  {
+    "id": "FULL_PERIODIC_N6_VOLUME",
+    "registered_not_tested": false
+  },
+  {
+    "id": "THREE_SOURCE_GEOMETRY",
+    "registered_not_tested": false
+  }
+]

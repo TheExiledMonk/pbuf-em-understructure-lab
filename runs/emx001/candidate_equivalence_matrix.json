@@ -1,0 +1,86 @@
+[
+  {
+    "information_loss": "LOSSY_KNOWN",
+    "left": "R02",
+    "relation": "DISTINCT",
+    "right": "R01"
+  },
+  {
+    "information_loss": "LOSSY_KNOWN",
+    "left": "R02",
+    "relation": "DERIVABLY_REDUCIBLE",
+    "right": "R03"
+  },
+  {
+    "information_loss": "LOSSY_KNOWN",
+    "left": "R02",
+    "relation": "DERIVABLY_REDUCIBLE",
+    "right": "R04"
+  },
+  {
+    "information_loss": "LOSSY_KNOWN",
+    "left": "R02",
+    "relation": "DERIVABLY_REDUCIBLE",
+    "right": "R05"
+  },
+  {
+    "information_loss": "LOSSY_KNOWN",
+    "left": "R02",
+    "relation": "DERIVABLY_REDUCIBLE",
+    "right": "R06"
+  },
+  {
+    "information_loss": "LOSSY_KNOWN",
+    "left": "R02",
+    "relation": "DERIVABLY_REDUCIBLE",
+    "right": "R07"
+  },
+  {
+    "information_loss": "LOSSY_KNOWN",
+    "left": "R02",
+    "relation": "DERIVABLY_REDUCIBLE",
+    "right": "R08"
+  },
+  {
+    "information_loss": "LOSSY_KNOWN",
+    "left": "R02",
+    "relation": "DERIVABLY_REDUCIBLE",
+    "right": "R09"
+  },
+  {
+    "information_loss": "LOSSY_KNOWN",
+    "left": "R02",
+    "relation": "DERIVABLY_REDUCIBLE",
+    "right": "R10"
+  },
+  {
+    "information_loss": "LOSSY_KNOWN",
+    "left": "R02",
+    "relation": "DERIVABLY_REDUCIBLE",
+    "right": "R11"
+  },
+  {
+    "information_loss": "LOSSY_KNOWN",
+    "left": "R02",
+    "relation": "DERIVABLY_REDUCIBLE",
+    "right": "R12"
+  },
+  {
+    "information_loss": "LOSSY_UNKNOWN",
+    "left": "R02",
+    "relation": "DERIVABLY_REDUCIBLE",
+    "right": "R13"
+  },
+  {
+    "information_loss": "LOSSY_KNOWN",
+    "left": "R02",
+    "relation": "DERIVABLY_REDUCIBLE",
+    "right": "R14"
+  },
+  {
+    "information_loss": "LOSSY_KNOWN",
+    "left": "R02",
+    "relation": "DERIVABLY_REDUCIBLE",
+    "right": "R15"
+  }
+]

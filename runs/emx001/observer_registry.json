@@ -1,0 +1,42 @@
+[
+  {
+    "id": "FULL_NATIVE_STATE",
+    "registered_not_tested": false
+  },
+  {
+    "id": "NODE_MOMENTUM",
+    "registered_not_tested": false
+  },
+  {
+    "id": "BOND_FORCE",
+    "registered_not_tested": false
+  },
+  {
+    "id": "BOND_STRAIN",
+    "registered_not_tested": false
+  },
+  {
+    "id": "REGIONAL_BOND_CUT",
+    "registered_not_tested": false
+  },
+  {
+    "id": "RELATIONAL_TENSOR",
+    "registered_not_tested": false
+  },
+  {
+    "id": "ANTISYMMETRIC_TENSOR",
+    "registered_not_tested": false
+  },
+  {
+    "id": "PAIR_POWER_FLUX",
+    "registered_not_tested": false
+  },
+  {
+    "id": "ORDERED_N6_MISMATCH",
+    "registered_not_tested": false
+  },
+  {
+    "id": "NEAREST_NEIGHBOR_CONTRACTION",
+    "registered_not_tested": false
+  }
+]

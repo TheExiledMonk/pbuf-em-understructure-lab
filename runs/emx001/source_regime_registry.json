@@ -1,0 +1,42 @@
+[
+  {
+    "id": "UNLOADED_QUIET",
+    "registered_not_tested": false
+  },
+  {
+    "id": "STATIC_EXTERNAL_CONTACT",
+    "registered_not_tested": false
+  },
+  {
+    "id": "MOVING_EXTERNAL_CONTACT",
+    "registered_not_tested": false
+  },
+  {
+    "id": "SOURCE_MAINTAINED_DEFORMATION",
+    "registered_not_tested": false
+  },
+  {
+    "id": "RELEASED_RESIDUAL",
+    "registered_not_tested": false
+  },
+  {
+    "id": "PREPARED_PACKET",
+    "registered_not_tested": false
+  },
+  {
+    "id": "VALID_STATE_INJECTION",
+    "registered_not_tested": false
+  },
+  {
+    "id": "TWO_PREPARATION_AGGREGATE",
+    "registered_not_tested": false
+  },
+  {
+    "id": "FINITE_X_AGGREGATE",
+    "registered_not_tested": false
+  },
+  {
+    "id": "PASSIVE_RESPONSE_CANDIDATE",
+    "registered_not_tested": false
+  }
+]

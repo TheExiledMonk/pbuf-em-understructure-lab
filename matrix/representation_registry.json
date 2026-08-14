@@ -1,0 +1,122 @@
+[
+  {
+    "default_admissibility": "HISTORICAL_CONTROL",
+    "full_state_physical_priority": true,
+    "information_loss": "LOSSY_KNOWN",
+    "name": "scalar F01/F02/F03 family",
+    "native_quantity": "scalar relational/link representation",
+    "representation_id": "R01"
+  },
+  {
+    "default_admissibility": "ACTIVE",
+    "full_state_physical_priority": true,
+    "information_loss": "LOSSLESS",
+    "name": "DEV167 full vector state",
+    "native_quantity": "X=(u,p)",
+    "representation_id": "R02"
+  },
+  {
+    "default_admissibility": "ACTIVE",
+    "full_state_physical_priority": true,
+    "information_loss": "LOSSY_KNOWN",
+    "name": "bond vector",
+    "native_quantity": "r_ab",
+    "representation_id": "R03"
+  },
+  {
+    "default_admissibility": "ACTIVE",
+    "full_state_physical_priority": true,
+    "information_loss": "LOSSY_KNOWN",
+    "name": "bond strain",
+    "native_quantity": "epsilon_ab",
+    "representation_id": "R04"
+  },
+  {
+    "default_admissibility": "ACTIVE",
+    "full_state_physical_priority": true,
+    "information_loss": "LOSSY_KNOWN",
+    "name": "bond force/stress",
+    "native_quantity": "F_ab",
+    "representation_id": "R05"
+  },
+  {
+    "default_admissibility": "ACTIVE",
+    "full_state_physical_priority": true,
+    "information_loss": "LOSSY_KNOWN",
+    "name": "relational-change state",
+    "native_quantity": "Delta r, Delta epsilon, Delta F, Delta p",
+    "representation_id": "R06"
+  },
+  {
+    "default_admissibility": "ACTIVE",
+    "full_state_physical_priority": true,
+    "information_loss": "LOSSY_KNOWN",
+    "name": "DEV203 relational tensor",
+    "native_quantity": "M_ij",
+    "representation_id": "R07"
+  },
+  {
+    "default_admissibility": "ACTIVE",
+    "full_state_physical_priority": true,
+    "information_loss": "LOSSY_KNOWN",
+    "name": "antisymmetric relational tensor",
+    "native_quantity": "A_ij=2M_ij-M_ji",
+    "representation_id": "R08"
+  },
+  {
+    "default_admissibility": "ACTIVE",
+    "full_state_physical_priority": true,
+    "information_loss": "LOSSY_KNOWN",
+    "name": "axial dual",
+    "native_quantity": "omega",
+    "representation_id": "R09"
+  },
+  {
+    "default_admissibility": "ACTIVE",
+    "full_state_physical_priority": true,
+    "information_loss": "LOSSY_KNOWN",
+    "name": "DEV204 orientation-stress",
+    "native_quantity": "sigma Delta rhat",
+    "representation_id": "R10"
+  },
+  {
+    "default_admissibility": "ACTIVE",
+    "full_state_physical_priority": true,
+    "information_loss": "LOSSY_KNOWN",
+    "name": "DEV204 finite-step stress change",
+    "native_quantity": "Delta F",
+    "representation_id": "R11"
+  },
+  {
+    "default_admissibility": "ACTIVE",
+    "full_state_physical_priority": true,
+    "information_loss": "LOSSY_KNOWN",
+    "name": "signed pair power flux",
+    "native_quantity": "J_ab",
+    "representation_id": "R12"
+  },
+  {
+    "default_admissibility": "ACTIVE",
+    "full_state_physical_priority": true,
+    "information_loss": "LOSSY_UNKNOWN",
+    "name": "ordered signed N6 mismatch",
+    "native_quantity": "DEV223 family",
+    "representation_id": "R13"
+  },
+  {
+    "default_admissibility": "ACTIVE",
+    "full_state_physical_priority": true,
+    "information_loss": "LOSSY_KNOWN",
+    "name": "nearest-neighbor tensor contraction",
+    "native_quantity": "A(a):A(b)",
+    "representation_id": "R14"
+  },
+  {
+    "default_admissibility": "ACTIVE",
+    "full_state_physical_priority": true,
+    "information_loss": "LOSSY_KNOWN",
+    "name": "exact region/bond-cut momentum transfer",
+    "native_quantity": "regional bond-cut",
+    "representation_id": "R15"
+  }
+]
