@@ -1,0 +1,9 @@
+[
+  {
+    "INFORMATION_LOSS_RELEVANCE": "ESSENTIAL_INFORMATION_DISCARDED: symmetric central-pair relation content is annihilated",
+    "REPRESENTATION_DIVERGENCE": true,
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "comparison": "FULL_STATE=T03_PROPAGATING; ANTISYMMETRIC_TENSOR=T03_STATIC",
+    "parent_trajectory_id": "DEV195_CANONICAL_PACKET_PARENT"
+  }
+]

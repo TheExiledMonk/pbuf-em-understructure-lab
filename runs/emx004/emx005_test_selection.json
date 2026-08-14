@@ -1,0 +1,5 @@
+{
+  "EMX005_TEST_SELECTION": "REPRESENTATION_INFORMATION_LOSS_AUDIT",
+  "EMX005_TEST_SELECTION_FROZEN": true,
+  "reason": "C005 loses symmetric central-pair content and diverges under the frozen shared parent."
+}

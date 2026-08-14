@@ -1,0 +1,9 @@
+{
+  "CROSS_INDEPENDENCE_GROUP_RECURRING": false,
+  "CROSS_REPRESENTATION_RECURRING": true,
+  "SAME_PARENT_RECURRING": true,
+  "parent_trajectory_ids": [
+    "DEV195_CANONICAL_PACKET_PARENT"
+  ],
+  "reason": "all 45 executed cells are deterministic observers of the one DEV195 parent; registry independence labels do not create independent physical trajectories"
+}

@@ -1,156 +1,101 @@
 [
   {
-    "candidate_rows_blocked": [],
-    "candidate_rows_rejecting": [],
-    "candidate_rows_supporting": [],
-    "confidence": "NOT_RUN",
-    "definition": "quiet-state zero",
+    "blocked_candidates": [
+      "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+      "C009_DEV212_MOMENTUM_REVERSED_STATE",
+      "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+      "C015_FINITE_X_AGGREGATE_FULL_STATE"
+    ],
     "feature_id": "F01",
-    "geometry_sensitivity": "NOT_RUN",
-    "native_quantities_required": [],
-    "observer_sensitivity": "NOT_RUN",
-    "representation_sensitivity": "NOT_RUN",
-    "source_sensitivity": "NOT_RUN"
+    "status": "EMX004_EXECUTED",
+    "supporting_candidates": [
+      "C002_DEV167_FULL_VECTOR_STATE",
+      "C003_N6_RELATIONAL_CHANGE",
+      "C004_DEV203_RELATIONAL_TENSOR",
+      "C006_DEV204_ORIENTATION_STRESS",
+      "C007_DEV204_FULL_FORCE_CHANGE",
+      "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "C013_DEV225_TENSOR_NEIGHBOR_RELATION"
+    ],
+    "test_id": "T01_QUIET_STATE"
   },
   {
-    "candidate_rows_blocked": [],
-    "candidate_rows_rejecting": [],
-    "candidate_rows_supporting": [],
-    "confidence": "NOT_RUN",
-    "definition": "excitation activation",
+    "blocked_candidates": [
+      "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+      "C009_DEV212_MOMENTUM_REVERSED_STATE",
+      "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+      "C015_FINITE_X_AGGREGATE_FULL_STATE"
+    ],
     "feature_id": "F02",
-    "geometry_sensitivity": "NOT_RUN",
-    "native_quantities_required": [],
-    "observer_sensitivity": "NOT_RUN",
-    "representation_sensitivity": "NOT_RUN",
-    "source_sensitivity": "NOT_RUN"
+    "status": "EMX004_EXECUTED",
+    "supporting_candidates": [
+      "C002_DEV167_FULL_VECTOR_STATE",
+      "C003_N6_RELATIONAL_CHANGE",
+      "C004_DEV203_RELATIONAL_TENSOR",
+      "C006_DEV204_ORIENTATION_STRESS",
+      "C007_DEV204_FULL_FORCE_CHANGE",
+      "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "C013_DEV225_TENSOR_NEIGHBOR_RELATION"
+    ],
+    "test_id": "T02_EXCITATION_ACTIVITY"
   },
   {
-    "candidate_rows_blocked": [],
-    "candidate_rows_rejecting": [],
-    "candidate_rows_supporting": [],
-    "confidence": "NOT_RUN",
-    "definition": "outward transport",
+    "blocked_candidates": [
+      "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+      "C009_DEV212_MOMENTUM_REVERSED_STATE",
+      "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+      "C015_FINITE_X_AGGREGATE_FULL_STATE"
+    ],
     "feature_id": "F03",
-    "geometry_sensitivity": "NOT_RUN",
-    "native_quantities_required": [],
-    "observer_sensitivity": "NOT_RUN",
-    "representation_sensitivity": "NOT_RUN",
-    "source_sensitivity": "NOT_RUN"
+    "status": "EMX004_EXECUTED",
+    "supporting_candidates": [
+      "C002_DEV167_FULL_VECTOR_STATE",
+      "C003_N6_RELATIONAL_CHANGE",
+      "C004_DEV203_RELATIONAL_TENSOR",
+      "C006_DEV204_ORIENTATION_STRESS",
+      "C007_DEV204_FULL_FORCE_CHANGE",
+      "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "C013_DEV225_TENSOR_NEIGHBOR_RELATION"
+    ],
+    "test_id": "T03_PROPAGATION"
   },
   {
-    "candidate_rows_blocked": [],
-    "candidate_rows_rejecting": [],
-    "candidate_rows_supporting": [],
-    "confidence": "NOT_RUN",
-    "definition": "neighbor relay",
+    "blocked_candidates": [
+      "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+      "C009_DEV212_MOMENTUM_REVERSED_STATE",
+      "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+      "C015_FINITE_X_AGGREGATE_FULL_STATE"
+    ],
     "feature_id": "F04",
-    "geometry_sensitivity": "NOT_RUN",
-    "native_quantities_required": [],
-    "observer_sensitivity": "NOT_RUN",
-    "representation_sensitivity": "NOT_RUN",
-    "source_sensitivity": "NOT_RUN"
+    "status": "EMX004_EXECUTED",
+    "supporting_candidates": [
+      "C002_DEV167_FULL_VECTOR_STATE",
+      "C003_N6_RELATIONAL_CHANGE"
+    ],
+    "test_id": "T04_NEIGHBOR_RELAY"
   },
   {
-    "candidate_rows_blocked": [],
-    "candidate_rows_rejecting": [],
-    "candidate_rows_supporting": [],
-    "confidence": "NOT_RUN",
-    "definition": "stress coupling",
+    "blocked_candidates": [
+      "C008_DEV211_STATIC_MAINTAINED_DEFORMATION",
+      "C009_DEV212_MOMENTUM_REVERSED_STATE",
+      "C010_DEV213_TWO_STRUCTURE_AGGREGATE",
+      "C015_FINITE_X_AGGREGATE_FULL_STATE"
+    ],
     "feature_id": "F05",
-    "geometry_sensitivity": "NOT_RUN",
-    "native_quantities_required": [],
-    "observer_sensitivity": "NOT_RUN",
-    "representation_sensitivity": "NOT_RUN",
-    "source_sensitivity": "NOT_RUN"
-  },
-  {
-    "candidate_rows_blocked": [],
-    "candidate_rows_rejecting": [],
-    "candidate_rows_supporting": [],
-    "confidence": "NOT_RUN",
-    "definition": "orientation retention",
-    "feature_id": "F06",
-    "geometry_sensitivity": "NOT_RUN",
-    "native_quantities_required": [],
-    "observer_sensitivity": "NOT_RUN",
-    "representation_sensitivity": "NOT_RUN",
-    "source_sensitivity": "NOT_RUN"
-  },
-  {
-    "candidate_rows_blocked": [],
-    "candidate_rows_rejecting": [],
-    "candidate_rows_supporting": [],
-    "confidence": "NOT_RUN",
-    "definition": "two transverse degrees",
-    "feature_id": "F07",
-    "geometry_sensitivity": "NOT_RUN",
-    "native_quantities_required": [],
-    "observer_sensitivity": "NOT_RUN",
-    "representation_sensitivity": "NOT_RUN",
-    "source_sensitivity": "NOT_RUN"
-  },
-  {
-    "candidate_rows_blocked": [],
-    "candidate_rows_rejecting": [],
-    "candidate_rows_supporting": [],
-    "confidence": "NOT_RUN",
-    "definition": "loaded-static organization",
-    "feature_id": "F08",
-    "geometry_sensitivity": "NOT_RUN",
-    "native_quantities_required": [],
-    "observer_sensitivity": "NOT_RUN",
-    "representation_sensitivity": "NOT_RUN",
-    "source_sensitivity": "NOT_RUN"
-  },
-  {
-    "candidate_rows_blocked": [],
-    "candidate_rows_rejecting": [],
-    "candidate_rows_supporting": [],
-    "confidence": "NOT_RUN",
-    "definition": "source-generated propagation",
-    "feature_id": "F09",
-    "geometry_sensitivity": "NOT_RUN",
-    "native_quantities_required": [],
-    "observer_sensitivity": "NOT_RUN",
-    "representation_sensitivity": "NOT_RUN",
-    "source_sensitivity": "NOT_RUN"
-  },
-  {
-    "candidate_rows_blocked": [],
-    "candidate_rows_rejecting": [],
-    "candidate_rows_supporting": [],
-    "confidence": "NOT_RUN",
-    "definition": "collective non-pairwise behavior",
-    "feature_id": "F10",
-    "geometry_sensitivity": "NOT_RUN",
-    "native_quantities_required": [],
-    "observer_sensitivity": "NOT_RUN",
-    "representation_sensitivity": "NOT_RUN",
-    "source_sensitivity": "NOT_RUN"
-  },
-  {
-    "candidate_rows_blocked": [],
-    "candidate_rows_rejecting": [],
-    "candidate_rows_supporting": [],
-    "definition": "loading-induced propagation anisotropy",
-    "feature_id": "F11_LOADING_INDUCED_PROPAGATION_ANISOTROPY",
-    "status": "REGISTERED_UNTESTED"
-  },
-  {
-    "candidate_rows_blocked": [],
-    "candidate_rows_rejecting": [],
-    "candidate_rows_supporting": [],
-    "definition": "adiabatic orientation following",
-    "feature_id": "F12_ADIABATIC_ORIENTATION_FOLLOWING",
-    "status": "REGISTERED_UNTESTED"
-  },
-  {
-    "candidate_rows_blocked": [],
-    "candidate_rows_rejecting": [],
-    "candidate_rows_supporting": [],
-    "definition": "finite-distance orientation decoupling",
-    "feature_id": "F13_FINITE_DISTANCE_ORIENTATION_DECOUPLING",
-    "status": "REGISTERED_UNTESTED"
+    "status": "EMX004_EXECUTED",
+    "supporting_candidates": [
+      "C002_DEV167_FULL_VECTOR_STATE",
+      "C003_N6_RELATIONAL_CHANGE",
+      "C004_DEV203_RELATIONAL_TENSOR",
+      "C006_DEV204_ORIENTATION_STRESS",
+      "C007_DEV204_FULL_FORCE_CHANGE",
+      "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "C013_DEV225_TENSOR_NEIGHBOR_RELATION"
+    ],
+    "test_id": "T05_STRESS_COUPLING"
   }
 ]

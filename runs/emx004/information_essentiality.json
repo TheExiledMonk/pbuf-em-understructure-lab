@@ -1,0 +1,38 @@
+[
+  {
+    "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+    "classification": "RETAINS_EXECUTABLE_PRIMITIVE_CONTENT"
+  },
+  {
+    "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+    "classification": "RETAINS_EXECUTABLE_PRIMITIVE_CONTENT"
+  },
+  {
+    "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+    "classification": "RETAINS_EXECUTABLE_PRIMITIVE_CONTENT"
+  },
+  {
+    "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+    "classification": "ESSENTIAL_FOR_T03_T04_T05"
+  },
+  {
+    "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+    "classification": "RETAINS_EXECUTABLE_PRIMITIVE_CONTENT"
+  },
+  {
+    "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+    "classification": "RETAINS_EXECUTABLE_PRIMITIVE_CONTENT"
+  },
+  {
+    "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+    "classification": "RETAINS_EXECUTABLE_PRIMITIVE_CONTENT"
+  },
+  {
+    "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+    "classification": "RETAINS_EXECUTABLE_PRIMITIVE_CONTENT"
+  },
+  {
+    "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+    "classification": "RETAINS_EXECUTABLE_PRIMITIVE_CONTENT"
+  }
+]
