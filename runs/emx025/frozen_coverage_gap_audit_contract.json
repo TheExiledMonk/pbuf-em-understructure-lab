@@ -1,0 +1,34 @@
+{
+  "EMX025_SELECTOR_FROZEN": true,
+  "EMX025_SELECTOR_VERIFIED": "CROSS_FAMILY_JOINT_COMPATIBILITY_CLOSURE",
+  "contract_sha256": "5e21f63128603e8b520a58a15c8b46b962f971e6c32227732b2da48a51a9923c",
+  "inputs": [
+    "runs/emx016/dev167_failure_combination_matrix.json",
+    "runs/emx019/retained_constraint_observable_control_map.json",
+    "runs/emx021/alternative_retained_constraint_compatibility_matrix.json",
+    "runs/emx022/retained_constraint_classification.json",
+    "runs/emx023/retained_constraint_classification.json",
+    "runs/emx024/retained_constraint_classification.json"
+  ],
+  "mode": "READ_ONLY_ANALYSIS_COVERAGE_GAP_AUDIT",
+  "prohibitions": {
+    "NO_COMPOSITE_LAW_EXECUTION": true,
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_OR_QED_MAPPING": true,
+    "NO_HIDDEN_CHOICES": true,
+    "NO_LAB_CODE_IMPORT": true,
+    "NO_NEW_DYNAMICS": true,
+    "NO_PARAMETER_FITTING": true,
+    "NO_RESULT_SELECTED_DIAGNOSTIC": true
+  },
+  "rules": {
+    "no_composite_execution": true,
+    "nonunique": "retained positive results remain constraints, never discarded for non-uniqueness",
+    "ranking": "follow-up ranking uses frozen declared coverage/information value only, never observed outcomes"
+  },
+  "vocabulary": [
+    "ASSESSED_COMPATIBLE_NONUNIQUE",
+    "ASSESSED_INCOMPATIBLE",
+    "NOT_ASSESSED"
+  ]
+}

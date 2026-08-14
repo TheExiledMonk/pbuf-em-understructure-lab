@@ -1,0 +1,2396 @@
+{
+  "follow_up_ranked_by_declared_information_value": [
+    {
+      "declared_information_value": "combines EMX022\u2019s only assessed loaded/unloaded difference with EMX024\u2019s transverse/internal-orientation coverage; one law can be tested against both loci",
+      "execution_authorized_by_emx025": false,
+      "rank": 1,
+      "required_freeze": [
+        "complete combined Hamiltonian/force",
+        "all coefficients fixed before run",
+        "common symmetry operation including spatial and vector action",
+        "full retained map"
+      ],
+      "selector": "COMBINED_NONLINEAR_CENTRAL_PLUS_INTERNAL_ORIENTATION_CONTRACT_GATE"
+    },
+    {
+      "declared_information_value": "resolves whether EMX022 component-only y/z sensitivity is a representation-control mismatch or a genuine constraint failure",
+      "execution_authorized_by_emx025": false,
+      "rank": 2,
+      "required_freeze": [
+        "spatial-index plus vector transformation",
+        "same nonlinear law and inputs",
+        "fixed equivalence metric"
+      ],
+      "selector": "LATTICE_COVARIANT_NONLINEAR_CENTRAL_SYMMETRY_CONTROL_GATE"
+    },
+    {
+      "declared_information_value": "resolves the still-not-assessed meaning-preserving bridge between EMX024 s,w and native T18 orientation/strain terms",
+      "execution_authorized_by_emx025": false,
+      "rank": 3,
+      "required_freeze": [
+        "predeclared map only",
+        "no equivalence claim",
+        "fixed full-history comparison"
+      ],
+      "selector": "INTERNAL_ORIENTATION_TO_NATIVE_T18_OBSERVABLE_BRIDGE_GATE"
+    }
+  ],
+  "independent_observable_families": [
+    {
+      "family": "T06 transverse rank",
+      "why": "separates transverse dimensionality from activity and longitudinal rank"
+    },
+    {
+      "family": "T30 fixed symmetry controls",
+      "why": "tests fixed observer/control transformation behavior, not excitation magnitude"
+    },
+    {
+      "family": "T17 loaded geometry",
+      "why": "tests loaded geometry tracking rather than response activity"
+    },
+    {
+      "family": "T18 orientation decoupling",
+      "why": "retains a native orientation representation distinct from strain and is directly relevant to EMX024 internal state"
+    },
+    {
+      "family": "T19/T22 conditional/cotransport",
+      "why": "tests joint longitudinal-transverse organization beyond rank alone"
+    },
+    {
+      "family": "T16/T24/T27/T28 loading mixing",
+      "why": "separates loaded response/mixing from unloaded mode content"
+    }
+  ],
+  "records": [
+    {
+      "historical_classification": "ACTIVATED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 0,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed"
+      },
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020's fixed packet response has positive full-history norm.",
+        "EMX022_NONLINEAR_CENTRAL": "fixed packet response is nonzero.",
+        "EMX023_BENDING": "nonzero fixed packet response.",
+        "EMX024_INTERNAL_ORIENTATION": "fixed packet response nonzero."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX022_NONLINEAR_CENTRAL": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX023_BENDING": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX024_INTERNAL_ORIENTATION": "ASSESSED_COMPATIBLE_NONUNIQUE"
+      }
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 1,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed"
+      },
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020's fixed packet response has positive full-history norm.",
+        "EMX022_NONLINEAR_CENTRAL": "fixed packet response is nonzero.",
+        "EMX023_BENDING": "nonzero fixed packet response.",
+        "EMX024_INTERNAL_ORIENTATION": "fixed packet response nonzero."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX022_NONLINEAR_CENTRAL": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX023_BENDING": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX024_INTERNAL_ORIENTATION": "ASSESSED_COMPATIBLE_NONUNIQUE"
+      }
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 2,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed"
+      },
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020's fixed packet response has positive full-history norm.",
+        "EMX022_NONLINEAR_CENTRAL": "fixed packet response is nonzero.",
+        "EMX023_BENDING": "nonzero fixed packet response.",
+        "EMX024_INTERNAL_ORIENTATION": "fixed packet response nonzero."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX022_NONLINEAR_CENTRAL": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX023_BENDING": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX024_INTERNAL_ORIENTATION": "ASSESSED_COMPATIBLE_NONUNIQUE"
+      }
+    },
+    {
+      "historical_classification": "UNCHANGED",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 3,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 4,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed"
+      },
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020's fixed packet response has positive full-history norm.",
+        "EMX022_NONLINEAR_CENTRAL": "fixed packet response is nonzero.",
+        "EMX023_BENDING": "nonzero fixed packet response.",
+        "EMX024_INTERNAL_ORIENTATION": "fixed packet response nonzero."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX022_NONLINEAR_CENTRAL": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX023_BENDING": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX024_INTERNAL_ORIENTATION": "ASSESSED_COMPATIBLE_NONUNIQUE"
+      }
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 5,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed"
+      },
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020's fixed packet response has positive full-history norm.",
+        "EMX022_NONLINEAR_CENTRAL": "fixed packet response is nonzero.",
+        "EMX023_BENDING": "nonzero fixed packet response.",
+        "EMX024_INTERNAL_ORIENTATION": "fixed packet response nonzero."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX022_NONLINEAR_CENTRAL": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX023_BENDING": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX024_INTERNAL_ORIENTATION": "ASSESSED_COMPATIBLE_NONUNIQUE"
+      }
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 6,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed"
+      },
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020's fixed packet response has positive full-history norm.",
+        "EMX022_NONLINEAR_CENTRAL": "fixed packet response is nonzero.",
+        "EMX023_BENDING": "nonzero fixed packet response.",
+        "EMX024_INTERNAL_ORIENTATION": "fixed packet response nonzero."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX022_NONLINEAR_CENTRAL": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX023_BENDING": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX024_INTERNAL_ORIENTATION": "ASSESSED_COMPATIBLE_NONUNIQUE"
+      }
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 7,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed"
+      },
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020's fixed packet response has positive full-history norm.",
+        "EMX022_NONLINEAR_CENTRAL": "fixed packet response is nonzero.",
+        "EMX023_BENDING": "nonzero fixed packet response.",
+        "EMX024_INTERNAL_ORIENTATION": "fixed packet response nonzero."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX022_NONLINEAR_CENTRAL": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX023_BENDING": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX024_INTERNAL_ORIENTATION": "ASSESSED_COMPATIBLE_NONUNIQUE"
+      }
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 8,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed"
+      },
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020's fixed packet response has positive full-history norm.",
+        "EMX022_NONLINEAR_CENTRAL": "fixed packet response is nonzero.",
+        "EMX023_BENDING": "nonzero fixed packet response.",
+        "EMX024_INTERNAL_ORIENTATION": "fixed packet response nonzero."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX022_NONLINEAR_CENTRAL": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX023_BENDING": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX024_INTERNAL_ORIENTATION": "ASSESSED_COMPATIBLE_NONUNIQUE"
+      }
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 9,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T03_PROPAGATION",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 10,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T03_PROPAGATION",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 11,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T03_PROPAGATION",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "STATIC",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 12,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T03_PROPAGATION",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 13,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T03_PROPAGATION",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 14,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T03_PROPAGATION",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 15,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T03_PROPAGATION",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 16,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T03_PROPAGATION",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 17,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T03_PROPAGATION",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "LOCAL_RELAY_DERIVED",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 18,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "LOCAL_RELAY_DERIVED",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 19,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 20,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "LOCAL_ONLY",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 21,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 22,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 23,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 24,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 25,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 26,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 27,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 28,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 29,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 30,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 31,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "MAGNITUDE_ONLY",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 32,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 33,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "MAGNITUDE_ONLY",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 34,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 35,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed"
+      },
+      "observable_or_test": "T06",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 has u_yz=p_yz=0, contrary to this retained transverse-rank-2 observation.",
+        "EMX022_NONLINEAR_CENTRAL": "fixed all-history transverse rank comparison.",
+        "EMX023_BENDING": "fixed full-history transverse-rank comparison.",
+        "EMX024_INTERNAL_ORIENTATION": "fixed u transverse-rank comparison."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_INCOMPATIBLE",
+        "EMX022_NONLINEAR_CENTRAL": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX023_BENDING": "ASSESSED_INCOMPATIBLE",
+        "EMX024_INTERNAL_ORIENTATION": "ASSESSED_COMPATIBLE_NONUNIQUE"
+      }
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 36,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed"
+      },
+      "observable_or_test": "T06",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 has u_yz=p_yz=0, contrary to this retained transverse-rank-2 observation.",
+        "EMX022_NONLINEAR_CENTRAL": "fixed all-history transverse rank comparison.",
+        "EMX023_BENDING": "fixed full-history transverse-rank comparison.",
+        "EMX024_INTERNAL_ORIENTATION": "fixed u transverse-rank comparison."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_INCOMPATIBLE",
+        "EMX022_NONLINEAR_CENTRAL": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX023_BENDING": "ASSESSED_INCOMPATIBLE",
+        "EMX024_INTERNAL_ORIENTATION": "ASSESSED_COMPATIBLE_NONUNIQUE"
+      }
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 37,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed"
+      },
+      "observable_or_test": "T06",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 has u_yz=p_yz=0, contrary to this retained transverse-rank-2 observation.",
+        "EMX022_NONLINEAR_CENTRAL": "fixed all-history transverse rank comparison.",
+        "EMX023_BENDING": "fixed full-history transverse-rank comparison.",
+        "EMX024_INTERNAL_ORIENTATION": "fixed u transverse-rank comparison."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_INCOMPATIBLE",
+        "EMX022_NONLINEAR_CENTRAL": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX023_BENDING": "ASSESSED_INCOMPATIBLE",
+        "EMX024_INTERNAL_ORIENTATION": "ASSESSED_COMPATIBLE_NONUNIQUE"
+      }
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_0",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 38,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed"
+      },
+      "observable_or_test": "T06",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 has u_yz=p_yz=0 at the fixed all-history rank tolerance.",
+        "EMX022_NONLINEAR_CENTRAL": "fixed all-history transverse rank comparison.",
+        "EMX023_BENDING": "fixed full-history transverse-rank comparison.",
+        "EMX024_INTERNAL_ORIENTATION": "fixed u transverse-rank comparison."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX022_NONLINEAR_CENTRAL": "ASSESSED_INCOMPATIBLE",
+        "EMX023_BENDING": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX024_INTERNAL_ORIENTATION": "ASSESSED_INCOMPATIBLE"
+      }
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 39,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed"
+      },
+      "observable_or_test": "T06",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 has u_yz=p_yz=0, contrary to this retained transverse-rank-2 observation.",
+        "EMX022_NONLINEAR_CENTRAL": "fixed all-history transverse rank comparison.",
+        "EMX023_BENDING": "fixed full-history transverse-rank comparison.",
+        "EMX024_INTERNAL_ORIENTATION": "fixed u transverse-rank comparison."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_INCOMPATIBLE",
+        "EMX022_NONLINEAR_CENTRAL": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX023_BENDING": "ASSESSED_INCOMPATIBLE",
+        "EMX024_INTERNAL_ORIENTATION": "ASSESSED_COMPATIBLE_NONUNIQUE"
+      }
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 40,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed"
+      },
+      "observable_or_test": "T06",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 has u_yz=p_yz=0, contrary to this retained transverse-rank-2 observation.",
+        "EMX022_NONLINEAR_CENTRAL": "fixed all-history transverse rank comparison.",
+        "EMX023_BENDING": "fixed full-history transverse-rank comparison.",
+        "EMX024_INTERNAL_ORIENTATION": "fixed u transverse-rank comparison."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_INCOMPATIBLE",
+        "EMX022_NONLINEAR_CENTRAL": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX023_BENDING": "ASSESSED_INCOMPATIBLE",
+        "EMX024_INTERNAL_ORIENTATION": "ASSESSED_COMPATIBLE_NONUNIQUE"
+      }
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 41,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed"
+      },
+      "observable_or_test": "T06",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 has u_yz=p_yz=0, contrary to this retained transverse-rank-2 observation.",
+        "EMX022_NONLINEAR_CENTRAL": "fixed all-history transverse rank comparison.",
+        "EMX023_BENDING": "fixed full-history transverse-rank comparison.",
+        "EMX024_INTERNAL_ORIENTATION": "fixed u transverse-rank comparison."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_INCOMPATIBLE",
+        "EMX022_NONLINEAR_CENTRAL": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX023_BENDING": "ASSESSED_INCOMPATIBLE",
+        "EMX024_INTERNAL_ORIENTATION": "ASSESSED_COMPATIBLE_NONUNIQUE"
+      }
+    },
+    {
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 42,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T07",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 43,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T07",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 44,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T07",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 45,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T07",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 46,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T07",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 47,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T07",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 48,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T08",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 49,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T08",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 50,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T08",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "PARITY_EVEN",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 51,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T08",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 52,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T08",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 53,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T08",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 54,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T08",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 55,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T08",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 56,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T08",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "LONGITUDINAL_RANK_INCREMENT_GT1",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 57,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T19_LONGITUDINAL_CONDITIONAL_RANK",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 full-history u_xyz and p_xyz ranks are each 1, not the retained increment greater than one.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_INCOMPATIBLE",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "NOT_DERIVABLE",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 58,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T20_LONGITUDINAL_FROM_TRANSVERSE_PREDICTABILITY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 59,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T22_LONGITUDINAL_TRANSVERSE_COTRANSPORT",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 has no transverse response, so it cannot realize the retained mixed longitudinal/transverse co-transport observation.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_INCOMPATIBLE",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "STRAIN_DOMINATED",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 60,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T23_LONGITUDINAL_FORCE_ORIGIN",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "TRANSVERSE_MODE_MIXING",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 61,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "t16_transverse_mode_split",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 has equal matched loaded/unloaded responses and no transverse sector, so it cannot realize this retained loading/mixing observation.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_INCOMPATIBLE",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "TRANSVERSE_RESPONSE_MIXED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 62,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "t16_response_eigenstructure",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 has equal matched loaded/unloaded responses and no transverse sector, so it cannot realize this retained loading/mixing observation.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_INCOMPATIBLE",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "MODE_MIXING_PREVENTS_RATE_CLASSIFICATION",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 63,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "t16_transport_comparison",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 has equal matched loaded/unloaded responses and no transverse sector, so it cannot realize this retained loading/mixing observation.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_INCOMPATIBLE",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "DIFFERENT_PHASE_EVOLUTION",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 64,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "t16_phase_comparison",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 has equal matched loaded/unloaded responses and no transverse sector, so it cannot realize this retained loading/mixing observation.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_INCOMPATIBLE",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "LONGITUDINAL_RESPONSE_CHANGED",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 65,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "t16_longitudinal_control",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 has equal matched loaded/unloaded responses and no transverse sector, so it cannot realize this retained loading/mixing observation.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_INCOMPATIBLE",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "TRANSVERSE_SECTORS_INDEPENDENT",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 66,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "t24_transverse_conditional_rank",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 has equal matched loaded/unloaded responses and no transverse sector, so it cannot realize this retained loading/mixing observation.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_INCOMPATIBLE",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "TRANSIENT",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 67,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "t27_mixing_persistence",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 has equal matched loaded/unloaded responses and no transverse sector, so it cannot realize this retained loading/mixing observation.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_INCOMPATIBLE",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "MIXING_CO_MOVING",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 68,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "t28_mixing_transport",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 has equal matched loaded/unloaded responses and no transverse sector, so it cannot realize this retained loading/mixing observation.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_INCOMPATIBLE",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "PREEXISTING_UNLOADED_ASYMMETRY",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 69,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T29_FIXED_FRAME_COMPONENT_ENERGY_ASYMMETRY",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "FIXED_SYMMETRY_MAGNITUDE_INVARIANT",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 70,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T30_FIXED_TRANSVERSE_SYMMETRY_CONTROLS",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 fixed identity, y/z-swap, and reflection controls are exactly equivariant at tolerance 1e-12.",
+        "EMX022_NONLINEAR_CENTRAL": "fixed symmetry equivariance comparison.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX022_NONLINEAR_CENTRAL": "ASSESSED_INCOMPATIBLE",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "TRANSVERSE_SECTORS_INDEPENDENT",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 71,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T31_UNLOADED_COMPONENT_STATE_INDEPENDENCE",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "FULL_WINDOW_NONLOCAL_SUPPORT",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 72,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T32_UNLOADED_ASYMMETRY_FULL_WINDOW_SUPPORT",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "FULL_STATE_PRESERVED_WITH_REDUCTION_SENSITIVITY",
+      "historical_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "index": 73,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T33_UNLOADED_ASYMMETRY_REPRESENTATION_RETENTION",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "LOADED_RESPONSE_GEOMETRY_DISTANCE_REDUCED",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 74,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "observable_or_test": "T17_LOADED_GEOMETRY_TRACKING",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "retained without inference: not fully predeclared for this scenario-specific observer."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "NOT_ASSESSED"
+      }
+    },
+    {
+      "historical_classification": "ORIENTATION_REPRESENTATION_NONREDUCIBLE_TO_STRAIN",
+      "historical_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "index": 75,
+      "not_assessed_exclusion": {
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable."
+      },
+      "observable_or_test": "T18_ORIENTATION_DECOUPLING",
+      "reasons": {
+        "DEV167": "historically executed retained positive observation",
+        "EMX019_FROZEN_ONLY": "contract-only phase; no dynamics executed",
+        "EMX020_UNIT_HARMONIC": "EMX020 does not contain a predeclared observable that preserves this record's full scenario-specific meaning; it remains retained rather than inferred away.",
+        "EMX022_NONLINEAR_CENTRAL": "retained without inference: this frozen battery did not predeclare the full scenario-specific observable.",
+        "EMX023_BENDING": "not predeclared for this scenario-specific observable.",
+        "EMX024_INTERNAL_ORIENTATION": "nonzero independently represented internal orientation response, without equivalence claim."
+      },
+      "statuses": {
+        "DEV167": "ASSESSED_COMPATIBLE_NONUNIQUE",
+        "EMX019_FROZEN_ONLY": "NOT_ASSESSED",
+        "EMX020_UNIT_HARMONIC": "NOT_ASSESSED",
+        "EMX022_NONLINEAR_CENTRAL": "NOT_ASSESSED",
+        "EMX023_BENDING": "NOT_ASSESSED",
+        "EMX024_INTERNAL_ORIENTATION": "ASSESSED_COMPATIBLE_NONUNIQUE"
+      }
+    }
+  ],
+  "redundancy_groups": [
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "record_count": 9,
+      "relation": "REPEATED_REPRESENTATION_OR_SCENARIO_FAMILY"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "T03_PROPAGATION",
+      "record_count": 9,
+      "relation": "REPEATED_REPRESENTATION_OR_SCENARIO_FAMILY"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "record_count": 9,
+      "relation": "REPEATED_REPRESENTATION_OR_SCENARIO_FAMILY"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "record_count": 8,
+      "relation": "REPEATED_REPRESENTATION_OR_SCENARIO_FAMILY"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "T06",
+      "record_count": 7,
+      "relation": "REPEATED_REPRESENTATION_OR_SCENARIO_FAMILY"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "T07",
+      "record_count": 6,
+      "relation": "REPEATED_REPRESENTATION_OR_SCENARIO_FAMILY"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "T08",
+      "record_count": 9,
+      "relation": "REPEATED_REPRESENTATION_OR_SCENARIO_FAMILY"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "T17_LOADED_GEOMETRY_TRACKING",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "T18_ORIENTATION_DECOUPLING",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "T19_LONGITUDINAL_CONDITIONAL_RANK",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "T20_LONGITUDINAL_FROM_TRANSVERSE_PREDICTABILITY",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "T22_LONGITUDINAL_TRANSVERSE_COTRANSPORT",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "T23_LONGITUDINAL_FORCE_ORIGIN",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "T29_FIXED_FRAME_COMPONENT_ENERGY_ASYMMETRY",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "T30_FIXED_TRANSVERSE_SYMMETRY_CONTROLS",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "T31_UNLOADED_COMPONENT_STATE_INDEPENDENCE",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "T32_UNLOADED_ASYMMETRY_FULL_WINDOW_SUPPORT",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "T33_UNLOADED_ASYMMETRY_REPRESENTATION_RETENTION",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "t16_longitudinal_control",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "t16_phase_comparison",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "t16_response_eigenstructure",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "t16_transport_comparison",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "t16_transverse_mode_split",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "t24_transverse_conditional_rank",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "t27_mixing_persistence",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    },
+    {
+      "independence_note": "Repeated rows are not collapsed: differing representations/scenarios retain independent evidential roles.",
+      "observable_or_test": "t28_mixing_transport",
+      "record_count": 1,
+      "relation": "SINGLE_RETAINED_OBSERVABLE"
+    }
+  ],
+  "summary": {
+    "model_counts": {
+      "DEV167": {
+        "ASSESSED_COMPATIBLE_NONUNIQUE": 76
+      },
+      "EMX019_FROZEN_ONLY": {
+        "NOT_ASSESSED": 76
+      },
+      "EMX020_UNIT_HARMONIC": {
+        "ASSESSED_COMPATIBLE_NONUNIQUE": 10,
+        "ASSESSED_INCOMPATIBLE": 16,
+        "NOT_ASSESSED": 50
+      },
+      "EMX022_NONLINEAR_CENTRAL": {
+        "ASSESSED_COMPATIBLE_NONUNIQUE": 14,
+        "ASSESSED_INCOMPATIBLE": 2,
+        "NOT_ASSESSED": 60
+      },
+      "EMX023_BENDING": {
+        "ASSESSED_COMPATIBLE_NONUNIQUE": 9,
+        "ASSESSED_INCOMPATIBLE": 6,
+        "NOT_ASSESSED": 61
+      },
+      "EMX024_INTERNAL_ORIENTATION": {
+        "ASSESSED_COMPATIBLE_NONUNIQUE": 15,
+        "ASSESSED_INCOMPATIBLE": 1,
+        "NOT_ASSESSED": 60
+      }
+    },
+    "no_winning_composite_inferred": true,
+    "retained_clues": [
+      "T18 orientation representation is nonreducible to strain under DEV167 and EMX024 has nonzero independent orientation response",
+      "nonunique compatible observations remain joint constraints"
+    ],
+    "retained_count": 76,
+    "single_family_incompatibility_locus": [
+      "EMX020/EMX023 lack transverse and loaded response effects",
+      "EMX022 has transverse/loading coverage but component-only symmetry sensitivity",
+      "EMX024 retains transverse/internal-orientation content but no matched loaded response difference"
+    ]
+  }
+}
