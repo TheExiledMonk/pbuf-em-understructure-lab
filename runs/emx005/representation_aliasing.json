@@ -1,0 +1,86 @@
+[
+  {
+    "REPRESENTATION_ALIASING": false,
+    "lost_native_distinctions": "none of X",
+    "representation_id": "FULL_STATE",
+    "spatial_information": "node localization, bond identity, direction and neighbor order retained",
+    "temporal_information": "retains changing, momentum-reversed, time-reversed and oscillatory state distinctions"
+  },
+  {
+    "REPRESENTATION_ALIASING": true,
+    "lost_native_distinctions": "common displacement translation; momentum",
+    "representation_id": "RELATIONAL_CHANGE",
+    "spatial_information": "reduced as stated in loss map",
+    "temporal_information": "retains changing/propagating only as trajectory series; loses momentum reversal"
+  },
+  {
+    "REPRESENTATION_ALIASING": true,
+    "lost_native_distinctions": "bond sign/orientation distinctions beyond quadratic dyad; momentum",
+    "representation_id": "FULL_RELATIONAL_TENSOR",
+    "spatial_information": "reduced as stated in loss map",
+    "temporal_information": "retains changing/propagating only as trajectory series; loses momentum reversal"
+  },
+  {
+    "REPRESENTATION_ALIASING": true,
+    "lost_native_distinctions": "none relative to M here because A=0",
+    "representation_id": "SYMMETRIC_TENSOR",
+    "spatial_information": "reduced as stated in loss map",
+    "temporal_information": "retains changing/propagating only as trajectory series; loses momentum reversal"
+  },
+  {
+    "REPRESENTATION_ALIASING": true,
+    "lost_native_distinctions": "all symmetric relational content",
+    "representation_id": "ANTISYMMETRIC_TENSOR",
+    "spatial_information": "reduced as stated in loss map",
+    "temporal_information": "retains changing/propagating only as trajectory series; loses momentum reversal"
+  },
+  {
+    "REPRESENTATION_ALIASING": true,
+    "lost_native_distinctions": "directional, neighbor-resolved and off-diagonal tensor content",
+    "representation_id": "TRACE",
+    "spatial_information": "reduced as stated in loss map",
+    "temporal_information": "retains changing/propagating only as trajectory series; loses momentum reversal"
+  },
+  {
+    "REPRESENTATION_ALIASING": true,
+    "lost_native_distinctions": "isotropic trace",
+    "representation_id": "TRACE_FREE_SYMMETRIC",
+    "spatial_information": "reduced as stated in loss map",
+    "temporal_information": "retains changing/propagating only as trajectory series; loses momentum reversal"
+  },
+  {
+    "REPRESENTATION_ALIASING": true,
+    "lost_native_distinctions": "bond orientation, sign and momentum",
+    "representation_id": "BOND_STRAIN",
+    "spatial_information": "reduced as stated in loss map",
+    "temporal_information": "retains changing/propagating only as trajectory series; loses momentum reversal"
+  },
+  {
+    "REPRESENTATION_ALIASING": true,
+    "lost_native_distinctions": "strain magnitude change and cross term",
+    "representation_id": "ORIENTATION_STRESS",
+    "spatial_information": "reduced as stated in loss map",
+    "temporal_information": "retains changing/propagating only as trajectory series; loses momentum reversal"
+  },
+  {
+    "REPRESENTATION_ALIASING": true,
+    "lost_native_distinctions": "separate sigma/rhat factorization and momentum",
+    "representation_id": "FULL_FORCE_CHANGE",
+    "spatial_information": "reduced as stated in loss map",
+    "temporal_information": "retains changing/propagating only as trajectory series; loses momentum reversal"
+  },
+  {
+    "REPRESENTATION_ALIASING": true,
+    "lost_native_distinctions": "momentum and absolute translation",
+    "representation_id": "SIGNED_NEIGHBOR_MISMATCH",
+    "spatial_information": "reduced as stated in loss map",
+    "temporal_information": "retains changing/propagating only as trajectory series; loses momentum reversal"
+  },
+  {
+    "REPRESENTATION_ALIASING": true,
+    "lost_native_distinctions": "bond identity, orientation and momentum",
+    "representation_id": "TENSOR_NEIGHBOR_CONTRACTION",
+    "spatial_information": "reduced as stated in loss map",
+    "temporal_information": "retains changing/propagating only as trajectory series; loses momentum reversal"
+  }
+]

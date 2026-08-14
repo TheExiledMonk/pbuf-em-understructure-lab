@@ -1,0 +1,86 @@
+{
+  "edges": [
+    {
+      "from": "X",
+      "to": "NODE_DISPLACEMENT",
+      "type": "LOSSLESS"
+    },
+    {
+      "from": "X",
+      "to": "NODE_MOMENTUM",
+      "type": "LOSSLESS"
+    },
+    {
+      "from": "NODE_DISPLACEMENT",
+      "to": "BOND_VECTOR",
+      "type": "LOSSY"
+    },
+    {
+      "from": "BOND_VECTOR",
+      "to": "FULL_RELATIONAL_TENSOR",
+      "type": "NONINVERTIBLE"
+    },
+    {
+      "from": "FULL_RELATIONAL_TENSOR",
+      "to": "SYMMETRIC_TENSOR",
+      "type": "LOSSLESS"
+    },
+    {
+      "from": "FULL_RELATIONAL_TENSOR",
+      "to": "ANTISYMMETRIC_TENSOR",
+      "type": "LOSSY"
+    },
+    {
+      "from": "BOND_VECTOR",
+      "to": "BOND_STRAIN",
+      "type": "LOSSY"
+    },
+    {
+      "from": "BOND_VECTOR",
+      "to": "BOND_ORIENTATION",
+      "type": "LOSSY"
+    },
+    {
+      "from": "BOND_STRAIN",
+      "to": "BOND_FORCE_MAGNITUDE",
+      "type": "LOSSLESS"
+    },
+    {
+      "from": "BOND_FORCE_MAGNITUDE",
+      "to": "BOND_FORCE_DIRECTION",
+      "type": "PARTIAL"
+    },
+    {
+      "from": "BOND_VECTOR",
+      "to": "FULL_BOND_FORCE",
+      "type": "LOSSLESS"
+    },
+    {
+      "from": "FULL_BOND_FORCE",
+      "to": "FULL_FORCE_CHANGE",
+      "type": "LOSSLESS"
+    }
+  ],
+  "nodes": [
+    "X",
+    "NODE_DISPLACEMENT",
+    "NODE_MOMENTUM",
+    "BOND_VECTOR",
+    "BOND_LENGTH",
+    "BOND_STRAIN",
+    "BOND_ORIENTATION",
+    "BOND_FORCE_MAGNITUDE",
+    "BOND_FORCE_DIRECTION",
+    "FULL_BOND_FORCE",
+    "RELATIONAL_CHANGE",
+    "SYMMETRIC_RELATIONAL_TENSOR",
+    "ANTISYMMETRIC_RELATIONAL_TENSOR",
+    "TRACE_CONTENT",
+    "OFF_DIAGONAL_CONTENT",
+    "ORIENTATION_STRESS_TERM",
+    "STRAIN_STRESS_TERM",
+    "FINITE_STEP_CROSS_TERM",
+    "SIGNED_NEIGHBOR_MISMATCH",
+    "TENSOR_NEIGHBOR_CONTRACTION"
+  ]
+}

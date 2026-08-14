@@ -1,0 +1,12 @@
+{
+  "EMX006_TEST_SELECTION": "SECONDARY_STRUCTURAL_MATRIX_BATTERY",
+  "EMX006_TEST_SELECTION_FROZEN": true,
+  "reason": "stable same-parent momentum-relation information core, with no preferred representation claim",
+  "test_ids": [
+    "T06_ORIENTATION",
+    "T07_TRANSVERSE",
+    "T08_LONGITUDINAL",
+    "T09_HANDEDNESS",
+    "T10_MOMENTUM_TRANSFER"
+  ]
+}

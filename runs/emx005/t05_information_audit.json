@@ -1,0 +1,54 @@
+{
+  "representation_sufficiency": [
+    {
+      "classification": "PARTIALLY_SUFFICIENT",
+      "representation_id": "FULL_STATE"
+    },
+    {
+      "classification": "PARTIALLY_SUFFICIENT",
+      "representation_id": "RELATIONAL_CHANGE"
+    },
+    {
+      "classification": "INSUFFICIENT",
+      "representation_id": "FULL_RELATIONAL_TENSOR"
+    },
+    {
+      "classification": "INSUFFICIENT",
+      "representation_id": "SYMMETRIC_TENSOR"
+    },
+    {
+      "classification": "INSUFFICIENT",
+      "representation_id": "ANTISYMMETRIC_TENSOR"
+    },
+    {
+      "classification": "INSUFFICIENT",
+      "representation_id": "TRACE"
+    },
+    {
+      "classification": "INSUFFICIENT",
+      "representation_id": "TRACE_FREE_SYMMETRIC"
+    },
+    {
+      "classification": "PARTIALLY_SUFFICIENT",
+      "representation_id": "BOND_STRAIN"
+    },
+    {
+      "classification": "PARTIALLY_SUFFICIENT",
+      "representation_id": "ORIENTATION_STRESS"
+    },
+    {
+      "classification": "SUFFICIENT",
+      "representation_id": "FULL_FORCE_CHANGE"
+    },
+    {
+      "classification": "INSUFFICIENT",
+      "representation_id": "SIGNED_NEIGHBOR_MISMATCH"
+    },
+    {
+      "classification": "INSUFFICIENT",
+      "representation_id": "TENSOR_NEIGHBOR_CONTRACTION"
+    }
+  ],
+  "same_parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+  "test_id": "T05_STRESS_COUPLING"
+}

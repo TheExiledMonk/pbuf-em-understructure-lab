@@ -1,0 +1,28 @@
+{
+  "T03_MINIMAL_SUFFICIENT_SET": "NONUNIQUE",
+  "rule": "only predeclared exact sectors; a set is minimal only when sufficient and every tested proper subset is not",
+  "sets": {
+    "T01_QUIET_STATE": [
+      "BOND_STRAIN",
+      "RELATIONAL_CHANGE"
+    ],
+    "T02_EXCITATION_ACTIVITY": [
+      "BOND_STRAIN",
+      "RELATIONAL_CHANGE"
+    ],
+    "T03_PROPAGATION": [
+      "BOND_STRAIN",
+      "TRACE",
+      "SYMMETRIC_TENSOR",
+      "RELATIONAL_CHANGE",
+      "FULL_FORCE_CHANGE",
+      "ORIENTATION_STRESS"
+    ],
+    "T04_NEIGHBOR_RELAY": [
+      "FULL_STATE"
+    ],
+    "T05_STRESS_COUPLING": [
+      "FULL_FORCE_CHANGE"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "COMMON_PRIMITIVE_INFORMATION_CORE": "FOUND",
+  "caution": "a retained core is not an EM representation designation and is same-parent evidence only",
+  "core_name": "MOMENTUM_RELATION_CORE",
+  "definition": "node momentum plus ordered bond-vector relation, the only predeclared minimal set sufficient for relay and retaining all other primitive diagnostics"
+}

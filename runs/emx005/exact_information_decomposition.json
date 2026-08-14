@@ -1,0 +1,107 @@
+{
+  "DYNAMICS_EXECUTED": false,
+  "PARENT_TRAJECTORY_MODIFIED": false,
+  "identity_errors": {
+    "A_L2": 0.0,
+    "DELTA_F_THREE_TERM_L2": 1.115413986236937e-17,
+    "M_MINUS_S_MINUS_A_L2": 0.0
+  },
+  "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+  "sectors": [
+    {
+      "definition": "NODE_DISPLACEMENT",
+      "difference_l2": 0.2258184481074064,
+      "sector": "NODE_DISPLACEMENT"
+    },
+    {
+      "definition": "NODE_MOMENTUM",
+      "difference_l2": 0.2258184481074064,
+      "sector": "NODE_MOMENTUM"
+    },
+    {
+      "definition": "BOND_VECTOR",
+      "difference_l2": 0.2258184481074064,
+      "sector": "BOND_VECTOR"
+    },
+    {
+      "definition": "BOND_LENGTH",
+      "difference_l2": 0.2258184481074064,
+      "sector": "BOND_LENGTH"
+    },
+    {
+      "definition": "BOND_STRAIN",
+      "difference_l2": 0.015580307023525473,
+      "sector": "BOND_STRAIN"
+    },
+    {
+      "definition": "BOND_ORIENTATION",
+      "difference_l2": 0.2258184481074064,
+      "sector": "BOND_ORIENTATION"
+    },
+    {
+      "definition": "BOND_FORCE_MAGNITUDE",
+      "difference_l2": 0.2258184481074064,
+      "sector": "BOND_FORCE_MAGNITUDE"
+    },
+    {
+      "definition": "BOND_FORCE_DIRECTION",
+      "difference_l2": 0.2258184481074064,
+      "sector": "BOND_FORCE_DIRECTION"
+    },
+    {
+      "definition": "FULL_BOND_FORCE",
+      "difference_l2": 0.015580563040605601,
+      "sector": "FULL_BOND_FORCE"
+    },
+    {
+      "definition": "RELATIONAL_CHANGE",
+      "difference_l2": 0.2258184481074064,
+      "sector": "RELATIONAL_CHANGE"
+    },
+    {
+      "definition": "SYMMETRIC_RELATIONAL_TENSOR",
+      "difference_l2": 0.32011711608678844,
+      "sector": "SYMMETRIC_RELATIONAL_TENSOR"
+    },
+    {
+      "definition": "ANTISYMMETRIC_RELATIONAL_TENSOR",
+      "difference_l2": 0.0,
+      "sector": "ANTISYMMETRIC_RELATIONAL_TENSOR"
+    },
+    {
+      "definition": "TRACE_CONTENT",
+      "difference_l2": 0.031145287468113174,
+      "sector": "TRACE_CONTENT"
+    },
+    {
+      "definition": "OFF_DIAGONAL_CONTENT",
+      "difference_l2": 0.2258184481074064,
+      "sector": "OFF_DIAGONAL_CONTENT"
+    },
+    {
+      "definition": "ORIENTATION_STRESS_TERM",
+      "difference_l2": 3.747567439376007e-05,
+      "sector": "ORIENTATION_STRESS_TERM"
+    },
+    {
+      "definition": "STRAIN_STRESS_TERM",
+      "difference_l2": 0.2258184481074064,
+      "sector": "STRAIN_STRESS_TERM"
+    },
+    {
+      "definition": "FINITE_STEP_CROSS_TERM",
+      "difference_l2": 0.2258184481074064,
+      "sector": "FINITE_STEP_CROSS_TERM"
+    },
+    {
+      "definition": "SIGNED_NEIGHBOR_MISMATCH",
+      "difference_l2": 0.2258184481074064,
+      "sector": "SIGNED_NEIGHBOR_MISMATCH"
+    },
+    {
+      "definition": "TENSOR_NEIGHBOR_CONTRACTION",
+      "difference_l2": 0.031145287468113257,
+      "sector": "TENSOR_NEIGHBOR_CONTRACTION"
+    }
+  ]
+}

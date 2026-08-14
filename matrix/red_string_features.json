@@ -97,5 +97,18 @@
       "C013_DEV225_TENSOR_NEIGHBOR_RELATION"
     ],
     "test_id": "T05_STRESS_COUPLING"
+  },
+  {
+    "CROSS_PHYSICAL_INDEPENDENCE": false,
+    "CROSS_REPRESENTATION_RECURRENCE": true,
+    "feature_id": "F14_MOMENTUM_RELATION_CORE",
+    "status": "SAME_PARENT_INFORMATION_CORE",
+    "tests": [
+      "T01_QUIET_STATE",
+      "T02_EXCITATION_ACTIVITY",
+      "T03_PROPAGATION",
+      "T04_NEIGHBOR_RELAY",
+      "T05_STRESS_COUPLING"
+    ]
   }
 ]

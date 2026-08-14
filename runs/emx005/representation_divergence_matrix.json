@@ -1,0 +1,530 @@
+[
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_STATE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "RELATIONAL_CHANGE"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_STATE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "SYMMETRIC_TENSOR"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_STATE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_STATE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE_FREE_SYMMETRIC"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_STATE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "ORIENTATION_STRESS"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_STATE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "SIGNED_NEIGHBOR_MISMATCH"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_STATE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TENSOR_NEIGHBOR_CONTRACTION"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "RELATIONAL_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "SYMMETRIC_TENSOR"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "RELATIONAL_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "RELATIONAL_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE_FREE_SYMMETRIC"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "RELATIONAL_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "SIGNED_NEIGHBOR_MISMATCH"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "RELATIONAL_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TENSOR_NEIGHBOR_CONTRACTION"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_RELATIONAL_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "FULL_STATE"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_RELATIONAL_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "RELATIONAL_CHANGE"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_RELATIONAL_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "SYMMETRIC_TENSOR"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_RELATIONAL_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_RELATIONAL_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE_FREE_SYMMETRIC"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_RELATIONAL_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "ORIENTATION_STRESS"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_RELATIONAL_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "SIGNED_NEIGHBOR_MISMATCH"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_RELATIONAL_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TENSOR_NEIGHBOR_CONTRACTION"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "SYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "SYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE_FREE_SYMMETRIC"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "SYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TENSOR_NEIGHBOR_CONTRACTION"
+  },
+  {
+    "T03_left": "LOST",
+    "T03_right": "PRESERVED",
+    "diverges": true,
+    "left": "ANTISYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "FULL_STATE"
+  },
+  {
+    "T03_left": "LOST",
+    "T03_right": "PRESERVED",
+    "diverges": true,
+    "left": "ANTISYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "RELATIONAL_CHANGE"
+  },
+  {
+    "T03_left": "LOST",
+    "T03_right": "PRESERVED",
+    "diverges": true,
+    "left": "ANTISYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "FULL_RELATIONAL_TENSOR"
+  },
+  {
+    "T03_left": "LOST",
+    "T03_right": "PRESERVED",
+    "diverges": true,
+    "left": "ANTISYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "SYMMETRIC_TENSOR"
+  },
+  {
+    "T03_left": "LOST",
+    "T03_right": "PRESERVED",
+    "diverges": true,
+    "left": "ANTISYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE"
+  },
+  {
+    "T03_left": "LOST",
+    "T03_right": "PRESERVED",
+    "diverges": true,
+    "left": "ANTISYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE_FREE_SYMMETRIC"
+  },
+  {
+    "T03_left": "LOST",
+    "T03_right": "PRESERVED",
+    "diverges": true,
+    "left": "ANTISYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "BOND_STRAIN"
+  },
+  {
+    "T03_left": "LOST",
+    "T03_right": "PRESERVED",
+    "diverges": true,
+    "left": "ANTISYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "ORIENTATION_STRESS"
+  },
+  {
+    "T03_left": "LOST",
+    "T03_right": "PRESERVED",
+    "diverges": true,
+    "left": "ANTISYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "FULL_FORCE_CHANGE"
+  },
+  {
+    "T03_left": "LOST",
+    "T03_right": "PRESERVED",
+    "diverges": true,
+    "left": "ANTISYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "SIGNED_NEIGHBOR_MISMATCH"
+  },
+  {
+    "T03_left": "LOST",
+    "T03_right": "PRESERVED",
+    "diverges": true,
+    "left": "ANTISYMMETRIC_TENSOR",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TENSOR_NEIGHBOR_CONTRACTION"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "TRACE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE_FREE_SYMMETRIC"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "BOND_STRAIN",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "FULL_STATE"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "BOND_STRAIN",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "RELATIONAL_CHANGE"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "BOND_STRAIN",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "FULL_RELATIONAL_TENSOR"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "BOND_STRAIN",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "SYMMETRIC_TENSOR"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "BOND_STRAIN",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "BOND_STRAIN",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE_FREE_SYMMETRIC"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "BOND_STRAIN",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "ORIENTATION_STRESS"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "BOND_STRAIN",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "FULL_FORCE_CHANGE"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "BOND_STRAIN",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "SIGNED_NEIGHBOR_MISMATCH"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "BOND_STRAIN",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TENSOR_NEIGHBOR_CONTRACTION"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "ORIENTATION_STRESS",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "RELATIONAL_CHANGE"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "ORIENTATION_STRESS",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "SYMMETRIC_TENSOR"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "ORIENTATION_STRESS",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "ORIENTATION_STRESS",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE_FREE_SYMMETRIC"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "ORIENTATION_STRESS",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "SIGNED_NEIGHBOR_MISMATCH"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "ORIENTATION_STRESS",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TENSOR_NEIGHBOR_CONTRACTION"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_FORCE_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "FULL_STATE"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_FORCE_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "RELATIONAL_CHANGE"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_FORCE_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "FULL_RELATIONAL_TENSOR"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_FORCE_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "SYMMETRIC_TENSOR"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_FORCE_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_FORCE_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE_FREE_SYMMETRIC"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_FORCE_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "ORIENTATION_STRESS"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_FORCE_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "SIGNED_NEIGHBOR_MISMATCH"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "FULL_FORCE_CHANGE",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TENSOR_NEIGHBOR_CONTRACTION"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "SIGNED_NEIGHBOR_MISMATCH",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "SYMMETRIC_TENSOR"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "SIGNED_NEIGHBOR_MISMATCH",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "SIGNED_NEIGHBOR_MISMATCH",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE_FREE_SYMMETRIC"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "SIGNED_NEIGHBOR_MISMATCH",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TENSOR_NEIGHBOR_CONTRACTION"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "TENSOR_NEIGHBOR_CONTRACTION",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE"
+  },
+  {
+    "T03_left": "PRESERVED",
+    "T03_right": "PRESERVED",
+    "diverges": false,
+    "left": "TENSOR_NEIGHBOR_CONTRACTION",
+    "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+    "right": "TRACE_FREE_SYMMETRIC"
+  }
+]

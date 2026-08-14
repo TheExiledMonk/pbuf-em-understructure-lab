@@ -1,0 +1,54 @@
+{
+  "representation_sufficiency": [
+    {
+      "classification": "SUFFICIENT",
+      "representation_id": "FULL_STATE"
+    },
+    {
+      "classification": "SUFFICIENT",
+      "representation_id": "RELATIONAL_CHANGE"
+    },
+    {
+      "classification": "SUFFICIENT",
+      "representation_id": "FULL_RELATIONAL_TENSOR"
+    },
+    {
+      "classification": "SUFFICIENT",
+      "representation_id": "SYMMETRIC_TENSOR"
+    },
+    {
+      "classification": "INSUFFICIENT",
+      "representation_id": "ANTISYMMETRIC_TENSOR"
+    },
+    {
+      "classification": "SUFFICIENT",
+      "representation_id": "TRACE"
+    },
+    {
+      "classification": "SUFFICIENT",
+      "representation_id": "TRACE_FREE_SYMMETRIC"
+    },
+    {
+      "classification": "SUFFICIENT",
+      "representation_id": "BOND_STRAIN"
+    },
+    {
+      "classification": "SUFFICIENT",
+      "representation_id": "ORIENTATION_STRESS"
+    },
+    {
+      "classification": "SUFFICIENT",
+      "representation_id": "FULL_FORCE_CHANGE"
+    },
+    {
+      "classification": "SUFFICIENT",
+      "representation_id": "SIGNED_NEIGHBOR_MISMATCH"
+    },
+    {
+      "classification": "SUFFICIENT",
+      "representation_id": "TENSOR_NEIGHBOR_CONTRACTION"
+    }
+  ],
+  "same_parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+  "test_id": "T02_EXCITATION_ACTIVITY"
+}

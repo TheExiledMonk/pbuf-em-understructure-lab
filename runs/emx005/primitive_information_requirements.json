@@ -1,0 +1,98 @@
+[
+  {
+    "minimal_sufficient_sets": [
+      "BOND_STRAIN",
+      "RELATIONAL_CHANGE"
+    ],
+    "necessary_information": [
+      "NOT_ESTABLISHED"
+    ],
+    "nonunique_sets": true,
+    "sufficient_information": [
+      "BOND_STRAIN",
+      "RELATIONAL_CHANGE"
+    ],
+    "test_id": "T01_QUIET_STATE",
+    "unresolved_information": [
+      "none within frozen sectors"
+    ]
+  },
+  {
+    "minimal_sufficient_sets": [
+      "BOND_STRAIN",
+      "RELATIONAL_CHANGE"
+    ],
+    "necessary_information": [
+      "NOT_ESTABLISHED"
+    ],
+    "nonunique_sets": true,
+    "sufficient_information": [
+      "BOND_STRAIN",
+      "RELATIONAL_CHANGE"
+    ],
+    "test_id": "T02_EXCITATION_ACTIVITY",
+    "unresolved_information": [
+      "none within frozen sectors"
+    ]
+  },
+  {
+    "minimal_sufficient_sets": [
+      "BOND_STRAIN",
+      "TRACE",
+      "SYMMETRIC_TENSOR",
+      "RELATIONAL_CHANGE",
+      "FULL_FORCE_CHANGE",
+      "ORIENTATION_STRESS"
+    ],
+    "necessary_information": [
+      "SYMMETRIC_RELATIONAL_TENSOR"
+    ],
+    "nonunique_sets": true,
+    "sufficient_information": [
+      "BOND_STRAIN",
+      "TRACE",
+      "SYMMETRIC_TENSOR",
+      "RELATIONAL_CHANGE",
+      "FULL_FORCE_CHANGE",
+      "ORIENTATION_STRESS"
+    ],
+    "test_id": "T03_PROPAGATION",
+    "unresolved_information": [
+      "none within frozen sectors"
+    ]
+  },
+  {
+    "minimal_sufficient_sets": [
+      "FULL_STATE"
+    ],
+    "necessary_information": [
+      "NODE_MOMENTUM",
+      "BOND_VECTOR",
+      "FULL_BOND_FORCE"
+    ],
+    "nonunique_sets": false,
+    "sufficient_information": [
+      "FULL_STATE"
+    ],
+    "test_id": "T04_NEIGHBOR_RELAY",
+    "unresolved_information": [
+      "none within frozen sectors"
+    ]
+  },
+  {
+    "minimal_sufficient_sets": [
+      "FULL_FORCE_CHANGE"
+    ],
+    "necessary_information": [
+      "NOT_ESTABLISHED"
+    ],
+    "nonunique_sets": false,
+    "sufficient_information": [
+      "FULL_FORCE_CHANGE"
+    ],
+    "test_id": "T05_STRESS_COUPLING",
+    "unresolved_information": [
+      "none within frozen sectors"
+    ]
+  }
+]

@@ -1,0 +1,118 @@
+{
+  "EMX005_TEST_SELECTION": "REPRESENTATION_INFORMATION_LOSS_AUDIT",
+  "EMX005_TEST_SELECTION_FROZEN": true,
+  "algebraic_decompositions": {
+    "A": "(M-M^T)/2",
+    "DELTA_F": "DELTA_sigma rhat + sigma DELTA_rhat + DELTA_sigma DELTA_rhat",
+    "F": "sigma(epsilon) r_hat; sigma=epsilon/(1-epsilon^2)",
+    "M": "sum_a r_a outer r_a",
+    "S": "(M+M^T)/2",
+    "TRACE": "tr(S)",
+    "TRACE_FREE_SYMMETRIC": "S-I tr(S)/3"
+  },
+  "classification_vocabulary": {
+    "ablation": [
+      "PRESERVED",
+      "LOST",
+      "PARTIAL",
+      "UNCHANGED",
+      "NOT_APPLICABLE",
+      "BLOCKED"
+    ],
+    "reconstruction": [
+      "LOSSLESS_FOR_TARGET",
+      "SUFFICIENT_BUT_NONINVERTIBLE",
+      "LOSSY_TARGET_RETAINED",
+      "LOSSY_TARGET_DESTROYED",
+      "NONCOMPARABLE"
+    ],
+    "sufficiency": [
+      "SUFFICIENT",
+      "INSUFFICIENT",
+      "PARTIALLY_SUFFICIENT",
+      "REDUNDANT",
+      "BLOCKED",
+      "NOT_APPLICABLE"
+    ]
+  },
+  "comparison_logic": {
+    "T01": "exact zero/time constancy",
+    "T02": "exact time-matched excited-control difference",
+    "T03": "full frozen shell support, no first-arrival causality",
+    "T04": "retention of all r,F,p,r-prime chain terms",
+    "T05": "complete fixed three-term force decomposition"
+  },
+  "contract_sha256": "59c55fa4986c8a85642af39847d6104485c74426b503ef9d9bcf14f5c06af269",
+  "information_sectors": [
+    "NODE_DISPLACEMENT",
+    "NODE_MOMENTUM",
+    "BOND_VECTOR",
+    "BOND_LENGTH",
+    "BOND_STRAIN",
+    "BOND_ORIENTATION",
+    "BOND_FORCE_MAGNITUDE",
+    "BOND_FORCE_DIRECTION",
+    "FULL_BOND_FORCE",
+    "RELATIONAL_CHANGE",
+    "SYMMETRIC_RELATIONAL_TENSOR",
+    "ANTISYMMETRIC_RELATIONAL_TENSOR",
+    "TRACE_CONTENT",
+    "OFF_DIAGONAL_CONTENT",
+    "ORIENTATION_STRESS_TERM",
+    "STRAIN_STRESS_TERM",
+    "FINITE_STEP_CROSS_TERM",
+    "SIGNED_NEIGHBOR_MISMATCH",
+    "TENSOR_NEIGHBOR_CONTRACTION"
+  ],
+  "minimality_rule": "only predeclared exact sectors; a set is minimal only when sufficient and every tested proper subset is not",
+  "parent_artifacts": [
+    "excited_trajectory.npz",
+    "background_trajectory.npz",
+    "excitation_support_spacetime.npz"
+  ],
+  "parent_trajectory": "DEV195_CANONICAL_PACKET_PARENT",
+  "primitive_tests": [
+    "T01_QUIET_STATE",
+    "T02_EXCITATION_ACTIVITY",
+    "T03_PROPAGATION",
+    "T04_NEIGHBOR_RELAY",
+    "T05_STRESS_COUPLING"
+  ],
+  "prohibitions": {
+    "CANONICAL_REPO_READ_ONLY": true,
+    "NO_BLOCKED_CELL_INFERENCE": true,
+    "NO_B_FIELD": true,
+    "NO_CANDIDATE_REMOVAL": true,
+    "NO_DEV167_MODIFICATION": true,
+    "NO_DIRECTIONAL_LOADING_TEST": true,
+    "NO_E_FIELD": true,
+    "NO_FEATURE_FITTING": true,
+    "NO_MAGNETAR_FIT": true,
+    "NO_MAXWELL_MAPPING": true,
+    "NO_NEGATIVE_RESULT_MOTIVATED_MATRIX_EXPANSION": true,
+    "NO_NEW_DOF": true,
+    "NO_NEW_FORCE": true,
+    "NO_NEW_PHYSICS": true,
+    "NO_NEW_REPRESENTATION_AFTER_RESULTS": true,
+    "NO_REPAIR_OF_C005": true,
+    "NO_RESULT_SELECTED_AXIS": true,
+    "NO_RESULT_SELECTED_COMPONENT": true,
+    "NO_RESULT_SELECTED_REGION": true,
+    "NO_RESULT_SELECTED_TIME": true,
+    "NO_THRESHOLD_FITTING": true
+  },
+  "representation_set": [
+    "FULL_STATE",
+    "RELATIONAL_CHANGE",
+    "FULL_RELATIONAL_TENSOR",
+    "SYMMETRIC_TENSOR",
+    "ANTISYMMETRIC_TENSOR",
+    "TRACE",
+    "TRACE_FREE_SYMMETRIC",
+    "BOND_STRAIN",
+    "ORIENTATION_STRESS",
+    "FULL_FORCE_CHANGE",
+    "SIGNED_NEIGHBOR_MISMATCH",
+    "TENSOR_NEIGHBOR_CONTRACTION"
+  ]
+}
