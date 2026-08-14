@@ -1,0 +1,5 @@
+{
+  "EMX016_TEST_SELECTION": "DEV167_ROBUSTNESS_RECONSIDERATION_AUDIT",
+  "EMX016_TEST_SELECTION_FROZEN": true,
+  "basis": "T17/T18 classify fixed-history observer relations but do not establish an independent geometry-to-propagation mechanism or orientation-equivalent state."
+}

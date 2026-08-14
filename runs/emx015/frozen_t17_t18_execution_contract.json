@@ -1,0 +1,127 @@
+{
+  "EMX015_SELECTOR_FROZEN": true,
+  "EMX015_SELECTOR_VERIFIED": "T17_T18_FIXED_HISTORY_EXECUTION",
+  "T17": {
+    "classification_vocabulary": [
+      "LOADED_RESPONSE_GEOMETRY_DISTANCE_REDUCED",
+      "LOADED_RESPONSE_GEOMETRY_DISTANCE_INCREASED",
+      "LOADED_RESPONSE_GEOMETRY_DISTANCE_EQUAL"
+    ],
+    "comparison": "full-history L2 norm of minimal periodic centroid displacement; loaded response compared with matched unloaded response against the same fixed geometry",
+    "geometry_observable": "pre-existing DEV202 all-node absolute-k_perp periodic centroid at each frame",
+    "id": "T17_LOADED_GEOMETRY_TRACKING",
+    "no_selected_time_or_region": true,
+    "response_observable": "all-node displacement-plus-momentum squared observer-difference periodic centroid at each frame"
+  },
+  "T18": {
+    "classification_vocabulary": [
+      "ORIENTATION_REPRESENTATION_NONREDUCIBLE_TO_STRAIN",
+      "ORIENTATION_REPRESENTATION_SCALAR_REDUCIBLE_TO_STRAIN"
+    ],
+    "comparison_observable": "DEV204 native strain term (sigma(q_probe)-sigma(q_background)) * rhat_background",
+    "criterion": "exact all-history scalar linear-reducibility rank of flattened strain and orientation terms at tolerance 1e-12",
+    "id": "T18_ORIENTATION_DECOUPLING",
+    "orientation_observable": "DEV204 native orientation-stress term sigma(q_background) * (rhat_probe - rhat_background) on all positive N6 bonds",
+    "representation_reporting": "full native orientation term remains parent; transverse-pair and norm-only reductions are reported without equivalence claim",
+    "symmetry_controls": {
+      "e2_reflection": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "identity": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "transverse_swap": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    }
+  },
+  "authorization": "explicit user authorization after EMX014 closure",
+  "contract_sha256": "1b7e382e2bb926d8b4a78d8a0bf070592d411cba02ff2bd2ddce108b167758c3",
+  "deterministic_replay": "solely reconstructs exact EMX011 authorized histories and verifies their hashes",
+  "inputs": {
+    "dt": 0.04,
+    "frames": [
+      0,
+      180
+    ],
+    "lattice": [
+      11,
+      11,
+      11
+    ],
+    "loaded_background": "DEV195_DEV202_SELF_LOADED_PACKET",
+    "loaded_geometry": "DEV202 self_loaded_stiffness_spacetime_trace.npz: absolute_weight_centroid",
+    "matched_histories": "EMX011 loaded and unloaded valid-state observer differences",
+    "propagation_and_loading_direction": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "prohibitions": {
+    "CANONICAL_REPO_READ_ONLY": true,
+    "NO_B_FIELD": true,
+    "NO_DEV167_MODIFICATION": true,
+    "NO_EM_QED_MAPPING": true,
+    "NO_E_FIELD": true,
+    "NO_GEOMETRY_SCAN": true,
+    "NO_LOAD_SCAN": true,
+    "NO_NEW_DOF": true,
+    "NO_NEW_DYNAMICS": true,
+    "NO_NEW_FORCE": true,
+    "NO_NEW_LOADING": true,
+    "NO_NEW_PACKET": true,
+    "NO_NEW_PHYSICS": true,
+    "NO_NEW_SOURCE": true,
+    "NO_PARAMETER_FITTING": true,
+    "NO_RESULT_SELECTED_AXIS": true,
+    "NO_RESULT_SELECTED_BASIS": true,
+    "NO_RESULT_SELECTED_REGION": true,
+    "NO_RESULT_SELECTED_TIME": true,
+    "NO_THRESHOLD_FITTING": true,
+    "NO_TOPOLOGY_EXECUTION": true
+  },
+  "tolerance": 1e-12
+}

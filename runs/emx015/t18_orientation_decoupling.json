@@ -1,0 +1,27 @@
+{
+  "classification": "ORIENTATION_REPRESENTATION_NONREDUCIBLE_TO_STRAIN",
+  "controls": {
+    "e2_reflection": {
+      "joint_rank": 2,
+      "orientation_l2": 3.09281673806901e-05,
+      "strain_l2": 0.015586507434884066
+    },
+    "identity": {
+      "joint_rank": 2,
+      "orientation_l2": 3.09281673806901e-05,
+      "strain_l2": 0.015586507434884066
+    },
+    "transverse_swap": {
+      "joint_rank": 2,
+      "orientation_l2": 3.09281673806901e-05,
+      "strain_l2": 0.015586507434884066
+    }
+  },
+  "definition": "exact all-history scalar linear-reducibility rank of flattened strain and orientation terms at tolerance 1e-12",
+  "loaded_exact_scalar_linear_dependence": false,
+  "loaded_joint_rank": 2,
+  "scope": "representation distinction only; not a preferred orientation, polarization, or causal-equivalence claim",
+  "test_id": "T18_ORIENTATION_DECOUPLING",
+  "unloaded_exact_scalar_linear_dependence": false,
+  "unloaded_joint_rank": 2
+}

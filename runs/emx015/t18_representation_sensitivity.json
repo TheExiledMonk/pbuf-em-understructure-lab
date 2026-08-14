@@ -1,0 +1,21 @@
+{
+  "equivalence_claim": "NOT_MADE",
+  "parent_representation": "FULL_NATIVE_ORIENTATION_TERM",
+  "records": [
+    {
+      "history_l2": 3.09281673806901e-05,
+      "relation": "PARENT",
+      "representation": "FULL_NATIVE_ORIENTATION_TERM"
+    },
+    {
+      "history_l2": 1.1504920011295712e-07,
+      "relation": "REDUCTION",
+      "representation": "TRANSVERSE_YZ_ORIENTATION_PAIR"
+    },
+    {
+      "history_l2": 3.09281673806939e-05,
+      "relation": "REDUCTION",
+      "representation": "ORIENTATION_MAGNITUDE_ONLY"
+    }
+  ]
+}
