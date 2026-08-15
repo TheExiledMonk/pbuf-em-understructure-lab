@@ -1,0 +1,9 @@
+{
+  "conclusion": "All four frozen replay-lift comparisons execute; observed differences are discriminator outcomes only, never a cross-family equivalence or historical-gate claim.",
+  "shape_outcomes": {
+    "COMPACT": "EXECUTED_DIFFERENTIATES_FAMILIES",
+    "ELONGATED": "EXECUTED_DIFFERENTIATES_FAMILIES",
+    "MIRRORED": "EXECUTED_DIFFERENTIATES_FAMILIES",
+    "SPLIT": "EXECUTED_DIFFERENTIATES_FAMILIES"
+  }
+}

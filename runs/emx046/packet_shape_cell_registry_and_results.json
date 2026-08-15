@@ -1,0 +1,94 @@
+{
+  "count": 4,
+  "records": [
+    {
+      "classification": "EXECUTED_DIFFERENTIATES_FAMILIES",
+      "controls": [
+        "IDENTITY_ORIGINAL_SHAPE",
+        "PARITY_X",
+        "TIME_REVERSE"
+      ],
+      "evidence": "hash-pinned framewise historical lift and identically normalized local neutral replay",
+      "historical_replay_lift_vector": [
+        0.013259145044039137,
+        0.01320462176396582,
+        0.012748107683194794,
+        0.01390961628034952
+      ],
+      "local_neutral_vector": [
+        0.013259145044039137,
+        0.014507644698879649,
+        0.012755184531101253,
+        0.015565289653107746
+      ],
+      "shape": "COMPACT"
+    },
+    {
+      "classification": "EXECUTED_DIFFERENTIATES_FAMILIES",
+      "controls": [
+        "IDENTITY_ORIGINAL_SHAPE",
+        "PARITY_X",
+        "TIME_REVERSE"
+      ],
+      "evidence": "hash-pinned framewise historical lift and identically normalized local neutral replay",
+      "historical_replay_lift_vector": [
+        0.013259145044039137,
+        0.013597157839123176,
+        0.012723749002635424,
+        0.01370037868270099
+      ],
+      "local_neutral_vector": [
+        0.013259145044039137,
+        0.014617467287939312,
+        0.013177727263272588,
+        0.015747173358618197
+      ],
+      "shape": "ELONGATED"
+    },
+    {
+      "classification": "EXECUTED_DIFFERENTIATES_FAMILIES",
+      "controls": [
+        "IDENTITY_ORIGINAL_SHAPE",
+        "PARITY_X",
+        "TIME_REVERSE"
+      ],
+      "evidence": "hash-pinned framewise historical lift and identically normalized local neutral replay",
+      "historical_replay_lift_vector": [
+        0.013259145044039135,
+        0.013204621763965817,
+        0.01274810768319479,
+        0.013909616280349518
+      ],
+      "local_neutral_vector": [
+        0.013259145044039135,
+        0.014507644698879647,
+        0.01275518453110125,
+        0.015565289653107744
+      ],
+      "shape": "MIRRORED"
+    },
+    {
+      "classification": "EXECUTED_DIFFERENTIATES_FAMILIES",
+      "controls": [
+        "IDENTITY_ORIGINAL_SHAPE",
+        "PARITY_X",
+        "TIME_REVERSE"
+      ],
+      "evidence": "hash-pinned framewise historical lift and identically normalized local neutral replay",
+      "historical_replay_lift_vector": [
+        0.013259145044039135,
+        0.01305396704001876,
+        0.012520156202493398,
+        0.013881669766921349
+      ],
+      "local_neutral_vector": [
+        0.013259145044039135,
+        0.014544028442899233,
+        0.012659447140529446,
+        0.015494949522468085
+      ],
+      "shape": "SPLIT"
+    }
+  ],
+  "zero_source_control": "RETAINED_EMX045_EXACT_COMPATIBLE_CONTROL_NOT_RERUN"
+}

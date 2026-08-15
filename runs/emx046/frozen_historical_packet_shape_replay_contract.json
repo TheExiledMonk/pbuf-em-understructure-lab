@@ -1,0 +1,94 @@
+{
+  "EMX046_SELECTOR": "HISTORICAL_PACKET_SHAPE_REPLAY_BRIDGE",
+  "FROZEN_BEFORE_RESULTS": true,
+  "common": {
+    "boundary": "periodic N6",
+    "dt": 0.04,
+    "frames": [
+      0,
+      180
+    ],
+    "lattice": "11^3",
+    "normalization": "each transformed initial native state has the original initial native L2",
+    "observer": "EMX041_NATIVE_PERTURBATION_L2_FOUR_SUMMARY_V1",
+    "tolerance": 1e-12
+  },
+  "contract_sha256": "fc9dac863c95f19fb5913dcf78f5a64afeb32ac6f5ca6626b538e6850039420d",
+  "controls": [
+    "ZERO_SOURCE_RETAINED_FROM_EMX045",
+    "IDENTITY_ORIGINAL_SHAPE",
+    "PARITY_X",
+    "TIME_REVERSE"
+  ],
+  "finite_registry": [
+    "COMPACT",
+    "ELONGATED",
+    "MIRRORED",
+    "SPLIT"
+  ],
+  "historical_artifacts": {
+    "background": {
+      "path": "/home/fabian/lab-main-consolidation/runs/dev195_local_force_balance_restoration/background_trajectory.npz",
+      "sha256": "67353948d6953f00348a37ea64fb83b0b7dd28b704dd2d3d8f88628647c191c4"
+    },
+    "excited": {
+      "path": "/home/fabian/lab-main-consolidation/runs/dev195_local_force_balance_restoration/excited_trajectory.npz",
+      "sha256": "118a680de0ba756cd56901fcf2db02cd2a765035357e7b38fb419927ae61afb4"
+    },
+    "transformed_packets": {
+      "COMPACT": {
+        "displacement_sha256": "fff53f00cf60dd7be69823f91e8e9c83cee442c1cb19c1063ab236cae0277eeb",
+        "initial_native_l2": 0.013259145044039137,
+        "momentum_sha256": "4a05ceb9bd8ab19160370af3e7f959d51a502a7ed9494eb8ee96d1c98c0bbd98",
+        "support_rule": "COMPACT"
+      },
+      "ELONGATED": {
+        "displacement_sha256": "4b573dcf5427d8d0ece7a3ec7a22cbe066d68c8181fa4123fa183ab065ad1971",
+        "initial_native_l2": 0.013259145044039137,
+        "momentum_sha256": "aec79e5871070940a334a520c42da56481101bc1d9f08642fe0cdbf23ac67074",
+        "support_rule": "ELONGATED"
+      },
+      "MIRRORED": {
+        "displacement_sha256": "68811a9c09c6642882db4d70bf9c93a3287684e7b48008bcb8614cbfc4885433",
+        "initial_native_l2": 0.013259145044039137,
+        "momentum_sha256": "f7110d1631bcec481e9f0075b2de126fb44cc6eb11a23c20e4d139e3366c8095",
+        "support_rule": "MIRRORED"
+      },
+      "SPLIT": {
+        "displacement_sha256": "6c9681ec5fbf8da0042c32621ca19f222d618bba5edb090acbb4c0e5821cd82b",
+        "initial_native_l2": 0.013259145044039137,
+        "momentum_sha256": "33fa6f32a669d8f0efb9c2d8bd5d446ffe5b9f8cddf2197bd7791153324bdc60",
+        "support_rule": "SPLIT"
+      }
+    }
+  },
+  "input_sha256": {
+    "runs/emx041/shared_observer_definition.json": "b818d86104c15c365a3b86438e4fa29620d256c3d5d9104837bf24099bb4ba74",
+    "runs/emx045/frozen_two_family_discriminator_contract.json": "7f8b6ff549303e058002af2789cd5f179c146ad88bab7a1c745f497a09b7852d"
+  },
+  "prohibitions": {
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_LAB_GIT_IMPORT": true,
+    "NO_LAB_GIT_MODIFICATION": true,
+    "NO_RESULT_SELECTED_VARIANTS": true
+  },
+  "rules": {
+    "historical_lift": "apply the frozen transform framewise to the hash-pinned recovered historical delta history, retaining the frozen initial normalization; this is a replay-lift, not a DEV167 re-execution",
+    "no_equivalence": "matched behavior never establishes cross-family mechanism equivalence"
+  },
+  "transformation_rules": {
+    "COMPACT": "identity",
+    "ELONGATED": "periodic x shifts -1,0,+1 summed then initial native L2 normalized",
+    "MIRRORED": "periodic x reflection then initial native L2 normalized",
+    "SPLIT": "periodic x shifts -2,+2 summed then initial native L2 normalized"
+  },
+  "vocabulary": [
+    "EXECUTED_DIFFERENTIATES_FAMILIES",
+    "EXECUTED_COMPATIBLE_NONUNIQUE",
+    "EXECUTED_INSUFFICIENT_TO_DISTINGUISH",
+    "REPRODUCTION_CONTRADICTED",
+    "UNAVAILABLE_PROVENANCE"
+  ]
+}

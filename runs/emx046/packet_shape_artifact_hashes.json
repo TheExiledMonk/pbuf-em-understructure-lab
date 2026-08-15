@@ -1,0 +1,24 @@
+{
+  "artifacts": [
+    {
+      "historical_initial_displacement_sha256": "fff53f00cf60dd7be69823f91e8e9c83cee442c1cb19c1063ab236cae0277eeb",
+      "historical_initial_momentum_sha256": "4a05ceb9bd8ab19160370af3e7f959d51a502a7ed9494eb8ee96d1c98c0bbd98",
+      "shape": "COMPACT"
+    },
+    {
+      "historical_initial_displacement_sha256": "4b573dcf5427d8d0ece7a3ec7a22cbe066d68c8181fa4123fa183ab065ad1971",
+      "historical_initial_momentum_sha256": "aec79e5871070940a334a520c42da56481101bc1d9f08642fe0cdbf23ac67074",
+      "shape": "ELONGATED"
+    },
+    {
+      "historical_initial_displacement_sha256": "68811a9c09c6642882db4d70bf9c93a3287684e7b48008bcb8614cbfc4885433",
+      "historical_initial_momentum_sha256": "f7110d1631bcec481e9f0075b2de126fb44cc6eb11a23c20e4d139e3366c8095",
+      "shape": "MIRRORED"
+    },
+    {
+      "historical_initial_displacement_sha256": "6c9681ec5fbf8da0042c32621ca19f222d618bba5edb090acbb4c0e5821cd82b",
+      "historical_initial_momentum_sha256": "33fa6f32a669d8f0efb9c2d8bd5d446ffe5b9f8cddf2197bd7791153324bdc60",
+      "shape": "SPLIT"
+    }
+  ]
+}
