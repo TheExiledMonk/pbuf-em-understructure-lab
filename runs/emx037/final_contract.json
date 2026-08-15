@@ -1,0 +1,20 @@
+{
+  "CELL_GATE_SUMMARY": {
+    "COMPATIBLE_NONUNIQUE_CONTROL": 8,
+    "INCOMPATIBLE": 0
+  },
+  "EMX037_RESULT": "ZERO_MOTION_REPO_LOCAL_CONTROLS_EXECUTED",
+  "EXECUTED_CELL_COUNT": 8,
+  "NEXT_BOUNDARY": "A nonzero source preparation needs a byte artifact stored in this repository with its sha256 and a predeclared lift, or explicit authority to construct/read it through the canonical external input implementation. Neither is authorized by the EMX036 no-external-code rule.",
+  "NEXT_SELECTOR": "IN_REPOSITORY_NONZERO_PREPARATION_ARTIFACT_OR_EXTERNAL_CODE_AUTHORITY_GATE",
+  "NONZERO_EMX036_CELLS": "GATED_EXTERNAL_INPUT_ARTIFACT",
+  "NO_DEV167_MODIFICATION": true,
+  "NO_EXTERNAL_CODE_IMPORT": true,
+  "NO_E_B_QED_MAPPING": true,
+  "NO_FITTING": true,
+  "RETAINED_CONSTRAINTS": {
+    "NEWLY_ASSESSED": 0,
+    "NOT_ASSESSED_IN_THIS_CONTROL": 76,
+    "PRESERVED_PRIOR_RESULTS": 76
+  }
+}

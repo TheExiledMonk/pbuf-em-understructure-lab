@@ -1,0 +1,461 @@
+{
+  "records": [
+    {
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "RETAINED_CONSTRAINT_NOT_A_UNIQUE_LAW_SELECTION",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    },
+    {
+      "candidate_id": null,
+      "classification": "NOT_ASSESSED",
+      "prior_interpretation": "NOT_UNIQUE_ALONE_RETAINED_CONSTRAINT",
+      "reason": "EMX037 zero-source/no-drive control does not instantiate the retained prepared-packet source condition; the prior retained result is preserved, not reclassified."
+    }
+  ],
+  "retained_constraint_count": 76
+}
