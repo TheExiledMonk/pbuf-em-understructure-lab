@@ -1,0 +1,25 @@
+{
+  "retained_constraints_preserved": 76,
+  "rows": [
+    {
+      "all_finite": true,
+      "loaded_unloaded_l2": 0.020237292681595995,
+      "member": "D02_BASE"
+    },
+    {
+      "all_finite": true,
+      "loaded_unloaded_l2": 0.020540073822753396,
+      "member": "E02_BASE"
+    },
+    {
+      "all_finite": true,
+      "loaded_unloaded_l2": 0.02176176271074478,
+      "member": "F02_BASE"
+    },
+    {
+      "all_finite": true,
+      "loaded_unloaded_l2": 0.020237292681591145,
+      "member": "G01_BASE"
+    }
+  ]
+}

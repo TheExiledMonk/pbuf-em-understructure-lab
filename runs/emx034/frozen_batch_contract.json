@@ -1,0 +1,20 @@
+{
+  "EMX034_SELECTOR_VERIFIED": "D02_E02_F02_G01_INTERNAL_RANGE_DEFECT_CAUSAL_MEMBERS",
+  "dt": 0.04,
+  "frames": [
+    0,
+    180
+  ],
+  "members": [
+    "D02_BASE",
+    "E02_BASE",
+    "F02_BASE",
+    "G01_BASE"
+  ],
+  "prohibitions": {
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_LAB_CODE_IMPORT": true
+  }
+}
