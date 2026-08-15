@@ -1,0 +1,64 @@
+{
+  "historical_artifact_hash_replay": [
+    {
+      "actual_sha256": "67353948d6953f00348a37ea64fb83b0b7dd28b704dd2d3d8f88628647c191c4",
+      "artifact": "background_trajectory",
+      "expected_sha256": "67353948d6953f00348a37ea64fb83b0b7dd28b704dd2d3d8f88628647c191c4",
+      "matches": true
+    },
+    {
+      "actual_sha256": "118a680de0ba756cd56901fcf2db02cd2a765035357e7b38fb419927ae61afb4",
+      "artifact": "excited_trajectory",
+      "expected_sha256": "118a680de0ba756cd56901fcf2db02cd2a765035357e7b38fb419927ae61afb4",
+      "matches": true
+    }
+  ],
+  "historical_repeatability": {
+    "EMX011": {
+      "LOADED_RUN_REPRODUCIBLE": true,
+      "UNLOADED_RUN_REPRODUCIBLE": true,
+      "method": "byte hash of deterministic float64 trajectory arrays"
+    },
+    "EMX012": {
+      "EMX011_TRAJECTORIES_REUSED": true,
+      "LOADED_BACKGROUND_ONLY": "530cf5cfef6078ccb630270209e7f8ea3efa7289d2f6a12d19382580d2b084e3",
+      "LOADED_MATCHED_RUN": "8e41064c4fdb991e1c832b4e768a659f7a2d210deb49e70ccac53eb48f260307",
+      "NEW_DYNAMICS_EXECUTED": false,
+      "UNLOADED_BACKGROUND_ONLY": "a051c80cc190a54c5dddacaec2719b11c120fff63dc1b65d0bf165e96aef8d4e",
+      "UNLOADED_MATCHED_RUN": "5a3f9da99cab0385b16bb177ee2cbdcba1d3eae21b4cecd0fc2423911f566934",
+      "deterministic_replay_solely_for_exact_history_reproduction": true
+    },
+    "EMX013": {
+      "EMX011_UNLOADED_TRAJECTORY_REUSED": true,
+      "NEW_DYNAMICS_EXECUTED": false,
+      "authorized_trajectory_hash": "5a3f9da99cab0385b16bb177ee2cbdcba1d3eae21b4cecd0fc2423911f566934",
+      "deterministic_replay_solely_for_exact_history_reproduction": true,
+      "unloaded_background_hash": "a051c80cc190a54c5dddacaec2719b11c120fff63dc1b65d0bf165e96aef8d4e",
+      "unloaded_probe_hash": "5a3f9da99cab0385b16bb177ee2cbdcba1d3eae21b4cecd0fc2423911f566934"
+    },
+    "EMX015": {
+      "EMX011_LOADED_UNLOADED_HISTORIES_REUSED": true,
+      "NEW_DYNAMICS_EXECUTED": false,
+      "authorized_loaded_probe_hash": "8e41064c4fdb991e1c832b4e768a659f7a2d210deb49e70ccac53eb48f260307",
+      "authorized_unloaded_probe_hash": "5a3f9da99cab0385b16bb177ee2cbdcba1d3eae21b4cecd0fc2423911f566934",
+      "loaded_probe_hash": "8e41064c4fdb991e1c832b4e768a659f7a2d210deb49e70ccac53eb48f260307",
+      "unloaded_probe_hash": "5a3f9da99cab0385b16bb177ee2cbdcba1d3eae21b4cecd0fc2423911f566934"
+    }
+  },
+  "observer_control": {
+    "historical_observers": "predeclared and representation-specific",
+    "local_observers": "energy/history norm and fixed plaquette proxy",
+    "result": "UNDERDETERMINED_NEEDS_BRIDGE",
+    "shared_observer_exists": false
+  },
+  "repository_local_control": {
+    "all_216_lift_cells_finite": true,
+    "result": "NO_COMPARABILITY_INFERENCE_PERMITTED",
+    "retained_constraints_newly_assessed": 0
+  },
+  "tolerance_control": {
+    "cross_family_sensitivity_sweep": "NOT_AUTHORIZED_WITHOUT_SHARED_OBSERVER",
+    "historical": "exact IEEE or fixed 1e-12 rules; no fitted threshold",
+    "local": "finite checks and fixed source-lift definitions"
+  }
+}

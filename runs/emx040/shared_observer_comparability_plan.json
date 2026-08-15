@@ -1,0 +1,30 @@
+{
+  "EMX040_SHARED_OBSERVER_AND_COMPARABILITY_PLAN": "STOP_AT_NEW_PRIMITIVE_BOUNDARY",
+  "boundary": "No existing observer satisfies the common-definition requirement. Supplying one would be a genuinely new observer primitive; EMX040 does not define, implement, or execute it.",
+  "common_existing_observer": null,
+  "historical_family": {
+    "hashes_verified": true,
+    "observer_set": "representation-specific T02--T33 observers",
+    "state": "DEV167 prepared packet plus matched historical controls"
+  },
+  "prohibitions_respected": {
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_LAB_GIT_IMPORT": true,
+    "NO_LAB_GIT_MODIFICATION": true,
+    "NO_RESULT_SELECTED_DIAGNOSTICS": true
+  },
+  "repository_local_family": {
+    "all_cells_finite": true,
+    "observer_set": "energy/history norm, static/motion proxy, plaquette angular proxy",
+    "state": "neutral harmonic N6 source lift"
+  },
+  "required_bridge": [
+    "A predeclared observer with one invariant mathematical definition on both full historical trajectories and local source-lift trajectories.",
+    "A predeclared control correspondence covering source preparation, background subtraction, geometry, time domain, and representation action.",
+    "A fixed tolerance/normalization sensitivity protocol applied symmetrically before any result is inspected.",
+    "A replay manifest pinning every input and observer implementation hash."
+  ],
+  "status": "UNDERDETERMINED_NEEDS_BRIDGE"
+}

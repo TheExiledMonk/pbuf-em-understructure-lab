@@ -1,0 +1,67 @@
+{
+  "EMX040_SELECTOR": "GATE_VALIDITY_AND_COMPARABILITY_AUDIT",
+  "FROZEN_BEFORE_RESULTS": true,
+  "classification_vocabulary": [
+    "VERIFIED_ROBUST",
+    "VERIFIED_CONDITIONAL",
+    "UNDERDETERMINED_NEEDS_BRIDGE",
+    "REDUNDANT",
+    "REPRODUCTION_CONTRADICTED"
+  ],
+  "contract_sha256": "7bd151343ac0deb820ecfe8f7d8776f7d2a2a194495f2683589fb3a44ce775ec",
+  "historical_artifacts": {
+    "background_trajectory": {
+      "expected_sha256": "67353948d6953f00348a37ea64fb83b0b7dd28b704dd2d3d8f88628647c191c4",
+      "path": "/home/fabian/lab-main-consolidation/runs/dev195_local_force_balance_restoration/background_trajectory.npz"
+    },
+    "excited_trajectory": {
+      "expected_sha256": "118a680de0ba756cd56901fcf2db02cd2a765035357e7b38fb419927ae61afb4",
+      "path": "/home/fabian/lab-main-consolidation/runs/dev195_local_force_balance_restoration/excited_trajectory.npz"
+    }
+  },
+  "input_sha256": {
+    "runs/emx004/frozen_execution_contract.json": "d17ab404212c75911bf6562cd88a7b83a2ccc888c369b5fc0e258226b9625bb7",
+    "runs/emx006/frozen_secondary_battery_contract.json": "8791fa40e0d069e376f3736f86f2c29c3b8c06a989ece1d034c9c415cd3ea25b",
+    "runs/emx008/frozen_longitudinal_audit_contract.json": "6c23d5134efdcb6c4d00ca745fee36a01dd86dbda2c9899666582e4359cbf440",
+    "runs/emx011/frozen_t16_execution_contract.json": "04af712fdc8278233202b35d1e5674ff860380ed0bbf3fac0e499d048b4c5373",
+    "runs/emx011/t16_repeatability.json": "0817ac00c73362b1f722ea0b8e0cb4654b11b63170ccf9a1ae3a73892d515d53",
+    "runs/emx012/frozen_mixing_audit_contract.json": "63c0d0864820b4262bb12daf92dba091f74877c90ff87ca6178fecb786b802f6",
+    "runs/emx012/trajectory_reuse.json": "80a5b38942f7d9484d67760447c6fae2276a0205661fc1435570c3b605281939",
+    "runs/emx013/frozen_unloaded_asymmetry_audit_contract.json": "2dee38e72de56299265e75ae807e5b680bd2e42ed63480b006c5c5f4058a9e0a",
+    "runs/emx013/trajectory_reuse.json": "ebe8769f2e057068f7eb3149ff0f80f38f4f16b38870d6e8ae3869e6aa4c538b",
+    "runs/emx015/frozen_t17_t18_execution_contract.json": "ff595b9010a1784071228337893a30a21fd49c6a1c42fc461fe419e08a434370",
+    "runs/emx015/trajectory_reuse.json": "4557e4e6abc3c8e7904622ef330d9cee3f173a98ee4f731b7b2c467320c270f4",
+    "runs/emx016/dev167_failure_combination_matrix.json": "e3a6cb4cf2ed23685636410e0ea89f64eed23325ca92c8eda02acb400e389b74",
+    "runs/emx038/frozen_repository_local_source_lift_contract.json": "e9e57e7d9fb6b287d7ed7198989c7acd3a0a9d1a141f57c678280192d04f6845",
+    "runs/emx038/remaining_matrix_results.json": "44dbf33b0aefb1bcbb98f686faae341cd07359cf2941f62f55210a2773481634",
+    "runs/emx039/final_contract.json": "95a08b422e3846c5dab00e2d4fa7cc370109303ef9dfd2612e02b52e7cf5c830"
+  },
+  "mode": "READ_ONLY_PROVENANCE_REPLAY_AND_COMPARABILITY_AUDIT",
+  "prohibitions": {
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_LAB_GIT_IMPORT": true,
+    "NO_LAB_GIT_MODIFICATION": true,
+    "NO_RESULT_SELECTED_DIAGNOSTICS": true
+  },
+  "required_audits": [
+    "exact provenance and hash",
+    "replayability",
+    "logical independence or strict redundancy",
+    "observer and representation robustness",
+    "tolerance sensitivity",
+    "discriminator versus historical-conditional status",
+    "historical fixed-packet to repository-local source-lift comparability"
+  ],
+  "retained_constraint_count": 76,
+  "retained_constraint_source": "runs/emx016/dev167_failure_combination_matrix.json",
+  "rules": {
+    "boundary": "If a bridge requires a genuinely new observer primitive, record the boundary and do not create or execute that primitive.",
+    "comparability": "Finite local-source responses do not compare to historical packet results without a predeclared meaning-preserving bridge.",
+    "conditional": "Verifies only under its exact fixed historical packet, control, observer, representation, and tolerance scope.",
+    "preservation": "A retained gate is never altered, weakened, or deleted because a later model fails.",
+    "redundancy": "Requires a predeclared exact logical duplicate; shared trajectory alone is insufficient.",
+    "robust": "Requires exact provenance, successful replay, observer/representation and tolerance robustness, and a meaning-preserving shared observer across compared families."
+  }
+}
