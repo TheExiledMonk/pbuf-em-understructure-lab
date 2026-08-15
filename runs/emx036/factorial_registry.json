@@ -1,5 +1,5 @@
 {
-  "cell_count": 168,
+  "cell_count": 224,
   "cells": [
     {
       "cell_id": "ZERO_ZERO_MOTION_ONE_SITE_IDENTITY",
@@ -1458,7 +1458,7 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_ONE_SITE_IDENTITY",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1471,7 +1471,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ZERO_MOTION_ONE_SITE_TIME_REVERSE",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ZERO_MOTION",
+      "reversal": "IDENTITY",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_ONE_SITE_TIME_REVERSE",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1484,7 +1497,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ZERO_MOTION_ONE_SITE_PARITY_X",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_ONE_SITE_TIME_REVERSE",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ZERO_MOTION",
+      "reversal": "TIME_REVERSE",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_ONE_SITE_PARITY_X",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1497,7 +1523,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ZERO_MOTION_ONE_SITE_YZ_SWAP",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_ONE_SITE_PARITY_X",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ZERO_MOTION",
+      "reversal": "PARITY_X",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_ONE_SITE_YZ_SWAP",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1510,7 +1549,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_ONE_SITE_YZ_SWAP",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ZERO_MOTION",
+      "reversal": "YZ_SWAP",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_THREE_SITES_X_IDENTITY",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1523,7 +1575,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ZERO_MOTION_THREE_SITES_X_TIME_REVERSE",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ZERO_MOTION",
+      "reversal": "IDENTITY",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_THREE_SITES_X_TIME_REVERSE",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1536,7 +1601,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ZERO_MOTION_THREE_SITES_X_PARITY_X",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_THREE_SITES_X_TIME_REVERSE",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ZERO_MOTION",
+      "reversal": "TIME_REVERSE",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_THREE_SITES_X_PARITY_X",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1549,7 +1627,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ZERO_MOTION_THREE_SITES_X_YZ_SWAP",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_THREE_SITES_X_PARITY_X",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ZERO_MOTION",
+      "reversal": "PARITY_X",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_THREE_SITES_X_YZ_SWAP",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1562,7 +1653,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_THREE_SITES_X_YZ_SWAP",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ZERO_MOTION",
+      "reversal": "YZ_SWAP",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_ONE_SITE_IDENTITY",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1575,7 +1679,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_STATIC_HOLD_ONE_SITE_TIME_REVERSE",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "STATIC_HOLD",
+      "reversal": "IDENTITY",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_ONE_SITE_TIME_REVERSE",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1588,7 +1705,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_STATIC_HOLD_ONE_SITE_PARITY_X",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_ONE_SITE_TIME_REVERSE",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "STATIC_HOLD",
+      "reversal": "TIME_REVERSE",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_ONE_SITE_PARITY_X",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1601,7 +1731,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_STATIC_HOLD_ONE_SITE_YZ_SWAP",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_ONE_SITE_PARITY_X",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "STATIC_HOLD",
+      "reversal": "PARITY_X",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_ONE_SITE_YZ_SWAP",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1614,7 +1757,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_ONE_SITE_YZ_SWAP",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "STATIC_HOLD",
+      "reversal": "YZ_SWAP",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_THREE_SITES_X_IDENTITY",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1627,7 +1783,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_STATIC_HOLD_THREE_SITES_X_TIME_REVERSE",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "STATIC_HOLD",
+      "reversal": "IDENTITY",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_THREE_SITES_X_TIME_REVERSE",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1640,7 +1809,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_STATIC_HOLD_THREE_SITES_X_PARITY_X",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_THREE_SITES_X_TIME_REVERSE",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "STATIC_HOLD",
+      "reversal": "TIME_REVERSE",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_THREE_SITES_X_PARITY_X",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1653,7 +1835,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_STATIC_HOLD_THREE_SITES_X_YZ_SWAP",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_THREE_SITES_X_PARITY_X",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "STATIC_HOLD",
+      "reversal": "PARITY_X",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_THREE_SITES_X_YZ_SWAP",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1666,7 +1861,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_THREE_SITES_X_YZ_SWAP",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "STATIC_HOLD",
+      "reversal": "YZ_SWAP",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1679,7 +1887,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_TRANSLATING_PLUS_ONE_SITE_TIME_REVERSE",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "TRANSLATING_PLUS",
+      "reversal": "IDENTITY",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_ONE_SITE_TIME_REVERSE",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1692,7 +1913,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_TRANSLATING_PLUS_ONE_SITE_PARITY_X",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_ONE_SITE_TIME_REVERSE",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "TRANSLATING_PLUS",
+      "reversal": "TIME_REVERSE",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_ONE_SITE_PARITY_X",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1705,7 +1939,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_TRANSLATING_PLUS_ONE_SITE_YZ_SWAP",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_ONE_SITE_PARITY_X",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "TRANSLATING_PLUS",
+      "reversal": "PARITY_X",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_ONE_SITE_YZ_SWAP",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1718,7 +1965,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_ONE_SITE_YZ_SWAP",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "TRANSLATING_PLUS",
+      "reversal": "YZ_SWAP",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1731,7 +1991,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_TRANSLATING_PLUS_THREE_SITES_X_TIME_REVERSE",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "TRANSLATING_PLUS",
+      "reversal": "IDENTITY",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_THREE_SITES_X_TIME_REVERSE",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1744,7 +2017,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_TRANSLATING_PLUS_THREE_SITES_X_PARITY_X",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_THREE_SITES_X_TIME_REVERSE",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "TRANSLATING_PLUS",
+      "reversal": "TIME_REVERSE",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_THREE_SITES_X_PARITY_X",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1757,7 +2043,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_TRANSLATING_PLUS_THREE_SITES_X_YZ_SWAP",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_THREE_SITES_X_PARITY_X",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "TRANSLATING_PLUS",
+      "reversal": "PARITY_X",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_THREE_SITES_X_YZ_SWAP",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1770,7 +2069,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_THREE_SITES_X_YZ_SWAP",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "TRANSLATING_PLUS",
+      "reversal": "YZ_SWAP",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1783,7 +2095,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_TRANSLATING_MINUS_ONE_SITE_TIME_REVERSE",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "TRANSLATING_MINUS",
+      "reversal": "IDENTITY",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_ONE_SITE_TIME_REVERSE",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1796,7 +2121,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_TRANSLATING_MINUS_ONE_SITE_PARITY_X",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_ONE_SITE_TIME_REVERSE",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "TRANSLATING_MINUS",
+      "reversal": "TIME_REVERSE",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_ONE_SITE_PARITY_X",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1809,7 +2147,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_TRANSLATING_MINUS_ONE_SITE_YZ_SWAP",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_ONE_SITE_PARITY_X",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "TRANSLATING_MINUS",
+      "reversal": "PARITY_X",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_ONE_SITE_YZ_SWAP",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1822,7 +2173,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_ONE_SITE_YZ_SWAP",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "TRANSLATING_MINUS",
+      "reversal": "YZ_SWAP",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1835,7 +2199,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_TRANSLATING_MINUS_THREE_SITES_X_TIME_REVERSE",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "TRANSLATING_MINUS",
+      "reversal": "IDENTITY",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_THREE_SITES_X_TIME_REVERSE",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1848,7 +2225,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_TRANSLATING_MINUS_THREE_SITES_X_PARITY_X",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_THREE_SITES_X_TIME_REVERSE",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "TRANSLATING_MINUS",
+      "reversal": "TIME_REVERSE",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_THREE_SITES_X_PARITY_X",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1861,7 +2251,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_TRANSLATING_MINUS_THREE_SITES_X_YZ_SWAP",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_THREE_SITES_X_PARITY_X",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "TRANSLATING_MINUS",
+      "reversal": "PARITY_X",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_THREE_SITES_X_YZ_SWAP",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1874,7 +2277,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_THREE_SITES_X_YZ_SWAP",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "TRANSLATING_MINUS",
+      "reversal": "YZ_SWAP",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_ONE_SITE_IDENTITY",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1887,7 +2303,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_OSCILLATING_X_ONE_SITE_TIME_REVERSE",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "OSCILLATING_X",
+      "reversal": "IDENTITY",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_ONE_SITE_TIME_REVERSE",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1900,7 +2329,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_OSCILLATING_X_ONE_SITE_PARITY_X",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_ONE_SITE_TIME_REVERSE",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "OSCILLATING_X",
+      "reversal": "TIME_REVERSE",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_ONE_SITE_PARITY_X",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1913,7 +2355,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_OSCILLATING_X_ONE_SITE_YZ_SWAP",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_ONE_SITE_PARITY_X",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "OSCILLATING_X",
+      "reversal": "PARITY_X",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_ONE_SITE_YZ_SWAP",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1926,7 +2381,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_ONE_SITE_YZ_SWAP",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "OSCILLATING_X",
+      "reversal": "YZ_SWAP",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_THREE_SITES_X_IDENTITY",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1939,7 +2407,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_OSCILLATING_X_THREE_SITES_X_TIME_REVERSE",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "OSCILLATING_X",
+      "reversal": "IDENTITY",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_THREE_SITES_X_TIME_REVERSE",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1952,7 +2433,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_OSCILLATING_X_THREE_SITES_X_PARITY_X",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_THREE_SITES_X_TIME_REVERSE",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "OSCILLATING_X",
+      "reversal": "TIME_REVERSE",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_THREE_SITES_X_PARITY_X",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1965,7 +2459,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_OSCILLATING_X_THREE_SITES_X_YZ_SWAP",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_THREE_SITES_X_PARITY_X",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "OSCILLATING_X",
+      "reversal": "PARITY_X",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_THREE_SITES_X_YZ_SWAP",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1978,7 +2485,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_THREE_SITES_X_YZ_SWAP",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "OSCILLATING_X",
+      "reversal": "YZ_SWAP",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -1991,7 +2511,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ROTATING_YZ_POS_ONE_SITE_TIME_REVERSE",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ROTATING_YZ_POS",
+      "reversal": "IDENTITY",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_ONE_SITE_TIME_REVERSE",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -2004,7 +2537,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ROTATING_YZ_POS_ONE_SITE_PARITY_X",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_ONE_SITE_TIME_REVERSE",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ROTATING_YZ_POS",
+      "reversal": "TIME_REVERSE",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_ONE_SITE_PARITY_X",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -2017,7 +2563,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ROTATING_YZ_POS_ONE_SITE_YZ_SWAP",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_ONE_SITE_PARITY_X",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ROTATING_YZ_POS",
+      "reversal": "PARITY_X",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_ONE_SITE_YZ_SWAP",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -2030,7 +2589,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_ONE_SITE_YZ_SWAP",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ROTATING_YZ_POS",
+      "reversal": "YZ_SWAP",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -2043,7 +2615,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ROTATING_YZ_POS_THREE_SITES_X_TIME_REVERSE",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ROTATING_YZ_POS",
+      "reversal": "IDENTITY",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_THREE_SITES_X_TIME_REVERSE",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -2056,7 +2641,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ROTATING_YZ_POS_THREE_SITES_X_PARITY_X",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_THREE_SITES_X_TIME_REVERSE",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ROTATING_YZ_POS",
+      "reversal": "TIME_REVERSE",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_THREE_SITES_X_PARITY_X",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -2069,7 +2667,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ROTATING_YZ_POS_THREE_SITES_X_YZ_SWAP",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_THREE_SITES_X_PARITY_X",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ROTATING_YZ_POS",
+      "reversal": "PARITY_X",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_THREE_SITES_X_YZ_SWAP",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -2082,7 +2693,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_THREE_SITES_X_YZ_SWAP",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ROTATING_YZ_POS",
+      "reversal": "YZ_SWAP",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -2095,7 +2719,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ROTATING_YZ_NEG_ONE_SITE_TIME_REVERSE",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ROTATING_YZ_NEG",
+      "reversal": "IDENTITY",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_ONE_SITE_TIME_REVERSE",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -2108,7 +2745,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ROTATING_YZ_NEG_ONE_SITE_PARITY_X",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_ONE_SITE_TIME_REVERSE",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ROTATING_YZ_NEG",
+      "reversal": "TIME_REVERSE",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_ONE_SITE_PARITY_X",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -2121,7 +2771,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ROTATING_YZ_NEG_ONE_SITE_YZ_SWAP",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_ONE_SITE_PARITY_X",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ROTATING_YZ_NEG",
+      "reversal": "PARITY_X",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_ONE_SITE_YZ_SWAP",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -2134,7 +2797,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_ONE_SITE_YZ_SWAP",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ROTATING_YZ_NEG",
+      "reversal": "YZ_SWAP",
+      "separation": "ONE_SITE",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -2147,7 +2823,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ROTATING_YZ_NEG_THREE_SITES_X_TIME_REVERSE",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ROTATING_YZ_NEG",
+      "reversal": "IDENTITY",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_TIME_REVERSE",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -2160,7 +2849,20 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ROTATING_YZ_NEG_THREE_SITES_X_PARITY_X",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_TIME_REVERSE",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ROTATING_YZ_NEG",
+      "reversal": "TIME_REVERSE",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_PARITY_X",
       "composition": "SAME_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
@@ -2173,8 +2875,34 @@
       "static_sector": "predeclared held initial state only; no interpretation label"
     },
     {
-      "cell_id": "TWO_ROTATING_YZ_NEG_THREE_SITES_X_YZ_SWAP",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_PARITY_X",
+      "composition": "OPPOSITE_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ROTATING_YZ_NEG",
+      "reversal": "PARITY_X",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_YZ_SWAP",
       "composition": "SAME_SIGN",
+      "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
+      "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
+      "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",
+      "preparation": "ROTATING_YZ_NEG",
+      "reversal": "YZ_SWAP",
+      "separation": "THREE_SITES_X",
+      "source_count": "TWO",
+      "state": "neutral u,p on 11^3 periodic N6",
+      "static_sector": "predeclared held initial state only; no interpretation label"
+    },
+    {
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_YZ_SWAP",
+      "composition": "OPPOSITE_SIGN",
       "eligibility": "GATED_EXTERNAL_INPUT_ARTIFACT",
       "gate_reason": "nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden",
       "motion_sector": "predeclared initial momentum/displacement relation only; no interpretation label",

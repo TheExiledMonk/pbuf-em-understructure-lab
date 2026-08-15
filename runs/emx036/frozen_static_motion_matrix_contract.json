@@ -1,13 +1,15 @@
 {
   "EMX036_SELECTOR_FROZEN": true,
   "EMX036_SELECTOR_VERIFIED": "STATIC_AND_MOTION_DEPENDENCE_WIDE_MATRIX_FREEZE",
+  "REGISTRY_CORRECTION": "two-source SAME_SIGN and OPPOSITE_SIGN are each explicitly expanded; revision occurs before nonzero execution and leaves the previously frozen zero-source controls unchanged",
+  "REGISTRY_REVISION": 2,
   "classification_vocabulary": [
     "COMPATIBLE_NONUNIQUE",
     "INCOMPATIBLE",
     "NOT_ASSESSED",
     "GATED_EXTERNAL_INPUT_ARTIFACT"
   ],
-  "contract_sha256": "84ff3174aeb2f9fbc3f466bc5938e3afb25f44313a028e765980edd256a8f71f",
+  "contract_sha256": "94ffeed4b683be3dd7c6e3e8090bedba674a5efe286a603b9bd4c131a31fc2f6",
   "lattice_boundary_dt_duration": {
     "boundary": "periodic N6",
     "dt": 0.04,
