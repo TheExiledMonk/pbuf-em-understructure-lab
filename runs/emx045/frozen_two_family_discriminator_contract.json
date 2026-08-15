@@ -1,0 +1,138 @@
+{
+  "EMX045_SELECTOR": "UNIVERSAL_TWO_FAMILY_DISCRIMINATOR_BRIDGES",
+  "FROZEN_BEFORE_RESULTS": true,
+  "classification_vocabulary": [
+    "EXECUTED_COMPATIBLE_NONUNIQUE",
+    "EXECUTED_DIFFERENTIATES_FAMILIES",
+    "EXECUTED_INSUFFICIENT_TO_DISTINGUISH",
+    "UNAVAILABLE_PROVENANCE"
+  ],
+  "common": {
+    "analysis_range": [
+      0,
+      180
+    ],
+    "boundary": "periodic N6",
+    "metric": "receiver native state L2 / source initial L2",
+    "normalization": "unit initial source L2",
+    "observer_version": "EMX041_NATIVE_PERTURBATION_L2_FOUR_SUMMARY_V1",
+    "region": "all native sites unless receiver specified",
+    "tolerance": 1e-12
+  },
+  "contract_sha256": "ae32e098b2dec69617f46859dbfbfd7bbbe64f20e1127bdc4fa81e2aff5c520b",
+  "families": {
+    "HISTORICAL_DEV167_PREPARED_PACKET": {
+      "artifact": "/home/fabian/lab-main-consolidation/runs/dev195_local_force_balance_restoration/{excited,background}_trajectory.npz",
+      "count": 77,
+      "hashes": [
+        "118a680de0ba756cd56901fcf2db02cd2a765035357e7b38fb419927ae61afb4",
+        "67353948d6953f00348a37ea64fb83b0b7dd28b704dd2d3d8f88628647c191c4"
+      ]
+    },
+    "LOCAL_NEUTRAL_HARMONIC_PERIODIC_N6": {
+      "count": 224,
+      "interaction": "unit periodic N6 harmonic",
+      "state": "u,p",
+      "update": "kick-drift"
+    }
+  },
+  "finite_registry": {
+    "packet_shape_hashes": {
+      "COMPACT": "1e6203a95c8b06923fd7e9ca59c13c8121cad5274f091bed3baac12a22ff6525",
+      "ELONGATED": "00ef93028170efa486990f529efcd8dd61a361dca2da9314fb73e026cf0f5481",
+      "MIRRORED": "784cf2db6979c470f4ff93165d6162e438bc8fefb75c60e619c0fc4c9f8d992b",
+      "SPLIT": "30f3065d83711106a1dae1c44333240e90bdc7279c354b55d9494a8b3c6a0734"
+    },
+    "packet_shapes": [
+      "COMPACT",
+      "ELONGATED",
+      "MIRRORED",
+      "SPLIT",
+      "ZERO_SOURCE"
+    ],
+    "reciprocity": [
+      {
+        "controls": [
+          "A_TO_B",
+          "B_TO_A",
+          "PARITY_X",
+          "TIME_REVERSE"
+        ],
+        "dt": 0.04,
+        "n": 11,
+        "separation": 3,
+        "steps": 180
+      }
+    ],
+    "transport": [
+      {
+        "dt": 0.02,
+        "n": 9,
+        "separation": 1,
+        "steps": 180
+      },
+      {
+        "dt": 0.04,
+        "n": 9,
+        "separation": 1,
+        "steps": 180
+      },
+      {
+        "dt": 0.02,
+        "n": 9,
+        "separation": 3,
+        "steps": 180
+      },
+      {
+        "dt": 0.04,
+        "n": 9,
+        "separation": 3,
+        "steps": 180
+      },
+      {
+        "dt": 0.02,
+        "n": 11,
+        "separation": 1,
+        "steps": 180
+      },
+      {
+        "dt": 0.04,
+        "n": 11,
+        "separation": 1,
+        "steps": 180
+      },
+      {
+        "dt": 0.02,
+        "n": 11,
+        "separation": 3,
+        "steps": 180
+      },
+      {
+        "dt": 0.04,
+        "n": 11,
+        "separation": 3,
+        "steps": 180
+      }
+    ]
+  },
+  "input_sha256": {
+    "runs/emx038/frozen_repository_local_source_lift_contract.json": "e9e57e7d9fb6b287d7ed7198989c7acd3a0a9d1a141f57c678280192d04f6845",
+    "runs/emx041/shared_observer_definition.json": "b818d86104c15c365a3b86438e4fa29620d256c3d5d9104837bf24099bb4ba74",
+    "runs/emx044/universal_viable_family_census.json": "08d62d6464717e2a855392d5628ceeb19f46f82e6a7ecfe9f608b22001d80bfc"
+  },
+  "prohibitions": {
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_HIDDEN_CHOICES": true,
+    "NO_LAB_GIT_IMPORT": true,
+    "NO_LAB_GIT_MODIFICATION": true,
+    "NO_RESULT_SELECTED_VARIANTS": true
+  },
+  "rules": {
+    "historical_transforms": "non-identical historical packet shapes require a new DEV167 replay and are unavailable; do not synthesize a family replay",
+    "no_cross_family_equivalence": "shared behavior never implies mechanism equivalence",
+    "no_expansion": "only frozen finite registry may execute"
+  },
+  "start_main_required": true
+}

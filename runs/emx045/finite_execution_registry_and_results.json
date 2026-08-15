@@ -1,0 +1,151 @@
+{
+  "count": 17,
+  "records": [
+    {
+      "battery": "RECIPROCITY",
+      "cell": "A_TO_B",
+      "classification": "EXECUTED_DIFFERENTIATES_FAMILIES",
+      "historical_metric": 0.2413543146193223,
+      "local_metric": 0.058139580438989175
+    },
+    {
+      "battery": "RECIPROCITY",
+      "cell": "B_TO_A",
+      "classification": "EXECUTED_DIFFERENTIATES_FAMILIES",
+      "historical_metric": 0.2413543146193223,
+      "local_metric": 0.058139580438989175
+    },
+    {
+      "battery": "RECIPROCITY",
+      "cell": "PARITY_X",
+      "classification": "EXECUTED_DIFFERENTIATES_FAMILIES",
+      "historical_metric": 0.2413543146193223,
+      "local_metric": 0.058139580438989175
+    },
+    {
+      "battery": "RECIPROCITY",
+      "cell": "TIME_REVERSE",
+      "classification": "EXECUTED_DIFFERENTIATES_FAMILIES",
+      "historical_metric": 0.2413543146193223,
+      "local_metric": 0.058139580438989175
+    },
+    {
+      "battery": "TRANSPORT_DISPERSION",
+      "classification": "EXECUTED_DIFFERENTIATES_FAMILIES",
+      "dt": 0.02,
+      "historical_metric": 0.2413543146193223,
+      "local_metric": 0.6535221509038653,
+      "n": 9,
+      "separation": 1,
+      "steps": 180
+    },
+    {
+      "battery": "TRANSPORT_DISPERSION",
+      "classification": "EXECUTED_DIFFERENTIATES_FAMILIES",
+      "dt": 0.04,
+      "historical_metric": 0.2413543146193223,
+      "local_metric": 0.6550356956090034,
+      "n": 9,
+      "separation": 1,
+      "steps": 180
+    },
+    {
+      "battery": "TRANSPORT_DISPERSION",
+      "classification": "EXECUTED_DIFFERENTIATES_FAMILIES",
+      "dt": 0.02,
+      "historical_metric": 0.2413543146193223,
+      "local_metric": 0.032454406747593534,
+      "n": 9,
+      "separation": 3,
+      "steps": 180
+    },
+    {
+      "battery": "TRANSPORT_DISPERSION",
+      "classification": "EXECUTED_DIFFERENTIATES_FAMILIES",
+      "dt": 0.04,
+      "historical_metric": 0.2413543146193223,
+      "local_metric": 0.05414981347095689,
+      "n": 9,
+      "separation": 3,
+      "steps": 180
+    },
+    {
+      "battery": "TRANSPORT_DISPERSION",
+      "classification": "EXECUTED_DIFFERENTIATES_FAMILIES",
+      "dt": 0.02,
+      "historical_metric": 0.2413543146193223,
+      "local_metric": 0.653522025827349,
+      "n": 11,
+      "separation": 1,
+      "steps": 180
+    },
+    {
+      "battery": "TRANSPORT_DISPERSION",
+      "classification": "EXECUTED_DIFFERENTIATES_FAMILIES",
+      "dt": 0.04,
+      "historical_metric": 0.2413543146193223,
+      "local_metric": 0.6550356959974653,
+      "n": 11,
+      "separation": 1,
+      "steps": 180
+    },
+    {
+      "battery": "TRANSPORT_DISPERSION",
+      "classification": "EXECUTED_DIFFERENTIATES_FAMILIES",
+      "dt": 0.02,
+      "historical_metric": 0.2413543146193223,
+      "local_metric": 0.03256951827144117,
+      "n": 11,
+      "separation": 3,
+      "steps": 180
+    },
+    {
+      "battery": "TRANSPORT_DISPERSION",
+      "classification": "EXECUTED_DIFFERENTIATES_FAMILIES",
+      "dt": 0.04,
+      "historical_metric": 0.2413543146193223,
+      "local_metric": 0.058139580438989175,
+      "n": 11,
+      "separation": 3,
+      "steps": 180
+    },
+    {
+      "artifact_sha256": "1e6203a95c8b06923fd7e9ca59c13c8121cad5274f091bed3baac12a22ff6525",
+      "battery": "PACKET_SHAPE",
+      "historical_classification": "UNAVAILABLE_PROVENANCE",
+      "local_classification": "EXECUTED_COMPATIBLE_NONUNIQUE",
+      "reason": "No hash-pinned DEV167 replay exists for this transformed packet shape; execution would require prohibited external-code import or a new historical replay.",
+      "shape": "COMPACT"
+    },
+    {
+      "artifact_sha256": "00ef93028170efa486990f529efcd8dd61a361dca2da9314fb73e026cf0f5481",
+      "battery": "PACKET_SHAPE",
+      "historical_classification": "UNAVAILABLE_PROVENANCE",
+      "local_classification": "EXECUTED_COMPATIBLE_NONUNIQUE",
+      "reason": "No hash-pinned DEV167 replay exists for this transformed packet shape; execution would require prohibited external-code import or a new historical replay.",
+      "shape": "ELONGATED"
+    },
+    {
+      "artifact_sha256": "784cf2db6979c470f4ff93165d6162e438bc8fefb75c60e619c0fc4c9f8d992b",
+      "battery": "PACKET_SHAPE",
+      "historical_classification": "UNAVAILABLE_PROVENANCE",
+      "local_classification": "EXECUTED_COMPATIBLE_NONUNIQUE",
+      "reason": "No hash-pinned DEV167 replay exists for this transformed packet shape; execution would require prohibited external-code import or a new historical replay.",
+      "shape": "MIRRORED"
+    },
+    {
+      "artifact_sha256": "30f3065d83711106a1dae1c44333240e90bdc7279c354b55d9494a8b3c6a0734",
+      "battery": "PACKET_SHAPE",
+      "historical_classification": "UNAVAILABLE_PROVENANCE",
+      "local_classification": "EXECUTED_COMPATIBLE_NONUNIQUE",
+      "reason": "No hash-pinned DEV167 replay exists for this transformed packet shape; execution would require prohibited external-code import or a new historical replay.",
+      "shape": "SPLIT"
+    },
+    {
+      "battery": "PACKET_SHAPE",
+      "classification": "EXECUTED_COMPATIBLE_NONUNIQUE",
+      "reason": "exact zero-source control",
+      "shape": "ZERO_SOURCE"
+    }
+  ]
+}
