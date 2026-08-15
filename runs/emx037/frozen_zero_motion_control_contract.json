@@ -1,0 +1,69 @@
+{
+  "EMX037_SELECTOR": "ZERO_MOTION_REPO_LOCAL_CONTROL_EXECUTION",
+  "FROZEN_BEFORE_RESULTS": true,
+  "classification_vocabulary": [
+    "COMPATIBLE_NONUNIQUE",
+    "INCOMPATIBLE",
+    "NOT_ASSESSED"
+  ],
+  "contract_sha256": "6687dc5c5e91e22a0ebc7e7bb735638d528eee96181256c02e7179ccfe0a8605",
+  "controls": [
+    "single-source condition is not instantiated",
+    "paired-source condition is not instantiated",
+    "unloaded",
+    "no-drive",
+    "IDENTITY",
+    "TIME_REVERSE",
+    "PARITY_X",
+    "YZ_SWAP"
+  ],
+  "fixed_environment": {
+    "boundary": "periodic N6",
+    "drive": "no-drive",
+    "duration": 180,
+    "lattice": "11^3",
+    "loading": "unloaded"
+  },
+  "gates": {
+    "causality": "zero update has no propagation",
+    "conservation": "sum(u^2+p^2) is zero",
+    "source_persistence": "zero state remains exactly zero",
+    "stability": "all state values finite"
+  },
+  "no_fitting": true,
+  "no_result_selected_diagnostics": true,
+  "observer_policy": {
+    "all_retained_constraints": "NOT_ASSESSED unless the zero-control identity itself is the stated condition",
+    "motion_dependent_difference": "NOT_ASSESSED: no motion preparation",
+    "orientation_torque": "NOT_ASSESSED: no oriented source",
+    "reciprocity": "NOT_ASSESSED: no pair response",
+    "static_interaction": "NOT_ASSESSED: no nonzero source pair"
+  },
+  "prohibitions": {
+    "NO_DEV167_MODIFICATION": true,
+    "NO_EXTERNAL_CODE_IMPORT": true,
+    "NO_E_B_QED_MAPPING": true
+  },
+  "retained_constraint_count": 76,
+  "selected_cells": [
+    "ZERO_ZERO_MOTION_ONE_SITE_IDENTITY",
+    "ZERO_ZERO_MOTION_ONE_SITE_TIME_REVERSE",
+    "ZERO_ZERO_MOTION_ONE_SITE_PARITY_X",
+    "ZERO_ZERO_MOTION_ONE_SITE_YZ_SWAP",
+    "ZERO_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+    "ZERO_ZERO_MOTION_THREE_SITES_X_TIME_REVERSE",
+    "ZERO_ZERO_MOTION_THREE_SITES_X_PARITY_X",
+    "ZERO_ZERO_MOTION_THREE_SITES_X_YZ_SWAP"
+  ],
+  "state_and_lift": {
+    "p": "zero 11^3 x 3 momentum array",
+    "source_lift": "u=p=0; no nonzero input artifact",
+    "u": "zero 11^3 x 3 displacement array"
+  },
+  "update": {
+    "dt": 0.04,
+    "force": "zero for the zero-source neutral control",
+    "ordering": "kick then drift",
+    "steps": 180
+  }
+}
