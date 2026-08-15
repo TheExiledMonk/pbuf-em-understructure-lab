@@ -1,0 +1,8 @@
+{
+  "EMX026_EXECUTION_SELECTOR": "C1_UNIT_NONLINEAR_ORIENTATION_EXECUTION",
+  "authorization": "explicit user authorization",
+  "contract": "runs/emx026/frozen_combined_law_contract.json",
+  "members": [
+    "C1_UNIT_NONLINEAR_ORIENTATION"
+  ]
+}
