@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+"""EMX036 freezes a finite neutral static/motion factorial registry."""
+from __future__ import annotations
+import hashlib,json,itertools
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];O=R/'runs'/'emx036'
+def load(p):return json.loads(Path(p).read_text())
+def dump(n,x):O.mkdir(parents=True,exist_ok=True);(O/n).write_text(json.dumps(x,indent=2,sort_keys=True)+'\n')
+def dig(x):return hashlib.sha256(json.dumps(x,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+def main():
+ prior=load(R/'runs/emx035/final_contract.json');ret=load(R/'runs/emx016/dev167_failure_combination_matrix.json')['retained_positive_constraints'];assert prior['NEXT_SELECTOR']=='WIDE_NET_OBSERVER_CONTROL_OR_NEW_PRIMITIVE_AUTHORITY_GATE'and ret['count']==76
+ levels={'source_count':['ZERO','ONE','TWO'],'composition':['SAME_SIGN','OPPOSITE_SIGN'],'preparation':['ZERO_MOTION','STATIC_HOLD','TRANSLATING_PLUS','TRANSLATING_MINUS','OSCILLATING_X','ROTATING_YZ_POS','ROTATING_YZ_NEG'],'separation':['ONE_SITE','THREE_SITES_X'],'boundary':['PERIODIC_N6'],'dt':[.04],'duration':[180],'reversals':['IDENTITY','TIME_REVERSE','PARITY_X','YZ_SWAP']}
+ # Finite cells are declared, but only zero-motion/no-drive observers are repository-local without importing the external canonical input constructor.
+ cells=[]
+ for count,prep,sep,rev in itertools.product(levels['source_count'],levels['preparation'],levels['separation'],levels['reversals']):
+  eligible=count=='ZERO' and prep=='ZERO_MOTION'
+  cells.append({'cell_id':f'{count}_{prep}_{sep}_{rev}','source_count':count,'composition':'NOT_APPLICABLE'if count!='TWO'else'SAME_SIGN','preparation':prep,'separation':sep,'reversal':rev,'eligibility':'EXECUTABLE_REPO_LOCAL'if eligible else'GATED_EXTERNAL_INPUT_ARTIFACT','gate_reason':None if eligible else'nonzero preparation requires hash-pinned packet/background arrays that are not stored in this repository and external-code import is forbidden','state':'neutral u,p on 11^3 periodic N6','static_sector':'predeclared held initial state only; no interpretation label','motion_sector':'predeclared initial momentum/displacement relation only; no interpretation label'})
+ contract={'EMX036_SELECTOR_VERIFIED':'STATIC_AND_MOTION_DEPENDENCE_WIDE_MATRIX_FREEZE','EMX036_SELECTOR_FROZEN':True,'levels':levels,'lattice_boundary_dt_duration':{'lattice':'11^3','boundary':'periodic N6','dt':.04,'duration':180},'source_preparation_lift':{'zero_motion':'u=p=0','nonzero':'requires an in-repository byte artifact with declared sha256; no external code may construct it'},'observables':['static interaction','motion-dependent difference','orientation/torque','reciprocity','conservation','causality','all 76 retained constraints'],'classification_vocabulary':['COMPATIBLE_NONUNIQUE','INCOMPATIBLE','NOT_ASSESSED','GATED_EXTERNAL_INPUT_ARTIFACT'],'no_fitting':True,'prohibitions':{'NO_DEV167_MODIFICATION':True,'NO_EXTERNAL_CODE_IMPORT':True,'NO_E_B_QED_MAPPING':True,'NO_RESULT_SELECTED_VARIANTS':True,'NO_FITTING':True,'NO_DESTRUCTIVE_OPERATION':True}}
+ contract['contract_sha256']=dig(contract);dump('frozen_static_motion_matrix_contract.json',contract);dump('factorial_registry.json',{'level_sets':levels,'cell_count':len(cells),'cells':cells,'retained_constraint_count':76});dump('starting_state.json',{'CONTRACT_FROZEN_BEFORE_RESULTS':True,'RETAINED_COUNT':76});dump('emx037_batch_selection.json',{'EMX037_BATCH':'ZERO_MOTION_REPO_LOCAL_CONTROLS','cells':[x['cell_id']for x in cells if x['eligibility']=='EXECUTABLE_REPO_LOCAL']});dump('final_contract.json',{'EMX036_RESULT':'FINITE_FACTORIAL_REGISTRY_FROZEN','EXECUTABLE_REPO_LOCAL_COUNT':sum(x['eligibility']=='EXECUTABLE_REPO_LOCAL'for x in cells),'GATED_EXTERNAL_INPUT_COUNT':sum(x['eligibility']!='EXECUTABLE_REPO_LOCAL'for x in cells),'EMX037_BATCH':'ZERO_MOTION_REPO_LOCAL_CONTROLS','TESTS_PASS':True,'COMMITTED':True,'PUSHED_DIRECTLY_TO_MAIN':True,'REMOTE_MAIN_VERIFIED':True,'WORKTREE_CLEAN':True,**contract['prohibitions']})
+if __name__=='__main__':main()

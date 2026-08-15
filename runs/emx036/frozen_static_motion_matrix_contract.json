@@ -1,0 +1,78 @@
+{
+  "EMX036_SELECTOR_FROZEN": true,
+  "EMX036_SELECTOR_VERIFIED": "STATIC_AND_MOTION_DEPENDENCE_WIDE_MATRIX_FREEZE",
+  "classification_vocabulary": [
+    "COMPATIBLE_NONUNIQUE",
+    "INCOMPATIBLE",
+    "NOT_ASSESSED",
+    "GATED_EXTERNAL_INPUT_ARTIFACT"
+  ],
+  "contract_sha256": "84ff3174aeb2f9fbc3f466bc5938e3afb25f44313a028e765980edd256a8f71f",
+  "lattice_boundary_dt_duration": {
+    "boundary": "periodic N6",
+    "dt": 0.04,
+    "duration": 180,
+    "lattice": "11^3"
+  },
+  "levels": {
+    "boundary": [
+      "PERIODIC_N6"
+    ],
+    "composition": [
+      "SAME_SIGN",
+      "OPPOSITE_SIGN"
+    ],
+    "dt": [
+      0.04
+    ],
+    "duration": [
+      180
+    ],
+    "preparation": [
+      "ZERO_MOTION",
+      "STATIC_HOLD",
+      "TRANSLATING_PLUS",
+      "TRANSLATING_MINUS",
+      "OSCILLATING_X",
+      "ROTATING_YZ_POS",
+      "ROTATING_YZ_NEG"
+    ],
+    "reversals": [
+      "IDENTITY",
+      "TIME_REVERSE",
+      "PARITY_X",
+      "YZ_SWAP"
+    ],
+    "separation": [
+      "ONE_SITE",
+      "THREE_SITES_X"
+    ],
+    "source_count": [
+      "ZERO",
+      "ONE",
+      "TWO"
+    ]
+  },
+  "no_fitting": true,
+  "observables": [
+    "static interaction",
+    "motion-dependent difference",
+    "orientation/torque",
+    "reciprocity",
+    "conservation",
+    "causality",
+    "all 76 retained constraints"
+  ],
+  "prohibitions": {
+    "NO_DESTRUCTIVE_OPERATION": true,
+    "NO_DEV167_MODIFICATION": true,
+    "NO_EXTERNAL_CODE_IMPORT": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_RESULT_SELECTED_VARIANTS": true
+  },
+  "source_preparation_lift": {
+    "nonzero": "requires an in-repository byte artifact with declared sha256; no external code may construct it",
+    "zero_motion": "u=p=0"
+  }
+}
