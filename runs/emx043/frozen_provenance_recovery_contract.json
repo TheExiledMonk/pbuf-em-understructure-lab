@@ -1,0 +1,1024 @@
+{
+  "EMX043_SELECTOR": "UNIVERSAL_UNASSESSED_PROVENANCE_RECOVERY_AND_COMPLETION",
+  "FROZEN_BEFORE_RESULTS": true,
+  "canonical_read_only_verification": {
+    "allowed": "only locate/hash-verify existing artifact; no imports or code execution",
+    "background_trajectory": "/home/fabian/lab-main-consolidation/runs/dev195_local_force_balance_restoration/background_trajectory.npz",
+    "excited_trajectory": "/home/fabian/lab-main-consolidation/runs/dev195_local_force_balance_restoration/excited_trajectory.npz"
+  },
+  "cells": [
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "A01_SIGN_DRIVE_REVERSAL",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; global sign preserves its native L2 observer",
+      "source_artifact": "runs/emx029/candidate_registry.json",
+      "source_sha256": "87fb31ecebc8c62d3f564c83617c788518cc7ecbd5da1858dbedf49bff2dcb64"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "A02_LATTICE_COVARIANT_SYMMETRY",
+      "exact_missing_replay_or_provenance_item": "EMX042 wide-net registry row lacked its existing EMX030 frozen symmetry-control link",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "read only EMX030 A02 fixed control outcome",
+      "source_artifact": "runs/emx029/candidate_registry.json",
+      "source_sha256": "87fb31ecebc8c62d3f564c83617c788518cc7ecbd5da1858dbedf49bff2dcb64"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "B01_TWO_SPECIES_UNIT_CELL",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx029/candidate_registry.json",
+      "source_sha256": "87fb31ecebc8c62d3f564c83617c788518cc7ecbd5da1858dbedf49bff2dcb64"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "B02_MULTI_SITE_UNIT_CELL",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx029/candidate_registry.json",
+      "source_sha256": "87fb31ecebc8c62d3f564c83617c788518cc7ecbd5da1858dbedf49bff2dcb64"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "C01_BILAYER_SUBSTRATE_UPPER",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx029/candidate_registry.json",
+      "source_sha256": "87fb31ecebc8c62d3f564c83617c788518cc7ecbd5da1858dbedf49bff2dcb64"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "C02_MULTILAYER",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx029/candidate_registry.json",
+      "source_sha256": "87fb31ecebc8c62d3f564c83617c788518cc7ecbd5da1858dbedf49bff2dcb64"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "D01_RECIPROCAL_ORIENTATION_TRANSLATION",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx029/candidate_registry.json",
+      "source_sha256": "87fb31ecebc8c62d3f564c83617c788518cc7ecbd5da1858dbedf49bff2dcb64"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "D02_DISCRETE_INTERNAL_STATE",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx029/candidate_registry.json",
+      "source_sha256": "87fb31ecebc8c62d3f564c83617c788518cc7ecbd5da1858dbedf49bff2dcb64"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "E01_NONCENTRAL_MULTIBODY",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx029/candidate_registry.json",
+      "source_sha256": "87fb31ecebc8c62d3f564c83617c788518cc7ecbd5da1858dbedf49bff2dcb64"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "E02_FINITE_RANGE",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx029/candidate_registry.json",
+      "source_sha256": "87fb31ecebc8c62d3f564c83617c788518cc7ecbd5da1858dbedf49bff2dcb64"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "F01_PERIODIC_LOOP_OBSERVER",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx029/candidate_registry.json",
+      "source_sha256": "87fb31ecebc8c62d3f564c83617c788518cc7ecbd5da1858dbedf49bff2dcb64"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "F02_DEFECT_BOUNDARY_PROTOCOL",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx029/candidate_registry.json",
+      "source_sha256": "87fb31ecebc8c62d3f564c83617c788518cc7ecbd5da1858dbedf49bff2dcb64"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "G01_EXPLICIT_STABLE_CAUSAL_UPDATE",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx029/candidate_registry.json",
+      "source_sha256": "87fb31ecebc8c62d3f564c83617c788518cc7ecbd5da1858dbedf49bff2dcb64"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX020",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx020/harmonic_invariant_report.json",
+      "source_sha256": "ebbd1a01027fbc508c289bd2b79c2846b2d9e20f4c57115c59d3a22af1203157"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX022",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx022/execution_results.json",
+      "source_sha256": "cdfb955343828b5500dbeee6707510a47d0a14395eb084970e747caf99eee012"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX023",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx023/execution_results.json",
+      "source_sha256": "bb350d4b4745763b92b0e3e1565504351c1f2965f3c7f1fa284d37a871440ac1"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX024",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx024/execution_results.json",
+      "source_sha256": "c20a23e5cfdfa2f57c4955ac32d16cbad2a80b852fb108f9027c3f5764ba2741"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX026",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx026/execution_results.json",
+      "source_sha256": "a980edf42c02fbad4497cf1501e24b8fdd30641a34d70863faef71783a5e5e9b"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX028",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx028/t18_bridge_results.json",
+      "source_sha256": "dac7b16b1e489034231e540350899befae4cf3c7807d1aa8b48a584679e13352"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX030:A01",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx030/batch_results.json",
+      "source_sha256": "eb38a9acfe5552759ea6c3b215aafcb822caed521f8fed83cc036cfa22d4194d"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX030:F01",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx030/batch_results.json",
+      "source_sha256": "eb38a9acfe5552759ea6c3b215aafcb822caed521f8fed83cc036cfa22d4194d"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX031:D01",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx031/batch_results.json",
+      "source_sha256": "b0130c95e43187e8a8d72a46e80e295118558021a9ef97a21ed9c29eaf17b643"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX031:E01",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx031/batch_results.json",
+      "source_sha256": "b0130c95e43187e8a8d72a46e80e295118558021a9ef97a21ed9c29eaf17b643"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX033:B01_PLUS",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx033/batch_results.json",
+      "source_sha256": "5a6dfc226d047a5a06cb0fcc1eac16dd4f6bbfd540c1d15f2bf3eabe2eacea26"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX033:B01_MINUS",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx033/batch_results.json",
+      "source_sha256": "5a6dfc226d047a5a06cb0fcc1eac16dd4f6bbfd540c1d15f2bf3eabe2eacea26"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX033:C01_PLUS",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx033/batch_results.json",
+      "source_sha256": "5a6dfc226d047a5a06cb0fcc1eac16dd4f6bbfd540c1d15f2bf3eabe2eacea26"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX033:C01_MINUS",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx033/batch_results.json",
+      "source_sha256": "5a6dfc226d047a5a06cb0fcc1eac16dd4f6bbfd540c1d15f2bf3eabe2eacea26"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX033:B02_BASE",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx033/batch_results.json",
+      "source_sha256": "5a6dfc226d047a5a06cb0fcc1eac16dd4f6bbfd540c1d15f2bf3eabe2eacea26"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX033:C02_BASE",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx033/batch_results.json",
+      "source_sha256": "5a6dfc226d047a5a06cb0fcc1eac16dd4f6bbfd540c1d15f2bf3eabe2eacea26"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX034:D02_BASE",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx034/batch_results.json",
+      "source_sha256": "2d45955ed9978f20cc636324b2b2cc4b0de3015d77743326711f7acd8ff1fcee"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX034:E02_BASE",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx034/batch_results.json",
+      "source_sha256": "2d45955ed9978f20cc636324b2b2cc4b0de3015d77743326711f7acd8ff1fcee"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX034:F02_BASE",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx034/batch_results.json",
+      "source_sha256": "2d45955ed9978f20cc636324b2b2cc4b0de3015d77743326711f7acd8ff1fcee"
+    },
+    {
+      "batch": "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+      "cell_id": "EMX034:G01_BASE",
+      "exact_missing_replay_or_provenance_item": "no saved full native state history/vector for the EMX041 common observer",
+      "pre_result_recovery_status": "SEARCH_REQUIRED",
+      "recovery_rule": "recover only if an existing hash-pinned state artifact uniquely supplies source state, geometry, boundary, dt, source history, and observer inputs; otherwise do not synthesize or re-run",
+      "source_artifact": "runs/emx034/batch_results.json",
+      "source_sha256": "2d45955ed9978f20cc636324b2b2cc4b0de3015d77743326711f7acd8ff1fcee"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_001",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_002",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_003",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_004",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_005",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_006",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_007",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_008",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_009",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_010",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_011",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_012",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_013",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_014",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_015",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_016",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_017",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_018",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_019",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_020",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_021",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_022",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_023",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_024",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_025",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_026",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_027",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_028",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_029",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_030",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_031",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_032",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_033",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_034",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_035",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_036",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_037",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_038",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_039",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_040",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_041",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_042",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_043",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_044",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_045",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_046",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_047",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_048",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_049",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_050",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_051",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_052",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_053",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_054",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_055",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_056",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_057",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_058",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_059",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_060",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_061",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_062",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_063",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_064",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_065",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_066",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_067",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_068",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_069",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_070",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_071",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_072",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_073",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_074",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_075",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    },
+    {
+      "batch": "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY",
+      "cell_id": "EMX016_GATE_076",
+      "exact_missing_replay_or_provenance_item": "EMX042 omitted the already-saved EMX041 common observer linkage",
+      "pre_result_recovery_status": "RECOVERY_ELIGIBLE",
+      "recovery_rule": "use only the hash-pinned EMX041 historical full-state vector; do not re-evaluate the contextual phenotype observer",
+      "source_artifact": "runs/emx041/gate_applicability_matrix.json",
+      "source_sha256": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+    }
+  ],
+  "classification_vocabulary": [
+    "UNIVERSAL_VIABLE_NONUNIQUE",
+    "UNIVERSAL_REJECTED",
+    "UNRECOVERABLE_PROVENANCE"
+  ],
+  "contract_sha256": "d17c183dbe501fda4062969f7f669a378f303b9efbafee347c1b82e304faba1b",
+  "held_out_rule": "Use the frozen EMX042 battery only after recovery classification; it is not an admission input.",
+  "input_sha256": {
+    "runs/emx030/batch_results.json": "eb38a9acfe5552759ea6c3b215aafcb822caed521f8fed83cc036cfa22d4194d",
+    "runs/emx041/cross_calibration_stress_matrix.json": "3ae9b93ea679830f8076a2796ad6d093d86c15a24d05df2d0760c161e2f315e1",
+    "runs/emx041/shared_observer_definition.json": "b818d86104c15c365a3b86438e4fa29620d256c3d5d9104837bf24099bb4ba74",
+    "runs/emx042/all_finite_candidate_cell_registry.json": "3349ae0f65f7aef70196549ea203b0a04c215947c11d8852a3b2e6f2b664c9ec",
+    "runs/emx042/held_out_prediction_battery.json": "8db6ffe1272b94058fbf269875b903a87be7bac73dbc6b84e1b294833d96f05b"
+  },
+  "pending_count": 109,
+  "prohibitions": {
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_HIDDEN_VARIANTS": true,
+    "NO_LAB_GIT_IMPORT": true,
+    "NO_LAB_GIT_MODIFICATION": true,
+    "NO_NEW_DYNAMICS": true,
+    "NO_RESULT_SELECTED_DIAGNOSTICS": true
+  },
+  "replay_rule": "Recover only when source state, geometry, boundary, dt, source history, and shared-observer inputs are uniquely specified and hash-verifiable.",
+  "repository_first_search": [
+    "runs/emx041/shared_observer_definition.json",
+    "runs/emx041/cross_calibration_stress_matrix.json",
+    "runs/emx030/batch_results.json",
+    "runs/emx042/held_out_prediction_battery.json"
+  ]
+}
