@@ -1,0 +1,21 @@
+{
+  "EMX039_SELECTOR": "STATIC_AND_MOTION_MATRIX_COVERAGE_CLOSURE",
+  "FROZEN_BEFORE_CONCLUSIONS": true,
+  "criteria": {
+    "finite": "all predeclared cells finite",
+    "no_inference": "compatible-nonunique finite cells do not establish a mechanism",
+    "retained": "only exact historical packet/control condition can newly assess retained constraints"
+  },
+  "inputs": [
+    "runs/emx036/factorial_registry.json",
+    "runs/emx037/batch_results.json",
+    "runs/emx038/remaining_matrix_results.json"
+  ],
+  "no_fitting": true,
+  "prohibitions": {
+    "NO_DEV167_MODIFICATION": true,
+    "NO_EXTERNAL_CODE_IMPORT": true,
+    "NO_E_B_QED_MAPPING": true
+  },
+  "sha256": "28d6957845aef4e6d5d7265951049a62b739db0589c7ce4ad95dc18523cc6f00"
+}

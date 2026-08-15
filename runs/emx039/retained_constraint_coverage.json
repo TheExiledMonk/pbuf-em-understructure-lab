@@ -1,0 +1,385 @@
+{
+  "count": 76,
+  "records": [
+    {
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "candidate_id": null,
+      "reason": "new source lift is not the exact historical packet/control bridge",
+      "status": "NOT_ASSESSED"
+    }
+  ]
+}

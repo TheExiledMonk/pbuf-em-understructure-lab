@@ -1,0 +1,12 @@
+{
+  "all_finite": true,
+  "cell_count": 224,
+  "motion_difference_assessed": 160,
+  "orientation_proxy_reported": 216,
+  "reciprocity_not_assessed_reason": "the fixed placement has no separately frozen A/B exchange replay",
+  "repository_local_source_cells": 216,
+  "retained_constraints_newly_assessed": 0,
+  "retained_constraints_preserved_not_reclassified": 76,
+  "static_interaction_assessed": 112,
+  "zero_controls": 8
+}
