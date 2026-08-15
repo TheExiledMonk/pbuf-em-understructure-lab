@@ -1,0 +1,20 @@
+{
+  "all_exact": false,
+  "controls": {
+    "e2_reflection": {
+      "exact": false,
+      "max_p_error": 0.008123125493703077,
+      "max_u_error": 0.00990414873032898
+    },
+    "identity": {
+      "exact": true,
+      "max_p_error": 0.0,
+      "max_u_error": 0.0
+    },
+    "yz_swap": {
+      "exact": false,
+      "max_p_error": 0.010468841846292173,
+      "max_u_error": 0.012831179614444004
+    }
+  }
+}
