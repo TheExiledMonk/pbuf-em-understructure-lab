@@ -1,0 +1,461 @@
+{
+  "count": 76,
+  "records": [
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T19_LONGITUDINAL_CONDITIONAL_RANK",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T20_LONGITUDINAL_FROM_TRANSVERSE_PREDICTABILITY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T22_LONGITUDINAL_TRANSVERSE_COTRANSPORT",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T23_LONGITUDINAL_FORCE_ORIGIN",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_transverse_mode_split",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_response_eigenstructure",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_transport_comparison",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_phase_comparison",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_longitudinal_control",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t24_transverse_conditional_rank",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t27_mixing_persistence",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t28_mixing_transport",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T29_FIXED_FRAME_COMPONENT_ENERGY_ASYMMETRY",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T30_FIXED_TRANSVERSE_SYMMETRY_CONTROLS",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T31_UNLOADED_COMPONENT_STATE_INDEPENDENCE",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T32_UNLOADED_ASYMMETRY_FULL_WINDOW_SUPPORT",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T33_UNLOADED_ASYMMETRY_REPRESENTATION_RETENTION",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T17_LOADED_GEOMETRY_TRACKING",
+      "reason": "not this bridge observable",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T18_ORIENTATION_DECOUPLING",
+      "reason": "fixed joint-rank bridge reports nonreducibility without equivalence.",
+      "status": "COMPATIBLE_NONUNIQUE"
+    }
+  ]
+}

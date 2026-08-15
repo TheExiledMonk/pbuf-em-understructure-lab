@@ -1,0 +1,14 @@
+{
+  "EMX028_SELECTOR_VERIFIED": "INTERNAL_ORIENTATION_TO_NATIVE_T18_OBSERVABLE_BRIDGE_GATE",
+  "battery": "EMX024 fixed loaded/unloaded histories; all frames/sites/positive N6 bonds; native T18 strain/orientation plus delta-s",
+  "contract_sha256": "191e9f571eee16e61fa97ed51f58392cfc7286b9fda7e4f2a9353e482d279bbe",
+  "criterion": "joint flattened rank at absolute tolerance 1e-12; report non-equivalence, never map s to T18 by assertion",
+  "mode": "EXACT_REPLAY_REPRESENTATION_BRIDGE",
+  "prohibitions": {
+    "NO_DEV167_MODIFICATION": true,
+    "NO_EQUIVALENCE_CLAIM": true,
+    "NO_E_B_OR_QED_MAPPING": true,
+    "NO_NEW_LAW": true,
+    "NO_PARAMETER_FITTING": true
+  }
+}
