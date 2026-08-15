@@ -1,0 +1,32 @@
+{
+  "A01": {
+    "drive_sign": "NOT_ASSESSED: no ongoing drive exists in the frozen packet protocol",
+    "global_sign": "REPRESENTATION_EQUIVARIANT for odd central force and sign-transformed state by defining algebra"
+  },
+  "A02": {
+    "all_exact": false,
+    "controls": {
+      "e2_reflection": {
+        "exact": false,
+        "max_p_error": 0.008123125493703077,
+        "max_u_error": 0.00990414873032898
+      },
+      "identity": {
+        "exact": true,
+        "max_p_error": 0.0,
+        "max_u_error": 0.0
+      },
+      "yz_swap": {
+        "exact": false,
+        "max_p_error": 0.010468841846292173,
+        "max_u_error": 0.012831179614444004
+      }
+    }
+  },
+  "F01": {
+    "classification": "NOT_ASSESSED",
+    "definition": "sum of four directed nearest-neighbour relational increments around each periodic coordinate plaquette",
+    "reason": "EMX026 full u histories are hash-recorded but not archived; reconstructing them would re-execute dynamics outside this representation-only batch"
+  },
+  "retained_constraints_preserved": 76
+}

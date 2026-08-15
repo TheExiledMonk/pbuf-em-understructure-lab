@@ -1,0 +1,22 @@
+{
+  "EMX030_SELECTOR_VERIFIED": "A01_A02_F01_REPRESENTATION_AND_LOOP_CONTROLS",
+  "contract_sha256": "22849b29ed71e28e6e59548192ce547e0562bb6fed04de7226394eb3fb76ea28",
+  "members": {
+    "A01": "fixed momentum and global vector sign reversals on EMX022 nonlinear-central law",
+    "A02": "reuse exact EMX027 lattice-covariant controls",
+    "F01": "all-site periodic xy,yz,zx four-edge relational loop sum on EMX026 fixed combined histories"
+  },
+  "prohibitions": {
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_HIDDEN_CHOICES": true,
+    "NO_NEW_DYNAMICS": true
+  },
+  "scope": "all frames 0..180, all sites",
+  "vocabulary": [
+    "REPRESENTATION_EQUIVARIANT",
+    "REPRESENTATION_SENSITIVE",
+    "NONZERO_LOOP_OBSERVABLE"
+  ]
+}
