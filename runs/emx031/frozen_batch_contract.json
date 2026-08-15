@@ -1,0 +1,15 @@
+{
+  "EMX031_SELECTOR_VERIFIED": "D01_E01_EXISTING_FIXED_INTERNAL_ORIENTATION_AND_NONCENTRAL_REPRESENTATION_AUDIT",
+  "controls": "exact stored hashes/results only; no replay",
+  "members": [
+    "D01 EMX026 reciprocal orientation-translation fixed combined law",
+    "E01 EMX024 fixed noncentral cross-gradient law"
+  ],
+  "mode": "EXACT_EXISTING_ARTIFACT_AUDIT",
+  "prohibitions": {
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_NEW_DYNAMICS": true
+  }
+}

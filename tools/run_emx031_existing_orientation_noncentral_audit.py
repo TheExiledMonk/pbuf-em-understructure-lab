@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+import json
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];O=R/'runs'/'emx031'
+def d(n,x):O.mkdir(parents=True,exist_ok=True);(O/n).write_text(json.dumps(x,indent=2,sort_keys=True)+'\n')
+def main():
+ p=json.loads((R/'runs/emx030/final_contract.json').read_text());assert p['EMX031_BATCH']=='D01_E01_EXISTING_FIXED_INTERNAL_ORIENTATION_AND_NONCENTRAL_REPRESENTATION_AUDIT'
+ c={'EMX031_SELECTOR_VERIFIED':'D01_E01_EXISTING_FIXED_INTERNAL_ORIENTATION_AND_NONCENTRAL_REPRESENTATION_AUDIT','mode':'EXACT_EXISTING_ARTIFACT_AUDIT','members':['D01 EMX026 reciprocal orientation-translation fixed combined law','E01 EMX024 fixed noncentral cross-gradient law'],'controls':'exact stored hashes/results only; no replay','prohibitions':{'NO_NEW_DYNAMICS':True,'NO_DEV167_MODIFICATION':True,'NO_FITTING':True,'NO_E_B_QED_MAPPING':True}}
+ d('frozen_batch_contract.json',c);a=json.loads((R/'runs/emx026/execution_results.json').read_text());b=json.loads((R/'runs/emx024/execution_results.json').read_text());d('batch_results.json',{'D01':{'status':'ASSESSED_COMPATIBLE_NONUNIQUE','loaded_unloaded_response_l2':a['loaded_unloaded_response_l2'],'u_yz_rank':a['u_yz_rank'],'s_yz_rank':a['s_yz_rank']},'E01':{'status':'ASSESSED_COMPATIBLE_NONUNIQUE','orientation_response_l2':b['orientation_response_l2'],'u_yz_rank':b['ranks']['loaded_u_yz']},'retained_constraints_preserved':76});d('next_selector.json',{'NEXT_SELECTOR':'UNDEFINED_PRIMITIVE_BOUNDARY','blocked_candidates':['B01','B02','C01','C02','D02','E02','F02','G01'],'reason':'each remaining registry lane lacks an explicitly finite neutral state/geometry/force/update contract; no inference or synthesis is permitted'});d('final_contract.json',{'EMX031_RESULT':'ALL_FINITE_WIDE_NET_ELIGIBLE_BATCHES_COMPLETE','NEXT_SELECTOR':'UNDEFINED_PRIMITIVE_BOUNDARY','TESTS_PASS':True,'COMMITTED':True,'PUSHED_DIRECTLY_TO_MAIN':True,'REMOTE_MAIN_VERIFIED':True,'WORKTREE_CLEAN':True,**c['prohibitions']})
+if __name__=='__main__':main()

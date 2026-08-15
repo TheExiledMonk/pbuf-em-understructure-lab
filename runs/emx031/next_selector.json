@@ -1,0 +1,14 @@
+{
+  "NEXT_SELECTOR": "UNDEFINED_PRIMITIVE_BOUNDARY",
+  "blocked_candidates": [
+    "B01",
+    "B02",
+    "C01",
+    "C02",
+    "D02",
+    "E02",
+    "F02",
+    "G01"
+  ],
+  "reason": "each remaining registry lane lacks an explicitly finite neutral state/geometry/force/update contract; no inference or synthesis is permitted"
+}

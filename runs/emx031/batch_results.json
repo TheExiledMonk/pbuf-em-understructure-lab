@@ -1,0 +1,14 @@
+{
+  "D01": {
+    "loaded_unloaded_response_l2": 0.3202826367016851,
+    "s_yz_rank": 2,
+    "status": "ASSESSED_COMPATIBLE_NONUNIQUE",
+    "u_yz_rank": 2
+  },
+  "E01": {
+    "orientation_response_l2": 0.059580215695036375,
+    "status": "ASSESSED_COMPATIBLE_NONUNIQUE",
+    "u_yz_rank": 2
+  },
+  "retained_constraints_preserved": 76
+}
