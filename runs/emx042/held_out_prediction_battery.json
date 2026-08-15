@@ -1,0 +1,892 @@
+{
+  "count": 177,
+  "excluded_from_admission": true,
+  "passed": 177,
+  "records": [
+    {
+      "battery": "zero-source final-state identity",
+      "cell_id": "ZERO_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "zero-source final-state identity",
+      "cell_id": "ZERO_ZERO_MOTION_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "zero-source final-state identity",
+      "cell_id": "ZERO_ZERO_MOTION_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "zero-source final-state identity",
+      "cell_id": "ZERO_ZERO_MOTION_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "zero-source final-state identity",
+      "cell_id": "ZERO_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "zero-source final-state identity",
+      "cell_id": "ZERO_ZERO_MOTION_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "zero-source final-state identity",
+      "cell_id": "ZERO_ZERO_MOTION_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "zero-source final-state identity",
+      "cell_id": "ZERO_ZERO_MOTION_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ZERO_MOTION_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ZERO_MOTION_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ZERO_MOTION_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ZERO_MOTION_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ZERO_MOTION_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ZERO_MOTION_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_STATIC_HOLD_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_STATIC_HOLD_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_STATIC_HOLD_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_STATIC_HOLD_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_STATIC_HOLD_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_STATIC_HOLD_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_TRANSLATING_PLUS_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_TRANSLATING_PLUS_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_TRANSLATING_PLUS_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_TRANSLATING_PLUS_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_TRANSLATING_PLUS_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_TRANSLATING_PLUS_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_TRANSLATING_MINUS_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_TRANSLATING_MINUS_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_TRANSLATING_MINUS_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_TRANSLATING_MINUS_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_TRANSLATING_MINUS_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_TRANSLATING_MINUS_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_OSCILLATING_X_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_OSCILLATING_X_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_OSCILLATING_X_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_OSCILLATING_X_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_OSCILLATING_X_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_OSCILLATING_X_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ROTATING_YZ_POS_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ROTATING_YZ_POS_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ROTATING_YZ_POS_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ROTATING_YZ_POS_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ROTATING_YZ_POS_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ROTATING_YZ_POS_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ROTATING_YZ_NEG_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ROTATING_YZ_NEG_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ROTATING_YZ_NEG_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ROTATING_YZ_NEG_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ROTATING_YZ_NEG_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "ONE_ROTATING_YZ_NEG_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_ONE_SITE_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_ONE_SITE_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_ONE_SITE_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_TIME_REVERSE",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_PARITY_X",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "source-present final energy finiteness",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_YZ_SWAP",
+      "pass": true
+    },
+    {
+      "battery": "loaded-unloaded response finiteness",
+      "cell_id": "EMX022",
+      "pass": true
+    }
+  ]
+}

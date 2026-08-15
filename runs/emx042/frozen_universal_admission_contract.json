@@ -1,0 +1,66 @@
+{
+  "EMX042_SELECTOR": "UNIVERSAL_ADMISSION_RECLASSIFICATION_AND_FULL_MATRIX_RERUN",
+  "FROZEN_BEFORE_RESULTS": true,
+  "classification_vocabulary": [
+    "UNIVERSAL_REJECTED",
+    "UNIVERSAL_VIABLE_NONUNIQUE",
+    "UNIVERSAL_UNASSESSED",
+    "CONTEXTUAL_PHENOTYPE_MATCH",
+    "CONTEXTUAL_PHENOTYPE_DIFFER",
+    "CONTEXTUAL_UNASSESSED"
+  ],
+  "contract_sha256": "39a768addb3ba448312acaa0974ef908fd78ff57eb551463006997b8aaf5a681",
+  "held_out_prediction_battery": {
+    "cells": [
+      "EMX038 zero-source final-state identity",
+      "EMX038 source-present final energy finiteness",
+      "EMX022 frozen loaded/unloaded response finiteness"
+    ],
+    "excluded_from_admission": true,
+    "rule": "reported only after admission classification; no threshold is fitted or selected"
+  },
+  "historical_gate_rule": "All 76 EMX016 gates remain unchanged contextual phenotype comparisons and never veto universal admission.",
+  "input_sha256": {
+    "runs/emx019/final_contract.json": "24e8d1e046b696f2655f9e32286c0d9d81e28b0ac0ddefc4207f8343b6b429bd",
+    "runs/emx020/final_contract.json": "766c02aa0b3ca108df7b5ea9d44e53dabf71a5f278bd2537166007c61b9d6be0",
+    "runs/emx022/execution_results.json": "cdfb955343828b5500dbeee6707510a47d0a14395eb084970e747caf99eee012",
+    "runs/emx023/execution_results.json": "bb350d4b4745763b92b0e3e1565504351c1f2965f3c7f1fa284d37a871440ac1",
+    "runs/emx024/execution_results.json": "c20a23e5cfdfa2f57c4955ac32d16cbad2a80b852fb108f9027c3f5764ba2741",
+    "runs/emx026/execution_results.json": "a980edf42c02fbad4497cf1501e24b8fdd30641a34d70863faef71783a5e5e9b",
+    "runs/emx027/lattice_covariant_control_results.json": "1ca5e2228d19c6116748793d65e5384244ceb4f5d7d0ecf7f54b725c7c825ef2",
+    "runs/emx028/t18_bridge_results.json": "dac7b16b1e489034231e540350899befae4cf3c7807d1aa8b48a584679e13352",
+    "runs/emx029/candidate_registry.json": "87fb31ecebc8c62d3f564c83617c788518cc7ecbd5da1858dbedf49bff2dcb64",
+    "runs/emx030/batch_results.json": "eb38a9acfe5552759ea6c3b215aafcb822caed521f8fed83cc036cfa22d4194d",
+    "runs/emx031/batch_results.json": "b0130c95e43187e8a8d72a46e80e295118558021a9ef97a21ed9c29eaf17b643",
+    "runs/emx033/batch_results.json": "5a6dfc226d047a5a06cb0fcc1eac16dd4f6bbfd540c1d15f2bf3eabe2eacea26",
+    "runs/emx034/batch_results.json": "2d45955ed9978f20cc636324b2b2cc4b0de3015d77743326711f7acd8ff1fcee",
+    "runs/emx036/factorial_registry.json": "25fd2ef80a0cdfafe5cee83526b9ba9b30d0f835d84b357ad8590dbb0f26e6a0",
+    "runs/emx037/batch_results.json": "97e5747fd72d92c14c0594caad4c1590dfa1044ba8bd696f09bd9bf6719ab339",
+    "runs/emx038/remaining_matrix_results.json": "44dbf33b0aefb1bcbb98f686faae341cd07359cf2941f62f55210a2773481634",
+    "runs/emx040/gate_ledger.json": "23b0d07d847fafcb1efb199a5ddec6e12185e045a9b815a53bc9cdb838943175",
+    "runs/emx041/cross_calibration_stress_matrix.json": "3ae9b93ea679830f8076a2796ad6d093d86c15a24d05df2d0760c161e2f315e1",
+    "runs/emx041/gate_applicability_matrix.json": "d19d1151c8964fcb92ecc6532917e544b0a17acc6ee94e2f5feb5111e18e1a39"
+  },
+  "mode": "READ_ONLY_PROVENANCE_PINNED_RERUN_OF_SAVED_FINITE_OUTCOMES",
+  "prohibitions": {
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_LAB_GIT_IMPORT": true,
+    "NO_LAB_GIT_MODIFICATION": true,
+    "NO_NEW_DYNAMICS": true,
+    "NO_RESULT_SELECTED_VARIANTS": true
+  },
+  "transparent_batches": [
+    "BATCH_A_WIDE_NET_AND_CONTRACTUAL",
+    "BATCH_B_STATIC_MOTION_224_CELLS",
+    "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY"
+  ],
+  "universal_admission_gates": {
+    "conservation_accounting": "finite predeclared energy/accounting values where defined",
+    "finite_stable_deterministic_replay": "saved finite result plus frozen contract/result provenance hash; no dynamics replay is run",
+    "locality_causality": "declared periodic N6/local-update semantics where defined",
+    "shared_observer": "EMX041 NATIVE_PERTURBATION_L2_FOUR_SUMMARY only",
+    "symmetry_zero_source": "predeclared symmetry controls and exact zero-source controls, never historical phenotype expectations"
+  }
+}

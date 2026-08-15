@@ -1,0 +1,24 @@
+{
+  "batches": {
+    "BATCH_A_WIDE_NET_AND_CONTRACTUAL": {
+      "count": 35,
+      "universal_counts": {
+        "UNIVERSAL_REJECTED": 2,
+        "UNIVERSAL_UNASSESSED": 33
+      }
+    },
+    "BATCH_B_STATIC_MOTION_224_CELLS": {
+      "count": 224,
+      "universal_counts": {
+        "UNIVERSAL_VIABLE_NONUNIQUE": 224
+      }
+    },
+    "BATCH_C_CONTEXTUAL_PHENOTYPE_ONLY": {
+      "count": 76,
+      "universal_counts": {
+        "UNIVERSAL_UNASSESSED": 76
+      }
+    }
+  },
+  "no_new_dynamics": true
+}
