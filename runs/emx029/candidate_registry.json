@@ -1,0 +1,291 @@
+{
+  "candidates": [
+    {
+      "bank": "A",
+      "candidate_id": "A01_SIGN_DRIVE_REVERSAL",
+      "common_controls": {
+        "boundary": "periodic N6 unless candidate declares otherwise",
+        "constraint_map": "all 76 retained constraints; nonunique passes retained",
+        "dt": 0.04,
+        "inputs": "existing EMX011 packet and matched loaded/unloaded controls",
+        "lattice": "11^3",
+        "outcomes": [
+          "COMPATIBLE_NONUNIQUE",
+          "INCOMPATIBLE",
+          "NOT_ASSESSED",
+          "BLOCKED_UNDEFINED"
+        ]
+      },
+      "conservation_stability_causality_gate": "finite state/update plus deterministic replay, finite all-history values, and predeclared local-domain support required",
+      "definition": "fixed packet-momentum sign reversal and global vector sign reversal; no new law",
+      "eligibility": "EXECUTABLE",
+      "kind": "representation_only",
+      "retained_constraint_mapping": "all 76 inherited"
+    },
+    {
+      "bank": "A",
+      "candidate_id": "A02_LATTICE_COVARIANT_SYMMETRY",
+      "common_controls": {
+        "boundary": "periodic N6 unless candidate declares otherwise",
+        "constraint_map": "all 76 retained constraints; nonunique passes retained",
+        "dt": 0.04,
+        "inputs": "existing EMX011 packet and matched loaded/unloaded controls",
+        "lattice": "11^3",
+        "outcomes": [
+          "COMPATIBLE_NONUNIQUE",
+          "INCOMPATIBLE",
+          "NOT_ASSESSED",
+          "BLOCKED_UNDEFINED"
+        ]
+      },
+      "conservation_stability_causality_gate": "finite state/update plus deterministic replay, finite all-history values, and predeclared local-domain support required",
+      "definition": "fixed coordinate-plus-vector y/z swap and reflection controls",
+      "eligibility": "EXECUTABLE",
+      "kind": "representation_only",
+      "retained_constraint_mapping": "all 76 inherited"
+    },
+    {
+      "bank": "B",
+      "candidate_id": "B01_TWO_SPECIES_UNIT_CELL",
+      "common_controls": {
+        "boundary": "periodic N6 unless candidate declares otherwise",
+        "constraint_map": "all 76 retained constraints; nonunique passes retained",
+        "dt": 0.04,
+        "inputs": "existing EMX011 packet and matched loaded/unloaded controls",
+        "lattice": "11^3",
+        "outcomes": [
+          "COMPATIBLE_NONUNIQUE",
+          "INCOMPATIBLE",
+          "NOT_ASSESSED",
+          "BLOCKED_UNDEFINED"
+        ]
+      },
+      "conservation_stability_causality_gate": "finite state/update plus deterministic replay, finite all-history values, and predeclared local-domain support required",
+      "definition": "no finite species state, cross-force, or initialization map yet",
+      "eligibility": "BLOCKED_UNDEFINED",
+      "kind": "state_geometry",
+      "retained_constraint_mapping": "all 76 inherited"
+    },
+    {
+      "bank": "B",
+      "candidate_id": "B02_MULTI_SITE_UNIT_CELL",
+      "common_controls": {
+        "boundary": "periodic N6 unless candidate declares otherwise",
+        "constraint_map": "all 76 retained constraints; nonunique passes retained",
+        "dt": 0.04,
+        "inputs": "existing EMX011 packet and matched loaded/unloaded controls",
+        "lattice": "11^3",
+        "outcomes": [
+          "COMPATIBLE_NONUNIQUE",
+          "INCOMPATIBLE",
+          "NOT_ASSESSED",
+          "BLOCKED_UNDEFINED"
+        ]
+      },
+      "conservation_stability_causality_gate": "finite state/update plus deterministic replay, finite all-history values, and predeclared local-domain support required",
+      "definition": "no unit-cell embedding and finite interaction table yet",
+      "eligibility": "BLOCKED_UNDEFINED",
+      "kind": "geometry_state",
+      "retained_constraint_mapping": "all 76 inherited"
+    },
+    {
+      "bank": "C",
+      "candidate_id": "C01_BILAYER_SUBSTRATE_UPPER",
+      "common_controls": {
+        "boundary": "periodic N6 unless candidate declares otherwise",
+        "constraint_map": "all 76 retained constraints; nonunique passes retained",
+        "dt": 0.04,
+        "inputs": "existing EMX011 packet and matched loaded/unloaded controls",
+        "lattice": "11^3",
+        "outcomes": [
+          "COMPATIBLE_NONUNIQUE",
+          "INCOMPATIBLE",
+          "NOT_ASSESSED",
+          "BLOCKED_UNDEFINED"
+        ]
+      },
+      "conservation_stability_causality_gate": "finite state/update plus deterministic replay, finite all-history values, and predeclared local-domain support required",
+      "definition": "no layer separation, coupling, or inherited input lift yet",
+      "eligibility": "BLOCKED_UNDEFINED",
+      "kind": "geometry_state",
+      "retained_constraint_mapping": "all 76 inherited"
+    },
+    {
+      "bank": "C",
+      "candidate_id": "C02_MULTILAYER",
+      "common_controls": {
+        "boundary": "periodic N6 unless candidate declares otherwise",
+        "constraint_map": "all 76 retained constraints; nonunique passes retained",
+        "dt": 0.04,
+        "inputs": "existing EMX011 packet and matched loaded/unloaded controls",
+        "lattice": "11^3",
+        "outcomes": [
+          "COMPATIBLE_NONUNIQUE",
+          "INCOMPATIBLE",
+          "NOT_ASSESSED",
+          "BLOCKED_UNDEFINED"
+        ]
+      },
+      "conservation_stability_causality_gate": "finite state/update plus deterministic replay, finite all-history values, and predeclared local-domain support required",
+      "definition": "no finite layer count/coupling/controls selected",
+      "eligibility": "BLOCKED_UNDEFINED",
+      "kind": "geometry_state",
+      "retained_constraint_mapping": "all 76 inherited"
+    },
+    {
+      "bank": "D",
+      "candidate_id": "D01_RECIPROCAL_ORIENTATION_TRANSLATION",
+      "common_controls": {
+        "boundary": "periodic N6 unless candidate declares otherwise",
+        "constraint_map": "all 76 retained constraints; nonunique passes retained",
+        "dt": 0.04,
+        "inputs": "existing EMX011 packet and matched loaded/unloaded controls",
+        "lattice": "11^3",
+        "outcomes": [
+          "COMPATIBLE_NONUNIQUE",
+          "INCOMPATIBLE",
+          "NOT_ASSESSED",
+          "BLOCKED_UNDEFINED"
+        ]
+      },
+      "conservation_stability_causality_gate": "finite state/update plus deterministic replay, finite all-history values, and predeclared local-domain support required",
+      "definition": "existing EMX026 fixed combined u,p,s,w law only; no coefficient variation",
+      "eligibility": "EXECUTABLE",
+      "kind": "new_dynamics",
+      "retained_constraint_mapping": "all 76 inherited"
+    },
+    {
+      "bank": "D",
+      "candidate_id": "D02_DISCRETE_INTERNAL_STATE",
+      "common_controls": {
+        "boundary": "periodic N6 unless candidate declares otherwise",
+        "constraint_map": "all 76 retained constraints; nonunique passes retained",
+        "dt": 0.04,
+        "inputs": "existing EMX011 packet and matched loaded/unloaded controls",
+        "lattice": "11^3",
+        "outcomes": [
+          "COMPATIBLE_NONUNIQUE",
+          "INCOMPATIBLE",
+          "NOT_ASSESSED",
+          "BLOCKED_UNDEFINED"
+        ]
+      },
+      "conservation_stability_causality_gate": "finite state/update plus deterministic replay, finite all-history values, and predeclared local-domain support required",
+      "definition": "no finite state alphabet, update rule, or conservation gate",
+      "eligibility": "BLOCKED_UNDEFINED",
+      "kind": "state_update",
+      "retained_constraint_mapping": "all 76 inherited"
+    },
+    {
+      "bank": "E",
+      "candidate_id": "E01_NONCENTRAL_MULTIBODY",
+      "common_controls": {
+        "boundary": "periodic N6 unless candidate declares otherwise",
+        "constraint_map": "all 76 retained constraints; nonunique passes retained",
+        "dt": 0.04,
+        "inputs": "existing EMX011 packet and matched loaded/unloaded controls",
+        "lattice": "11^3",
+        "outcomes": [
+          "COMPATIBLE_NONUNIQUE",
+          "INCOMPATIBLE",
+          "NOT_ASSESSED",
+          "BLOCKED_UNDEFINED"
+        ]
+      },
+      "conservation_stability_causality_gate": "finite state/update plus deterministic replay, finite all-history values, and predeclared local-domain support required",
+      "definition": "existing EMX024 fixed cross-gradient internal-orientation interaction only",
+      "eligibility": "EXECUTABLE",
+      "kind": "new_dynamics",
+      "retained_constraint_mapping": "all 76 inherited"
+    },
+    {
+      "bank": "E",
+      "candidate_id": "E02_FINITE_RANGE",
+      "common_controls": {
+        "boundary": "periodic N6 unless candidate declares otherwise",
+        "constraint_map": "all 76 retained constraints; nonunique passes retained",
+        "dt": 0.04,
+        "inputs": "existing EMX011 packet and matched loaded/unloaded controls",
+        "lattice": "11^3",
+        "outcomes": [
+          "COMPATIBLE_NONUNIQUE",
+          "INCOMPATIBLE",
+          "NOT_ASSESSED",
+          "BLOCKED_UNDEFINED"
+        ]
+      },
+      "conservation_stability_causality_gate": "finite state/update plus deterministic replay, finite all-history values, and predeclared local-domain support required",
+      "definition": "no finite range kernel and normalization declared",
+      "eligibility": "BLOCKED_UNDEFINED",
+      "kind": "new_dynamics",
+      "retained_constraint_mapping": "all 76 inherited"
+    },
+    {
+      "bank": "F",
+      "candidate_id": "F01_PERIODIC_LOOP_OBSERVER",
+      "common_controls": {
+        "boundary": "periodic N6 unless candidate declares otherwise",
+        "constraint_map": "all 76 retained constraints; nonunique passes retained",
+        "dt": 0.04,
+        "inputs": "existing EMX011 packet and matched loaded/unloaded controls",
+        "lattice": "11^3",
+        "outcomes": [
+          "COMPATIBLE_NONUNIQUE",
+          "INCOMPATIBLE",
+          "NOT_ASSESSED",
+          "BLOCKED_UNDEFINED"
+        ]
+      },
+      "conservation_stability_causality_gate": "finite state/update plus deterministic replay, finite all-history values, and predeclared local-domain support required",
+      "definition": "fixed periodic N6 plaquette-loop relational observer on existing histories",
+      "eligibility": "EXECUTABLE",
+      "kind": "representation_only",
+      "retained_constraint_mapping": "all 76 inherited"
+    },
+    {
+      "bank": "F",
+      "candidate_id": "F02_DEFECT_BOUNDARY_PROTOCOL",
+      "common_controls": {
+        "boundary": "periodic N6 unless candidate declares otherwise",
+        "constraint_map": "all 76 retained constraints; nonunique passes retained",
+        "dt": 0.04,
+        "inputs": "existing EMX011 packet and matched loaded/unloaded controls",
+        "lattice": "11^3",
+        "outcomes": [
+          "COMPATIBLE_NONUNIQUE",
+          "INCOMPATIBLE",
+          "NOT_ASSESSED",
+          "BLOCKED_UNDEFINED"
+        ]
+      },
+      "conservation_stability_causality_gate": "finite state/update plus deterministic replay, finite all-history values, and predeclared local-domain support required",
+      "definition": "would require a new defect/boundary construction and input map",
+      "eligibility": "BLOCKED_UNDEFINED",
+      "kind": "geometry_protocol",
+      "retained_constraint_mapping": "all 76 inherited"
+    },
+    {
+      "bank": "G",
+      "candidate_id": "G01_EXPLICIT_STABLE_CAUSAL_UPDATE",
+      "common_controls": {
+        "boundary": "periodic N6 unless candidate declares otherwise",
+        "constraint_map": "all 76 retained constraints; nonunique passes retained",
+        "dt": 0.04,
+        "inputs": "existing EMX011 packet and matched loaded/unloaded controls",
+        "lattice": "11^3",
+        "outcomes": [
+          "COMPATIBLE_NONUNIQUE",
+          "INCOMPATIBLE",
+          "NOT_ASSESSED",
+          "BLOCKED_UNDEFINED"
+        ]
+      },
+      "conservation_stability_causality_gate": "finite state/update plus deterministic replay, finite all-history values, and predeclared local-domain support required",
+      "definition": "no independently specified local update, stability bound, or causality criterion",
+      "eligibility": "BLOCKED_UNDEFINED",
+      "kind": "new_dynamics",
+      "retained_constraint_mapping": "all 76 inherited"
+    }
+  ],
+  "count": 13
+}

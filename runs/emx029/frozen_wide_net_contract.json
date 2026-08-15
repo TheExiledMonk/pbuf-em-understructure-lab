@@ -1,0 +1,26 @@
+{
+  "EMX029_SELECTOR_VERIFIED": "WIDE_NET_SIGNED_LAYERED_INTERNAL_TOPOLOGICAL_CANDIDATE_CENSUS_AND_EXECUTION_PROGRAM",
+  "common": {
+    "boundary": "periodic N6 unless candidate declares otherwise",
+    "constraint_map": "all 76 retained constraints; nonunique passes retained",
+    "dt": 0.04,
+    "inputs": "existing EMX011 packet and matched loaded/unloaded controls",
+    "lattice": "11^3",
+    "outcomes": [
+      "COMPATIBLE_NONUNIQUE",
+      "INCOMPATIBLE",
+      "NOT_ASSESSED",
+      "BLOCKED_UNDEFINED"
+    ]
+  },
+  "contract_sha256": "50823afcd9b684cefe5731315068422adf86d67839860f736b441f2e851a9e8c",
+  "mode": "FINITE_REGISTRY_FROZEN_BEFORE_DYNAMICS",
+  "prohibitions": {
+    "NO_DESTRUCTIVE_OPERATION": true,
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_HIDDEN_CHOICES": true,
+    "NO_LAB_CODE_IMPORT": true
+  }
+}
