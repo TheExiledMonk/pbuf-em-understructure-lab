@@ -1,0 +1,769 @@
+{
+  "applicability_counts": {
+    "CONTEXTUAL_ONLY": 75,
+    "SHARED_APPLICABLE": 1
+  },
+  "records": [
+    {
+      "applicability_label": "SHARED_APPLICABLE",
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "representation": "R02",
+      "shared_calibration_outcome": "AGREES",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "representation": "R06",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "representation": "R07",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "representation": "R08",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "representation": "R10",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "representation": "R11",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "representation": "R03",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "representation": "R13",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "representation": "R14",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T03_PROPAGATION",
+      "representation": "R02",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T03_PROPAGATION",
+      "representation": "R06",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T03_PROPAGATION",
+      "representation": "R07",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T03_PROPAGATION",
+      "representation": "R08",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T03_PROPAGATION",
+      "representation": "R10",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T03_PROPAGATION",
+      "representation": "R11",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T03_PROPAGATION",
+      "representation": "R03",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T03_PROPAGATION",
+      "representation": "R13",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T03_PROPAGATION",
+      "representation": "R14",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "representation": "R02",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "representation": "R06",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "representation": "R07",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "representation": "R08",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "representation": "R10",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "representation": "R11",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "representation": "R03",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "representation": "R13",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "representation": "R14",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "representation": "R02",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "representation": "R06",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "representation": "R07",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "representation": "R10",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "representation": "R11",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "representation": "R03",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "representation": "R13",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "representation": "R14",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX004"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T06",
+      "representation": "FULL_STATE",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T06",
+      "representation": "RELATIONAL_CHANGE",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T06",
+      "representation": "FULL_RELATIONAL_TENSOR",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T06",
+      "representation": "ANTISYMMETRIC_TENSOR",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T06",
+      "representation": "ORIENTATION_STRESS",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T06",
+      "representation": "FULL_FORCE_CHANGE",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T06",
+      "representation": "SIGNED_NEIGHBOR_MISMATCH",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T07",
+      "representation": "FULL_STATE",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T07",
+      "representation": "RELATIONAL_CHANGE",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T07",
+      "representation": "FULL_RELATIONAL_TENSOR",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T07",
+      "representation": "ORIENTATION_STRESS",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T07",
+      "representation": "FULL_FORCE_CHANGE",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T07",
+      "representation": "SIGNED_NEIGHBOR_MISMATCH",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C002_DEV167_FULL_VECTOR_STATE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T08",
+      "representation": "FULL_STATE",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C003_N6_RELATIONAL_CHANGE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T08",
+      "representation": "RELATIONAL_CHANGE",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C004_DEV203_RELATIONAL_TENSOR",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T08",
+      "representation": "FULL_RELATIONAL_TENSOR",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C005_DEV203_ANTISYMMETRIC_TENSOR",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T08",
+      "representation": "ANTISYMMETRIC_TENSOR",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C006_DEV204_ORIENTATION_STRESS",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T08",
+      "representation": "ORIENTATION_STRESS",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C007_DEV204_FULL_FORCE_CHANGE",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T08",
+      "representation": "FULL_FORCE_CHANGE",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C011_DEV221_DIRECTIONAL_GEOMETRY",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T08",
+      "representation": "BOND_STRAIN",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C012_DEV223_SIGNED_PATTERN_MISMATCH",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T08",
+      "representation": "SIGNED_NEIGHBOR_MISMATCH",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": "C013_DEV225_TENSOR_NEIGHBOR_RELATION",
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T08",
+      "representation": "TENSOR_NEIGHBOR_CONTRACTION",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX006"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T19_LONGITUDINAL_CONDITIONAL_RANK",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX008"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T20_LONGITUDINAL_FROM_TRANSVERSE_PREDICTABILITY",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX008"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T22_LONGITUDINAL_TRANSVERSE_COTRANSPORT",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX008"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T23_LONGITUDINAL_FORCE_ORIGIN",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX008"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "t16_transverse_mode_split",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX011"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "t16_response_eigenstructure",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX011"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "t16_transport_comparison",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX011"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "t16_phase_comparison",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX011"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "t16_longitudinal_control",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX011"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "t24_transverse_conditional_rank",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX012"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "t27_mixing_persistence",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX012"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "t28_mixing_transport",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX012"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T29_FIXED_FRAME_COMPONENT_ENERGY_ASYMMETRY",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX013"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T30_FIXED_TRANSVERSE_SYMMETRY_CONTROLS",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX013"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T31_UNLOADED_COMPONENT_STATE_INDEPENDENCE",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX013"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T32_UNLOADED_ASYMMETRY_FULL_WINDOW_SUPPORT",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX013"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T33_UNLOADED_ASYMMETRY_REPRESENTATION_RETENTION",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX013"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T17_LOADED_GEOMETRY_TRACKING",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX015"
+    },
+    {
+      "applicability_label": "CONTEXTUAL_ONLY",
+      "candidate_id": null,
+      "evidence": "The neutral full-state activity observer is identical only for C002/R02/T02; all other retained gates require their original representation-specific or phenotype-specific observer/control.",
+      "historical_gate_preserved": true,
+      "observable_or_test": "T18_ORIENTATION_DECOUPLING",
+      "representation": "FULL_STATE_PARENT",
+      "shared_calibration_outcome": "INCOMPARABLE",
+      "source_run": "EMX015"
+    }
+  ],
+  "retained_gate_count": 76
+}

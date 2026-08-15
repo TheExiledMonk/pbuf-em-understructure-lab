@@ -1,0 +1,101 @@
+{
+  "EMX041_SELECTOR": "SHARED_OBSERVER_BRIDGE_AND_GATE_APPLICABILITY_MATRIX",
+  "FROZEN_BEFORE_RESULTS": true,
+  "contract_sha256": "b0257eea974aa58b4ff8db6f09f10003e97749d024c3d2df29df4a4356456540",
+  "cross_calibration": {
+    "outcomes": [
+      "AGREES",
+      "DIFFERS",
+      "INCOMPARABLE"
+    ],
+    "rule": "For each fixed local cell and stress cell, AGREES iff both historical and local summaries are finite and their active/inactive classification agrees at the frozen tolerance; DIFFERS iff both are finite and it differs; INCOMPARABLE otherwise."
+  },
+  "gate_applicability_labels": [
+    "UNIVERSAL",
+    "SHARED_APPLICABLE",
+    "CONTEXTUAL_ONLY",
+    "STILL_UNDERDETERMINED"
+  ],
+  "gate_families": {
+    "contextual_historical_phenotype": "all historical representation-specific, spatial, force, orientation, loading, and conditional-rank gates retain their original packet/control scope",
+    "shared_observer": "full-lattice perturbation-state norm under exactly the same formula on both families",
+    "universal_sanity": "finite native state summary, fixed zero-source identity control, and exact artifact integrity; these are not replacements for phenotype gates"
+  },
+  "historical_artifacts": {
+    "background": {
+      "path": "/home/fabian/lab-main-consolidation/runs/dev195_local_force_balance_restoration/background_trajectory.npz",
+      "sha256": "67353948d6953f00348a37ea64fb83b0b7dd28b704dd2d3d8f88628647c191c4"
+    },
+    "excited": {
+      "path": "/home/fabian/lab-main-consolidation/runs/dev195_local_force_balance_restoration/excited_trajectory.npz",
+      "sha256": "118a680de0ba756cd56901fcf2db02cd2a765035357e7b38fb419927ae61afb4"
+    }
+  },
+  "input_sha256": {
+    "runs/emx004/frozen_execution_contract.json": "d17ab404212c75911bf6562cd88a7b83a2ccc888c369b5fc0e258226b9625bb7",
+    "runs/emx016/dev167_failure_combination_matrix.json": "e3a6cb4cf2ed23685636410e0ea89f64eed23325ca92c8eda02acb400e389b74",
+    "runs/emx038/frozen_repository_local_source_lift_contract.json": "e9e57e7d9fb6b287d7ed7198989c7acd3a0a9d1a141f57c678280192d04f6845",
+    "runs/emx038/remaining_matrix_results.json": "44dbf33b0aefb1bcbb98f686faae341cd07359cf2941f62f55210a2773481634",
+    "runs/emx040/final_contract.json": "bdf1e59b44fe1cafe141760894a5a5ab88ba51217c7490be78a2a15633e3103b",
+    "runs/emx040/gate_ledger.json": "23b0d07d847fafcb1efb199a5ddec6e12185e045a9b815a53bc9cdb838943175"
+  },
+  "matched_controls": {
+    "boundary": "periodic N6",
+    "dt": 0.04,
+    "geometry": "11^3",
+    "region": "all periodic 11^3 sites",
+    "time_window": [
+      0,
+      180
+    ]
+  },
+  "mode": "READ_ONLY_EXISTING_NATIVE_QUANTITY_BRIDGE",
+  "prohibitions": {
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_LAB_GIT_IMPORT": true,
+    "NO_LAB_GIT_MODIFICATION": true,
+    "NO_NEW_DYNAMICS": true,
+    "NO_RESULT_SELECTED_MEASURES": true
+  },
+  "smallest_neutral_shared_observer_vector": {
+    "basis": "all three native vector components",
+    "historical_delta": "excited_trajectory minus matched background_trajectory",
+    "name": "NATIVE_PERTURBATION_L2_FOUR_SUMMARY",
+    "native_formula": "s(t)=sqrt(sum_all_sites,sum_components(delta_u(t)^2 + delta_p(t)^2)); V=(s(0), s(180), min_t s(t), max_t s(t)) for t=0..180",
+    "no_normalization_or_fit": true,
+    "region": "all periodic 11^3 sites",
+    "repository_local_delta": "stored EMX038 neutral source-lift state relative to its declared zero background"
+  },
+  "stress_registry": {
+    "basis": [
+      "IDENTITY_ALL_NATIVE_COMPONENTS",
+      "YZ_SIGNED_PERMUTATION_ALL_COMPONENTS"
+    ],
+    "ineligible_nonfull_region": "No EMX038 region-resolved history was retained; no subregion bridge may be reconstructed or simulated.",
+    "region": [
+      "FULL_PERIODIC_VOLUME",
+      "FULL_PERIODIC_VOLUME_X_REINDEX"
+    ],
+    "tolerance": [
+      0.0,
+      1e-12,
+      1e-09
+    ],
+    "window": [
+      [
+        0,
+        180
+      ],
+      [
+        0,
+        90
+      ],
+      [
+        90,
+        180
+      ]
+    ]
+  }
+}

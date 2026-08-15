@@ -1,0 +1,18 @@
+{
+  "formula": {
+    "basis": "all three native vector components",
+    "historical_delta": "excited_trajectory minus matched background_trajectory",
+    "name": "NATIVE_PERTURBATION_L2_FOUR_SUMMARY",
+    "native_formula": "s(t)=sqrt(sum_all_sites,sum_components(delta_u(t)^2 + delta_p(t)^2)); V=(s(0), s(180), min_t s(t), max_t s(t)) for t=0..180",
+    "no_normalization_or_fit": true,
+    "region": "all periodic 11^3 sites",
+    "repository_local_delta": "stored EMX038 neutral source-lift state relative to its declared zero background"
+  },
+  "historical_history_sha256": "bd1b3f1fbd578f6c5104c1de3d9b103305b77a29afcbe47997f0d6a9a9296a70",
+  "historical_vector_0_180": [
+    0.013259145044039137,
+    0.01320462176396582,
+    0.012748107683194794,
+    0.01390961628034952
+  ]
+}

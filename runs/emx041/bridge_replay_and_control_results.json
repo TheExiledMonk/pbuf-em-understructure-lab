@@ -1,0 +1,25 @@
+{
+  "historical_finite": true,
+  "historical_hashes_verified": true,
+  "historical_shape": [
+    361,
+    11,
+    11,
+    11,
+    3
+  ],
+  "local_all_finite": true,
+  "local_saved_history_count": 216,
+  "matched_controls": {
+    "boundary": "periodic N6",
+    "dt": 0.04,
+    "geometry": "11^3",
+    "region": "all periodic 11^3 sites",
+    "time_window": [
+      0,
+      180
+    ]
+  },
+  "no_lab_git_import": true,
+  "no_new_dynamics": true
+}
