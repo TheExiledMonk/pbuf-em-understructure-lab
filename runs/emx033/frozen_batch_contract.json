@@ -1,0 +1,26 @@
+{
+  "EMX033_SELECTOR_VERIFIED": "B01_B02_C01_C02_UNIT_CELL_AND_LAYER_MEMBERS",
+  "dt": 0.04,
+  "frames": [
+    0,
+    180
+  ],
+  "members": [
+    "B01_PLUS",
+    "B01_MINUS",
+    "B02_BASE",
+    "C01_PLUS",
+    "C01_MINUS",
+    "C02_BASE"
+  ],
+  "prohibitions": {
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_HIDDEN_CHOICES": true,
+    "NO_LAB_CODE_IMPORT": true,
+    "NO_RESULT_SELECTED_VARIANTS": true
+  },
+  "state": "stacked neutral vector components; primary receives inherited u,p, added components zero",
+  "update": "kick-drift, unit N6 per component and frozen 1/4 coupling tables"
+}
