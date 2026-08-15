@@ -1,0 +1,28 @@
+{
+  "EMX035_SELECTOR_VERIFIED": "WIDE_NET_COVERAGE_CLOSURE",
+  "contract_sha256": "f495e1d9b585b128e2a6cd82006743ee5f271d95c0b0dc4440d6cfc05563bf1e",
+  "inputs": [
+    "runs/emx022",
+    "runs/emx024",
+    "runs/emx026",
+    "runs/emx029",
+    "runs/emx030",
+    "runs/emx031",
+    "runs/emx033",
+    "runs/emx034"
+  ],
+  "mode": "READ_ONLY_CROSS_FAMILY_RESULT_AUDIT",
+  "prohibitions": {
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_LAB_CODE_IMPORT": true,
+    "NO_NEW_DYNAMICS": true,
+    "NO_RESULT_SELECTED_DIAGNOSTIC": true
+  },
+  "rules": {
+    "coverage": "A retained constraint is assessed only if the exact predeclared observable/control exists for that member. Finiteness or response magnitude alone does not satisfy it.",
+    "next_batch": "only if an already frozen finite member and an unassessed needed observable/control coexist",
+    "nonunique": "A pass, non-rejection, common, mixed, or partial response remains a retained constraint; it is not discarded merely because it is not unique alone."
+  }
+}

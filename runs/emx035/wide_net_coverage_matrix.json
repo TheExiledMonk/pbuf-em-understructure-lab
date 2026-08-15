@@ -1,0 +1,581 @@
+{
+  "gaps": [
+    {
+      "constraints": [
+        "T03_PROPAGATION",
+        "T04_NEIGHBOR_RELAY",
+        "T05_STRESS_COUPLING"
+      ],
+      "kind": "MISSING_OBSERVABLE",
+      "need": "a frozen common propagation/relay/stress observer for every finite member"
+    },
+    {
+      "constraints": [
+        "T16/T24/T27/T28 loading-mixing family"
+      ],
+      "kind": "MISSING_CONTROL",
+      "need": "full matched-background trajectory archive or an explicitly authorized replay-control contract for every member"
+    },
+    {
+      "constraints": [
+        "scenario-specific static/defect/boundary and multi-site constraints"
+      ],
+      "kind": "NEW_PRIMITIVE_BOUNDARY",
+      "need": "no further finite member is already frozen; any added state/interaction or boundary protocol needs a new neutral contract"
+    }
+  ],
+  "records": [
+    {
+      "historical_classification": "ACTIVATED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "packet response norms",
+      "status": "ASSESSED_COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "packet response norms",
+      "status": "ASSESSED_COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "packet response norms",
+      "status": "ASSESSED_COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "UNCHANGED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "packet response norms",
+      "status": "ASSESSED_COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "packet response norms",
+      "status": "ASSESSED_COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "packet response norms",
+      "status": "ASSESSED_COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "packet response norms",
+      "status": "ASSESSED_COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "packet response norms",
+      "status": "ASSESSED_COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "ACTIVATED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T02_EXCITATION_ACTIVITY",
+      "reason": "packet response norms",
+      "status": "ASSESSED_COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "STATIC",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T03_PROPAGATION",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LOCAL_RELAY_DERIVED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LOCAL_RELAY_DERIVED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LOCAL_ONLY",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "SPATIAL_CHANGE_WITHOUT_RELAY_CLOSURE",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T04_NEIGHBOR_RELAY",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MAGNITUDE_ONLY",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MAGNITUDE_ONLY",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T05_STRESS_COUPLING",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "full-history transverse ranks",
+      "status": "ASSESSED_COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "full-history transverse ranks",
+      "status": "ASSESSED_COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "full-history transverse ranks",
+      "status": "ASSESSED_COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_0",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "full-history transverse ranks",
+      "status": "ASSESSED_COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "full-history transverse ranks",
+      "status": "ASSESSED_COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "full-history transverse ranks",
+      "status": "ASSESSED_COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "TRANSVERSE_RANK_2",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T06",
+      "reason": "full-history transverse ranks",
+      "status": "ASSESSED_COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LONGITUDINAL_PROPAGATING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T07",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PARITY_EVEN",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PARITY_MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T08",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LONGITUDINAL_RANK_INCREMENT_GT1",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T19_LONGITUDINAL_CONDITIONAL_RANK",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "NOT_DERIVABLE",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T20_LONGITUDINAL_FROM_TRANSVERSE_PREDICTABILITY",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T22_LONGITUDINAL_TRANSVERSE_COTRANSPORT",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "STRAIN_DOMINATED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T23_LONGITUDINAL_FORCE_ORIGIN",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "TRANSVERSE_MODE_MIXING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_transverse_mode_split",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "TRANSVERSE_RESPONSE_MIXED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_response_eigenstructure",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MODE_MIXING_PREVENTS_RATE_CLASSIFICATION",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_transport_comparison",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "DIFFERENT_PHASE_EVOLUTION",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_phase_comparison",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LONGITUDINAL_RESPONSE_CHANGED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t16_longitudinal_control",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "TRANSVERSE_SECTORS_INDEPENDENT",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t24_transverse_conditional_rank",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "TRANSIENT",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t27_mixing_persistence",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "MIXING_CO_MOVING",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "t28_mixing_transport",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "PREEXISTING_UNLOADED_ASYMMETRY",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T29_FIXED_FRAME_COMPONENT_ENERGY_ASYMMETRY",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "FIXED_SYMMETRY_MAGNITUDE_INVARIANT",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T30_FIXED_TRANSVERSE_SYMMETRY_CONTROLS",
+      "reason": "EMX027 covariant controls",
+      "status": "ASSESSED_COMPATIBLE_NONUNIQUE"
+    },
+    {
+      "historical_classification": "TRANSVERSE_SECTORS_INDEPENDENT",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T31_UNLOADED_COMPONENT_STATE_INDEPENDENCE",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "FULL_WINDOW_NONLOCAL_SUPPORT",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T32_UNLOADED_ASYMMETRY_FULL_WINDOW_SUPPORT",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "FULL_STATE_PRESERVED_WITH_REDUCTION_SENSITIVITY",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T33_UNLOADED_ASYMMETRY_REPRESENTATION_RETENTION",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "LOADED_RESPONSE_GEOMETRY_DISTANCE_REDUCED",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T17_LOADED_GEOMETRY_TRACKING",
+      "reason": "missing exact scenario-specific observable/control in all frozen wide-net members",
+      "status": "NOT_ASSESSED"
+    },
+    {
+      "historical_classification": "ORIENTATION_REPRESENTATION_NONREDUCIBLE_TO_STRAIN",
+      "nonunique": "RETAINED_JOINT_CONSTRAINT",
+      "observable_or_test": "T18_ORIENTATION_DECOUPLING",
+      "reason": "EMX028 native T18/internal bridge",
+      "status": "ASSESSED_COMPATIBLE_NONUNIQUE"
+    }
+  ],
+  "summary": {
+    "counts": {
+      "ASSESSED_COMPATIBLE_NONUNIQUE": 18,
+      "NOT_ASSESSED": 58
+    },
+    "executed_member_count": 10,
+    "finite_batches": [
+      "EMX033",
+      "EMX034"
+    ],
+    "finite_next_batch_justified": false,
+    "key_results": {
+      "combined_loaded_difference": 0.3202826367016851,
+      "combined_transverse_rank": 2,
+      "remaining_members_all_finite": true,
+      "t18_bridge_rank": 3,
+      "unit_layer_members_all_finite": true
+    },
+    "retained_count": 76
+  }
+}
