@@ -1,0 +1,45 @@
+{
+  "EMX044_SELECTOR": "UNIVERSAL_VIABLE_FAMILY_CENSUS_EQUIVALENCE_GRAPH_AND_HELD_OUT_DISCRIMINATOR_REGISTRY",
+  "FROZEN_BEFORE_RESULTS": true,
+  "batches": [
+    "LOCAL_ENERGY_AND_REVERSAL",
+    "ZERO_SOURCE_AND_BOUNDARY",
+    "HISTORICAL_ACCOUNTING",
+    "UNAVAILABLE_PROVENANCE_BOUNDARIES"
+  ],
+  "contract_sha256": "bf78e5fa8938f490c33b1e45d8012a594600ffa88cb465121604b4cda4922c0a",
+  "equivalence_relation": "Two members receive an equivalence certificate only if they have the same family id and the same predeclared EMX041 shared-observer behavior signature. This is evidence-preserving and does not imply cross-family mechanism equivalence.",
+  "family_rule": "A family is fixed by state, geometry, interaction, update, and shared-observer provenance. Source count/preparation/sign/reversal/control are variants, not independent mechanisms.",
+  "held_out_battery": {
+    "excluded_from_universal_admission": true,
+    "items": [
+      "reciprocity from separately frozen A/B exchange replay",
+      "reversal behavior from saved complete native norm histories",
+      "transport/dispersion scaling from saved spatial histories",
+      "work/energy accounting where predeclared",
+      "zero-source and boundary controls",
+      "independent packet shape only with hash-pinned replay provenance"
+    ]
+  },
+  "historical_rule": "All 76 historical gates remain contextual phenotype comparisons only.",
+  "input_sha256": {
+    "runs/emx004/frozen_execution_contract.json": "d17ab404212c75911bf6562cd88a7b83a2ccc888c369b5fc0e258226b9625bb7",
+    "runs/emx037/batch_results.json": "97e5747fd72d92c14c0594caad4c1590dfa1044ba8bd696f09bd9bf6719ab339",
+    "runs/emx038/frozen_repository_local_source_lift_contract.json": "e9e57e7d9fb6b287d7ed7198989c7acd3a0a9d1a141f57c678280192d04f6845",
+    "runs/emx038/remaining_matrix_results.json": "44dbf33b0aefb1bcbb98f686faae341cd07359cf2941f62f55210a2773481634",
+    "runs/emx041/cross_calibration_stress_matrix.json": "3ae9b93ea679830f8076a2796ad6d093d86c15a24d05df2d0760c161e2f315e1",
+    "runs/emx041/shared_observer_definition.json": "b818d86104c15c365a3b86438e4fa29620d256c3d5d9104837bf24099bb4ba74",
+    "runs/emx042/all_finite_candidate_cell_registry.json": "3349ae0f65f7aef70196549ea203b0a04c215947c11d8852a3b2e6f2b664c9ec",
+    "runs/emx043/universal_unassessed_completion_matrix.json": "43cf8b33ff45dc0b0ee69fb5ce00ca8525bd14b9f2a64f19e4590ff6483b96bc"
+  },
+  "prohibitions": {
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_LAB_GIT_IMPORT": true,
+    "NO_LAB_GIT_MODIFICATION": true,
+    "NO_NEW_DYNAMICS": true,
+    "NO_RESULT_SELECTED_VARIANTS": true
+  },
+  "viable_count_expected": 301
+}

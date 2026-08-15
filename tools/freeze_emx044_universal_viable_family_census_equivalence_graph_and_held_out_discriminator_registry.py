@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+"""Freeze EMX044's family/equivalence/discriminator audit before results."""
+from __future__ import annotations
+import hashlib,json
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'runs'/'emx044'
+def h(x):return hashlib.sha256(json.dumps(x,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+def fh(p):return hashlib.sha256((ROOT/p).read_bytes()).hexdigest()
+def main():
+ files=['runs/emx042/all_finite_candidate_cell_registry.json','runs/emx043/universal_unassessed_completion_matrix.json','runs/emx041/shared_observer_definition.json','runs/emx041/cross_calibration_stress_matrix.json','runs/emx037/batch_results.json','runs/emx038/remaining_matrix_results.json','runs/emx038/frozen_repository_local_source_lift_contract.json','runs/emx004/frozen_execution_contract.json']
+ c={'EMX044_SELECTOR':'UNIVERSAL_VIABLE_FAMILY_CENSUS_EQUIVALENCE_GRAPH_AND_HELD_OUT_DISCRIMINATOR_REGISTRY','FROZEN_BEFORE_RESULTS':True,'input_sha256':{p:fh(p)for p in files},'viable_count_expected':301,'family_rule':'A family is fixed by state, geometry, interaction, update, and shared-observer provenance. Source count/preparation/sign/reversal/control are variants, not independent mechanisms.','equivalence_relation':'Two members receive an equivalence certificate only if they have the same family id and the same predeclared EMX041 shared-observer behavior signature. This is evidence-preserving and does not imply cross-family mechanism equivalence.','held_out_battery':{'excluded_from_universal_admission':True,'items':['reciprocity from separately frozen A/B exchange replay','reversal behavior from saved complete native norm histories','transport/dispersion scaling from saved spatial histories','work/energy accounting where predeclared','zero-source and boundary controls','independent packet shape only with hash-pinned replay provenance']},'batches':['LOCAL_ENERGY_AND_REVERSAL','ZERO_SOURCE_AND_BOUNDARY','HISTORICAL_ACCOUNTING','UNAVAILABLE_PROVENANCE_BOUNDARIES'],'historical_rule':'All 76 historical gates remain contextual phenotype comparisons only.','prohibitions':{'NO_DEV167_MODIFICATION':True,'NO_LAB_GIT_MODIFICATION':True,'NO_LAB_GIT_IMPORT':True,'NO_NEW_DYNAMICS':True,'NO_FITTING':True,'NO_RESULT_SELECTED_VARIANTS':True,'NO_E_B_QED_MAPPING':True}}
+ c['contract_sha256']=h(c);OUT.mkdir(parents=True,exist_ok=True);(OUT/'frozen_family_census_contract.json').write_text(json.dumps(c,indent=2,sort_keys=True)+'\n');(OUT/'starting_state.json').write_text(json.dumps({'CONTRACT_FROZEN_BEFORE_RESULTS':True,'EXPECTED_UNIVERSAL_VIABLE':301},indent=2,sort_keys=True)+'\n')
+if __name__=='__main__':main()

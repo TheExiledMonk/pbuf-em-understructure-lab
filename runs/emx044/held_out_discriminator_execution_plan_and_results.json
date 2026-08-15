@@ -1,0 +1,2742 @@
+{
+  "batches": [
+    "LOCAL_ENERGY_AND_REVERSAL",
+    "ZERO_SOURCE_AND_BOUNDARY",
+    "HISTORICAL_ACCOUNTING",
+    "UNAVAILABLE_PROVENANCE_BOUNDARIES"
+  ],
+  "excluded_from_admission": true,
+  "executed_or_unavailable_count": 390,
+  "records": [
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_STATIC_HOLD_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_STATIC_HOLD_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_STATIC_HOLD_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_STATIC_HOLD_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_STATIC_HOLD_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_STATIC_HOLD_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_STATIC_HOLD_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_STATIC_HOLD_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_STATIC_HOLD_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_STATIC_HOLD_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_STATIC_HOLD_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_STATIC_HOLD_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_PLUS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_PLUS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_PLUS_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_PLUS_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_PLUS_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_PLUS_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_PLUS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_PLUS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_PLUS_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_PLUS_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_PLUS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_PLUS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_MINUS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_MINUS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_MINUS_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_MINUS_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_MINUS_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_MINUS_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_MINUS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_MINUS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_MINUS_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_MINUS_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_MINUS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_TRANSLATING_MINUS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_OSCILLATING_X_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_OSCILLATING_X_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_OSCILLATING_X_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_OSCILLATING_X_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_OSCILLATING_X_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_OSCILLATING_X_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_OSCILLATING_X_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_OSCILLATING_X_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_OSCILLATING_X_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_OSCILLATING_X_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_OSCILLATING_X_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_OSCILLATING_X_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_POS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_POS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_POS_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_POS_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_POS_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_POS_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_POS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_POS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_POS_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_POS_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_POS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_POS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_NEG_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_NEG_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_NEG_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_NEG_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_NEG_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_NEG_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_NEG_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_NEG_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_NEG_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_NEG_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_NEG_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 0.0
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ZERO_ROTATING_YZ_NEG_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ZERO_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.1852916240378835e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ZERO_MOTION_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.1852916240378835e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ZERO_MOTION_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ZERO_MOTION_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.1852916240376124e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ZERO_MOTION_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ZERO_MOTION_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.185291624037748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ZERO_MOTION_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.1852916240378835e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ZERO_MOTION_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.1852916240378835e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ZERO_MOTION_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ZERO_MOTION_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.1852916240376124e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ZERO_MOTION_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ZERO_MOTION_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.185291624037748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ZERO_MOTION_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.1852916240378835e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_STATIC_HOLD_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.1852916240378835e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_STATIC_HOLD_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_STATIC_HOLD_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.1852916240376124e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_STATIC_HOLD_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_STATIC_HOLD_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.185291624037748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_STATIC_HOLD_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.1852916240378835e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_STATIC_HOLD_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.1852916240378835e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_STATIC_HOLD_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_STATIC_HOLD_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.1852916240376124e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_STATIC_HOLD_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_STATIC_HOLD_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.185291624037748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_STATIC_HOLD_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_PLUS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_PLUS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_PLUS_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_PLUS_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_PLUS_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_PLUS_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_PLUS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_PLUS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_PLUS_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_PLUS_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_PLUS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_PLUS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_MINUS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_MINUS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_MINUS_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_MINUS_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_MINUS_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_MINUS_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_MINUS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_MINUS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_MINUS_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_MINUS_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_MINUS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_TRANSLATING_MINUS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_OSCILLATING_X_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_OSCILLATING_X_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_OSCILLATING_X_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_OSCILLATING_X_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_OSCILLATING_X_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_OSCILLATING_X_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_OSCILLATING_X_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_OSCILLATING_X_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_OSCILLATING_X_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_OSCILLATING_X_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_OSCILLATING_X_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.5552412951944125e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_OSCILLATING_X_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.6708953186885748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_POS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.6708953186885748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_POS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_POS_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.6708953186885748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_POS_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_POS_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.6708953186885748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_POS_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.6708953186885748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_POS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.6708953186885748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_POS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_POS_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.6708953186885748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_POS_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_POS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.6708953186885748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_POS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.6708953186885748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_NEG_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.6708953186885748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_NEG_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_NEG_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.6708953186885748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_NEG_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_NEG_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.6708953186885748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_NEG_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.6708953186885748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_NEG_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.6708953186885748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_NEG_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_NEG_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.6708953186885748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_NEG_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_NEG_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.6708953186885748e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "ONE_ROTATING_YZ_NEG_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "ONE_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.995765285019076e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 8.745401211133e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.995765285019076e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 8.745401211133e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.995765285019076e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 8.745401211133e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.995765285019076e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 8.745401211133e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.064076156710275e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.677090339441801e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.064076156710275e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.677090339441801e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.064076156710546e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.677090339441801e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.064076156710275e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ZERO_MOTION_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.677090339441801e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ZERO_MOTION_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.995765285019076e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 8.745401211133e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.995765285019076e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 8.745401211133e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.995765285019076e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 8.745401211133e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.995765285019076e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 8.745401211133e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_STATIC_HOLD_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.064076156710275e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.677090339441801e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.064076156710275e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.677090339441801e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.064076156710546e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.677090339441801e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.064076156710275e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_STATIC_HOLD_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.677090339441801e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_STATIC_HOLD_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_STATIC_HOLD_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.42969837226309e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.791266808515373e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.42969837226309e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.791266808515373e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.429698372263361e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.791266808515373e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.429698372262819e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.791266808515373e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.076612353003041e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.0144352827776235e-06
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.076612353003041e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.0144352827776235e-06
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.076612353002499e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.0144352827776235e-06
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.076612353003041e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_PLUS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.0144352827775693e-06
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_TRANSLATING_PLUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.42969837226309e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.791266808515373e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.42969837226309e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.791266808515373e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.429698372263361e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.791266808515373e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.429698372262819e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.791266808515373e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.076612353003041e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.0144352827776235e-06
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.076612353003041e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.0144352827776235e-06
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.076612353002499e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.0144352827776235e-06
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.076612353003041e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_TRANSLATING_MINUS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.0144352827775693e-06
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_TRANSLATING_MINUS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.42969837226309e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.791266808515373e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.42969837226309e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.791266808515373e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.429698372263361e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.791266808515373e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.429698372262819e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 9.791266808515373e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_OSCILLATING_X_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.076612353003041e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.0144352827776235e-06
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.076612353003041e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.0144352827776235e-06
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.076612353002499e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.0144352827776235e-06
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 4.076612353003041e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_OSCILLATING_X_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 1.0144352827775693e-06
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_OSCILLATING_X_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_OSCILLATING_X_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 2.0392462962912626e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 2.0392462962912626e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 2.0392462962912626e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 2.0392462962912626e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 2.0392462962912626e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 2.0392462962912626e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 2.0392462962912626e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 2.0392462962912626e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.151406578543413e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.151406578543413e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.151406578543413e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.151406578543413e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.151406578543413e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.151406578543413e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.151406578543413e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_POS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.151406578543413e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_ROTATING_YZ_POS_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 2.0392462962912626e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 2.0392462962912626e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 2.0392462962912626e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_ONE_SITE_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 2.0392462962912626e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_ONE_SITE_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 2.0392462962912626e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_ONE_SITE_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 2.0392462962912626e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_ONE_SITE_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 2.0392462962912626e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_ONE_SITE_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 2.0392462962912626e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_ONE_SITE_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_ONE_SITE_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.151406578543413e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.151406578543413e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.151406578543413e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.151406578543413e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_IDENTICAL"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.151406578543413e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_PARITY_X",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.151406578543413e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_PARITY_X",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.151406578543413e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_SAME_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_SAME_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "energy_accounting",
+      "status": "EXECUTED_FINITE",
+      "value": 3.151406578543413e-07
+    },
+    {
+      "batch": "LOCAL_ENERGY_AND_REVERSAL",
+      "cell_id": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "reversal_native_norm_history",
+      "reference": "TWO_OPPOSITE_SIGN_ROTATING_YZ_NEG_THREE_SITES_X_IDENTITY",
+      "status": "EXECUTED_DIFFERS"
+    },
+    {
+      "batch": "ZERO_SOURCE_AND_BOUNDARY",
+      "cell_id": "ZERO_ZERO_MOTION_ONE_SITE_IDENTITY",
+      "discriminator": "zero_source_identity_and_periodic_boundary",
+      "status": "EXECUTED_PASS"
+    },
+    {
+      "batch": "ZERO_SOURCE_AND_BOUNDARY",
+      "cell_id": "ZERO_ZERO_MOTION_ONE_SITE_TIME_REVERSE",
+      "discriminator": "zero_source_identity_and_periodic_boundary",
+      "status": "EXECUTED_PASS"
+    },
+    {
+      "batch": "ZERO_SOURCE_AND_BOUNDARY",
+      "cell_id": "ZERO_ZERO_MOTION_ONE_SITE_PARITY_X",
+      "discriminator": "zero_source_identity_and_periodic_boundary",
+      "status": "EXECUTED_PASS"
+    },
+    {
+      "batch": "ZERO_SOURCE_AND_BOUNDARY",
+      "cell_id": "ZERO_ZERO_MOTION_ONE_SITE_YZ_SWAP",
+      "discriminator": "zero_source_identity_and_periodic_boundary",
+      "status": "EXECUTED_PASS"
+    },
+    {
+      "batch": "ZERO_SOURCE_AND_BOUNDARY",
+      "cell_id": "ZERO_ZERO_MOTION_THREE_SITES_X_IDENTITY",
+      "discriminator": "zero_source_identity_and_periodic_boundary",
+      "status": "EXECUTED_PASS"
+    },
+    {
+      "batch": "ZERO_SOURCE_AND_BOUNDARY",
+      "cell_id": "ZERO_ZERO_MOTION_THREE_SITES_X_TIME_REVERSE",
+      "discriminator": "zero_source_identity_and_periodic_boundary",
+      "status": "EXECUTED_PASS"
+    },
+    {
+      "batch": "ZERO_SOURCE_AND_BOUNDARY",
+      "cell_id": "ZERO_ZERO_MOTION_THREE_SITES_X_PARITY_X",
+      "discriminator": "zero_source_identity_and_periodic_boundary",
+      "status": "EXECUTED_PASS"
+    },
+    {
+      "batch": "ZERO_SOURCE_AND_BOUNDARY",
+      "cell_id": "ZERO_ZERO_MOTION_THREE_SITES_X_YZ_SWAP",
+      "discriminator": "zero_source_identity_and_periodic_boundary",
+      "status": "EXECUTED_PASS"
+    },
+    {
+      "batch": "HISTORICAL_ACCOUNTING",
+      "cell_id": "HISTORICAL_DEV167_PREPARED_PACKET",
+      "discriminator": "historical_hash_pinned_native_invariant",
+      "observer_hash": "bd1b3f1fbd578f6c5104c1de3d9b103305b77a29afcbe47997f0d6a9a9296a70",
+      "status": "EXECUTED_EXISTING_HASH_PINNED"
+    },
+    {
+      "batch": "UNAVAILABLE_PROVENANCE_BOUNDARIES",
+      "cell_id": "FAMILY_LEVEL",
+      "discriminator": "reciprocity",
+      "reason": "no separately frozen A/B exchange replay exists",
+      "status": "UNAVAILABLE_PROVENANCE"
+    },
+    {
+      "batch": "UNAVAILABLE_PROVENANCE_BOUNDARIES",
+      "cell_id": "FAMILY_LEVEL",
+      "discriminator": "transport_dispersion_scaling",
+      "reason": "no saved spatial local-source histories exist",
+      "status": "UNAVAILABLE_PROVENANCE"
+    },
+    {
+      "batch": "UNAVAILABLE_PROVENANCE_BOUNDARIES",
+      "cell_id": "FAMILY_LEVEL",
+      "discriminator": "independent_packet_shapes",
+      "reason": "only one hash-pinned historical packet shape is available",
+      "status": "UNAVAILABLE_PROVENANCE"
+    }
+  ],
+  "status_counts": {
+    "EXECUTED_DIFFERS": 84,
+    "EXECUTED_EXISTING_HASH_PINNED": 1,
+    "EXECUTED_FINITE": 216,
+    "EXECUTED_IDENTICAL": 78,
+    "EXECUTED_PASS": 8,
+    "UNAVAILABLE_PROVENANCE": 3
+  }
+}
