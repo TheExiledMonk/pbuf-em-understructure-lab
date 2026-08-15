@@ -1,0 +1,11 @@
+{
+  "EMX033_BATCH": "B01_B02_C01_C02_UNIT_CELL_AND_LAYER_MEMBERS",
+  "members": [
+    "B01_PLUS",
+    "B01_MINUS",
+    "B02_BASE",
+    "C01_PLUS",
+    "C01_MINUS",
+    "C02_BASE"
+  ]
+}
