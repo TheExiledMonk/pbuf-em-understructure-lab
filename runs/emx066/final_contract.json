@@ -1,0 +1,43 @@
+{
+  "ALL_GATES_NON_BLOCKING": true,
+  "COUNTS": {
+    "CONTRADICTED_IN_SCOPE": 0,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 0,
+    "NOT_ASSESSED": 0,
+    "SUPPORTED_IN_SCOPE": 36,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 6
+  },
+  "EMX010_065_OUTCOMES_PRESERVED": true,
+  "EMX066_RESULT": "SECTOR_CHANGE_AND_INTERNAL_DISTINGUISHABILITY_WIDE_NET_COMPLETE",
+  "EXACT_EQUIVALENCE_GRAPH": {
+    "edges": [
+      {
+        "classification": "SUPPORTED_IN_SCOPE",
+        "from": "A_CANONICAL_MU_PI",
+        "relation": "FINITE_SCOPE_NONIDENTIFIABILITY_UNDER_PI_I_EQUALS_XI_I",
+        "scope": "all predeclared EMX066 Branch B structural, perturbation, holonomy, nonuniform, finite-control, source-off, and held-out observables",
+        "to": "B_SYMPLECTIC_PHASE_PAIR"
+      }
+    ],
+    "nodes": [
+      "A_CANONICAL_MU_PI",
+      "B_SYMPLECTIC_PHASE_PAIR",
+      "A_LOCAL_PINNING_INTERNAL",
+      "A_LOCAL_STRAIN_INTERNAL",
+      "B_LOCAL_PINNING_INTERNAL",
+      "B_LOCAL_STRAIN_INTERNAL"
+    ],
+    "non_elimination_rule": "This finite nonidentifiability does not establish universal equivalence or eliminate either closure."
+  },
+  "EXACT_RESULTS": "Branch A retains explicit reversible dynamical mode conversions with conserved pattern count and explicit count-changing primitive boundaries. Branch B records finite-scope nonidentifiability of the matched canonical/symplectic coordinate closures only under pi_i=xi_i.",
+  "NO_DESTRUCTIVE_OR_EXTERNAL_ACTION": true,
+  "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+  "NO_EXTERNAL_EMPIRICAL_MAPPING": true,
+  "NO_EXTERNAL_FORCING_AFTER_PREPARATION": true,
+  "NO_E_B_QED_MAPPING": true,
+  "NO_FITTING_RESELECTION_OR_OUTCOME_DEPENDENT_SELECTION": true,
+  "NO_HIDDEN_NORMALIZATION": true,
+  "NO_PHYSICAL_VALIDITY_OR_UNIVERSAL_ARROW_CLAIM": true,
+  "RESIDUAL_BOUNDARY": "Count-changing creation/annihilation and fusion/splitting remain undefined without separately declared count-changing state maps. EMX066 makes no physical-validity, universal-arrow, or universal-equivalence claim.",
+  "artifact_sha256": "89cc31f55451462e9b75f332f69b1aa2ad739abc8b3c14c8518e1d70b4487014"
+}

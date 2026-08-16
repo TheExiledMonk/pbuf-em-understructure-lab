@@ -1,0 +1,169 @@
+{
+  "EMX066_SELECTOR": "SECTOR_CHANGE_AND_INTERNAL_DISTINGUISHABILITY_WIDE_NET",
+  "FROZEN_BEFORE_RESULTS": true,
+  "branch_A_sector_changing_two_pattern_extensions": {
+    "boundary_rule": "A periodic boundary is a boundary condition only. It is never counted as a transition.",
+    "cells": [
+      {
+        "id": "NO_SECTOR_CHANGE_CONTROL",
+        "prepared_eta_rho": "eta=(1,1), rho=(0,0); no zero crossing in frozen duration"
+      },
+      {
+        "id": "DYNAMICAL_MODE_CONVERSION_COLLISION_SEPARATION",
+        "prepared_eta_rho": "eta=(0.10,-0.10), rho=(-0.80,0.80); crossings arise from evolution"
+      },
+      {
+        "id": "MODE_CONVERSION_BACKREACTION_LEDGER_REVERSAL_RECURRENCE",
+        "prepared_eta_rho": "same conversion state; coupled energy/work and controlled reversal"
+      },
+      {
+        "id": "MODE_CONVERSION_COVARIANCE_REFINEMENT_DOMAIN_NONUNIFORM_SOURCE_OFF_WAKE",
+        "prepared_eta_rho": "same conversion state with frozen controls"
+      },
+      {
+        "id": "COUNT_CHANGING_PRIMITIVE_BOUNDARIES",
+        "prepared_eta_rho": "not executed: creation/annihilation and fusion/splitting lack a predeclared count-changing state map"
+      }
+    ],
+    "eligible_extensions": [
+      {
+        "base_class": "A_CANONICAL_TWO_MU_PI",
+        "id": "A_CANONICAL_REVERSIBLE_MODE_CONVERSION",
+        "reversibility_status": "REVERSIBLE_UNDER_MOMENTUM_AND_RHO_REVERSAL",
+        "sector_ledger": "pattern-count=2 is conserved; individual derived mode-sector labels may change; eta/rho energy is included in total energy.",
+        "state_additions": "(eta_1,rho_1,eta_2,rho_2); sector_label_i = MODE_0 if eta_i >= 0 else MODE_1",
+        "transition_rule": "eta_i,rho_i undergo frozen harmonic Hamiltonian rotation; a label change occurs only on a dynamical eta_i=0 crossing, never at a boundary."
+      },
+      {
+        "base_class": "B_SYMPLECTIC_TWO_PHASE_PAIR",
+        "id": "B_SYMPLECTIC_REVERSIBLE_MODE_CONVERSION",
+        "reversibility_status": "REVERSIBLE_UNDER_MOMENTUM_AND_RHO_REVERSAL",
+        "sector_ledger": "pattern-count=2 is conserved; individual derived mode-sector labels may change; eta/rho energy is included in total energy.",
+        "state_additions": "(eta_1,rho_1,eta_2,rho_2); sector_label_i = MODE_0 if eta_i >= 0 else MODE_1",
+        "transition_rule": "the same frozen harmonic symplectic rotation written with xi_i as the paired coordinate; a label change occurs only on a dynamical eta_i=0 crossing, never at a boundary."
+      }
+    ],
+    "unrepresented_transition_boundaries": {
+      "creation_annihilation": "UNDEFINED_PRIMITIVE_BOUNDARY: no count-changing coordinate/reservoir is declared.",
+      "fusion_splitting": "UNDEFINED_PRIMITIVE_BOUNDARY: no one-to-two or two-to-one state map is declared."
+    }
+  },
+  "branch_B_internal_distinguishability": {
+    "cells": [
+      {
+        "id": "REPRESENTATION_INVARIANT_STRUCTURAL_OBSERVABLES",
+        "observables": [
+          "energy_residual",
+          "momentum_work_residual",
+          "wake_l2",
+          "separation_final"
+        ]
+      },
+      {
+        "id": "PERTURBATION_AND_COUPLING_RESPONSE",
+        "observables": [
+          "finite paired-state perturbation response",
+          "source-off medium-packet response"
+        ]
+      },
+      {
+        "id": "HOLONOMY_AND_CLOSED_CYCLE",
+        "observables": [
+          "controlled reversal residual",
+          "closed-cycle endpoint residual"
+        ]
+      },
+      {
+        "id": "NONLINEAR_AND_NONUNIFORM_MEDIUM_CONTROLS",
+        "observables": [
+          "finite-amplitude response",
+          "stiffness/preload-gradient transport response"
+        ]
+      },
+      {
+        "id": "COVARIANCE_REFINEMENT_FINITE_DOMAIN",
+        "observables": [
+          "uniform translation/reflection/axis-swap",
+          "dt refinement",
+          "finite domain"
+        ]
+      },
+      {
+        "id": "SOURCE_OFF_WAKE_CONTROL",
+        "observables": [
+          "prepared-only packet wake and target response"
+        ]
+      },
+      {
+        "id": "HELD_OUT_CROSS_PREDICTION",
+        "observables": [
+          "held-out transverse paired-state and closed-cycle response"
+        ]
+      }
+    ],
+    "eligible_closures": [
+      {
+        "class": "A_CANONICAL_TWO_MU_PI",
+        "functional": "LOCAL_PINNING_PATTERN",
+        "id": "A_LOCAL_PINNING_INTERNAL"
+      },
+      {
+        "class": "A_CANONICAL_TWO_MU_PI",
+        "functional": "LOCAL_STRAIN_PATTERN",
+        "id": "A_LOCAL_STRAIN_INTERNAL"
+      },
+      {
+        "class": "B_SYMPLECTIC_TWO_PHASE_PAIR",
+        "functional": "LOCAL_PINNING_PATTERN",
+        "id": "B_LOCAL_PINNING_INTERNAL"
+      },
+      {
+        "class": "B_SYMPLECTIC_TWO_PHASE_PAIR",
+        "functional": "LOCAL_STRAIN_PATTERN",
+        "id": "B_LOCAL_STRAIN_INTERNAL"
+      }
+    ],
+    "nonidentifiability_rule": "If all predeclared observables agree within the frozen comparison tolerance, record FINITE_SCOPE_NONIDENTIFIABILITY; do not infer universal equivalence.",
+    "representation_invariant_rule": "Only listed structural observables, defined without A/B coordinate names and evaluated on matched numerical states, may enter comparison."
+  },
+  "classification_vocabulary": [
+    "SUPPORTED_IN_SCOPE",
+    "CONTRADICTED_IN_SCOPE",
+    "DISTINCT_OBSERVABLE_BEHAVIOR",
+    "NOT_ASSESSED",
+    "UNDEFINED_PRIMITIVE_BOUNDARY"
+  ],
+  "contract_sha256": "e4f85b5299ef7a5112edeffdf03d12935d0dd473c178a81619c2f3008c6b2e22",
+  "frozen_numerics": {
+    "comparison_tolerance": 2e-09,
+    "dt": 0.006,
+    "elastic_k": 1.0,
+    "finite_difference_epsilon": 0.0002,
+    "gamma": 0.35,
+    "identity_tolerance": 8e-07,
+    "mode_omega": 1.0,
+    "n": 8,
+    "pattern_radius": 1.35,
+    "preload_gradient": 0.006,
+    "steps": 36,
+    "stiffness_gradient": 0.2
+  },
+  "input_sha256": {
+    "runs/emx065/final_contract.json": "30b0ed92f05d41ee41ef53877bc78d35feb0b1fb950df38896103b12b7706be1",
+    "runs/emx065/finite_registry.json": "20ac7db6222f9f4efc4473d4546d9654df9bc99ae5381fe98e4ab155bd587717",
+    "runs/emx065/frozen_two_pattern_interaction_and_nonuniform_medium_bridge_contract.json": "7807198cc1dedd3059a71342e2ed3104b5b8bc78cdc19bffd46b5e4398da9eb0",
+    "runs/emx065/two_pattern_interaction_and_nonuniform_medium_bridge_ledger.json": "ed6f683b6fb4bfaa11623a3afc4d036f211df9b7bf76f800b01f7606887220cd"
+  },
+  "mode": "TWO_EXPLICITLY_SEPARATED_FINITE_DETERMINISTIC_ARTIFACT_HASHED_NON_BLOCKING_BRANCHES",
+  "preservation_rule": "EMX010-065 outcomes, labels, files, and class viability are retained verbatim. EMX066 does not fit, reselect, eliminate, or physically validate any class.",
+  "prohibitions": {
+    "NO_DESTRUCTIVE_OR_EXTERNAL_ACTION": true,
+    "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+    "NO_EXTERNAL_EMPIRICAL_MAPPING": true,
+    "NO_EXTERNAL_FORCING_AFTER_PREPARATION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING_RESELECTION_OR_OUTCOME_DEPENDENT_SELECTION": true,
+    "NO_HIDDEN_NORMALIZATION": true,
+    "NO_PHYSICAL_VALIDITY_OR_UNIVERSAL_ARROW_CLAIM": true
+  }
+}
