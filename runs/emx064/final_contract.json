@@ -1,0 +1,44 @@
+{
+  "ALL_GATES_NON_BLOCKING": true,
+  "COUNTS": {
+    "CONTRADICTED_IN_SCOPE": 0,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 0,
+    "NOT_ASSESSED": 0,
+    "SUPPORTED_IN_SCOPE": 32,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 16
+  },
+  "EMX010_063_RESULTS_AND_LABELS_PRESERVED": true,
+  "EMX064_RESULT": "WIDE_NET_CONSERVATIVE_PATTERN_CLOSURE_DISCRIMINATOR_COMPLETE",
+  "EXACT_EQUIVALENCE_GRAPH": {
+    "edges": [
+      {
+        "classification": "SUPPORTED_IN_SCOPE",
+        "from": "A_CANONICAL_MU_PI",
+        "relation": "FINITE_HELD_OUT_NONIDENTIFIABLE_UNDER_PI_EQUALS_XI",
+        "scope": "both EMX060 functionals and frozen EMX064 observables only",
+        "to": "B_SYMPLECTIC_PHASE_PAIR"
+      }
+    ],
+    "nodes": [
+      "A_CANONICAL_MU_PI",
+      "B_SYMPLECTIC_PHASE_PAIR"
+    ],
+    "non_elimination_rule": "No edge eliminates a class or asserts universal equivalence."
+  },
+  "EXACT_RESULTS": "Both A and B have retained finite reciprocal ledger, source-off, stability, covariance, reversibility, and held-out cells for both EMX060 functionals. Held-out observables are nonidentifying under pi_mu=xi_mu within the frozen finite scope.",
+  "NEXT_FINITE_BOUNDARY": "A finite larger primitive would need an explicitly represented second-pattern coordinate for collision/binding and an explicitly frozen nonuniform-medium functional for stiffness-gradient tests.",
+  "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+  "NO_EXTERNAL_FORCING_TO_MIMIC_SOURCE": true,
+  "NO_EXTERNAL_OR_DESTRUCTIVE_ACTION": true,
+  "NO_EXTRA_MATTER_SPECIES_OR_ARBITRARY_STATE_COMPONENTS": true,
+  "NO_E_B_QED_MAPPING": true,
+  "NO_FITTING_OR_RESELECTION": true,
+  "NO_OUTCOME_DEPENDENT_THRESHOLDS_OR_HIDDEN_SELECTION": true,
+  "NO_PHYSICAL_VALIDITY_CLAIM": true,
+  "NO_UNIVERSAL_ARROW_CLAIM": true,
+  "VIABLE_CLASSES_IN_SCOPE": [
+    "A_CANONICAL_MU_PI",
+    "B_SYMPLECTIC_PHASE_PAIR"
+  ],
+  "artifact_sha256": "1883c65bb4db5b79e4517ab8db50504656ff4c01b6366b026a4437a552e6a684"
+}
