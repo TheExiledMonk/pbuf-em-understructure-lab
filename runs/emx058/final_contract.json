@@ -1,0 +1,27 @@
+{
+  "ALL_GATES_NON_BLOCKING": true,
+  "COUNTS": {
+    "CONTRADICTED_IN_SCOPE": 2,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 35,
+    "NOT_ASSESSED": 0,
+    "SUPPORTED_IN_SCOPE": 20,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 2
+  },
+  "EMX058_RESULT": "ELASTIC_WAKE_AND_HISTORY_RECORD_BATTERY_COMPLETE",
+  "IN_SCOPE_STATEMENTS": [
+    "Finite source-off wake observations are retained.",
+    "Finite source-work family behavior is discriminated without selection.",
+    "Wake and record observations are source-history and boundary conditioned."
+  ],
+  "LIMITS": [
+    "Prior-passage direction reconstruction is an in-scope record test only.",
+    "Dynamic exclusion of exact global reversal is an undefined primitive boundary, distinct from local finite replay.",
+    "All wake claims are finite, source-history and boundary conditioned."
+  ],
+  "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+  "NO_EXTERNAL_OR_DESTRUCTIVE_ACTION": true,
+  "NO_E_B_QED_MAPPING": true,
+  "NO_FITTING_OR_RESELECTION": true,
+  "NO_UNIVERSAL_ARROW_CLAIM": true,
+  "artifact_sha256": "546359d1c90c50d5d812cc388928a58faa6591beea67706714857e4acd9a9ad8"
+}

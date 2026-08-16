@@ -1,0 +1,19 @@
+{
+  "artifact_sha256": "72e2dbe5ed2ed71baac878911bdbccaf0a4f27fcf3b033ca441a34ec90a9fae7",
+  "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+  "families": [
+    {
+      "family": "DIRECTED_BOND",
+      "moving_right_transport": 1.6398899322781204e-06,
+      "moving_right_wake": 0.000946644407572674,
+      "rearranging_modes": 4.570549794177139e-06
+    },
+    {
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "moving_right_transport": 1.5462844693447494e-06,
+      "moving_right_wake": 0.001556888670371352,
+      "rearranging_modes": 6.129678035714105e-06
+    }
+  ],
+  "no_reselection": true
+}

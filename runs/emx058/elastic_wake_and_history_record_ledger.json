@@ -1,0 +1,620 @@
+{
+  "all_outcomes_retained": true,
+  "artifact_sha256": "5e2ea7869c70ee0b3a1acb2dc420da3fdcfe98886d385889b2a8d8ab6ff2d4cc",
+  "counts": {
+    "CONTRADICTED_IN_SCOPE": 2,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 35,
+    "NOT_ASSESSED": 0,
+    "SUPPORTED_IN_SCOPE": 20,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 2
+  },
+  "no_candidate_rejected_for_missing_closure": true,
+  "primitive": {
+    "accounting": [
+      "medium_energy",
+      "source_energy",
+      "coupling_energy",
+      "total_energy",
+      "source_work",
+      "exchange_residual",
+      "medium_momentum",
+      "source_momentum",
+      "external_impulse",
+      "momentum_residual"
+    ],
+    "artifact_hashing": "Every emitted result artifact receives SHA-256 over its canonical payload.",
+    "histories": [
+      "MOVING_RIGHT_ON_OFF",
+      "MOVING_LEFT_ON_OFF",
+      "REARRANGING_ON_OFF"
+    ],
+    "medium": "finite artifact-hashed 3D elastic lattice u,p with velocity-Verlet evolution",
+    "no_fitting_or_reselection": true,
+    "source": "localized q,r source coordinate coupled to a deterministic moving/rearranging cell schedule; source-on/source-off histories are fixed below",
+    "wake_observables": [
+      "residual_deformation",
+      "phase_correlation_record",
+      "scattered_modes",
+      "delayed_local_relaxation",
+      "transported_ledger"
+    ]
+  },
+  "provenance": "New repo-local non-historical experiment; no DEV167/lab.git use.",
+  "records": [
+    {
+      "cell": "COMPLETE_SOURCE_MEDIUM_ENERGY_WORK_ACCOUNTING",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_energy": 1.1644725745017945e-05,
+      "family": "DIRECTED_BOND",
+      "history": "MOVING_RIGHT_ON_OFF",
+      "medium_energy": 1.6398899322781204e-06,
+      "relative_exchange_residual": -0.0001767397457859476,
+      "relocation_work": 2.1566057871755765e-08,
+      "source_energy": 6.5219072372586365e-06,
+      "source_work": 1.9788457456507768e-05,
+      "total_energy": 1.98065229145547e-05
+    },
+    {
+      "cell": "MOMENTUM_EXCHANGE_ACCOUNTING",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "external_impulse_magnitude": 0.006418272820906667,
+      "family": "DIRECTED_BOND",
+      "history": "MOVING_RIGHT_ON_OFF",
+      "medium_momentum": [
+        -8.758055976813449e-19,
+        0.0,
+        0.0
+      ],
+      "momentum_residual_norm": -0.0028066506819617197,
+      "source_momentum": [
+        -0.003611622138944947,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cell": "SOURCE_OFF_WAKE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "history": "MOVING_RIGHT_ON_OFF",
+      "residual_deformation_l2": 0.000946644407572674,
+      "source_off": true
+    },
+    {
+      "cell": "PHASE_CORRELATION_AND_SCATTERED_MODE_RECORD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "history": "MOVING_RIGHT_ON_OFF",
+      "phase_correlation_record": -0.00463638316597876,
+      "scattered_modes_l2": 5.566818894741026e-06
+    },
+    {
+      "cell": "DELAYED_LOCAL_RELAXATION_AND_TRANSPORT",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "history": "MOVING_RIGHT_ON_OFF",
+      "local_relaxation": 1.2983521655150182e-06,
+      "transported_ledger": 1.6398899322781204e-06
+    },
+    {
+      "cell": "COMPLETE_SOURCE_MEDIUM_ENERGY_WORK_ACCOUNTING",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_energy": 1.1644725745017945e-05,
+      "family": "DIRECTED_BOND",
+      "history": "MOVING_LEFT_ON_OFF",
+      "medium_energy": 1.6398899322781204e-06,
+      "relative_exchange_residual": -0.0001767397457859476,
+      "relocation_work": 2.1566057871755765e-08,
+      "source_energy": 6.5219072372586365e-06,
+      "source_work": 1.9788457456507768e-05,
+      "total_energy": 1.98065229145547e-05
+    },
+    {
+      "cell": "MOMENTUM_EXCHANGE_ACCOUNTING",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "external_impulse_magnitude": 0.006418272820906667,
+      "family": "DIRECTED_BOND",
+      "history": "MOVING_LEFT_ON_OFF",
+      "medium_momentum": [
+        3.6090262356964246e-19,
+        0.0,
+        0.0
+      ],
+      "momentum_residual_norm": -0.002806650681961721,
+      "source_momentum": [
+        -0.003611622138944947,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cell": "SOURCE_OFF_WAKE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "history": "MOVING_LEFT_ON_OFF",
+      "residual_deformation_l2": 0.0009466444075726742,
+      "source_off": true
+    },
+    {
+      "cell": "PHASE_CORRELATION_AND_SCATTERED_MODE_RECORD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "history": "MOVING_LEFT_ON_OFF",
+      "phase_correlation_record": 0.0027332492549969607,
+      "scattered_modes_l2": 5.566818894741026e-06
+    },
+    {
+      "cell": "DELAYED_LOCAL_RELAXATION_AND_TRANSPORT",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "history": "MOVING_LEFT_ON_OFF",
+      "local_relaxation": 1.2983521655150182e-06,
+      "transported_ledger": 1.6398899322781204e-06
+    },
+    {
+      "cell": "COMPLETE_SOURCE_MEDIUM_ENERGY_WORK_ACCOUNTING",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_energy": 1.1250279396301817e-05,
+      "family": "DIRECTED_BOND",
+      "history": "REARRANGING_ON_OFF",
+      "medium_energy": 1.0020395662306238e-06,
+      "relative_exchange_residual": -0.029914578078616656,
+      "relocation_work": 7.072343363644982e-07,
+      "source_energy": 7.653395017490322e-06,
+      "source_work": 1.9793950678724265e-05,
+      "total_energy": 1.990571398002276e-05
+    },
+    {
+      "cell": "MOMENTUM_EXCHANGE_ACCOUNTING",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "external_impulse_magnitude": 0.006418272820906667,
+      "family": "DIRECTED_BOND",
+      "history": "REARRANGING_ON_OFF",
+      "medium_momentum": [
+        1.6939335456105922e-19,
+        0.0,
+        0.0
+      ],
+      "momentum_residual_norm": -0.002505883520877765,
+      "source_momentum": [
+        -0.003912389300028902,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cell": "SOURCE_OFF_WAKE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "history": "REARRANGING_ON_OFF",
+      "residual_deformation_l2": 0.0007776322594370808,
+      "source_off": true
+    },
+    {
+      "cell": "PHASE_CORRELATION_AND_SCATTERED_MODE_RECORD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "history": "REARRANGING_ON_OFF",
+      "phase_correlation_record": 0.00778359437020525,
+      "scattered_modes_l2": 4.570549794177139e-06
+    },
+    {
+      "cell": "DELAYED_LOCAL_RELAXATION_AND_TRANSPORT",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "history": "REARRANGING_ON_OFF",
+      "local_relaxation": 7.368328744630322e-07,
+      "transported_ledger": 1.0020395662306238e-06
+    },
+    {
+      "cell": "PRIOR_PASSAGE_DIRECTION_RECONSTRUCTION",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "history": "DIRECTION_PAIR",
+      "left_phase": 0.0027332492549969607,
+      "limit": "This is a finite source-relative record test, not an arrow claim.",
+      "right_phase": -0.00463638316597876
+    },
+    {
+      "cell": "STATIONARY",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "history": "CONTROL",
+      "observable_value": 0.0,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "NO_EXCHANGE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "history": "CONTROL",
+      "observable_value": 0.0,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "SOURCE_SHAPE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "history": "CONTROL",
+      "observable_value": 2.0683852656497032e-05,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "DIRECTED_PREPARATION",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "history": "CONTROL",
+      "observable_value": -0.008321263027386401,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "CONTROLLED_FULL_STATE_REVERSAL",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "history": "CONTROL",
+      "observable_value": 0.00018646837828844586,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "REFLECTION",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "history": "CONTROL",
+      "observable_value": 0.0027332492549969607,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "RECURRENCE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "history": "CONTROL",
+      "observable_value": 0.0011675440506940093,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "PERIODIC_AND_FIXED_BOUNDARY",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "history": "CONTROL",
+      "observable_value": 5.5188094445279365e-06,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "STIFFNESS_AND_PRELOAD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "history": "CONTROL",
+      "observable_value": 2.1421720556716247e-06,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "AXIS_COVARIANCE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "history": "CONTROL",
+      "observable_value": 5.566818894741016e-06,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "RELATION_NETWORK_AND_REFINEMENT",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "history": "CONTROL",
+      "observable_value": 5.348707563575599e-07,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "SPEED_AMPLITUDE_AND_FINITE_DOMAIN",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "history": "CONTROL",
+      "observable_value": 4.099840801487171e-07,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "COMPLETE_SOURCE_MEDIUM_ENERGY_WORK_ACCOUNTING",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_energy": 1.1160362480617313e-05,
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "MOVING_RIGHT_ON_OFF",
+      "medium_energy": 1.5462844693447494e-06,
+      "relative_exchange_residual": -8.432063372027606e-05,
+      "relocation_work": 7.628927563901645e-09,
+      "source_energy": 7.089110291364067e-06,
+      "source_work": 1.978979750455779e-05,
+      "total_energy": 1.979575724132613e-05
+    },
+    {
+      "cell": "MOMENTUM_EXCHANGE_ACCOUNTING",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "external_impulse_magnitude": 0.006418272820906667,
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "MOVING_RIGHT_ON_OFF",
+      "medium_momentum": [
+        0.010183670619642947,
+        0.0,
+        0.0
+      ],
+      "momentum_residual_norm": -1.474514954580286e-17,
+      "source_momentum": [
+        -0.0037653977987362947,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cell": "SOURCE_OFF_WAKE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "MOVING_RIGHT_ON_OFF",
+      "residual_deformation_l2": 0.001556888670371352,
+      "source_off": true
+    },
+    {
+      "cell": "PHASE_CORRELATION_AND_SCATTERED_MODE_RECORD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "MOVING_RIGHT_ON_OFF",
+      "phase_correlation_record": -0.009772082173320694,
+      "scattered_modes_l2": 9.125593690364079e-06
+    },
+    {
+      "cell": "DELAYED_LOCAL_RELAXATION_AND_TRANSPORT",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "MOVING_RIGHT_ON_OFF",
+      "local_relaxation": 1.3586785029646311e-06,
+      "transported_ledger": 1.5462844693447494e-06
+    },
+    {
+      "cell": "COMPLETE_SOURCE_MEDIUM_ENERGY_WORK_ACCOUNTING",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_energy": 1.1160362480617313e-05,
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "MOVING_LEFT_ON_OFF",
+      "medium_energy": 1.5462844693447494e-06,
+      "relative_exchange_residual": -8.432063372027606e-05,
+      "relocation_work": 7.628927563901645e-09,
+      "source_energy": 7.089110291364067e-06,
+      "source_work": 1.978979750455779e-05,
+      "total_energy": 1.979575724132613e-05
+    },
+    {
+      "cell": "MOMENTUM_EXCHANGE_ACCOUNTING",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "external_impulse_magnitude": 0.006418272820906667,
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "MOVING_LEFT_ON_OFF",
+      "medium_momentum": [
+        0.010183670619642963,
+        0.0,
+        0.0
+      ],
+      "momentum_residual_norm": 8.673617379884035e-19,
+      "source_momentum": [
+        -0.0037653977987362947,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cell": "SOURCE_OFF_WAKE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "MOVING_LEFT_ON_OFF",
+      "residual_deformation_l2": 0.001556888670371355,
+      "source_off": true
+    },
+    {
+      "cell": "PHASE_CORRELATION_AND_SCATTERED_MODE_RECORD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "MOVING_LEFT_ON_OFF",
+      "phase_correlation_record": 0.009772082173320696,
+      "scattered_modes_l2": 9.12559369036408e-06
+    },
+    {
+      "cell": "DELAYED_LOCAL_RELAXATION_AND_TRANSPORT",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "MOVING_LEFT_ON_OFF",
+      "local_relaxation": 1.3586785029646311e-06,
+      "transported_ledger": 1.5462844693447494e-06
+    },
+    {
+      "cell": "COMPLETE_SOURCE_MEDIUM_ENERGY_WORK_ACCOUNTING",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_energy": 1.0924876299059192e-05,
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "REARRANGING_ON_OFF",
+      "medium_energy": 1.0494639058370944e-06,
+      "relative_exchange_residual": -0.01490632168542115,
+      "relocation_work": 3.469417700497461e-07,
+      "source_energy": 7.86638004390604e-06,
+      "source_work": 1.9789530637251675e-05,
+      "total_energy": 1.9840720248802324e-05
+    },
+    {
+      "cell": "MOMENTUM_EXCHANGE_ACCOUNTING",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "external_impulse_magnitude": 0.006418272820906667,
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "REARRANGING_ON_OFF",
+      "medium_momentum": [
+        0.010384727168029831,
+        0.0,
+        0.0
+      ],
+      "momentum_residual_norm": 2.0816681711721685e-17,
+      "source_momentum": [
+        -0.003966454347123143,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cell": "SOURCE_OFF_WAKE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "REARRANGING_ON_OFF",
+      "residual_deformation_l2": 0.0014066971939263894,
+      "source_off": true
+    },
+    {
+      "cell": "PHASE_CORRELATION_AND_SCATTERED_MODE_RECORD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "REARRANGING_ON_OFF",
+      "phase_correlation_record": 0.0,
+      "scattered_modes_l2": 6.129678035714105e-06
+    },
+    {
+      "cell": "DELAYED_LOCAL_RELAXATION_AND_TRANSPORT",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "REARRANGING_ON_OFF",
+      "local_relaxation": 9.110553714018117e-07,
+      "transported_ledger": 1.0494639058370944e-06
+    },
+    {
+      "cell": "PRIOR_PASSAGE_DIRECTION_RECONSTRUCTION",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "DIRECTION_PAIR",
+      "left_phase": 0.009772082173320696,
+      "limit": "This is a finite source-relative record test, not an arrow claim.",
+      "right_phase": -0.009772082173320694
+    },
+    {
+      "cell": "STATIONARY",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "CONTROL",
+      "observable_value": 0.0,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "NO_EXCHANGE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "CONTROL",
+      "observable_value": 0.0,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "SOURCE_SHAPE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "CONTROL",
+      "observable_value": 1.9828980218314422e-05,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "DIRECTED_PREPARATION",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "CONTROL",
+      "observable_value": -0.01740129376678218,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "CONTROLLED_FULL_STATE_REVERSAL",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "CONTROL",
+      "observable_value": 0.0001579646684131569,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "REFLECTION",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "CONTROL",
+      "observable_value": 0.009772082173320696,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "RECURRENCE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "CONTROL",
+      "observable_value": 0.003264085558132725,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "PERIODIC_AND_FIXED_BOUNDARY",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "CONTROL",
+      "observable_value": 9.111631504796192e-06,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "STIFFNESS_AND_PRELOAD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "CONTROL",
+      "observable_value": 1.6475076504340454e-06,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "AXIS_COVARIANCE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "CONTROL",
+      "observable_value": 9.125593690364079e-06,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "RELATION_NETWORK_AND_REFINEMENT",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "CONTROL",
+      "observable_value": 1.171028546855086e-06,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "SPEED_AMPLITUDE_AND_FINITE_DOMAIN",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "CONTROL",
+      "observable_value": 3.8656846138382756e-07,
+      "retained_without_selection": true
+    },
+    {
+      "cell": "DYNAMIC_EXCLUSION_OF_EXACT_GLOBAL_REVERSAL",
+      "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+      "family": "ALL",
+      "history": "BOUNDARY",
+      "reason": "Finite controlled replay does not define or dynamically exclude exact reversal of a global/unbounded state."
+    },
+    {
+      "cell": "UNIVERSAL_ARROW_OR_PHYSICAL_CLOCK",
+      "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+      "family": "ALL",
+      "history": "BOUNDARY",
+      "reason": "Source-conditioned finite histories do not supply a physical clock or universal arrow."
+    },
+    {
+      "cell": "FAMILY_DISCRIMINATION",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "ALL",
+      "family_summaries": [
+        {
+          "family": "DIRECTED_BOND",
+          "moving_right_transport": 1.6398899322781204e-06,
+          "moving_right_wake": 0.000946644407572674,
+          "rearranging_modes": 4.570549794177139e-06
+        },
+        {
+          "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+          "moving_right_transport": 1.5462844693447494e-06,
+          "moving_right_wake": 0.001556888670371352,
+          "rearranging_modes": 6.129678035714105e-06
+        }
+      ],
+      "history": "BOUNDARY",
+      "meaning": "Finite observables distinguish implementations without selecting a physical interpretation."
+    }
+  ]
+}
