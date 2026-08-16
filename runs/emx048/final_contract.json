@@ -1,0 +1,21 @@
+{
+  "COUNTS": {
+    "CONTRADICTORY_PROVENANCE": 0,
+    "INCOMPLETE_PROVENANCE": 335,
+    "NOT_PRESENT_IN_ALLOWED_CORPUS": 2,
+    "RECOVERED_HASH_VERIFIED_AND_REPRODUCED": 0,
+    "RECOVERED_HASH_VERIFIED_NOT_REPRODUCED": 0
+  },
+  "EMX048_RESULT": "REFERENCE_GEOMETRY_AND_SOURCE_HISTORY_RECOVERY_COMPLETE",
+  "EMX049_EXECUTED": false,
+  "NEXT_BOUNDARY": "No tracked historical artifact supplies hash-pinned directed neighbor rest-relation vectors or a hash-pinned source-history mapping; an authoritative artifact containing both plus identity replay inputs is required.",
+  "NEXT_SELECTOR": "HASH_PINNED_DEV167_REFERENCE_GEOMETRY_AND_SOURCE_HISTORY_AUTHORITY_BOUNDARY",
+  "NO_DEV167_MODIFICATION": true,
+  "NO_EXTERNAL_CODE": true,
+  "NO_E_B_QED_MAPPING": true,
+  "NO_FITTING_OR_HISTORICAL_RECONSTRUCTION": true,
+  "NO_HIDDEN_OR_RESULT_SELECTED_CHOICES": true,
+  "NO_LAB_GIT_IMPORT": true,
+  "NO_LAB_GIT_MODIFICATION": true,
+  "PRESERVES_EMX047_BOUNDARY": true
+}

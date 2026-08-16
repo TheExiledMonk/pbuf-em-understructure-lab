@@ -1,0 +1,14 @@
+{
+  "boundary": "No tracked historical artifact supplies hash-pinned directed neighbor rest-relation vectors or a hash-pinned source-history mapping; an authoritative artifact containing both plus identity replay inputs is required.",
+  "candidate_count": 335,
+  "conclusion": "All scanned evidence is provenance metadata or trajectory-schema metadata; no historical geometry/source payload is inferred.",
+  "counts": {
+    "CONTRADICTORY_PROVENANCE": 0,
+    "INCOMPLETE_PROVENANCE": 335,
+    "NOT_PRESENT_IN_ALLOWED_CORPUS": 2,
+    "RECOVERED_HASH_VERIFIED_AND_REPRODUCED": 0,
+    "RECOVERED_HASH_VERIFIED_NOT_REPRODUCED": 0
+  },
+  "next_selector": "HASH_PINNED_DEV167_REFERENCE_GEOMETRY_AND_SOURCE_HISTORY_AUTHORITY_BOUNDARY",
+  "recovered_count": 0
+}
