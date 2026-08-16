@@ -1,0 +1,327 @@
+{
+  "all_outcomes_retained": true,
+  "artifact_sha256": "b1c1fac16d94010454ac541cf4215bc31f1ef0fc50564dfacc5ffd201a6454ef",
+  "counts": {
+    "CONTRADICTED_IN_SCOPE": 0,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 12,
+    "NOT_ASSESSED": 0,
+    "SUPPORTED_IN_SCOPE": 32,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 3
+  },
+  "no_universal_arrow_claim": true,
+  "primitive": {
+    "definition": "A deterministic finite-state/history comparison record: source-local energy, total energy, transported-energy complement, origin-free sorted energy distribution, translation-invariant spectral magnitude, and exact finite replay relation.",
+    "name": "REPO_LOCAL_GLOBAL_STATE_ORIENTATION_PROPAGATION_RECORD_V1",
+    "no_E_B_QED_mapping_or_physical_claim": true,
+    "no_arbitrary_origin": "Distribution and Fourier-magnitude observables are invariant under lattice translation; source-local ledger is separately named and never promoted to a global orientation.",
+    "no_entropy_or_dissipation_assumption": true,
+    "non_historical": true,
+    "not_DEV167_provenance": true,
+    "not_independent_physical_clock": true,
+    "scope": "A diagnostic primitive for EMX056 two-sector internal exchange under frozen source-work families."
+  },
+  "records": [
+    {
+      "cell": "SOURCE_OFF_OUTGOING_FINITE_EMISSION_DISPLACEMENT_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "external_source_after_initialization": false,
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "local_drop": 1.9572139116931687e-05
+    },
+    {
+      "cell": "TOTAL_CONSERVATION_DISPLACEMENT_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "relative_energy_drift": 0.00010072092051774369
+    },
+    {
+      "cell": "TRANSPORTED_ENERGY_DISPLACEMENT_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "transported_energy_complement": 1.9572139116931687e-05
+    },
+    {
+      "assumptions": "No origin, entropy, dissipation, or physical-clock assumption.",
+      "cell": "DISTRIBUTED_ORIGIN_FREE_RECORD_DISPLACEMENT_PRELOAD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "spectral_change": 4.929132264491995e-05
+    },
+    {
+      "cell": "MATCHED_INCOMING_TIME_REVERSED_DISPLACEMENT_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "meaning": "Finite source-off replay relation only; not global reversal.",
+      "round_trip_max_error": 1.0408340855860843e-17
+    },
+    {
+      "cell": "LOCAL_RETURN_DISPLACEMENT_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "full_state_history_record": "Initial/final matched by reversed finite history."
+    },
+    {
+      "cell": "FINITE_RECURRENCE_CONTROL_DISPLACEMENT_PRELOAD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "finite_domain_note": "A later finite-domain state is retained as a recurrence control, never promoted to an arrow.",
+      "state_l2": 0.01855302716659794
+    },
+    {
+      "cell": "SOURCE_OFF_OUTGOING_FINITE_EMISSION_VELOCITY_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "external_source_after_initialization": false,
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "local_drop": 2.7013447892690703e-05
+    },
+    {
+      "cell": "TOTAL_CONSERVATION_VELOCITY_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "relative_energy_drift": 4.06305178990834e-05
+    },
+    {
+      "cell": "TRANSPORTED_ENERGY_VELOCITY_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "transported_energy_complement": 2.7013447892690703e-05
+    },
+    {
+      "assumptions": "No origin, entropy, dissipation, or physical-clock assumption.",
+      "cell": "DISTRIBUTED_ORIGIN_FREE_RECORD_VELOCITY_PRELOAD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "spectral_change": 0.00016277880658425092
+    },
+    {
+      "cell": "MATCHED_INCOMING_TIME_REVERSED_VELOCITY_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "meaning": "Finite source-off replay relation only; not global reversal.",
+      "round_trip_max_error": 1.0842021724855044e-18
+    },
+    {
+      "cell": "LOCAL_RETURN_VELOCITY_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "full_state_history_record": "Initial/final matched by reversed finite history."
+    },
+    {
+      "cell": "FINITE_RECURRENCE_CONTROL_VELOCITY_PRELOAD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "finite_domain_note": "A later finite-domain state is retained as a recurrence control, never promoted to an arrow.",
+      "state_l2": 0.05511378814665687
+    },
+    {
+      "cell": "NO_EXCHANGE_CONTROL",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "relative_energy_change": 0.0
+    },
+    {
+      "cell": "STANDING_SYMMETRIC_CONTROL",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "relative_energy_drift": 0.0006557006283116232
+    },
+    {
+      "cell": "SPATIAL_REFLECTION_CONTROL",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "max_error": 0.0
+    },
+    {
+      "cell": "AXIS_COVARIANCE_1",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "record_difference": 0.0
+    },
+    {
+      "cell": "AXIS_COVARIANCE_2",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "record_difference": 0.0
+    },
+    {
+      "cell": "TIME_REFINEMENT",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "note": "Finite discretizations are retained rather than selected.",
+      "record_difference": 4.345734542360313e-08
+    },
+    {
+      "cell": "LATTICE_REFINEMENT",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "n9_n11_record_difference": 2.468843842400037e-05
+    },
+    {
+      "boundary_conditioned": true,
+      "cell": "FIXED_BOUNDARY_CONTROL",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "relative_energy_drift": 0.0001004219595948135
+    },
+    {
+      "cell": "SOURCE_OFF_OUTGOING_FINITE_EMISSION_DISPLACEMENT_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "external_source_after_initialization": false,
+      "family": "DIRECTED_BOND",
+      "local_drop": 1.9572139116931687e-05
+    },
+    {
+      "cell": "TOTAL_CONSERVATION_DISPLACEMENT_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "relative_energy_drift": 0.00010072092051774369
+    },
+    {
+      "cell": "TRANSPORTED_ENERGY_DISPLACEMENT_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "transported_energy_complement": 1.9572139116931687e-05
+    },
+    {
+      "assumptions": "No origin, entropy, dissipation, or physical-clock assumption.",
+      "cell": "DISTRIBUTED_ORIGIN_FREE_RECORD_DISPLACEMENT_PRELOAD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "spectral_change": 4.929132264491995e-05
+    },
+    {
+      "cell": "MATCHED_INCOMING_TIME_REVERSED_DISPLACEMENT_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "meaning": "Finite source-off replay relation only; not global reversal.",
+      "round_trip_max_error": 1.0408340855860843e-17
+    },
+    {
+      "cell": "LOCAL_RETURN_DISPLACEMENT_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "full_state_history_record": "Initial/final matched by reversed finite history."
+    },
+    {
+      "cell": "FINITE_RECURRENCE_CONTROL_DISPLACEMENT_PRELOAD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "finite_domain_note": "A later finite-domain state is retained as a recurrence control, never promoted to an arrow.",
+      "state_l2": 0.01855302716659794
+    },
+    {
+      "cell": "SOURCE_OFF_OUTGOING_FINITE_EMISSION_VELOCITY_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "external_source_after_initialization": false,
+      "family": "DIRECTED_BOND",
+      "local_drop": 2.7013447892690703e-05
+    },
+    {
+      "cell": "TOTAL_CONSERVATION_VELOCITY_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "relative_energy_drift": 4.06305178990834e-05
+    },
+    {
+      "cell": "TRANSPORTED_ENERGY_VELOCITY_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "transported_energy_complement": 2.7013447892690703e-05
+    },
+    {
+      "assumptions": "No origin, entropy, dissipation, or physical-clock assumption.",
+      "cell": "DISTRIBUTED_ORIGIN_FREE_RECORD_VELOCITY_PRELOAD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "spectral_change": 0.00016277880658425092
+    },
+    {
+      "cell": "MATCHED_INCOMING_TIME_REVERSED_VELOCITY_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "meaning": "Finite source-off replay relation only; not global reversal.",
+      "round_trip_max_error": 1.0842021724855044e-18
+    },
+    {
+      "cell": "LOCAL_RETURN_VELOCITY_PRELOAD",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "full_state_history_record": "Initial/final matched by reversed finite history."
+    },
+    {
+      "cell": "FINITE_RECURRENCE_CONTROL_VELOCITY_PRELOAD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "finite_domain_note": "A later finite-domain state is retained as a recurrence control, never promoted to an arrow.",
+      "state_l2": 0.05511378814665687
+    },
+    {
+      "cell": "NO_EXCHANGE_CONTROL",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "relative_energy_change": 0.0
+    },
+    {
+      "cell": "STANDING_SYMMETRIC_CONTROL",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "relative_energy_drift": 0.0006557006283116232
+    },
+    {
+      "cell": "SPATIAL_REFLECTION_CONTROL",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "max_error": 0.0
+    },
+    {
+      "cell": "AXIS_COVARIANCE_1",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "record_difference": 0.0
+    },
+    {
+      "cell": "AXIS_COVARIANCE_2",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "record_difference": 0.0
+    },
+    {
+      "cell": "TIME_REFINEMENT",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "note": "Finite discretizations are retained rather than selected.",
+      "record_difference": 4.345734542360313e-08
+    },
+    {
+      "cell": "LATTICE_REFINEMENT",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "n9_n11_record_difference": 2.468843842400037e-05
+    },
+    {
+      "boundary_conditioned": true,
+      "cell": "FIXED_BOUNDARY_CONTROL",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "relative_energy_drift": 0.0001004219595948135
+    },
+    {
+      "cell": "TRUE_GLOBAL_REVERSAL",
+      "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+      "family": "ALL",
+      "reason": "Finite reversible replay does not define reversal of an unbounded/global state or select a global orientation."
+    },
+    {
+      "cell": "UNIVERSAL_ARROW",
+      "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+      "family": "ALL",
+      "reason": "No universal arrow is derived from source, preload, finite-domain, boundary-conditioned, or recurrence histories."
+    },
+    {
+      "cell": "INDEPENDENT_PHYSICAL_CLOCK",
+      "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+      "family": "ALL",
+      "reason": "Step index orders an algorithm only; the primitive supplies no physical clock."
+    }
+  ]
+}

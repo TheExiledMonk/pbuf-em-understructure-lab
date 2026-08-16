@@ -1,0 +1,18 @@
+{
+  "ALL_GATES_NON_BLOCKING": true,
+  "COUNTS": {
+    "CONTRADICTED_IN_SCOPE": 0,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 12,
+    "NOT_ASSESSED": 0,
+    "SUPPORTED_IN_SCOPE": 32,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 3
+  },
+  "EMX057_RESULT": "GLOBAL_STATE_ORIENTATION_AND_PROPAGATION_RECORDS_COMPLETE",
+  "NEXT_BOUNDARY": "A global/unbounded reversal, a physical clock, and a universal arrow remain undefined primitives; finite controls are retained.",
+  "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+  "NO_EXTERNAL_OR_DESTRUCTIVE_ACTIONS": true,
+  "NO_E_B_QED_MAPPING": true,
+  "NO_FITTING_OR_RESELECTION": true,
+  "NO_UNIVERSAL_ARROW_FROM_BOUNDARY_CONDITIONED_HISTORIES": true,
+  "artifact_sha256": "ba4a4c89fe05aa610fca104345b7ac7ade12e3ab44d4ed08cfbc1ee9417428bf"
+}

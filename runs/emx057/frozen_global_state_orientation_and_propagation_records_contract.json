@@ -1,0 +1,77 @@
+{
+  "EMX057_SELECTOR": "GLOBAL_STATE_ORIENTATION_AND_PROPAGATION_RECORDS",
+  "FROZEN_BEFORE_RESULTS": true,
+  "classification_vocabulary": [
+    "SUPPORTED_IN_SCOPE",
+    "CONTRADICTED_IN_SCOPE",
+    "DISTINCT_OBSERVABLE_BEHAVIOR",
+    "NOT_ASSESSED",
+    "UNDEFINED_PRIMITIVE_BOUNDARY"
+  ],
+  "contract_sha256": "c6c998054f0aa06b515555e079b341762af4d58f042f0b00894bea6000e88a5d",
+  "families_from_EMX056": [
+    "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+    "DIRECTED_BOND"
+  ],
+  "finite_deterministic_protocol": {
+    "artifact_hashing": "All emitted JSON artifacts carry SHA-256 of canonical payload; contract hashes declared inputs.",
+    "integrator": "velocity-Verlet; fixed dt/steps/grid/boundary values in runner",
+    "no_fitting_or_reselection": true,
+    "source": "Initial finite two-sector preparation only; no external force after step zero."
+  },
+  "fixed_battery": {
+    "ledger": [
+      "LOCAL_RETURN",
+      "TRANSPORTED_ENERGY",
+      "TOTAL_CONSERVATION",
+      "DISTRIBUTED_RECORDS",
+      "TRUE_REVERSAL"
+    ],
+    "matched_controls": [
+      "INCOMING_TIME_REVERSED",
+      "STANDING_SYMMETRIC",
+      "NO_EXCHANGE",
+      "SPATIAL_REFLECTION",
+      "RECURRENCE"
+    ],
+    "robustness_controls": [
+      "AXIS_COVARIANCE",
+      "SOURCE_SHAPE",
+      "LATTICE_REFINEMENT",
+      "TIME_REFINEMENT",
+      "PERIODIC_BOUNDARY",
+      "FIXED_BOUNDARY",
+      "PRELOAD"
+    ],
+    "source_off_emission": [
+      "DISPLACEMENT_PRELOAD",
+      "VELOCITY_PRELOAD"
+    ]
+  },
+  "input_sha256": {
+    "runs/emx055/frozen_held_out_source_work_discriminator_contract.json": "f685b06bc1784fa667f9ba6a9addaf84a99f5eeaec51a02cfcf84e5f3406a9b1",
+    "runs/emx056/batch_a_exchange_registry.json": "c69419fd09c36c3b4046983f3be4cecd1dab43d86d70b2b92135bbf58d8180f6",
+    "runs/emx056/candidate_gate_ledger.json": "66034a3589ac511187e9a213bbbc64def681883c546fba7a79fa944f4e6dfcfe",
+    "runs/emx056/frozen_pbuf_elasticity_emission_wide_net_contract.json": "72c266b4c25acfb2cc6cdd58c52e75be9a5d01b4057133d358ecbf624b36cb77"
+  },
+  "mode": "EVIDENCE_BUILDING_NON_BLOCKING",
+  "non_blocking_rule": "Retain every finite outcome. No outcome changes EMX001-056 labels or establishes a universal arrow.",
+  "primitive": {
+    "definition": "A deterministic finite-state/history comparison record: source-local energy, total energy, transported-energy complement, origin-free sorted energy distribution, translation-invariant spectral magnitude, and exact finite replay relation.",
+    "name": "REPO_LOCAL_GLOBAL_STATE_ORIENTATION_PROPAGATION_RECORD_V1",
+    "no_E_B_QED_mapping_or_physical_claim": true,
+    "no_arbitrary_origin": "Distribution and Fourier-magnitude observables are invariant under lattice translation; source-local ledger is separately named and never promoted to a global orientation.",
+    "no_entropy_or_dissipation_assumption": true,
+    "non_historical": true,
+    "not_DEV167_provenance": true,
+    "not_independent_physical_clock": true,
+    "scope": "A diagnostic primitive for EMX056 two-sector internal exchange under frozen source-work families."
+  },
+  "prohibitions": {
+    "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+    "NO_EXTERNAL_OR_DESTRUCTIVE_ACTIONS": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING_OR_RESELECTION": true,
+    "NO_UNIVERSAL_ARROW_FROM_BOUNDARY_CONDITIONED_HISTORIES": true
+  }
+}
