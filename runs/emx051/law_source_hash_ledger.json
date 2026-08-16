@@ -1,0 +1,94 @@
+{
+  "artifacts": {
+    "CONSERVATIVE_ELASTIC": {
+      "COMPACT": {
+        "initial_l2": 0.013259145044039137,
+        "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+        "source_witness_rule": "HYPOTHESIS: local first-jet Laplacian stress/load",
+        "source_witness_sha256": "6f87b188fbe5cd7bd9337c295b4f279e867c4f5887948d6089c0af51283443f1",
+        "u_sha256": "dad88d6957977599278312d2e0b6f349fbb283e465f79b1b16127c8f8542c76f"
+      },
+      "ELONGATED": {
+        "initial_l2": 0.013259145044039137,
+        "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+        "source_witness_rule": "HYPOTHESIS: local first-jet Laplacian stress/load",
+        "source_witness_sha256": "7c95a72ca6c0b92d304564c2868004c394b72f77964e921c324cb321bfea168d",
+        "u_sha256": "043aedae8c1ce0e9c30595a171baf11cbd90bc171879f3d398eb7d549e4d86c2"
+      },
+      "MIRRORED": {
+        "initial_l2": 0.013259145044039137,
+        "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+        "source_witness_rule": "HYPOTHESIS: local first-jet Laplacian stress/load",
+        "source_witness_sha256": "cf35a221d56430aa3ca54a817ace13a35a5bcea347850046dee2d0128a7110b0",
+        "u_sha256": "59d4c3652a12a089da79bcc36ff40eceb86cc723f84167f655a147244a91bcfc"
+      },
+      "SPLIT": {
+        "initial_l2": 0.013259145044039135,
+        "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+        "source_witness_rule": "HYPOTHESIS: local first-jet Laplacian stress/load",
+        "source_witness_sha256": "c31e26007dd4aa20f5f37cdb9214cf6fe5151eddca19bef54edacf26ce8f7cc5",
+        "u_sha256": "04cb5e34ab3a2191679414dc638f40b2aad03a0feb8916a76d535b31d16df7fb"
+      }
+    },
+    "GEOMETRY_DIRECTED_WORK": {
+      "COMPACT": {
+        "initial_l2": 0.013259145044039137,
+        "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+        "source_witness_rule": "HYPOTHESIS: normalized directed neighbor-geometry source-difference work load",
+        "source_witness_sha256": "a6e833433b80b9c445d32f44de7cfbcfaa480cceb76e32726666dbc3cc791ea9",
+        "u_sha256": "dad88d6957977599278312d2e0b6f349fbb283e465f79b1b16127c8f8542c76f"
+      },
+      "ELONGATED": {
+        "initial_l2": 0.013259145044039137,
+        "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+        "source_witness_rule": "HYPOTHESIS: normalized directed neighbor-geometry source-difference work load",
+        "source_witness_sha256": "b51593e374ab8610d543de92330283dff3f46b3fd1392a5c0dd2eea2ab1bf4ac",
+        "u_sha256": "043aedae8c1ce0e9c30595a171baf11cbd90bc171879f3d398eb7d549e4d86c2"
+      },
+      "MIRRORED": {
+        "initial_l2": 0.013259145044039137,
+        "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+        "source_witness_rule": "HYPOTHESIS: normalized directed neighbor-geometry source-difference work load",
+        "source_witness_sha256": "63853c323b03e26f001554168396fa21c261bf74e6b78f956926d43fb28745f4",
+        "u_sha256": "59d4c3652a12a089da79bcc36ff40eceb86cc723f84167f655a147244a91bcfc"
+      },
+      "SPLIT": {
+        "initial_l2": 0.013259145044039135,
+        "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+        "source_witness_rule": "HYPOTHESIS: normalized directed neighbor-geometry source-difference work load",
+        "source_witness_sha256": "d8247a85f42847055ac0bbead64f64dd2209b1c2b3613657d10cda37724454ad",
+        "u_sha256": "04cb5e34ab3a2191679414dc638f40b2aad03a0feb8916a76d535b31d16df7fb"
+      }
+    },
+    "SYMPLECTIC_PAIRED_STATE": {
+      "COMPACT": {
+        "initial_l2": 0.013259145044039137,
+        "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+        "source_witness_rule": "HYPOTHESIS: local first-jet Laplacian stress/load",
+        "source_witness_sha256": "6f87b188fbe5cd7bd9337c295b4f279e867c4f5887948d6089c0af51283443f1",
+        "u_sha256": "dad88d6957977599278312d2e0b6f349fbb283e465f79b1b16127c8f8542c76f"
+      },
+      "ELONGATED": {
+        "initial_l2": 0.013259145044039137,
+        "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+        "source_witness_rule": "HYPOTHESIS: local first-jet Laplacian stress/load",
+        "source_witness_sha256": "7c95a72ca6c0b92d304564c2868004c394b72f77964e921c324cb321bfea168d",
+        "u_sha256": "043aedae8c1ce0e9c30595a171baf11cbd90bc171879f3d398eb7d549e4d86c2"
+      },
+      "MIRRORED": {
+        "initial_l2": 0.013259145044039137,
+        "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+        "source_witness_rule": "HYPOTHESIS: local first-jet Laplacian stress/load",
+        "source_witness_sha256": "cf35a221d56430aa3ca54a817ace13a35a5bcea347850046dee2d0128a7110b0",
+        "u_sha256": "59d4c3652a12a089da79bcc36ff40eceb86cc723f84167f655a147244a91bcfc"
+      },
+      "SPLIT": {
+        "initial_l2": 0.013259145044039135,
+        "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+        "source_witness_rule": "HYPOTHESIS: local first-jet Laplacian stress/load",
+        "source_witness_sha256": "c31e26007dd4aa20f5f37cdb9214cf6fe5151eddca19bef54edacf26ce8f7cc5",
+        "u_sha256": "04cb5e34ab3a2191679414dc638f40b2aad03a0feb8916a76d535b31d16df7fb"
+      }
+    }
+  }
+}

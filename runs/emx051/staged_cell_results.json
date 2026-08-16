@@ -1,0 +1,594 @@
+{
+  "integrated_shape_cells": [
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "comparison_preparation": "identical EMX049 initial packet and zero source history",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215893,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "matched_zero_source_observer_vector": [
+        0.013259145044039137,
+        0.025078521421024045,
+        0.013259145044039137,
+        0.03165172532007514
+      ],
+      "observer_diagnostic_only": true,
+      "shape": "COMPACT",
+      "source_witness_observer_vector": [
+        0.013259145044039137,
+        0.025078521583918777,
+        0.013259145044039137,
+        0.031651734784352965
+      ],
+      "stage": "integrated_packet_shapes"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "comparison_preparation": "identical EMX049 initial packet and zero source history",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.01349779344650608,
+        0.011560557542679883,
+        0.014443858908171443
+      ],
+      "matched_zero_source_observer_vector": [
+        0.013259145044039137,
+        0.022587257198334036,
+        0.013259145044039137,
+        0.0279207381008371
+      ],
+      "observer_diagnostic_only": true,
+      "shape": "ELONGATED",
+      "source_witness_observer_vector": [
+        0.013259145044039137,
+        0.02258725795947014,
+        0.013259145044039137,
+        0.027920734460896025
+      ],
+      "stage": "integrated_packet_shapes"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "comparison_preparation": "identical EMX049 initial packet and zero source history",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215896,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "matched_zero_source_observer_vector": [
+        0.013259145044039137,
+        0.025078521421024045,
+        0.013259145044039137,
+        0.03165172532007514
+      ],
+      "observer_diagnostic_only": true,
+      "shape": "MIRRORED",
+      "source_witness_observer_vector": [
+        0.013259145044039137,
+        0.025078521583918777,
+        0.013259145044039137,
+        0.031651734784352965
+      ],
+      "stage": "integrated_packet_shapes"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "comparison_preparation": "identical EMX049 initial packet and zero source history",
+      "emx049_vector": [
+        0.013259145044039135,
+        0.019515475618913387,
+        0.013259145044039135,
+        0.019524555629912007
+      ],
+      "matched_zero_source_observer_vector": [
+        0.013259145044039135,
+        0.02497515323664395,
+        0.013259145044039135,
+        0.03165365204871622
+      ],
+      "observer_diagnostic_only": true,
+      "shape": "SPLIT",
+      "source_witness_observer_vector": [
+        0.013259145044039135,
+        0.024975150453063737,
+        0.013259145044039135,
+        0.031653661560648326
+      ],
+      "stage": "integrated_packet_shapes"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "comparison_preparation": "identical EMX049 initial packet and zero source history",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215893,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "matched_zero_source_observer_vector": [
+        0.013259145044039137,
+        0.025078521421024045,
+        0.013259145044039137,
+        0.03165172532007514
+      ],
+      "observer_diagnostic_only": true,
+      "shape": "COMPACT",
+      "source_witness_observer_vector": [
+        0.013259145044039137,
+        0.02507852156478257,
+        0.013259145044039137,
+        0.03165173366682324
+      ],
+      "stage": "integrated_packet_shapes"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "comparison_preparation": "identical EMX049 initial packet and zero source history",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.01349779344650608,
+        0.011560557542679883,
+        0.014443858908171443
+      ],
+      "matched_zero_source_observer_vector": [
+        0.013259145044039137,
+        0.022587257198334036,
+        0.013259145044039137,
+        0.0279207381008371
+      ],
+      "observer_diagnostic_only": true,
+      "shape": "ELONGATED",
+      "source_witness_observer_vector": [
+        0.013259145044039137,
+        0.022587255378258314,
+        0.013259145044039137,
+        0.027920728254135812
+      ],
+      "stage": "integrated_packet_shapes"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "comparison_preparation": "identical EMX049 initial packet and zero source history",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215896,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "matched_zero_source_observer_vector": [
+        0.013259145044039137,
+        0.025078521421024045,
+        0.013259145044039137,
+        0.03165172532007514
+      ],
+      "observer_diagnostic_only": true,
+      "shape": "MIRRORED",
+      "source_witness_observer_vector": [
+        0.013259145044039137,
+        0.02507852156478257,
+        0.013259145044039137,
+        0.03165173366682324
+      ],
+      "stage": "integrated_packet_shapes"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "comparison_preparation": "identical EMX049 initial packet and zero source history",
+      "emx049_vector": [
+        0.013259145044039135,
+        0.019515475618913387,
+        0.013259145044039135,
+        0.019524555629912007
+      ],
+      "matched_zero_source_observer_vector": [
+        0.013259145044039135,
+        0.02497515323664395,
+        0.013259145044039135,
+        0.03165365204871622
+      ],
+      "observer_diagnostic_only": true,
+      "shape": "SPLIT",
+      "source_witness_observer_vector": [
+        0.013259145044039135,
+        0.024975149268044214,
+        0.013259145044039135,
+        0.03165366054394161
+      ],
+      "stage": "integrated_packet_shapes"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "comparison_preparation": "identical EMX049 initial packet and zero source history",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215893,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "matched_zero_source_observer_vector": [
+        0.013259145044039137,
+        0.025448324509840498,
+        0.013259145044039137,
+        0.03233001210407574
+      ],
+      "observer_diagnostic_only": true,
+      "shape": "COMPACT",
+      "source_witness_observer_vector": [
+        0.013259145044039137,
+        0.025448321610981952,
+        0.013259145044039137,
+        0.03233001690386575
+      ],
+      "stage": "integrated_packet_shapes"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "comparison_preparation": "identical EMX049 initial packet and zero source history",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.01349779344650608,
+        0.011560557542679883,
+        0.014443858908171443
+      ],
+      "matched_zero_source_observer_vector": [
+        0.013259145044039137,
+        0.02293687976309718,
+        0.013259145044039137,
+        0.02862575135804302
+      ],
+      "observer_diagnostic_only": true,
+      "shape": "ELONGATED",
+      "source_witness_observer_vector": [
+        0.013259145044039137,
+        0.02293687728886626,
+        0.013259145044039137,
+        0.028625742474129735
+      ],
+      "stage": "integrated_packet_shapes"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "comparison_preparation": "identical EMX049 initial packet and zero source history",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215896,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "matched_zero_source_observer_vector": [
+        0.013259145044039137,
+        0.025448324509840498,
+        0.013259145044039137,
+        0.032330012104075746
+      ],
+      "observer_diagnostic_only": true,
+      "shape": "MIRRORED",
+      "source_witness_observer_vector": [
+        0.013259145044039137,
+        0.025448321610981952,
+        0.013259145044039137,
+        0.03233001690386575
+      ],
+      "stage": "integrated_packet_shapes"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "comparison_preparation": "identical EMX049 initial packet and zero source history",
+      "emx049_vector": [
+        0.013259145044039135,
+        0.019515475618913387,
+        0.013259145044039135,
+        0.019524555629912007
+      ],
+      "matched_zero_source_observer_vector": [
+        0.013259145044039135,
+        0.02524069712790232,
+        0.013259145044039135,
+        0.032331835615027955
+      ],
+      "observer_diagnostic_only": true,
+      "shape": "SPLIT",
+      "source_witness_observer_vector": [
+        0.013259145044039135,
+        0.025240692953110433,
+        0.013259145044039135,
+        0.03233184045990154
+      ],
+      "stage": "integrated_packet_shapes"
+    }
+  ],
+  "internal_control_cells": [
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "finite_rest",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": 0.0
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "positive_energy",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": 0.0005274147818966028
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "zero_source",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "forward_reverse",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": 6.288372600415926e-18
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "conservation_drift",
+      "classification": "FAILS_CONSERVATION",
+      "stage": "source_independent",
+      "value": 0.002668824750964143
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "dt_half_refinement",
+      "classification": "FAILS_REFINEMENT",
+      "stage": "source_independent",
+      "value": 5.923172633136298e-05
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "parity",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": 0.0
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "spatial_transport",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": 0.0008146026405877728
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "zero_source",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_work"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "source_sign",
+      "classification": "INSUFFICIENT_TO_DISTINGUISH",
+      "stage": "source_work"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "parity",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_work"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "normalization",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_work"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "virtual_work_accounting",
+      "classification": "FAILS_VIRTUAL_WORK_ACCOUNTING",
+      "stage": "source_work",
+      "value": 20.93145071450222
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "finite_rest",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": 0.0
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "positive_energy",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": 0.0005274147818966028
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "zero_source",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "forward_reverse",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": 6.288372600415926e-18
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "conservation_drift",
+      "classification": "FAILS_CONSERVATION",
+      "stage": "source_independent",
+      "value": 0.002668824750964143
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "dt_half_refinement",
+      "classification": "FAILS_REFINEMENT",
+      "stage": "source_independent",
+      "value": 5.923172633136298e-05
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "parity",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": 0.0
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "spatial_transport",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": 0.0008146026405877728
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "zero_source",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_work"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "source_sign",
+      "classification": "INSUFFICIENT_TO_DISTINGUISH",
+      "stage": "source_work"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "parity",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_work"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "normalization",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_work"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "virtual_work_accounting",
+      "classification": "FAILS_VIRTUAL_WORK_ACCOUNTING",
+      "stage": "source_work",
+      "value": 23.599263606158424
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "finite_rest",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": 0.0
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "positive_energy",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": 0.0005493903978089613
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "zero_source",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "forward_reverse",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": 5.637851296924623e-18
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "conservation_drift",
+      "classification": "FAILS_CONSERVATION",
+      "stage": "source_independent",
+      "value": 0.002751755637501073
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "dt_half_refinement",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": 3.5569598257644e-05
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "parity",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": 6.938893903907228e-18
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "spatial_transport",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_independent",
+      "value": 0.0008578903793401568
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "zero_source",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_work"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "source_sign",
+      "classification": "INSUFFICIENT_TO_DISTINGUISH",
+      "stage": "source_work"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "parity",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_work"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "normalization",
+      "classification": "PASSES_FROZEN_INTERNAL_CONTROLS",
+      "stage": "source_work"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "virtual_work_accounting",
+      "classification": "FAILS_VIRTUAL_WORK_ACCOUNTING",
+      "stage": "source_work",
+      "value": 22.181213450379804
+    }
+  ]
+}

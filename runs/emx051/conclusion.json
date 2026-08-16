@@ -1,0 +1,16 @@
+{
+  "conclusion": "Internal-control survivors are explicit hypotheses only, not derived closures or physical validation.",
+  "counts": {
+    "COMPATIBLE_NONUNIQUE": 0,
+    "DIFFERENTIATES_FROM_EMX049": 12,
+    "FAILS_CONSERVATION": 3,
+    "FAILS_POSITIVITY": 0,
+    "FAILS_REFINEMENT": 2,
+    "FAILS_REVERSIBILITY": 0,
+    "FAILS_VIRTUAL_WORK_ACCOUNTING": 3,
+    "INSUFFICIENT_TO_DISTINGUISH": 3,
+    "PASSES_FROZEN_INTERNAL_CONTROLS": 28,
+    "UNAVAILABLE_PROVENANCE": 0
+  },
+  "survivors": []
+}

@@ -1,0 +1,197 @@
+{
+  "EMX051_SELECTOR": "FINITE_CLOSURE_CANDIDATE_SEARCH",
+  "FROZEN_BEFORE_RESULTS": true,
+  "base_family": "EMX049_NEW_NEUTRAL_REFERENCE_GEOMETRY",
+  "candidate_laws": {
+    "CONSERVATIVE_ELASTIC": {
+      "law": "positive quadratic kinetic plus periodic N6 harmonic restoring potential",
+      "source": "HYPOTHESIS: local first-jet stress/load witness",
+      "state": "u,p",
+      "update": "deterministic velocity-Verlet second-order discrete variational update"
+    },
+    "GEOMETRY_DIRECTED_WORK": {
+      "law": "A kinetic/history sector plus directed source-work witness",
+      "source": "HYPOTHESIS: normalized local work load solely from explicit EMX049 directed neighbor geometry/source differences",
+      "state": "u,p",
+      "update": "deterministic velocity-Verlet"
+    },
+    "SYMPLECTIC_PAIRED_STATE": {
+      "law": "positive Hamiltonian: kinetic + N6 quadratic potential + fixed 0.25 onsite term",
+      "source": "HYPOTHESIS: same local first-jet stress/load witness as A",
+      "state": "u,p canonical paired first-order state",
+      "update": "deterministic reversible velocity-Verlet symplectic update; not Maxwell"
+    }
+  },
+  "classification_vocabulary": [
+    "PASSES_FROZEN_INTERNAL_CONTROLS",
+    "FAILS_POSITIVITY",
+    "FAILS_REVERSIBILITY",
+    "FAILS_CONSERVATION",
+    "FAILS_REFINEMENT",
+    "FAILS_VIRTUAL_WORK_ACCOUNTING",
+    "DIFFERENTIATES_FROM_EMX049",
+    "COMPATIBLE_NONUNIQUE",
+    "INSUFFICIENT_TO_DISTINGUISH",
+    "UNAVAILABLE_PROVENANCE"
+  ],
+  "contract_sha256": "65a8885769b4ffa072ec833754cbb6bc16d749069e3afbeaa8e23f1b8bf8564a",
+  "control_thresholds": {
+    "conservation_relative_drift": 1e-05,
+    "normalization": 1e-15,
+    "parity_observer": 1e-12,
+    "positivity": 0.0,
+    "refinement_observer": 5e-05,
+    "reversal": 1e-12,
+    "transport_nonzero": 1e-12,
+    "virtual_work_relative_residual": 1e-05
+  },
+  "geometry": {
+    "artifacts": {
+      "CONSERVATIVE_ELASTIC": {
+        "COMPACT": {
+          "initial_l2": 0.013259145044039137,
+          "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+          "source_witness_rule": "HYPOTHESIS: local first-jet Laplacian stress/load",
+          "source_witness_sha256": "6f87b188fbe5cd7bd9337c295b4f279e867c4f5887948d6089c0af51283443f1",
+          "u_sha256": "dad88d6957977599278312d2e0b6f349fbb283e465f79b1b16127c8f8542c76f"
+        },
+        "ELONGATED": {
+          "initial_l2": 0.013259145044039137,
+          "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+          "source_witness_rule": "HYPOTHESIS: local first-jet Laplacian stress/load",
+          "source_witness_sha256": "7c95a72ca6c0b92d304564c2868004c394b72f77964e921c324cb321bfea168d",
+          "u_sha256": "043aedae8c1ce0e9c30595a171baf11cbd90bc171879f3d398eb7d549e4d86c2"
+        },
+        "MIRRORED": {
+          "initial_l2": 0.013259145044039137,
+          "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+          "source_witness_rule": "HYPOTHESIS: local first-jet Laplacian stress/load",
+          "source_witness_sha256": "cf35a221d56430aa3ca54a817ace13a35a5bcea347850046dee2d0128a7110b0",
+          "u_sha256": "59d4c3652a12a089da79bcc36ff40eceb86cc723f84167f655a147244a91bcfc"
+        },
+        "SPLIT": {
+          "initial_l2": 0.013259145044039135,
+          "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+          "source_witness_rule": "HYPOTHESIS: local first-jet Laplacian stress/load",
+          "source_witness_sha256": "c31e26007dd4aa20f5f37cdb9214cf6fe5151eddca19bef54edacf26ce8f7cc5",
+          "u_sha256": "04cb5e34ab3a2191679414dc638f40b2aad03a0feb8916a76d535b31d16df7fb"
+        }
+      },
+      "GEOMETRY_DIRECTED_WORK": {
+        "COMPACT": {
+          "initial_l2": 0.013259145044039137,
+          "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+          "source_witness_rule": "HYPOTHESIS: normalized directed neighbor-geometry source-difference work load",
+          "source_witness_sha256": "a6e833433b80b9c445d32f44de7cfbcfaa480cceb76e32726666dbc3cc791ea9",
+          "u_sha256": "dad88d6957977599278312d2e0b6f349fbb283e465f79b1b16127c8f8542c76f"
+        },
+        "ELONGATED": {
+          "initial_l2": 0.013259145044039137,
+          "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+          "source_witness_rule": "HYPOTHESIS: normalized directed neighbor-geometry source-difference work load",
+          "source_witness_sha256": "b51593e374ab8610d543de92330283dff3f46b3fd1392a5c0dd2eea2ab1bf4ac",
+          "u_sha256": "043aedae8c1ce0e9c30595a171baf11cbd90bc171879f3d398eb7d549e4d86c2"
+        },
+        "MIRRORED": {
+          "initial_l2": 0.013259145044039137,
+          "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+          "source_witness_rule": "HYPOTHESIS: normalized directed neighbor-geometry source-difference work load",
+          "source_witness_sha256": "63853c323b03e26f001554168396fa21c261bf74e6b78f956926d43fb28745f4",
+          "u_sha256": "59d4c3652a12a089da79bcc36ff40eceb86cc723f84167f655a147244a91bcfc"
+        },
+        "SPLIT": {
+          "initial_l2": 0.013259145044039135,
+          "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+          "source_witness_rule": "HYPOTHESIS: normalized directed neighbor-geometry source-difference work load",
+          "source_witness_sha256": "d8247a85f42847055ac0bbead64f64dd2209b1c2b3613657d10cda37724454ad",
+          "u_sha256": "04cb5e34ab3a2191679414dc638f40b2aad03a0feb8916a76d535b31d16df7fb"
+        }
+      },
+      "SYMPLECTIC_PAIRED_STATE": {
+        "COMPACT": {
+          "initial_l2": 0.013259145044039137,
+          "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+          "source_witness_rule": "HYPOTHESIS: local first-jet Laplacian stress/load",
+          "source_witness_sha256": "6f87b188fbe5cd7bd9337c295b4f279e867c4f5887948d6089c0af51283443f1",
+          "u_sha256": "dad88d6957977599278312d2e0b6f349fbb283e465f79b1b16127c8f8542c76f"
+        },
+        "ELONGATED": {
+          "initial_l2": 0.013259145044039137,
+          "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+          "source_witness_rule": "HYPOTHESIS: local first-jet Laplacian stress/load",
+          "source_witness_sha256": "7c95a72ca6c0b92d304564c2868004c394b72f77964e921c324cb321bfea168d",
+          "u_sha256": "043aedae8c1ce0e9c30595a171baf11cbd90bc171879f3d398eb7d549e4d86c2"
+        },
+        "MIRRORED": {
+          "initial_l2": 0.013259145044039137,
+          "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+          "source_witness_rule": "HYPOTHESIS: local first-jet Laplacian stress/load",
+          "source_witness_sha256": "cf35a221d56430aa3ca54a817ace13a35a5bcea347850046dee2d0128a7110b0",
+          "u_sha256": "59d4c3652a12a089da79bcc36ff40eceb86cc723f84167f655a147244a91bcfc"
+        },
+        "SPLIT": {
+          "initial_l2": 0.013259145044039135,
+          "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+          "source_witness_rule": "HYPOTHESIS: local first-jet Laplacian stress/load",
+          "source_witness_sha256": "c31e26007dd4aa20f5f37cdb9214cf6fe5151eddca19bef54edacf26ce8f7cc5",
+          "u_sha256": "04cb5e34ab3a2191679414dc638f40b2aad03a0feb8916a76d535b31d16df7fb"
+        }
+      }
+    },
+    "boundary": "periodic N6",
+    "dt": 0.04,
+    "lattice": [
+      11,
+      11,
+      11
+    ],
+    "normalization": "EMX049 fixed initial L2",
+    "steps": 180
+  },
+  "input_sha256": {
+    "runs/emx041/shared_observer_definition.json": "b818d86104c15c365a3b86438e4fa29620d256c3d5d9104837bf24099bb4ba74",
+    "runs/emx049/cell_registry_and_results.json": "976aa227edc72d21dd91a110698689c58e9a09048a8484a2f8e9ef1efca622bb",
+    "runs/emx049/frozen_new_reference_geometry_primitive_contract.json": "4965001fae2f439c727f230d2825306e9e60548eeeedc52fdb5becf71aaa50f2",
+    "runs/emx049/source_geometry_hash_ledger.json": "750dcada03fc531e5df55cbdde5c4e3b6cad0cb7f06767ae6d2acd61fabdfaa1"
+  },
+  "observer": {
+    "role": "additional diagnostic only, never physical validity",
+    "tolerance": 1e-12,
+    "version": "EMX041_NATIVE_PERTURBATION_L2_FOUR_SUMMARY_V1"
+  },
+  "prohibitions": {
+    "NO_DESTRUCTIVE_OPERATIONS": true,
+    "NO_DEV167_MODIFICATION": true,
+    "NO_EXTERNAL_CODE": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_HIDDEN_OR_RESULT_SELECTED_CHOICES": true,
+    "NO_LAB_GIT_IMPORT_MODIFICATION_OR_EXECUTION": true
+  },
+  "provenance": "All laws and source-work rules are explicit new hypotheses, not derivations or historical DEV167 provenance.",
+  "staged_registry": {
+    "packet_shapes": [
+      "COMPACT",
+      "ELONGATED",
+      "MIRRORED",
+      "SPLIT"
+    ],
+    "source_independent": [
+      "finite_rest",
+      "positive_energy",
+      "zero_source",
+      "forward_reverse",
+      "conservation_drift",
+      "dt_half_refinement",
+      "parity",
+      "spatial_transport"
+    ],
+    "source_work": [
+      "zero_source",
+      "source_sign",
+      "parity",
+      "normalization",
+      "virtual_work_accounting"
+    ]
+  }
+}
