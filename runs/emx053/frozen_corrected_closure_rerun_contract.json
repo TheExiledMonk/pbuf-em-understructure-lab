@@ -1,0 +1,71 @@
+{
+  "EMX053_SELECTOR": "CORRECTED_CLOSURE_CANDIDATE_RERUN",
+  "FROZEN_BEFORE_RESULTS": true,
+  "candidate_laws": [
+    "CONSERVATIVE_ELASTIC",
+    "SYMPLECTIC_PAIRED_STATE",
+    "GEOMETRY_DIRECTED_WORK"
+  ],
+  "classification_vocabulary": [
+    "PASSES_VALIDATED_INTERNAL_CONTROLS",
+    "FAILS_VALIDATED_POSITIVITY",
+    "FAILS_VALIDATED_REVERSIBILITY",
+    "FAILS_VALIDATED_CONSERVATION",
+    "FAILS_VALIDATED_REFINEMENT",
+    "FAILS_VALIDATED_VIRTUAL_WORK",
+    "DIFFERENTIATES_FROM_EMX049",
+    "COMPATIBLE_NONUNIQUE",
+    "INSUFFICIENT_TO_DISTINGUISH",
+    "UNAVAILABLE_PROVENANCE"
+  ],
+  "contract_sha256": "ef81f626111de507f12dc7dc644464a382d4241c7bb906b0d4bb2caba673aeda",
+  "emx052_ready_contract_sha256": "ffbe41d938714b676f7a46288a378d907fd83bbd9da82184c0c9b9bcfaa2243d",
+  "input_sha256": {
+    "runs/emx051/frozen_finite_closure_candidate_contract.json": "26181eaa735cb0e9268bfb04c6ea9f2e54c6c68e9cfbad3ac5cfbc4f60e0ed72",
+    "runs/emx051/law_source_hash_ledger.json": "b748df6582e02431225e6e006c042b07ebc9db8363231f8f35aa338a2da8d4d7",
+    "runs/emx052/conservation_calibration.json": "8e50798e35adaa8c082bfd359695a892ca28bdafdd1fdf20134a7696cf9a540f",
+    "runs/emx052/emx053_ready_rerun_contract.json": "ffbe41d938714b676f7a46288a378d907fd83bbd9da82184c0c9b9bcfaa2243d",
+    "runs/emx052/frozen_closure_gate_validity_contract.json": "8466be3ebfe9cfc2aff1ea540bd316cb03ff97bc84d79ab61cdac7889d5740f4",
+    "runs/emx052/virtual_work_audit.json": "18e53057c9a49b469be45fe79c755d270555ee207ce8cabf42ad9b7b5dbb9a28",
+    "tools/emx051_finite_closure_candidates.py": "1591602c4c81377fc5ecef534e8a2f5a69efe6ec3072f6927be58cfe3f209d9a"
+  },
+  "prohibitions": {
+    "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+    "NO_EMX051_052_RECLASSIFICATION": true,
+    "NO_EXTERNAL_CODE": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_HIDDEN_OR_RESULT_SELECTED_CHOICES": true
+  },
+  "provenance": "EMX053 reruns explicit EMX051 hypotheses only. It preserves EMX051/052 classifications and confers neither physical validation nor derivation.",
+  "unchanged_registry": {
+    "packet_shapes": [
+      "COMPACT",
+      "ELONGATED",
+      "MIRRORED",
+      "SPLIT"
+    ],
+    "source_independent": [
+      "finite_rest",
+      "positive_energy",
+      "zero_source",
+      "forward_reverse",
+      "conservation_drift",
+      "dt_half_refinement",
+      "parity",
+      "spatial_transport"
+    ],
+    "source_work": [
+      "zero_source",
+      "source_sign",
+      "parity",
+      "normalization",
+      "virtual_work_accounting"
+    ]
+  },
+  "validated_gates": {
+    "conservation_relative_drift_tolerance": 0.003,
+    "held_out_controls": "EMX052 ELONGATED source-free dt=.04 duration=14.4",
+    "virtual_work": "cumulative half-kick kinetic work with identical executed temporal support; residual relative to initial canonical energy <= .003"
+  }
+}

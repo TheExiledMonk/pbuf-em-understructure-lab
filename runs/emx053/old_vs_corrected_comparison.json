@@ -1,0 +1,13 @@
+{
+  "EMX051_old_gates": {
+    "conservation": "1e-5",
+    "virtual_work": "full-run energy vs one-step work"
+  },
+  "EMX051_preserved": true,
+  "EMX053_corrected_gates": {
+    "conservation_relative_drift_tolerance": 0.003,
+    "held_out_controls": "EMX052 ELONGATED source-free dt=.04 duration=14.4",
+    "virtual_work": "cumulative half-kick kinetic work with identical executed temporal support; residual relative to initial canonical energy <= .003"
+  },
+  "no_overwrite": true
+}

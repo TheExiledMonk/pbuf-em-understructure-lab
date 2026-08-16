@@ -1,0 +1,16 @@
+{
+  "conclusion": "Survival means only passage of validated internal controls; it is neither physical validation nor a derived law.",
+  "counts": {
+    "COMPATIBLE_NONUNIQUE": 0,
+    "DIFFERENTIATES_FROM_EMX049": 12,
+    "FAILS_VALIDATED_CONSERVATION": 0,
+    "FAILS_VALIDATED_POSITIVITY": 0,
+    "FAILS_VALIDATED_REFINEMENT": 2,
+    "FAILS_VALIDATED_REVERSIBILITY": 0,
+    "FAILS_VALIDATED_VIRTUAL_WORK": 3,
+    "INSUFFICIENT_TO_DISTINGUISH": 3,
+    "PASSES_VALIDATED_INTERNAL_CONTROLS": 28,
+    "UNAVAILABLE_PROVENANCE": 0
+  },
+  "survivors": []
+}

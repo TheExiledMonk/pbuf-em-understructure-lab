@@ -1,0 +1,233 @@
+{
+  "observer_diagnostic_only": true,
+  "rows": [
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215893,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.025078521421024045,
+        0.013259145044039137,
+        0.03165172532007514
+      ],
+      "shape": "COMPACT"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.01349779344650608,
+        0.011560557542679883,
+        0.014443858908171443
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.022587257198334036,
+        0.013259145044039137,
+        0.0279207381008371
+      ],
+      "shape": "ELONGATED"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215896,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.025078521421024045,
+        0.013259145044039137,
+        0.03165172532007514
+      ],
+      "shape": "MIRRORED"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039135,
+        0.019515475618913387,
+        0.013259145044039135,
+        0.019524555629912007
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039135,
+        0.02497515323664395,
+        0.013259145044039135,
+        0.03165365204871622
+      ],
+      "shape": "SPLIT"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215893,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448324509840498,
+        0.013259145044039137,
+        0.03233001210407574
+      ],
+      "shape": "COMPACT"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.01349779344650608,
+        0.011560557542679883,
+        0.014443858908171443
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.02293687976309718,
+        0.013259145044039137,
+        0.02862575135804302
+      ],
+      "shape": "ELONGATED"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215896,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448324509840498,
+        0.013259145044039137,
+        0.032330012104075746
+      ],
+      "shape": "MIRRORED"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039135,
+        0.019515475618913387,
+        0.013259145044039135,
+        0.019524555629912007
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039135,
+        0.02524069712790232,
+        0.013259145044039135,
+        0.032331835615027955
+      ],
+      "shape": "SPLIT"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215893,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.025078521421024045,
+        0.013259145044039137,
+        0.03165172532007514
+      ],
+      "shape": "COMPACT"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.01349779344650608,
+        0.011560557542679883,
+        0.014443858908171443
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.022587257198334036,
+        0.013259145044039137,
+        0.0279207381008371
+      ],
+      "shape": "ELONGATED"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215896,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.025078521421024045,
+        0.013259145044039137,
+        0.03165172532007514
+      ],
+      "shape": "MIRRORED"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039135,
+        0.019515475618913387,
+        0.013259145044039135,
+        0.019524555629912007
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039135,
+        0.02497515323664395,
+        0.013259145044039135,
+        0.03165365204871622
+      ],
+      "shape": "SPLIT"
+    }
+  ]
+}

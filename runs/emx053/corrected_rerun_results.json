@@ -1,0 +1,427 @@
+{
+  "integrated_shape_cells": [
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215893,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.025078521421024045,
+        0.013259145044039137,
+        0.03165172532007514
+      ],
+      "shape": "COMPACT"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.01349779344650608,
+        0.011560557542679883,
+        0.014443858908171443
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.022587257198334036,
+        0.013259145044039137,
+        0.0279207381008371
+      ],
+      "shape": "ELONGATED"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215896,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.025078521421024045,
+        0.013259145044039137,
+        0.03165172532007514
+      ],
+      "shape": "MIRRORED"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039135,
+        0.019515475618913387,
+        0.013259145044039135,
+        0.019524555629912007
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039135,
+        0.02497515323664395,
+        0.013259145044039135,
+        0.03165365204871622
+      ],
+      "shape": "SPLIT"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215893,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448324509840498,
+        0.013259145044039137,
+        0.03233001210407574
+      ],
+      "shape": "COMPACT"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.01349779344650608,
+        0.011560557542679883,
+        0.014443858908171443
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.02293687976309718,
+        0.013259145044039137,
+        0.02862575135804302
+      ],
+      "shape": "ELONGATED"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215896,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448324509840498,
+        0.013259145044039137,
+        0.032330012104075746
+      ],
+      "shape": "MIRRORED"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039135,
+        0.019515475618913387,
+        0.013259145044039135,
+        0.019524555629912007
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039135,
+        0.02524069712790232,
+        0.013259145044039135,
+        0.032331835615027955
+      ],
+      "shape": "SPLIT"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215893,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.025078521421024045,
+        0.013259145044039137,
+        0.03165172532007514
+      ],
+      "shape": "COMPACT"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.01349779344650608,
+        0.011560557542679883,
+        0.014443858908171443
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.022587257198334036,
+        0.013259145044039137,
+        0.0279207381008371
+      ],
+      "shape": "ELONGATED"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215896,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.025078521421024045,
+        0.013259145044039137,
+        0.03165172532007514
+      ],
+      "shape": "MIRRORED"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039135,
+        0.019515475618913387,
+        0.013259145044039135,
+        0.019524555629912007
+      ],
+      "matched_preparation": "identical EMX049 packet and zero source history",
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039135,
+        0.02497515323664395,
+        0.013259145044039135,
+        0.03165365204871622
+      ],
+      "shape": "SPLIT"
+    }
+  ],
+  "internal_cells": [
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "finite_rest",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "positive_energy",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "forward_reverse",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "conservation",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS",
+      "value": 0.002668824750964143
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "refinement",
+      "classification": "FAILS_VALIDATED_REFINEMENT",
+      "value": 5.923172633136298e-05
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "virtual_work",
+      "classification": "FAILS_VALIDATED_VIRTUAL_WORK",
+      "value": 0.5160435034291941
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "zero_source",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "parity",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "normalization",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "source_sign",
+      "classification": "INSUFFICIENT_TO_DISTINGUISH"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "spatial_transport",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "cell": "EMX052_held_out_elongated",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS",
+      "value": 0.002153231475726758
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "finite_rest",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "positive_energy",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "forward_reverse",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "conservation",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS",
+      "value": 0.002751755637501073
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "refinement",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS",
+      "value": 3.5569598257644e-05
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "virtual_work",
+      "classification": "FAILS_VALIDATED_VIRTUAL_WORK",
+      "value": 0.5107288059943448
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "zero_source",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "parity",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "normalization",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "source_sign",
+      "classification": "INSUFFICIENT_TO_DISTINGUISH"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "spatial_transport",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "cell": "EMX052_held_out_elongated",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS",
+      "value": 0.0022333564153217077
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "finite_rest",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "positive_energy",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "forward_reverse",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "conservation",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS",
+      "value": 0.002668824750964143
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "refinement",
+      "classification": "FAILS_VALIDATED_REFINEMENT",
+      "value": 5.923172633136298e-05
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "virtual_work",
+      "classification": "FAILS_VALIDATED_VIRTUAL_WORK",
+      "value": 0.516043503831533
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "zero_source",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "parity",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "normalization",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "source_sign",
+      "classification": "INSUFFICIENT_TO_DISTINGUISH"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "spatial_transport",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS"
+    },
+    {
+      "candidate": "GEOMETRY_DIRECTED_WORK",
+      "cell": "EMX052_held_out_elongated",
+      "classification": "PASSES_VALIDATED_INTERNAL_CONTROLS",
+      "value": 0.002153231475726758
+    }
+  ],
+  "internal_control_survivors": []
+}
