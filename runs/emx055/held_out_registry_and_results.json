@@ -1,0 +1,623 @@
+{
+  "records": [
+    {
+      "balance_residual": 0.0,
+      "battery": "CLOSED_CYCLE_WORK",
+      "bond_force_sum": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "cell": "CYCLIC_RETURN",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025449491812489306,
+        0.013259145044039137,
+        0.032345749918580476
+      ],
+      "work": 0.00028271798872694346
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "CLOSED_CYCLE_WORK",
+      "bond_force_sum": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "cell": "CYCLIC_RETURN",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025449491812489306,
+        0.013259145044039137,
+        0.032345749918580476
+      ],
+      "work": 0.00028271798872694346
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "CLOSED_CYCLE_WORK",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "CYCLIC_RETURN",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448063623248692,
+        0.013259145044039137,
+        0.03234865236498742
+      ],
+      "work": 0.00028266724935419724
+    },
+    {
+      "battery": "CLOSED_CYCLE_WORK",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "CYCLIC_RETURN_bond",
+      "classification": "PASSES_HELD_OUT_CONTROLS"
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "DIRECTED_GEOMETRY",
+      "bond_force_sum": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "cell": "ORIENTATION_REVERSED_LOOP",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.02544832912256167,
+        0.013259145044039137,
+        0.03233001360252383
+      ],
+      "work": 0.00028269531664484334
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "DIRECTED_GEOMETRY",
+      "bond_force_sum": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "cell": "ORIENTATION_REVERSED_LOOP",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.02544832912256167,
+        0.013259145044039137,
+        0.03233001360252383
+      ],
+      "work": 0.00028269531664484334
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "DIRECTED_GEOMETRY",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "ORIENTATION_REVERSED_LOOP",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.02544836900894863,
+        0.013259145044039137,
+        0.032329847068818814
+      ],
+      "work": 0.00028269604449880653
+    },
+    {
+      "battery": "DIRECTED_GEOMETRY",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "ORIENTATION_REVERSED_LOOP_bond",
+      "classification": "PASSES_HELD_OUT_CONTROLS"
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "DIRECTED_GEOMETRY",
+      "bond_force_sum": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "cell": "DEGREE_PRESERVED_REWIRE",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.02544832912256167,
+        0.013259145044039137,
+        0.03233001360252383
+      ],
+      "work": 0.00028269531664484334
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "DIRECTED_GEOMETRY",
+      "bond_force_sum": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "cell": "DEGREE_PRESERVED_REWIRE",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.02544832912256167,
+        0.013259145044039137,
+        0.03233001360252383
+      ],
+      "work": 0.00028269531664484334
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "DIRECTED_GEOMETRY",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "DEGREE_PRESERVED_REWIRE",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.02544836900894863,
+        0.013259145044039137,
+        0.032329847068818814
+      ],
+      "work": 0.00028269604449880653
+    },
+    {
+      "battery": "DIRECTED_GEOMETRY",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "DEGREE_PRESERVED_REWIRE_bond",
+      "classification": "PASSES_HELD_OUT_CONTROLS"
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "DIRECTED_GEOMETRY",
+      "bond_force_sum": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "cell": "PARITY_REFLECTION",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448517976578506,
+        0.013259145044039137,
+        0.03233025916390009
+      ],
+      "work": 0.00028269787848471883
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "DIRECTED_GEOMETRY",
+      "bond_force_sum": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "cell": "PARITY_REFLECTION",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448517976578506,
+        0.013259145044039137,
+        0.03233025916390009
+      ],
+      "work": 0.00028269787848471883
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "DIRECTED_GEOMETRY",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "PARITY_REFLECTION",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448590606441793,
+        0.013259145044039137,
+        0.032331348261100984
+      ],
+      "work": 0.0002826967359249907
+    },
+    {
+      "battery": "DIRECTED_GEOMETRY",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "PARITY_REFLECTION_bond",
+      "classification": "PASSES_HELD_OUT_CONTROLS"
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "SPATIAL_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "cell": "LOCALIZED",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.02544849701680519,
+        0.013259145044039137,
+        0.03232853447834314
+      ],
+      "work": 0.00028268514310194145
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "SPATIAL_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "cell": "LOCALIZED",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.02544849701680519,
+        0.013259145044039137,
+        0.03232853447834314
+      ],
+      "work": 0.00028268514310194145
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "SPATIAL_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "LOCALIZED",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448569646728304,
+        0.013259145044039137,
+        0.03232962363364402
+      ],
+      "work": 0.00028268400054221255
+    },
+    {
+      "battery": "SPATIAL_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "LOCALIZED_bond",
+      "classification": "PASSES_HELD_OUT_CONTROLS"
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "SPATIAL_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "cell": "DISTRIBUTED",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448347456763203,
+        0.013259145044039137,
+        0.032327903636192305
+      ],
+      "work": 0.0002826909933886458
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "SPATIAL_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "cell": "DISTRIBUTED",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448347456763203,
+        0.013259145044039137,
+        0.032327903636192305
+      ],
+      "work": 0.0002826909933886458
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "SPATIAL_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "DISTRIBUTED",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448179170884565,
+        0.013259145044039137,
+        0.03232924321999415
+      ],
+      "work": 0.0002826945524806677
+    },
+    {
+      "battery": "SPATIAL_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "DISTRIBUTED_bond",
+      "classification": "PASSES_HELD_OUT_CONTROLS"
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "SPATIAL_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "cell": "TWO_SEPARATED",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.0254485813590646,
+        0.013259145044039137,
+        0.03232914137080856
+      ],
+      "work": 0.0002826899337354411
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "SPATIAL_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "cell": "TWO_SEPARATED",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.0254485813590646,
+        0.013259145044039137,
+        0.03232914137080856
+      ],
+      "work": 0.0002826899337354411
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "SPATIAL_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "TWO_SEPARATED",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448767326057223,
+        0.013259145044039137,
+        0.032329891615656366
+      ],
+      "work": 0.00028269076497888215
+    },
+    {
+      "battery": "SPATIAL_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "TWO_SEPARATED_bond",
+      "classification": "PASSES_HELD_OUT_CONTROLS"
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "SPATIAL_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "cell": "EXCHANGE_LOCATIONS",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.0254485813590646,
+        0.013259145044039137,
+        0.03232914137080856
+      ],
+      "work": 0.0002826899337354411
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "SPATIAL_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "cell": "EXCHANGE_LOCATIONS",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.0254485813590646,
+        0.013259145044039137,
+        0.03232914137080856
+      ],
+      "work": 0.0002826899337354411
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "SPATIAL_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "EXCHANGE_LOCATIONS",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448767326057223,
+        0.013259145044039137,
+        0.032329891615656366
+      ],
+      "work": 0.00028269076497888215
+    },
+    {
+      "battery": "SPATIAL_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "EXCHANGE_LOCATIONS_bond",
+      "classification": "PASSES_HELD_OUT_CONTROLS"
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "TIME_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "cell": "DOUBLE_SEPARATED",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025435891228951815,
+        0.013259145044039137,
+        0.03232853447834314
+      ],
+      "work": 0.00028218133948463436
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "TIME_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "cell": "DOUBLE_SEPARATED",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025435891228951815,
+        0.013259145044039137,
+        0.03232853447834314
+      ],
+      "work": 0.00028218133948463436
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "TIME_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "DOUBLE_SEPARATED",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.02543578749825743,
+        0.013259145044039137,
+        0.03232962363364402
+      ],
+      "work": 0.0002821542753317179
+    },
+    {
+      "battery": "TIME_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "DOUBLE_SEPARATED_bond",
+      "classification": "PASSES_HELD_OUT_CONTROLS"
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "TIME_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "cell": "DOUBLE_ORDER_REVERSED",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025461105986901024,
+        0.013259145044039137,
+        0.03232853447834314
+      ],
+      "work": 0.0002831893251649477
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "TIME_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "cell": "DOUBLE_ORDER_REVERSED",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025461105986901024,
+        0.013259145044039137,
+        0.03232853447834314
+      ],
+      "work": 0.0002831893251649477
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "TIME_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "DOUBLE_ORDER_REVERSED",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025461363505408324,
+        0.013259145044039137,
+        0.03232962363364402
+      ],
+      "work": 0.0002832145098107675
+    },
+    {
+      "battery": "TIME_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "DOUBLE_ORDER_REVERSED_bond",
+      "classification": "PASSES_HELD_OUT_CONTROLS"
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "TIME_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "cell": "RAMP_HOLD_RELEASE",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025293960814586812,
+        0.013259145044039137,
+        0.03226474110663313
+      ],
+      "work": 0.00027707883557254686
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "TIME_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "cell": "RAMP_HOLD_RELEASE",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025293960814586812,
+        0.013259145044039137,
+        0.03226474110663313
+      ],
+      "work": 0.00027707883557254686
+    },
+    {
+      "balance_residual": 0.0,
+      "battery": "TIME_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "RAMP_HOLD_RELEASE",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "observer_vector": [
+        0.013259145044039137,
+        0.025443779273206554,
+        0.013259145044039137,
+        0.03233630213351357
+      ],
+      "work": 0.0002827016469620078
+    },
+    {
+      "battery": "TIME_SUPPORT",
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "RAMP_HOLD_RELEASE_bond",
+      "classification": "PASSES_HELD_OUT_CONTROLS"
+    },
+    {
+      "battery": "COMMON",
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "cell": "source_free_reversal",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "value": 8.998878031629687e-18
+    },
+    {
+      "battery": "COMMON",
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "cell": "refinement",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "value": 4.392095671753096e-05
+    },
+    {
+      "battery": "COMMON",
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "cell": "source_free_reversal",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "value": 8.998878031629687e-18
+    },
+    {
+      "battery": "COMMON",
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "cell": "refinement",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "value": 4.392095671753096e-05
+    },
+    {
+      "battery": "COMMON",
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "source_free_reversal",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "value": 8.998878031629687e-18
+    },
+    {
+      "battery": "COMMON",
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "cell": "refinement",
+      "classification": "PASSES_HELD_OUT_CONTROLS",
+      "value": 4.413860284832247e-05
+    }
+  ],
+  "remaining_survivors": [
+    "CONSERVATIVE_SOURCE_POTENTIAL",
+    "DISCRETE_PORT_WORK_PAIRING",
+    "GEOMETRY_COVARIANT_BOND_WORK"
+  ]
+}

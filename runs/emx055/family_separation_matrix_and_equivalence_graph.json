@@ -1,0 +1,124 @@
+{
+  "edges": [
+    {
+      "cell": "CYCLIC_RETURN",
+      "classification": "COMPATIBLE_NONUNIQUE",
+      "pair": "POTENTIAL__PORT"
+    },
+    {
+      "cell": "CYCLIC_RETURN",
+      "classification": "DIFFERENTIATES_SOURCE_WORK_FAMILIES",
+      "pair": "POTENTIAL__BOND"
+    },
+    {
+      "cell": "ORIENTATION_REVERSED_LOOP",
+      "classification": "COMPATIBLE_NONUNIQUE",
+      "pair": "POTENTIAL__PORT"
+    },
+    {
+      "cell": "ORIENTATION_REVERSED_LOOP",
+      "classification": "DIFFERENTIATES_SOURCE_WORK_FAMILIES",
+      "pair": "POTENTIAL__BOND"
+    },
+    {
+      "cell": "DEGREE_PRESERVED_REWIRE",
+      "classification": "COMPATIBLE_NONUNIQUE",
+      "pair": "POTENTIAL__PORT"
+    },
+    {
+      "cell": "DEGREE_PRESERVED_REWIRE",
+      "classification": "DIFFERENTIATES_SOURCE_WORK_FAMILIES",
+      "pair": "POTENTIAL__BOND"
+    },
+    {
+      "cell": "PARITY_REFLECTION",
+      "classification": "COMPATIBLE_NONUNIQUE",
+      "pair": "POTENTIAL__PORT"
+    },
+    {
+      "cell": "PARITY_REFLECTION",
+      "classification": "DIFFERENTIATES_SOURCE_WORK_FAMILIES",
+      "pair": "POTENTIAL__BOND"
+    },
+    {
+      "cell": "LOCALIZED",
+      "classification": "COMPATIBLE_NONUNIQUE",
+      "pair": "POTENTIAL__PORT"
+    },
+    {
+      "cell": "LOCALIZED",
+      "classification": "DIFFERENTIATES_SOURCE_WORK_FAMILIES",
+      "pair": "POTENTIAL__BOND"
+    },
+    {
+      "cell": "DISTRIBUTED",
+      "classification": "COMPATIBLE_NONUNIQUE",
+      "pair": "POTENTIAL__PORT"
+    },
+    {
+      "cell": "DISTRIBUTED",
+      "classification": "DIFFERENTIATES_SOURCE_WORK_FAMILIES",
+      "pair": "POTENTIAL__BOND"
+    },
+    {
+      "cell": "TWO_SEPARATED",
+      "classification": "COMPATIBLE_NONUNIQUE",
+      "pair": "POTENTIAL__PORT"
+    },
+    {
+      "cell": "TWO_SEPARATED",
+      "classification": "DIFFERENTIATES_SOURCE_WORK_FAMILIES",
+      "pair": "POTENTIAL__BOND"
+    },
+    {
+      "cell": "EXCHANGE_LOCATIONS",
+      "classification": "COMPATIBLE_NONUNIQUE",
+      "pair": "POTENTIAL__PORT"
+    },
+    {
+      "cell": "EXCHANGE_LOCATIONS",
+      "classification": "DIFFERENTIATES_SOURCE_WORK_FAMILIES",
+      "pair": "POTENTIAL__BOND"
+    },
+    {
+      "cell": "DOUBLE_SEPARATED",
+      "classification": "COMPATIBLE_NONUNIQUE",
+      "pair": "POTENTIAL__PORT"
+    },
+    {
+      "cell": "DOUBLE_SEPARATED",
+      "classification": "DIFFERENTIATES_SOURCE_WORK_FAMILIES",
+      "pair": "POTENTIAL__BOND"
+    },
+    {
+      "cell": "DOUBLE_ORDER_REVERSED",
+      "classification": "COMPATIBLE_NONUNIQUE",
+      "pair": "POTENTIAL__PORT"
+    },
+    {
+      "cell": "DOUBLE_ORDER_REVERSED",
+      "classification": "DIFFERENTIATES_SOURCE_WORK_FAMILIES",
+      "pair": "POTENTIAL__BOND"
+    },
+    {
+      "cell": "RAMP_HOLD_RELEASE",
+      "classification": "COMPATIBLE_NONUNIQUE",
+      "pair": "POTENTIAL__PORT"
+    },
+    {
+      "cell": "RAMP_HOLD_RELEASE",
+      "classification": "DIFFERENTIATES_SOURCE_WORK_FAMILIES",
+      "pair": "POTENTIAL__BOND"
+    }
+  ],
+  "equivalence_groups": [
+    {
+      "basis": "all held-out observer vectors equal within 1e-12",
+      "members": [
+        "CONSERVATIVE_SOURCE_POTENTIAL",
+        "DISCRETE_PORT_WORK_PAIRING"
+      ]
+    }
+  ],
+  "no_physical_equivalence_claim": true
+}

@@ -1,0 +1,83 @@
+{
+  "EMX055_SELECTOR": "HELD_OUT_SOURCE_WORK_SURVIVOR_DISCRIMINATOR",
+  "FROZEN_BEFORE_RESULTS": true,
+  "batteries": {
+    "CLOSED_CYCLE_WORK": [
+      "CYCLIC_RETURN"
+    ],
+    "DIRECTED_GEOMETRY": [
+      "ORIENTATION_REVERSED_LOOP",
+      "DEGREE_PRESERVED_REWIRE",
+      "PARITY_REFLECTION"
+    ],
+    "SPATIAL_SUPPORT": [
+      "LOCALIZED",
+      "DISTRIBUTED",
+      "TWO_SEPARATED",
+      "EXCHANGE_LOCATIONS"
+    ],
+    "TIME_SUPPORT": [
+      "DOUBLE_SEPARATED",
+      "DOUBLE_ORDER_REVERSED",
+      "RAMP_HOLD_RELEASE"
+    ]
+  },
+  "classification_vocabulary": [
+    "PASSES_HELD_OUT_CONTROLS",
+    "DIFFERENTIATES_SOURCE_WORK_FAMILIES",
+    "COMPATIBLE_NONUNIQUE",
+    "FAILS_HELD_OUT_WORK_BALANCE",
+    "FAILS_HELD_OUT_REVERSAL",
+    "FAILS_HELD_OUT_REFINEMENT",
+    "FAILS_HELD_OUT_BOND_ACCOUNTING",
+    "INSUFFICIENT_TO_DISTINGUISH",
+    "UNAVAILABLE_PROVENANCE"
+  ],
+  "contract_sha256": "4f585f1917a9ec7c347e3e5ceab57d56a13e7e0838203434c21f547dbf78c6bb",
+  "input_sha256": {
+    "runs/emx054/control_results_registry.json": "50b39a301f177dc782adfa83e10dd87f0b997b20487092a2c134c9ba4ccdcb11",
+    "runs/emx054/frozen_source_work_construction_contract.json": "0b6fb97b08f76038e7c9a702bba772721b63aa5186bee7c747b733aa9e52ff76",
+    "runs/emx054/law_hash_ledger.json": "ae303bd97ff491ad76993cc7ccdd45746e250c5d952e24078e5ae9fb097912db",
+    "tools/emx051_finite_closure_candidates.py": "1591602c4c81377fc5ecef534e8a2f5a69efe6ec3072f6927be58cfe3f209d9a",
+    "tools/run_emx054_source_work_construction_search.py": "0fe866f42e224a88e6128eba99a57dfa5428e50e48243f9b04635a0496f0b4f1"
+  },
+  "ladders": {
+    "dt": [
+      0.04,
+      0.02
+    ],
+    "duration": [
+      7.2,
+      14.4
+    ],
+    "held_out": "all listed cells absent from EMX054 registry"
+  },
+  "metrics": {
+    "bond": "net applied directed-bond force and pair antisymmetry",
+    "observer": "EMX041_NATIVE_PERTURBATION_L2_FOUR_SUMMARY_V1 diagnostic only",
+    "tolerances": {
+      "balance": 1e-12,
+      "bond": 1e-15,
+      "conservation": 0.003,
+      "refinement": 5e-05,
+      "reversal": 1e-12
+    },
+    "work": "exact half-kick cumulative source work/reservoir ledger"
+  },
+  "prohibitions": {
+    "NO_DESTRUCTIVE_OPERATIONS": true,
+    "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+    "NO_EXTERNAL_CODE": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_HIDDEN_OR_RESULT_SELECTED_CHOICES": true,
+    "NO_PRIOR_RECLASSIFICATION": true
+  },
+  "provenance": "EMX055 preserves EMX054 survivors as explicit source-work hypotheses only; no pass establishes physical validity, derivation, or historical provenance.",
+  "source_recipes": "All histories are deterministic fixed-amplitude (0.001), equal-norm normalized local fields on EMX049 11^3 periodic N6 geometry; schedules are fixed at steps [0,20], [20,0], ramp 0..9/hold 10..29/release 30..39, spatial sites (6,5,5)/(8,5,5), and cycle [0,+],[10,-],[20,+],[30,-].",
+  "survivors": [
+    "CONSERVATIVE_SOURCE_POTENTIAL",
+    "DISCRETE_PORT_WORK_PAIRING",
+    "GEOMETRY_COVARIANT_BOND_WORK"
+  ]
+}

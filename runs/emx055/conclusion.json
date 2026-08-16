@@ -1,0 +1,19 @@
+{
+  "conclusion": "Held-out control passage preserves explicit hypotheses only.",
+  "counts": {
+    "COMPATIBLE_NONUNIQUE": 11,
+    "DIFFERENTIATES_SOURCE_WORK_FAMILIES": 11,
+    "FAILS_HELD_OUT_BOND_ACCOUNTING": 0,
+    "FAILS_HELD_OUT_REFINEMENT": 0,
+    "FAILS_HELD_OUT_REVERSAL": 0,
+    "FAILS_HELD_OUT_WORK_BALANCE": 0,
+    "INSUFFICIENT_TO_DISTINGUISH": 0,
+    "PASSES_HELD_OUT_CONTROLS": 50,
+    "UNAVAILABLE_PROVENANCE": 0
+  },
+  "remaining_survivors": [
+    "CONSERVATIVE_SOURCE_POTENTIAL",
+    "DISCRETE_PORT_WORK_PAIRING",
+    "GEOMETRY_COVARIANT_BOND_WORK"
+  ]
+}
