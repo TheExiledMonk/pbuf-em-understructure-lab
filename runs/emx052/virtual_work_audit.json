@@ -1,0 +1,28 @@
+{
+  "controls": [
+    {
+      "classification": "VALIDATED",
+      "control": "zero_source",
+      "force_free_work_residual": 0.0
+    },
+    {
+      "classification": "VALIDATED",
+      "control": "one_step_impulse",
+      "force_free_work_residual": 0.0
+    },
+    {
+      "classification": "VALIDATED",
+      "control": "finite_source_history_cumulative_half_kick_work",
+      "force_free_work_residual": 0.0
+    },
+    {
+      "classification": "VALIDATED",
+      "control": "conservative_source_potential",
+      "note": "fixed-source potential is defined in the contract; work supports are identical by construction.",
+      "source_free_energy_drift": 1.407577623950009e-06
+    }
+  ],
+  "corrected_gate_status": "VALIDATED",
+  "old_gate_status": "INVALID_ACCOUNTING_COMPARISON",
+  "reason": "EMX051 compared a full-run energy change to one-step work with different temporal support."
+}

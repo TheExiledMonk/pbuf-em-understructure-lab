@@ -1,0 +1,84 @@
+{
+  "calibrated_relative_drift_tolerance": 0.003,
+  "convergence_verified": true,
+  "held_out_drifts": [
+    0.002153231475726758,
+    0.0022333564153217077
+  ],
+  "ladder": [
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "dt": 0.08,
+      "duration": 7.2,
+      "relative_drift": 0.010672280239946548
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "dt": 0.04,
+      "duration": 7.2,
+      "relative_drift": 0.002668824750964143
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "dt": 0.02,
+      "duration": 7.2,
+      "relative_drift": 0.0006672514631883936
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "dt": 0.08,
+      "duration": 14.4,
+      "relative_drift": 0.010672280239946548
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "dt": 0.04,
+      "duration": 14.4,
+      "relative_drift": 0.002668824750964143
+    },
+    {
+      "candidate": "CONSERVATIVE_ELASTIC",
+      "dt": 0.02,
+      "duration": 14.4,
+      "relative_drift": 0.0006672514631883936
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "dt": 0.08,
+      "duration": 7.2,
+      "relative_drift": 0.01100275921506905
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "dt": 0.04,
+      "duration": 7.2,
+      "relative_drift": 0.002751755637501073
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "dt": 0.02,
+      "duration": 7.2,
+      "relative_drift": 0.0006880033584428573
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "dt": 0.08,
+      "duration": 14.4,
+      "relative_drift": 0.01100275921506905
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "dt": 0.04,
+      "duration": 14.4,
+      "relative_drift": 0.002751755637501073
+    },
+    {
+      "candidate": "SYMPLECTIC_PAIRED_STATE",
+      "dt": 0.02,
+      "duration": 14.4,
+      "relative_drift": 0.0006880033584428573
+    }
+  ],
+  "old_threshold_status": "TOO_STRICT_FOR_IMPLEMENTATION",
+  "representation_check": "Canonical quadratic energy is fixed for every row; no law or metric changes after results."
+}

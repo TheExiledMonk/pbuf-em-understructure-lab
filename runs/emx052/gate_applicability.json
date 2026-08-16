@@ -1,0 +1,5 @@
+{
+  "barred_from_rejection_until_corrected_rerun": true,
+  "corrected_gates_validated": true,
+  "emx051_failures_retained_as_numerical_observations": true
+}

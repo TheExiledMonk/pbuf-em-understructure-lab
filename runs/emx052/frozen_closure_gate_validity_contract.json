@@ -1,0 +1,69 @@
+{
+  "EMX052_SELECTOR": "CLOSURE_GATE_VALIDITY_AND_CALIBRATION_AUDIT",
+  "FROZEN_BEFORE_RESULTS": true,
+  "candidate_laws": [
+    "CONSERVATIVE_ELASTIC",
+    "SYMPLECTIC_PAIRED_STATE",
+    "GEOMETRY_DIRECTED_WORK"
+  ],
+  "classification_vocabulary": [
+    "VALIDATED",
+    "INVALID_ACCOUNTING_COMPARISON",
+    "UNDERDETERMINED",
+    "UNCALIBRATED",
+    "TOO_STRICT_FOR_IMPLEMENTATION",
+    "TOO_WEAK"
+  ],
+  "contract_sha256": "d81ee24d7e95c9477fd9f1c724b533b7ee899c3f5973bb3e0cc47c114e2fee03",
+  "controls": {
+    "conservation": [
+      "CONSERVATIVE_ELASTIC",
+      "SYMPLECTIC_PAIRED_STATE"
+    ],
+    "representation": "fixed canonical quadratic energy, no mutable implementation choice",
+    "work": [
+      "zero_source",
+      "one_step_impulse",
+      "finite_source_history_cumulative_half_kick_work",
+      "conservative_source_potential"
+    ]
+  },
+  "decision_rules": {
+    "conservation": "calibrated tolerance is the smallest 1e-3 multiple >= 1.25 times held-out dt=.04 drift; old threshold status uses that fixed value",
+    "convergence": "dt=.04 drift must be <= dt=.08 drift and dt=.02 drift <= dt=.04 drift for every frozen conservative control",
+    "work": "VALIDATED only if all force-free work residuals <= 1e-14 and conservative-potential drift is no greater than matching source-free drift plus 1e-12"
+  },
+  "energy_identity": "For force-free controls Delta K equals cumulative half-kick work exactly; for harmonic controls residual after cumulative source work is compared against the matching source-free integrator drift, never against one-step work alone.",
+  "input_sha256": {
+    "runs/emx051/frozen_finite_closure_candidate_contract.json": "26181eaa735cb0e9268bfb04c6ea9f2e54c6c68e9cfbad3ac5cfbc4f60e0ed72",
+    "runs/emx051/law_source_hash_ledger.json": "b748df6582e02431225e6e006c042b07ebc9db8363231f8f35aa338a2da8d4d7",
+    "runs/emx051/staged_cell_results.json": "9eca1d7700d88a4c4561a71c01de43ac1cec1c592362a79e452d33e691ae4295",
+    "tools/emx051_finite_closure_candidates.py": "1591602c4c81377fc5ecef534e8a2f5a69efe6ec3072f6927be58cfe3f209d9a",
+    "tools/run_emx051_finite_closure_candidate_search.py": "5dc31f9189162e28f987d40e4d9d6d7da0b43f20afca966400db24bd2193b593"
+  },
+  "ladder": {
+    "dt": [
+      0.08,
+      0.04,
+      0.02
+    ],
+    "durations": [
+      7.2,
+      14.4
+    ],
+    "held_out": "ELONGATED source-free at dt=.04 duration=14.4"
+  },
+  "old_gates": {
+    "conservation_relative_drift": 1e-05,
+    "virtual_work": "abs(full-run energy change minus one-step work)/abs(one-step work) <= 1e-5"
+  },
+  "prohibitions": {
+    "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+    "NO_EXTERNAL_CODE": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_HIDDEN_OR_RESULT_SELECTED_CHOICES": true,
+    "NO_PRIOR_CLASSIFICATION_CHANGES": true
+  },
+  "work_definition": "At every source half-kick p->p+(dt/2)S, discrete work is K(p_after)-K(p_before). Cumulative work sums every source half-kick on exactly the executed temporal support. A fixed source potential is included as -S dot u in total energy."
+}

@@ -1,0 +1,7 @@
+{
+  "EMX053_SELECTOR": "CORRECTED_CLOSURE_CANDIDATE_RERUN",
+  "FROZEN_FROM_EMX052": true,
+  "conservation_relative_drift_tolerance": 0.003,
+  "required_retain": "EMX051 observations preserved; no prior classification overwritten",
+  "virtual_work_gate": "cumulative half-kick work with identical temporal support"
+}
