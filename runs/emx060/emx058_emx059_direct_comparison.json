@@ -1,0 +1,26 @@
+{
+  "artifact_sha256": "01cde83bd195c2c2fa4fd977bd87ebf3e99d5ed29546cf3b69aa34a8ee909635",
+  "emx059_contradictions_preserved": true,
+  "no_old_results_relabelled": true,
+  "prior_labels_preserved_verbatim": true,
+  "records": [
+    {
+      "does_close_without_relabeling_EMX059": true,
+      "functional": "LOCAL_PINNING_PATTERN",
+      "rearrangement_ledger": "SUPPORTED_IN_SCOPE",
+      "reason": "EMX060 has no external source-work family primitive to map to EMX058/059; their labels remain retained, not compared by equivalence.",
+      "source_work_family_distinction": "UNDEFINED_PRIMITIVE_BOUNDARY",
+      "wake_change_vs_no_coupling": -5.6485626588031676e-05,
+      "wake_status": "DISTINCT_OBSERVABLE_BEHAVIOR"
+    },
+    {
+      "does_close_without_relabeling_EMX059": true,
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "rearrangement_ledger": "SUPPORTED_IN_SCOPE",
+      "reason": "EMX060 has no external source-work family primitive to map to EMX058/059; their labels remain retained, not compared by equivalence.",
+      "source_work_family_distinction": "UNDEFINED_PRIMITIVE_BOUNDARY",
+      "wake_change_vs_no_coupling": -7.132426606584405e-05,
+      "wake_status": "DISTINCT_OBSERVABLE_BEHAVIOR"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "ALL_GATES_NON_BLOCKING": true,
+  "COUNTS": {
+    "CONTRADICTED_IN_SCOPE": 0,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 20,
+    "NOT_ASSESSED": 0,
+    "SUPPORTED_IN_SCOPE": 20,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 2
+  },
+  "EMX055_TO_EMX059_EVIDENCE_AND_LABELS_PRESERVED": true,
+  "EMX059_CONTRADICTIONS_PRESERVED": true,
+  "EMX060_RESULT": "ONE_MEDIUM_INTERNAL_INTERACTION_FUNCTIONAL_BRIDGE_COMPLETE",
+  "NEXT_BOUNDARY": "Whether a localized configuration distinction and its prescribed admissible histories should receive an independently defined physical primitive remains undefined; no physical validity or universal-arrow claim follows.",
+  "NO_DESTRUCTIVE_ACTION": true,
+  "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+  "NO_EXTERNAL_CODE_OR_ACTION": true,
+  "NO_E_B_QED_MAPPING": true,
+  "NO_FITTING_OR_RESELECTION": true,
+  "NO_PHYSICAL_VALIDITY_CLAIM": true,
+  "NO_UNIVERSAL_ARROW_CLAIM": true,
+  "artifact_sha256": "ee03e4358f79e8d7a67555683234759471c47234635a9a31023565437175edfa"
+}

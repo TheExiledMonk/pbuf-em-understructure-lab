@@ -1,0 +1,864 @@
+{
+  "all_outcomes_retained": true,
+  "artifact_sha256": "8254308b0ee4fbbc16ace17481a52f0b045cf3fd612ecda2956508821799e8bb",
+  "counts": {
+    "CONTRADICTED_IN_SCOPE": 0,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 20,
+    "NOT_ASSESSED": 0,
+    "SUPPORTED_IN_SCOPE": 20,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 2
+  },
+  "discrete_action_symmetry": "For periodic cells A_elastic and each A_int are invariant under lattice translation of (u,m); stated ledger closure is exact discrete partition identity, not assumed conservation.",
+  "no_external_source_object_or_path": true,
+  "primitive": "One complete medium state q=(u,p,m,mu); m is a localized configuration distinction within q.",
+  "prior_final_contracts_retained_verbatim": {
+    "EMX055": {
+      "COUNTS": {
+        "COMPATIBLE_NONUNIQUE": 11,
+        "DIFFERENTIATES_SOURCE_WORK_FAMILIES": 11,
+        "FAILS_HELD_OUT_BOND_ACCOUNTING": 0,
+        "FAILS_HELD_OUT_REFINEMENT": 0,
+        "FAILS_HELD_OUT_REVERSAL": 0,
+        "FAILS_HELD_OUT_WORK_BALANCE": 0,
+        "INSUFFICIENT_TO_DISTINGUISH": 0,
+        "PASSES_HELD_OUT_CONTROLS": 50,
+        "UNAVAILABLE_PROVENANCE": 0
+      },
+      "EMX055_RESULT": "HELD_OUT_SOURCE_WORK_SURVIVOR_DISCRIMINATOR_COMPLETE",
+      "NEXT_BOUNDARY": "Any further distinction requires a separately frozen primitive; numerical equivalence is not physical equivalence.",
+      "NEXT_SELECTOR": "SOURCE_WORK_EQUIVALENCE_REFINEMENT_OR_NEW_PRIMITIVE_BOUNDARY",
+      "NO_DESTRUCTIVE_OPERATIONS": true,
+      "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+      "NO_EXTERNAL_CODE": true,
+      "NO_E_B_QED_MAPPING": true,
+      "NO_FITTING": true,
+      "NO_HIDDEN_OR_RESULT_SELECTED_CHOICES": true,
+      "NO_PRIOR_RECLASSIFICATION": true,
+      "REMAINING_SURVIVORS": [
+        "CONSERVATIVE_SOURCE_POTENTIAL",
+        "DISCRETE_PORT_WORK_PAIRING",
+        "GEOMETRY_COVARIANT_BOND_WORK"
+      ]
+    },
+    "EMX056": {
+      "ALL_GATES_NON_BLOCKING": true,
+      "COUNTS": {
+        "CONTRADICTED_IN_SCOPE": 0,
+        "DISTINCT_OBSERVABLE_BEHAVIOR": 6,
+        "NOT_ASSESSED": 10,
+        "SUPPORTED_IN_SCOPE": 49,
+        "UNDEFINED_PRIMITIVE_BOUNDARY": 2
+      },
+      "EMX056_RESULT": "PBUF_ELASTICITY_AND_EMISSION_WIDE_NET_COMPLETE",
+      "NEXT_BOUNDARY": "A unique native action/clock/constraint primitive remains undefined; it does not negate any retained A/B/C observation.",
+      "NEXT_SELECTOR": "NATIVE_DEGREE_ONE_REPARAMETERIZATION_INVARIANT_ACTION_PRIMITIVE_BOUNDARY",
+      "NO_DESTRUCTIVE_OPERATIONS": true,
+      "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+      "NO_EXTERNAL_CODE_OR_CREDENTIALS_OR_SPENDING": true,
+      "NO_E_B_QED_MAPPING": true,
+      "NO_FITTING_OR_RESELECTION": true,
+      "PRESERVE_EMX010_055": true
+    },
+    "EMX057": {
+      "ALL_GATES_NON_BLOCKING": true,
+      "COUNTS": {
+        "CONTRADICTED_IN_SCOPE": 0,
+        "DISTINCT_OBSERVABLE_BEHAVIOR": 12,
+        "NOT_ASSESSED": 0,
+        "SUPPORTED_IN_SCOPE": 32,
+        "UNDEFINED_PRIMITIVE_BOUNDARY": 3
+      },
+      "EMX057_RESULT": "GLOBAL_STATE_ORIENTATION_AND_PROPAGATION_RECORDS_COMPLETE",
+      "NEXT_BOUNDARY": "A global/unbounded reversal, a physical clock, and a universal arrow remain undefined primitives; finite controls are retained.",
+      "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+      "NO_EXTERNAL_OR_DESTRUCTIVE_ACTIONS": true,
+      "NO_E_B_QED_MAPPING": true,
+      "NO_FITTING_OR_RESELECTION": true,
+      "NO_UNIVERSAL_ARROW_FROM_BOUNDARY_CONDITIONED_HISTORIES": true,
+      "artifact_sha256": "ba4a4c89fe05aa610fca104345b7ac7ade12e3ab44d4ed08cfbc1ee9417428bf"
+    },
+    "EMX058": {
+      "ALL_GATES_NON_BLOCKING": true,
+      "COUNTS": {
+        "CONTRADICTED_IN_SCOPE": 2,
+        "DISTINCT_OBSERVABLE_BEHAVIOR": 35,
+        "NOT_ASSESSED": 0,
+        "SUPPORTED_IN_SCOPE": 20,
+        "UNDEFINED_PRIMITIVE_BOUNDARY": 2
+      },
+      "EMX058_RESULT": "ELASTIC_WAKE_AND_HISTORY_RECORD_BATTERY_COMPLETE",
+      "IN_SCOPE_STATEMENTS": [
+        "Finite source-off wake observations are retained.",
+        "Finite source-work family behavior is discriminated without selection.",
+        "Wake and record observations are source-history and boundary conditioned."
+      ],
+      "LIMITS": [
+        "Prior-passage direction reconstruction is an in-scope record test only.",
+        "Dynamic exclusion of exact global reversal is an undefined primitive boundary, distinct from local finite replay.",
+        "All wake claims are finite, source-history and boundary conditioned."
+      ],
+      "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+      "NO_EXTERNAL_OR_DESTRUCTIVE_ACTION": true,
+      "NO_E_B_QED_MAPPING": true,
+      "NO_FITTING_OR_RESELECTION": true,
+      "NO_UNIVERSAL_ARROW_CLAIM": true,
+      "artifact_sha256": "546359d1c90c50d5d812cc388928a58faa6591beea67706714857e4acd9a9ad8"
+    },
+    "EMX059": {
+      "ALL_GATES_NON_BLOCKING": true,
+      "COUNTS": {
+        "CONTRADICTED_IN_SCOPE": 18,
+        "DISTINCT_OBSERVABLE_BEHAVIOR": 18,
+        "NOT_ASSESSED": 9,
+        "SUPPORTED_IN_SCOPE": 27,
+        "UNDEFINED_PRIMITIVE_BOUNDARY": 2
+      },
+      "EMX058_REARRANGING_CONTRADICTIONS_PRESERVED_NOT_RESOLVED": true,
+      "EMX059_RESULT": "REARRANGEMENT_SOURCE_WORK_CLOSURE_AND_WAKE_REPLAY_COMPLETE",
+      "NEXT_BOUNDARY": "Relate any finite accounting convention to an independently defined primitive only if such a primitive is separately supplied; no universal-arrow or physical claim follows.",
+      "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+      "NO_EXTERNAL_OR_DESTRUCTIVE_ACTION": true,
+      "NO_E_B_QED_MAPPING": true,
+      "NO_FITTING_OR_RESELECTION": true,
+      "NO_UNIVERSAL_ARROW_CLAIM": true,
+      "artifact_sha256": "7ec4d47d7188a51bb47153a738a56c7e6caf73c4a78e24c310369985a22f0092"
+    }
+  },
+  "prior_labels_reclassified": false,
+  "records": [
+    {
+      "boundary_flux": 0.0,
+      "cell": "COMPLETE_Q_INTERNAL_HISTORY_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 0.0,
+      "energy_change": 0.0,
+      "energy_final": 0.0,
+      "energy_initial": 0.0,
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "STATIONARY_PATTERN",
+      "integrator_evolution_defect": 0.0,
+      "internal_equal_opposite_transfer_residual": 0.0,
+      "kinetic_plus_elastic_change": 0.0,
+      "ledger_residual": 0.0,
+      "local_relaxation_start_end": [
+        0.0,
+        0.0
+      ],
+      "matter_pattern_reaction_impulse": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "mixed_variation_reciprocity_residual": 0.0,
+      "momentum_final": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "momentum_initial": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "momentum_ledger_residual": 0.0,
+      "pattern_work": 0.0,
+      "placement_momentum_change": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_off_wake_l2": null,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "MIXED_VARIATION_RECIPROCITY",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "STATIONARY_PATTERN",
+      "residual": 0.0
+    },
+    {
+      "boundary_flux": 0.0,
+      "cell": "COMPLETE_Q_INTERNAL_HISTORY_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 0.0,
+      "energy_change": 0.0,
+      "energy_final": 0.0,
+      "energy_initial": 0.0,
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "INTERNAL_TRANSLATION",
+      "integrator_evolution_defect": 0.0,
+      "internal_equal_opposite_transfer_residual": 0.0,
+      "kinetic_plus_elastic_change": 0.0,
+      "ledger_residual": 0.0,
+      "local_relaxation_start_end": [
+        0.0,
+        0.0
+      ],
+      "matter_pattern_reaction_impulse": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "mixed_variation_reciprocity_residual": 0.0,
+      "momentum_final": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "momentum_initial": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "momentum_ledger_residual": 0.0,
+      "pattern_work": 0.0,
+      "placement_momentum_change": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_off_wake_l2": null,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "MIXED_VARIATION_RECIPROCITY",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "INTERNAL_TRANSLATION",
+      "residual": 0.0
+    },
+    {
+      "boundary_flux": 0.0,
+      "cell": "COMPLETE_Q_INTERNAL_HISTORY_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 0.0,
+      "energy_change": 0.0,
+      "energy_final": 0.0,
+      "energy_initial": 0.0,
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "INTERNAL_REARRANGEMENT",
+      "integrator_evolution_defect": 0.0,
+      "internal_equal_opposite_transfer_residual": 0.0,
+      "kinetic_plus_elastic_change": 0.0,
+      "ledger_residual": 0.0,
+      "local_relaxation_start_end": [
+        0.0,
+        0.0
+      ],
+      "matter_pattern_reaction_impulse": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "mixed_variation_reciprocity_residual": 0.0,
+      "momentum_final": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "momentum_initial": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "momentum_ledger_residual": 0.0,
+      "pattern_work": 0.0,
+      "placement_momentum_change": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_off_wake_l2": null,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "MIXED_VARIATION_RECIPROCITY",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "INTERNAL_REARRANGEMENT",
+      "residual": 0.0
+    },
+    {
+      "boundary_flux": 0.0,
+      "cell": "COMPLETE_Q_INTERNAL_HISTORY_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.7703092349867562e-07,
+      "energy_change": -1.97812826253235e-06,
+      "energy_final": 0.0007980218717374677,
+      "energy_initial": 0.0008,
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "SOURCE_OFF_EMISSION",
+      "integrator_evolution_defect": 2.30343692971262e-07,
+      "internal_equal_opposite_transfer_residual": 0.0,
+      "kinetic_plus_elastic_change": -2.1551591860309973e-06,
+      "ledger_residual": 7.242131699024268e-20,
+      "local_relaxation_start_end": [
+        0.0008,
+        0.004080774180333179
+      ],
+      "matter_pattern_reaction_impulse": [
+        0.0007291157749085446,
+        -0.0,
+        -0.0
+      ],
+      "mixed_variation_reciprocity_residual": 0.0,
+      "momentum_final": [
+        0.03927088422509133,
+        0.0,
+        0.0
+      ],
+      "momentum_initial": [
+        0.04,
+        0.0,
+        0.0
+      ],
+      "momentum_ledger_residual": 1.2284010614260765e-16,
+      "pattern_work": -2.2084719555036845e-06,
+      "placement_momentum_change": [
+        -0.0007291157749086674,
+        0.0,
+        0.0
+      ],
+      "source_off_wake_l2": 0.014039112874660408,
+      "wake_l2": 0.014008205671617622,
+      "wake_mode_l2": 0.003037725302787325
+    },
+    {
+      "cell": "MIXED_VARIATION_RECIPROCITY",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "SOURCE_OFF_EMISSION",
+      "residual": 0.0
+    },
+    {
+      "boundary_flux": 0.0,
+      "cell": "COMPLETE_Q_INTERNAL_HISTORY_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 0.0,
+      "energy_change": 0.0,
+      "energy_final": 0.0,
+      "energy_initial": 0.0,
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "CLOSED_CYCLE",
+      "integrator_evolution_defect": 0.0,
+      "internal_equal_opposite_transfer_residual": 0.0,
+      "kinetic_plus_elastic_change": 0.0,
+      "ledger_residual": 0.0,
+      "local_relaxation_start_end": [
+        0.0,
+        0.0
+      ],
+      "matter_pattern_reaction_impulse": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "mixed_variation_reciprocity_residual": 0.0,
+      "momentum_final": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "momentum_initial": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "momentum_ledger_residual": 0.0,
+      "pattern_work": 0.0,
+      "placement_momentum_change": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_off_wake_l2": null,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "MIXED_VARIATION_RECIPROCITY",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "CLOSED_CYCLE",
+      "residual": 0.0
+    },
+    {
+      "cell": "NO_COUPLING",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "NO_COUPLING",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.014064691298205654,
+      "wake_mode_l2": 0.0030397747774353655
+    },
+    {
+      "cell": "STATIC",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "STATIC",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "ADIABATIC",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "ADIABATIC",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "CONTROLLED_REVERSAL",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "CONTROLLED_REVERSAL",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "REFLECTION_RECURRENCE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "REFLECTION_RECURRENCE",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "COVARIANCE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "COVARIANCE",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "REFINEMENT",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "REFINEMENT",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "PRELOAD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "PRELOAD",
+      "ledger_residual": 2.117582368135751e-22,
+      "retained_without_selection": true,
+      "wake_l2": 0.10930248611237707,
+      "wake_mode_l2": 0.00597365691296684
+    },
+    {
+      "cell": "FINITE_DOMAIN",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "FINITE_DOMAIN",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "SOURCE_SHAPE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "history": "SOURCE_SHAPE",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "boundary_flux": 0.0,
+      "cell": "COMPLETE_Q_INTERNAL_HISTORY_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 0.0,
+      "energy_change": 0.0,
+      "energy_final": 0.0,
+      "energy_initial": 0.0,
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "STATIONARY_PATTERN",
+      "integrator_evolution_defect": 0.0,
+      "internal_equal_opposite_transfer_residual": 0.0,
+      "kinetic_plus_elastic_change": 0.0,
+      "ledger_residual": 0.0,
+      "local_relaxation_start_end": [
+        0.0,
+        0.0
+      ],
+      "matter_pattern_reaction_impulse": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "mixed_variation_reciprocity_residual": 0.0,
+      "momentum_final": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "momentum_initial": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "momentum_ledger_residual": 0.0,
+      "pattern_work": 0.0,
+      "placement_momentum_change": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_off_wake_l2": null,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "MIXED_VARIATION_RECIPROCITY",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "STATIONARY_PATTERN",
+      "residual": 0.0
+    },
+    {
+      "boundary_flux": 0.0,
+      "cell": "COMPLETE_Q_INTERNAL_HISTORY_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 0.0,
+      "energy_change": 0.0,
+      "energy_final": 0.0,
+      "energy_initial": 0.0,
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "INTERNAL_TRANSLATION",
+      "integrator_evolution_defect": 0.0,
+      "internal_equal_opposite_transfer_residual": 0.0,
+      "kinetic_plus_elastic_change": 0.0,
+      "ledger_residual": 0.0,
+      "local_relaxation_start_end": [
+        0.0,
+        0.0
+      ],
+      "matter_pattern_reaction_impulse": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "mixed_variation_reciprocity_residual": 0.0,
+      "momentum_final": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "momentum_initial": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "momentum_ledger_residual": 0.0,
+      "pattern_work": 0.0,
+      "placement_momentum_change": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_off_wake_l2": null,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "MIXED_VARIATION_RECIPROCITY",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "INTERNAL_TRANSLATION",
+      "residual": 0.0
+    },
+    {
+      "boundary_flux": 0.0,
+      "cell": "COMPLETE_Q_INTERNAL_HISTORY_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 0.0,
+      "energy_change": 0.0,
+      "energy_final": 0.0,
+      "energy_initial": 0.0,
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "INTERNAL_REARRANGEMENT",
+      "integrator_evolution_defect": 0.0,
+      "internal_equal_opposite_transfer_residual": 0.0,
+      "kinetic_plus_elastic_change": 0.0,
+      "ledger_residual": 0.0,
+      "local_relaxation_start_end": [
+        0.0,
+        0.0
+      ],
+      "matter_pattern_reaction_impulse": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "mixed_variation_reciprocity_residual": 0.0,
+      "momentum_final": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "momentum_initial": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "momentum_ledger_residual": 0.0,
+      "pattern_work": 0.0,
+      "placement_momentum_change": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_off_wake_l2": null,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "MIXED_VARIATION_RECIPROCITY",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "INTERNAL_REARRANGEMENT",
+      "residual": 0.0
+    },
+    {
+      "boundary_flux": 0.0,
+      "cell": "COMPLETE_Q_INTERNAL_HISTORY_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 8.240724042436775e-07,
+      "energy_change": -6.811453436826077e-06,
+      "energy_final": 0.000793188546563174,
+      "energy_initial": 0.0008,
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "SOURCE_OFF_EMISSION",
+      "integrator_evolution_defect": 2.3635114737954096e-07,
+      "internal_equal_opposite_transfer_residual": 0.0,
+      "kinetic_plus_elastic_change": -7.635525841069774e-06,
+      "ledger_residual": 1.7279472123987727e-19,
+      "local_relaxation_start_end": [
+        0.0008,
+        0.004022230286378644
+      ],
+      "matter_pattern_reaction_impulse": [
+        1.1062661590449293e-19,
+        -0.0,
+        -0.0
+      ],
+      "mixed_variation_reciprocity_residual": 0.0,
+      "momentum_final": [
+        0.04000000000000003,
+        0.0,
+        0.0
+      ],
+      "momentum_initial": [
+        0.04,
+        0.0,
+        0.0
+      ],
+      "momentum_ledger_residual": 2.7866202231533405e-17,
+      "pattern_work": -7.047804584205791e-06,
+      "placement_momentum_change": [
+        2.7755575615628914e-17,
+        0.0,
+        0.0
+      ],
+      "source_off_wake_l2": 0.01405831768394877,
+      "wake_l2": 0.01399336703213981,
+      "wake_mode_l2": 0.0030142361332609743
+    },
+    {
+      "cell": "MIXED_VARIATION_RECIPROCITY",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "SOURCE_OFF_EMISSION",
+      "residual": 0.0
+    },
+    {
+      "boundary_flux": 0.0,
+      "cell": "COMPLETE_Q_INTERNAL_HISTORY_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 0.0,
+      "energy_change": 0.0,
+      "energy_final": 0.0,
+      "energy_initial": 0.0,
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "CLOSED_CYCLE",
+      "integrator_evolution_defect": 0.0,
+      "internal_equal_opposite_transfer_residual": 0.0,
+      "kinetic_plus_elastic_change": 0.0,
+      "ledger_residual": 0.0,
+      "local_relaxation_start_end": [
+        0.0,
+        0.0
+      ],
+      "matter_pattern_reaction_impulse": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "mixed_variation_reciprocity_residual": 0.0,
+      "momentum_final": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "momentum_initial": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "momentum_ledger_residual": 0.0,
+      "pattern_work": 0.0,
+      "placement_momentum_change": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_off_wake_l2": null,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "MIXED_VARIATION_RECIPROCITY",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "CLOSED_CYCLE",
+      "residual": 0.0
+    },
+    {
+      "cell": "NO_COUPLING",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "NO_COUPLING",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.014064691298205654,
+      "wake_mode_l2": 0.0030397747774353655
+    },
+    {
+      "cell": "STATIC",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "STATIC",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "ADIABATIC",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "ADIABATIC",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "CONTROLLED_REVERSAL",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "CONTROLLED_REVERSAL",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "REFLECTION_RECURRENCE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "REFLECTION_RECURRENCE",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "COVARIANCE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "COVARIANCE",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "REFINEMENT",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "REFINEMENT",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "PRELOAD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "PRELOAD",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.10944861808172937,
+      "wake_mode_l2": 0.0059895
+    },
+    {
+      "cell": "FINITE_DOMAIN",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "FINITE_DOMAIN",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "SOURCE_SHAPE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "history": "SOURCE_SHAPE",
+      "ledger_residual": 0.0,
+      "retained_without_selection": true,
+      "wake_l2": 0.0,
+      "wake_mode_l2": 0.0
+    },
+    {
+      "cell": "PHYSICAL_VALIDITY",
+      "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+      "functional": "ALL",
+      "history": "GLOBAL",
+      "reason": "A finite discrete action realization does not establish physical validity."
+    },
+    {
+      "cell": "UNIVERSAL_ARROW",
+      "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+      "functional": "ALL",
+      "history": "GLOBAL",
+      "reason": "Finite wake and cycle records do not define a universal arrow."
+    }
+  ]
+}
