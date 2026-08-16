@@ -1,0 +1,19 @@
+{
+  "ALL_GATES_NON_BLOCKING": true,
+  "COUNTS": {
+    "CONTRADICTED_IN_SCOPE": 18,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 18,
+    "NOT_ASSESSED": 9,
+    "SUPPORTED_IN_SCOPE": 27,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 2
+  },
+  "EMX058_REARRANGING_CONTRADICTIONS_PRESERVED_NOT_RESOLVED": true,
+  "EMX059_RESULT": "REARRANGEMENT_SOURCE_WORK_CLOSURE_AND_WAKE_REPLAY_COMPLETE",
+  "NEXT_BOUNDARY": "Relate any finite accounting convention to an independently defined primitive only if such a primitive is separately supplied; no universal-arrow or physical claim follows.",
+  "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+  "NO_EXTERNAL_OR_DESTRUCTIVE_ACTION": true,
+  "NO_E_B_QED_MAPPING": true,
+  "NO_FITTING_OR_RESELECTION": true,
+  "NO_UNIVERSAL_ARROW_CLAIM": true,
+  "artifact_sha256": "7ec4d47d7188a51bb47153a738a56c7e6caf73c4a78e24c310369985a22f0092"
+}

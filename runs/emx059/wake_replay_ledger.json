@@ -1,0 +1,73 @@
+{
+  "all_replays_conditioned_on_predeclared_variant_closure": true,
+  "artifact_sha256": "803a44716fe0b3f4f45494776abb1f467fac20f2c3b20f3e257a801c47711dfe",
+  "not_a_universal_arrow_claim": true,
+  "records": [
+    {
+      "cell": "CORRESPONDING_WAKE_REPLAY_AFTER_REARRANGEMENT_CLOSURE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "history": "MOVING_RIGHT_ON_OFF",
+      "limit": "This is source-work closure for a finite construction, not a universal-arrow claim.",
+      "modes_l2": 5.4625515375941765e-06,
+      "same_fixed_timing": true,
+      "variant": "DISCRETE_STATE_INCREMENT_PORT",
+      "wake_l2": 0.0009347408393293947
+    },
+    {
+      "cell": "CORRESPONDING_WAKE_REPLAY_AFTER_REARRANGEMENT_CLOSURE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "history": "MOVING_LEFT_ON_OFF",
+      "limit": "This is source-work closure for a finite construction, not a universal-arrow claim.",
+      "modes_l2": 5.4625515375941765e-06,
+      "same_fixed_timing": true,
+      "variant": "DISCRETE_STATE_INCREMENT_PORT",
+      "wake_l2": 0.0009347408393293955
+    },
+    {
+      "cell": "CORRESPONDING_WAKE_REPLAY_AFTER_REARRANGEMENT_CLOSURE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "history": "MOVING_RIGHT_ON_OFF",
+      "limit": "This is source-work closure for a finite construction, not a universal-arrow claim.",
+      "modes_l2": 5.4625515375941765e-06,
+      "same_fixed_timing": true,
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT",
+      "wake_l2": 0.0009347408393293947
+    },
+    {
+      "cell": "CORRESPONDING_WAKE_REPLAY_AFTER_REARRANGEMENT_CLOSURE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "history": "MOVING_LEFT_ON_OFF",
+      "limit": "This is source-work closure for a finite construction, not a universal-arrow claim.",
+      "modes_l2": 5.4625515375941765e-06,
+      "same_fixed_timing": true,
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT",
+      "wake_l2": 0.0009347408393293955
+    },
+    {
+      "cell": "CORRESPONDING_WAKE_REPLAY_AFTER_REARRANGEMENT_CLOSURE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "MOVING_RIGHT_ON_OFF",
+      "limit": "This is source-work closure for a finite construction, not a universal-arrow claim.",
+      "modes_l2": 8.967938139894208e-06,
+      "same_fixed_timing": true,
+      "variant": "DISCRETE_STATE_INCREMENT_PORT",
+      "wake_l2": 0.0015425336791714884
+    },
+    {
+      "cell": "CORRESPONDING_WAKE_REPLAY_AFTER_REARRANGEMENT_CLOSURE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "MOVING_LEFT_ON_OFF",
+      "limit": "This is source-work closure for a finite construction, not a universal-arrow claim.",
+      "modes_l2": 8.967938139894208e-06,
+      "same_fixed_timing": true,
+      "variant": "DISCRETE_STATE_INCREMENT_PORT",
+      "wake_l2": 0.0015425336791714886
+    }
+  ]
+}

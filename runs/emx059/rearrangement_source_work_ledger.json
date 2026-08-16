@@ -1,0 +1,2218 @@
+{
+  "all_outcomes_retained": true,
+  "artifact_sha256": "c8b28481b5703e3f500d6342b4fb87253b6774ac713255749b8d4b2ff64e7b5b",
+  "counts": {
+    "CONTRADICTED_IN_SCOPE": 18,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 18,
+    "NOT_ASSESSED": 9,
+    "SUPPORTED_IN_SCOPE": 27,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 2
+  },
+  "no_fitting_or_reselection": true,
+  "primitive": "Finite 3D elastic lattice and deterministic source schedule inherited unchanged from EMX058 inputs.",
+  "prior_emx058_rearranging_contradictions_relabelled_as_resolved": false,
+  "prior_emx058_rearranging_records_retained_verbatim": [
+    {
+      "cell": "COMPLETE_SOURCE_MEDIUM_ENERGY_WORK_ACCOUNTING",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_energy": 1.1250279396301817e-05,
+      "family": "DIRECTED_BOND",
+      "history": "REARRANGING_ON_OFF",
+      "medium_energy": 1.0020395662306238e-06,
+      "relative_exchange_residual": -0.029914578078616656,
+      "relocation_work": 7.072343363644982e-07,
+      "source_energy": 7.653395017490322e-06,
+      "source_work": 1.9793950678724265e-05,
+      "total_energy": 1.990571398002276e-05
+    },
+    {
+      "cell": "MOMENTUM_EXCHANGE_ACCOUNTING",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "external_impulse_magnitude": 0.006418272820906667,
+      "family": "DIRECTED_BOND",
+      "history": "REARRANGING_ON_OFF",
+      "medium_momentum": [
+        1.6939335456105922e-19,
+        0.0,
+        0.0
+      ],
+      "momentum_residual_norm": -0.002505883520877765,
+      "source_momentum": [
+        -0.003912389300028902,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cell": "SOURCE_OFF_WAKE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "history": "REARRANGING_ON_OFF",
+      "residual_deformation_l2": 0.0007776322594370808,
+      "source_off": true
+    },
+    {
+      "cell": "PHASE_CORRELATION_AND_SCATTERED_MODE_RECORD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "history": "REARRANGING_ON_OFF",
+      "phase_correlation_record": 0.00778359437020525,
+      "scattered_modes_l2": 4.570549794177139e-06
+    },
+    {
+      "cell": "DELAYED_LOCAL_RELAXATION_AND_TRANSPORT",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "history": "REARRANGING_ON_OFF",
+      "local_relaxation": 7.368328744630322e-07,
+      "transported_ledger": 1.0020395662306238e-06
+    },
+    {
+      "cell": "COMPLETE_SOURCE_MEDIUM_ENERGY_WORK_ACCOUNTING",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_energy": 1.0924876299059192e-05,
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "REARRANGING_ON_OFF",
+      "medium_energy": 1.0494639058370944e-06,
+      "relative_exchange_residual": -0.01490632168542115,
+      "relocation_work": 3.469417700497461e-07,
+      "source_energy": 7.86638004390604e-06,
+      "source_work": 1.9789530637251675e-05,
+      "total_energy": 1.9840720248802324e-05
+    },
+    {
+      "cell": "MOMENTUM_EXCHANGE_ACCOUNTING",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "external_impulse_magnitude": 0.006418272820906667,
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "REARRANGING_ON_OFF",
+      "medium_momentum": [
+        0.010384727168029831,
+        0.0,
+        0.0
+      ],
+      "momentum_residual_norm": 2.0816681711721685e-17,
+      "source_momentum": [
+        -0.003966454347123143,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "cell": "SOURCE_OFF_WAKE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "REARRANGING_ON_OFF",
+      "residual_deformation_l2": 0.0014066971939263894,
+      "source_off": true
+    },
+    {
+      "cell": "PHASE_CORRELATION_AND_SCATTERED_MODE_RECORD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "REARRANGING_ON_OFF",
+      "phase_correlation_record": 0.0,
+      "scattered_modes_l2": 6.129678035714105e-06
+    },
+    {
+      "cell": "DELAYED_LOCAL_RELAXATION_AND_TRANSPORT",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "history": "REARRANGING_ON_OFF",
+      "local_relaxation": 9.110553714018117e-07,
+      "transported_ledger": 1.0494639058370944e-06
+    }
+  ],
+  "provenance": "New repo-local non-historical refinement; no DEV167/lab.git use.",
+  "records": [
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.0008323379321900985,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_potential_change": 1.1408461841283978e-05,
+      "discrete_evolution_increment": 2.2045304099571212e-08,
+      "energy_change": 1.9389558989859487e-05,
+      "exact_port_state_increment": 1.932814119891379e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 3.892088239782757e-05,
+      "history": "MOVING_RIGHT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.6024582727648046e-06,
+      "phase": "SOURCE_ON",
+      "relocation_work": 3.937248684612528e-08,
+      "residual": -1.957069589481421e-05,
+      "source_internal_energy_change": 6.379425199039517e-06,
+      "time_support": [
+        0,
+        47
+      ],
+      "variant": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.009161326456152193,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_potential_change": 1.1408461841283978e-05,
+      "discrete_evolution_increment": 7.863232288129259e-10,
+      "energy_change": 7.863232288129259e-10,
+      "exact_port_state_increment": 0.0,
+      "external_impulse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 0.0,
+      "history": "MOVING_RIGHT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.6024582727648046e-06,
+      "phase": "SOURCE_OFF",
+      "relocation_work": 0.0,
+      "residual": 7.863232288129259e-10,
+      "source_internal_energy_change": 6.379425199039517e-06,
+      "time_support": [
+        48,
+        143
+      ],
+      "variant": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.009993664388342288,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_potential_change": 1.1408461841283978e-05,
+      "discrete_evolution_increment": 2.2831627328384138e-08,
+      "energy_change": 1.93903453130883e-05,
+      "exact_port_state_increment": 1.932814119891379e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 3.892088239782757e-05,
+      "history": "MOVING_RIGHT_ON_OFF",
+      "impulse_balance_residual": 2.6020852139652106e-18,
+      "medium_energy_change": 1.6024582727648046e-06,
+      "phase": "FULL",
+      "relocation_work": 3.937248684612528e-08,
+      "residual": -1.9569909571585397e-05,
+      "source_internal_energy_change": 6.379425199039517e-06,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.0008323379321901002,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_potential_change": 1.1408461841283978e-05,
+      "discrete_evolution_increment": 2.2045304099571212e-08,
+      "energy_change": 1.9389558989859487e-05,
+      "exact_port_state_increment": 1.932814119891379e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 3.892088239782757e-05,
+      "history": "MOVING_LEFT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.6024582727648046e-06,
+      "phase": "SOURCE_ON",
+      "relocation_work": 3.937248684612528e-08,
+      "residual": -1.957069589481421e-05,
+      "source_internal_energy_change": 6.379425199039517e-06,
+      "time_support": [
+        0,
+        47
+      ],
+      "variant": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.009161326456152188,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_potential_change": 1.1408461841283978e-05,
+      "discrete_evolution_increment": 7.863232288129259e-10,
+      "energy_change": 7.863232288129259e-10,
+      "exact_port_state_increment": 0.0,
+      "external_impulse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 0.0,
+      "history": "MOVING_LEFT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.6024582727648046e-06,
+      "phase": "SOURCE_OFF",
+      "relocation_work": 0.0,
+      "residual": 7.863232288129259e-10,
+      "source_internal_energy_change": 6.379425199039517e-06,
+      "time_support": [
+        48,
+        143
+      ],
+      "variant": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.009993664388342286,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_potential_change": 1.1408461841283978e-05,
+      "discrete_evolution_increment": 2.2831627328384138e-08,
+      "energy_change": 1.93903453130883e-05,
+      "exact_port_state_increment": 1.932814119891379e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 3.892088239782757e-05,
+      "history": "MOVING_LEFT_ON_OFF",
+      "impulse_balance_residual": 4.336808689942018e-18,
+      "medium_energy_change": 1.6024582727648046e-06,
+      "phase": "FULL",
+      "relocation_work": 3.937248684612528e-08,
+      "residual": -1.9569909571585397e-05,
+      "source_internal_energy_change": 6.379425199039517e-06,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.000828966286178008,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_potential_change": 1.1026161582436007e-05,
+      "discrete_evolution_increment": 1.1706655899762951e-09,
+      "energy_change": 1.9422862885309834e-05,
+      "exact_port_state_increment": 1.9342173426202685e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 3.894894685240537e-05,
+      "history": "REARRANGING_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 9.658133922604385e-07,
+      "phase": "SOURCE_ON",
+      "relocation_work": 7.951879351717135e-08,
+      "residual": -1.9605602760612706e-05,
+      "source_internal_energy_change": 7.493967485559405e-06,
+      "time_support": [
+        0,
+        47
+      ],
+      "variant": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.009464170243611571,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_potential_change": 1.1026161582436007e-05,
+      "discrete_evolution_increment": -5.572010046907581e-07,
+      "energy_change": 6.307957494601732e-08,
+      "exact_port_state_increment": 0.0,
+      "external_impulse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 0.0,
+      "history": "REARRANGING_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 9.658133922604385e-07,
+      "phase": "SOURCE_OFF",
+      "relocation_work": 6.202805796367754e-07,
+      "residual": -5.572010046907581e-07,
+      "source_internal_energy_change": 7.493967485559405e-06,
+      "time_support": [
+        48,
+        143
+      ],
+      "variant": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.01029313652978958,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_potential_change": 1.1026161582436007e-05,
+      "discrete_evolution_increment": -5.560303391007818e-07,
+      "energy_change": 1.948594246025585e-05,
+      "exact_port_state_increment": 1.9342173426202685e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 3.894894685240537e-05,
+      "history": "REARRANGING_ON_OFF",
+      "impulse_balance_residual": 1.3010426069826053e-18,
+      "medium_energy_change": 9.658133922604385e-07,
+      "phase": "FULL",
+      "relocation_work": 6.997993731539468e-07,
+      "residual": -2.0162803765303464e-05,
+      "source_internal_energy_change": 7.493967485559405e-06,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.0008323379321900985,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.1408461841283978e-05,
+      "discrete_evolution_increment": 2.2045304099571212e-08,
+      "energy_change": 1.9389558989859487e-05,
+      "exact_port_state_increment": 1.932814119891379e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 3.892088239782757e-05,
+      "history": "MOVING_RIGHT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.6024582727648046e-06,
+      "phase": "SOURCE_ON",
+      "relocation_work": 3.937248684612528e-08,
+      "residual": 8.735027268559972e-22,
+      "source_internal_energy_change": 6.379425199039517e-06,
+      "time_support": [
+        0,
+        47
+      ],
+      "variant": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.009161326456152193,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.1408461841283978e-05,
+      "discrete_evolution_increment": 7.863232288129259e-10,
+      "energy_change": 7.863232288129259e-10,
+      "exact_port_state_increment": 0.0,
+      "external_impulse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 0.0,
+      "history": "MOVING_RIGHT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.6024582727648046e-06,
+      "phase": "SOURCE_OFF",
+      "relocation_work": 0.0,
+      "residual": 0.0,
+      "source_internal_energy_change": 6.379425199039517e-06,
+      "time_support": [
+        48,
+        143
+      ],
+      "variant": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.009993664388342288,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.1408461841283978e-05,
+      "discrete_evolution_increment": 2.2831627328384138e-08,
+      "energy_change": 1.93903453130883e-05,
+      "exact_port_state_increment": 1.932814119891379e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 3.892088239782757e-05,
+      "history": "MOVING_RIGHT_ON_OFF",
+      "impulse_balance_residual": 2.6020852139652106e-18,
+      "medium_energy_change": 1.6024582727648046e-06,
+      "phase": "FULL",
+      "relocation_work": 3.937248684612528e-08,
+      "residual": 8.735027268559972e-22,
+      "source_internal_energy_change": 6.379425199039517e-06,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.0008323379321901002,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.1408461841283978e-05,
+      "discrete_evolution_increment": 2.2045304099571212e-08,
+      "energy_change": 1.9389558989859487e-05,
+      "exact_port_state_increment": 1.932814119891379e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 3.892088239782757e-05,
+      "history": "MOVING_LEFT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.6024582727648046e-06,
+      "phase": "SOURCE_ON",
+      "relocation_work": 3.937248684612528e-08,
+      "residual": 8.735027268559972e-22,
+      "source_internal_energy_change": 6.379425199039517e-06,
+      "time_support": [
+        0,
+        47
+      ],
+      "variant": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.009161326456152188,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.1408461841283978e-05,
+      "discrete_evolution_increment": 7.863232288129259e-10,
+      "energy_change": 7.863232288129259e-10,
+      "exact_port_state_increment": 0.0,
+      "external_impulse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 0.0,
+      "history": "MOVING_LEFT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.6024582727648046e-06,
+      "phase": "SOURCE_OFF",
+      "relocation_work": 0.0,
+      "residual": 0.0,
+      "source_internal_energy_change": 6.379425199039517e-06,
+      "time_support": [
+        48,
+        143
+      ],
+      "variant": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.009993664388342286,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.1408461841283978e-05,
+      "discrete_evolution_increment": 2.2831627328384138e-08,
+      "energy_change": 1.93903453130883e-05,
+      "exact_port_state_increment": 1.932814119891379e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 3.892088239782757e-05,
+      "history": "MOVING_LEFT_ON_OFF",
+      "impulse_balance_residual": 4.336808689942018e-18,
+      "medium_energy_change": 1.6024582727648046e-06,
+      "phase": "FULL",
+      "relocation_work": 3.937248684612528e-08,
+      "residual": 8.735027268559972e-22,
+      "source_internal_energy_change": 6.379425199039517e-06,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.000828966286178008,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.1026161582436007e-05,
+      "discrete_evolution_increment": 1.1706655899762951e-09,
+      "energy_change": 1.9422862885309834e-05,
+      "exact_port_state_increment": 1.9342173426202685e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 3.894894685240537e-05,
+      "history": "REARRANGING_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 9.658133922604385e-07,
+      "phase": "SOURCE_ON",
+      "relocation_work": 7.951879351717135e-08,
+      "residual": 1.0852609636695723e-21,
+      "source_internal_energy_change": 7.493967485559405e-06,
+      "time_support": [
+        0,
+        47
+      ],
+      "variant": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.009464170243611571,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.1026161582436007e-05,
+      "discrete_evolution_increment": -5.572010046907581e-07,
+      "energy_change": 6.307957494601732e-08,
+      "exact_port_state_increment": 0.0,
+      "external_impulse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 0.0,
+      "history": "REARRANGING_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 9.658133922604385e-07,
+      "phase": "SOURCE_OFF",
+      "relocation_work": 6.202805796367754e-07,
+      "residual": 0.0,
+      "source_internal_energy_change": 7.493967485559405e-06,
+      "time_support": [
+        48,
+        143
+      ],
+      "variant": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.01029313652978958,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.1026161582436007e-05,
+      "discrete_evolution_increment": -5.560303391007818e-07,
+      "energy_change": 1.948594246025585e-05,
+      "exact_port_state_increment": 1.9342173426202685e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 3.894894685240537e-05,
+      "history": "REARRANGING_ON_OFF",
+      "impulse_balance_residual": 1.3010426069826053e-18,
+      "medium_energy_change": 9.658133922604385e-07,
+      "phase": "FULL",
+      "relocation_work": 6.997993731539468e-07,
+      "residual": 1.0587911840678754e-21,
+      "source_internal_energy_change": 7.493967485559405e-06,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.0008323379321900985,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.1408461841283978e-05,
+      "discrete_evolution_increment": 2.2045304099571212e-08,
+      "energy_change": 1.9389558989859487e-05,
+      "exact_port_state_increment": 1.932814119891379e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 3.892088239782757e-05,
+      "history": "MOVING_RIGHT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.6024582727648046e-06,
+      "phase": "SOURCE_ON",
+      "relocation_work": 3.937248684612528e-08,
+      "residual": 8.735027268559972e-22,
+      "source_internal_energy_change": 6.379425199039517e-06,
+      "time_support": [
+        0,
+        47
+      ],
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.009161326456152193,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.1408461841283978e-05,
+      "discrete_evolution_increment": 7.863232288129259e-10,
+      "energy_change": 7.863232288129259e-10,
+      "exact_port_state_increment": 0.0,
+      "external_impulse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 0.0,
+      "history": "MOVING_RIGHT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.6024582727648046e-06,
+      "phase": "SOURCE_OFF",
+      "relocation_work": 0.0,
+      "residual": 0.0,
+      "source_internal_energy_change": 6.379425199039517e-06,
+      "time_support": [
+        48,
+        143
+      ],
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.009993664388342288,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.1408461841283978e-05,
+      "discrete_evolution_increment": 2.2831627328384138e-08,
+      "energy_change": 1.93903453130883e-05,
+      "exact_port_state_increment": 1.932814119891379e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 3.892088239782757e-05,
+      "history": "MOVING_RIGHT_ON_OFF",
+      "impulse_balance_residual": 2.6020852139652106e-18,
+      "medium_energy_change": 1.6024582727648046e-06,
+      "phase": "FULL",
+      "relocation_work": 3.937248684612528e-08,
+      "residual": 8.735027268559972e-22,
+      "source_internal_energy_change": 6.379425199039517e-06,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.0008323379321901002,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.1408461841283978e-05,
+      "discrete_evolution_increment": 2.2045304099571212e-08,
+      "energy_change": 1.9389558989859487e-05,
+      "exact_port_state_increment": 1.932814119891379e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 3.892088239782757e-05,
+      "history": "MOVING_LEFT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.6024582727648046e-06,
+      "phase": "SOURCE_ON",
+      "relocation_work": 3.937248684612528e-08,
+      "residual": 8.735027268559972e-22,
+      "source_internal_energy_change": 6.379425199039517e-06,
+      "time_support": [
+        0,
+        47
+      ],
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.009161326456152188,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.1408461841283978e-05,
+      "discrete_evolution_increment": 7.863232288129259e-10,
+      "energy_change": 7.863232288129259e-10,
+      "exact_port_state_increment": 0.0,
+      "external_impulse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 0.0,
+      "history": "MOVING_LEFT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.6024582727648046e-06,
+      "phase": "SOURCE_OFF",
+      "relocation_work": 0.0,
+      "residual": 0.0,
+      "source_internal_energy_change": 6.379425199039517e-06,
+      "time_support": [
+        48,
+        143
+      ],
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.009993664388342286,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.1408461841283978e-05,
+      "discrete_evolution_increment": 2.2831627328384138e-08,
+      "energy_change": 1.93903453130883e-05,
+      "exact_port_state_increment": 1.932814119891379e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 3.892088239782757e-05,
+      "history": "MOVING_LEFT_ON_OFF",
+      "impulse_balance_residual": 4.336808689942018e-18,
+      "medium_energy_change": 1.6024582727648046e-06,
+      "phase": "FULL",
+      "relocation_work": 3.937248684612528e-08,
+      "residual": 8.735027268559972e-22,
+      "source_internal_energy_change": 6.379425199039517e-06,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.000828966286178008,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.1026161582436007e-05,
+      "discrete_evolution_increment": 1.1706655899762951e-09,
+      "energy_change": 1.9422862885309834e-05,
+      "exact_port_state_increment": 1.9342173426202685e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 3.894894685240537e-05,
+      "history": "REARRANGING_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 9.658133922604385e-07,
+      "phase": "SOURCE_ON",
+      "relocation_work": 7.951879351717135e-08,
+      "residual": 1.0852609636695723e-21,
+      "source_internal_energy_change": 7.493967485559405e-06,
+      "time_support": [
+        0,
+        47
+      ],
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.009464170243611571,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.1026161582436007e-05,
+      "discrete_evolution_increment": -5.572010046907581e-07,
+      "energy_change": 6.307957494601732e-08,
+      "exact_port_state_increment": 0.0,
+      "external_impulse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 0.0,
+      "history": "REARRANGING_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 9.658133922604385e-07,
+      "phase": "SOURCE_OFF",
+      "relocation_work": 6.202805796367754e-07,
+      "residual": 0.0,
+      "source_internal_energy_change": 7.493967485559405e-06,
+      "time_support": [
+        48,
+        143
+      ],
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -0.01029313652978958,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.1026161582436007e-05,
+      "discrete_evolution_increment": -5.560303391007818e-07,
+      "energy_change": 1.948594246025585e-05,
+      "exact_port_state_increment": 1.9342173426202685e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "DIRECTED_BOND",
+      "force_displacement_work": 3.894894685240537e-05,
+      "history": "REARRANGING_ON_OFF",
+      "impulse_balance_residual": 1.3010426069826053e-18,
+      "medium_energy_change": 9.658133922604385e-07,
+      "phase": "FULL",
+      "relocation_work": 6.997993731539468e-07,
+      "residual": 1.0587911840678754e-21,
+      "source_internal_energy_change": 7.493967485559405e-06,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT"
+    },
+    {
+      "cell": "MATCHED_MOVING_SOURCE_SUCCESSFUL",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "force_displacement_residual": -1.9569909571585397e-05,
+      "history": "MATCHED_MOVING_SOURCE_SUCCESSFUL",
+      "phase": "FULL",
+      "retained_without_selection": true,
+      "state_increment_residual": 8.735027268559972e-22,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "CONTROL",
+      "wake_l2": 0.0009347408393293947
+    },
+    {
+      "cell": "STATIONARY_NO_EXCHANGE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "force_displacement_residual": 0.0,
+      "history": "STATIONARY_NO_EXCHANGE",
+      "phase": "FULL",
+      "retained_without_selection": true,
+      "state_increment_residual": 0.0,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "CONTROL",
+      "wake_l2": 0.0
+    },
+    {
+      "cell": "REVERSAL_REPLAY",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "force_displacement_residual": -1.9569909571585397e-05,
+      "history": "REVERSAL_REPLAY",
+      "phase": "FULL",
+      "retained_without_selection": true,
+      "state_increment_residual": 8.735027268559972e-22,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "CONTROL",
+      "wake_l2": 0.0009347408393293955
+    },
+    {
+      "cell": "SOURCE_SHAPE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "force_displacement_residual": -2.024094243632892e-05,
+      "history": "SOURCE_SHAPE",
+      "phase": "FULL",
+      "retained_without_selection": true,
+      "state_increment_residual": 0.0,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "CONTROL",
+      "wake_l2": 0.0013486392675056975
+    },
+    {
+      "cell": "TIME_REFINEMENT",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "force_displacement_residual": -5.136821205195132e-06,
+      "history": "TIME_REFINEMENT",
+      "phase": "FULL",
+      "retained_without_selection": true,
+      "state_increment_residual": -1.0711988932561708e-22,
+      "time_support": [
+        0,
+        287
+      ],
+      "variant": "CONTROL",
+      "wake_l2": 0.00042429262350357613
+    },
+    {
+      "cell": "BOUNDARY",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "force_displacement_residual": -1.9569910957179304e-05,
+      "history": "BOUNDARY",
+      "phase": "FULL",
+      "retained_without_selection": true,
+      "state_increment_residual": 8.735027268559972e-22,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "CONTROL",
+      "wake_l2": 0.0008680168441386346
+    },
+    {
+      "cell": "AMPLITUDE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "force_displacement_residual": -4.892477392896349e-06,
+      "history": "AMPLITUDE",
+      "phase": "FULL",
+      "retained_without_selection": true,
+      "state_increment_residual": 2.183756817139993e-22,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "CONTROL",
+      "wake_l2": 0.00046737041966469735
+    },
+    {
+      "cell": "PRELOAD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "force_displacement_residual": -1.3454088177258128e-05,
+      "history": "PRELOAD",
+      "phase": "FULL",
+      "retained_without_selection": true,
+      "state_increment_residual": -1.2705494208814505e-21,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "CONTROL",
+      "wake_l2": 0.0008050547033875123
+    },
+    {
+      "cell": "CLOSED_CYCLE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "DIRECTED_BOND",
+      "force_displacement_residual": -1.3723401558801674e-06,
+      "history": "CLOSED_CYCLE",
+      "phase": "FULL",
+      "retained_without_selection": true,
+      "state_increment_residual": 4.499862532288471e-22,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "CONTROL",
+      "wake_l2": 0.0002516061887575132
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        1.6618786425129373e-18,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_potential_change": 1.093135945278037e-05,
+      "discrete_evolution_increment": 2.4977232958861056e-08,
+      "energy_change": 1.9371940598417826e-05,
+      "exact_port_state_increment": 1.9332877867015013e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 3.8930355734030044e-05,
+      "history": "MOVING_RIGHT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.5048663592734225e-06,
+      "phase": "SOURCE_ON",
+      "relocation_work": 1.4085498443949148e-08,
+      "residual": -1.9572500634056168e-05,
+      "source_internal_energy_change": 6.93643009116698e-06,
+      "time_support": [
+        0,
+        47
+      ],
+      "variant": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        1.734723475976807e-17,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_potential_change": 1.093135945278037e-05,
+      "discrete_evolution_increment": 7.153048029451812e-10,
+      "energy_change": 7.153048029451812e-10,
+      "exact_port_state_increment": 0.0,
+      "external_impulse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 0.0,
+      "history": "MOVING_RIGHT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.5048663592734225e-06,
+      "phase": "SOURCE_OFF",
+      "relocation_work": 0.0,
+      "residual": 7.153048029451812e-10,
+      "source_internal_energy_change": 6.93643009116698e-06,
+      "time_support": [
+        48,
+        143
+      ],
+      "variant": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        1.9009113402281008e-17,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_potential_change": 1.093135945278037e-05,
+      "discrete_evolution_increment": 2.5692537761806238e-08,
+      "energy_change": 1.937265590322077e-05,
+      "exact_port_state_increment": 1.9332877867015013e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 3.8930355734030044e-05,
+      "history": "MOVING_RIGHT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.5048663592734225e-06,
+      "phase": "FULL",
+      "relocation_work": 1.4085498443949148e-08,
+      "residual": -1.9571785329253223e-05,
+      "source_internal_energy_change": 6.93643009116698e-06,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        5.1313255944665515e-18,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_potential_change": 1.093135945278037e-05,
+      "discrete_evolution_increment": 2.4977232958861056e-08,
+      "energy_change": 1.9371940598417826e-05,
+      "exact_port_state_increment": 1.9332877867015013e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 3.8930355734030044e-05,
+      "history": "MOVING_LEFT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.5048663592734223e-06,
+      "phase": "SOURCE_ON",
+      "relocation_work": 1.4085498443949148e-08,
+      "residual": -1.9572500634056168e-05,
+      "source_internal_energy_change": 6.93643009116698e-06,
+      "time_support": [
+        0,
+        47
+      ],
+      "variant": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        3.2959746043559335e-17,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_potential_change": 1.093135945278037e-05,
+      "discrete_evolution_increment": 7.153048029451812e-10,
+      "energy_change": 7.153048029451812e-10,
+      "exact_port_state_increment": 0.0,
+      "external_impulse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 0.0,
+      "history": "MOVING_LEFT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.5048663592734223e-06,
+      "phase": "SOURCE_OFF",
+      "relocation_work": 0.0,
+      "residual": 7.153048029451812e-10,
+      "source_internal_energy_change": 6.93643009116698e-06,
+      "time_support": [
+        48,
+        143
+      ],
+      "variant": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        3.8091071638025886e-17,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_potential_change": 1.093135945278037e-05,
+      "discrete_evolution_increment": 2.5692537761806238e-08,
+      "energy_change": 1.937265590322077e-05,
+      "exact_port_state_increment": 1.9332877867015013e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 3.8930355734030044e-05,
+      "history": "MOVING_LEFT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.5048663592734223e-06,
+      "phase": "FULL",
+      "relocation_work": 1.4085498443949148e-08,
+      "residual": -1.9571785329253223e-05,
+      "source_internal_energy_change": 6.93643009116698e-06,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -1.807568309440677e-18,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_potential_change": 1.0699955491210077e-05,
+      "discrete_evolution_increment": 1.389726725957157e-08,
+      "energy_change": 1.9386891727968444e-05,
+      "exact_port_state_increment": 1.9333147068967877e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 3.8930894137935745e-05,
+      "history": "REARRANGING_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.0149180437618256e-06,
+      "phase": "SOURCE_ON",
+      "relocation_work": 3.9847391740996375e-08,
+      "residual": -1.9583849801708297e-05,
+      "source_internal_energy_change": 7.697964113351663e-06,
+      "time_support": [
+        0,
+        47
+      ],
+      "variant": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -3.469446951953614e-18,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_potential_change": 1.0699955491210077e-05,
+      "discrete_evolution_increment": -2.7582284966982026e-07,
+      "energy_change": 2.5945920355123394e-08,
+      "exact_port_state_increment": 0.0,
+      "external_impulse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 0.0,
+      "history": "REARRANGING_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.0149180437618256e-06,
+      "phase": "SOURCE_OFF",
+      "relocation_work": 3.0176877002494366e-07,
+      "residual": -2.7582284966982026e-07,
+      "source_internal_energy_change": 7.697964113351663e-06,
+      "time_support": [
+        48,
+        143
+      ],
+      "variant": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -5.277015261394291e-18,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "coupling_potential_change": 1.0699955491210077e-05,
+      "discrete_evolution_increment": -2.619255824102487e-07,
+      "energy_change": 1.9412837648323568e-05,
+      "exact_port_state_increment": 1.9333147068967877e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 3.8930894137935745e-05,
+      "history": "REARRANGING_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.0149180437618256e-06,
+      "phase": "FULL",
+      "relocation_work": 3.4161616176594003e-07,
+      "residual": -1.9859672651378117e-05,
+      "source_internal_energy_change": 7.697964113351663e-06,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        1.6618786425129373e-18,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.093135945278037e-05,
+      "discrete_evolution_increment": 2.4977232958861056e-08,
+      "energy_change": 1.9371940598417826e-05,
+      "exact_port_state_increment": 1.9332877867015013e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 3.8930355734030044e-05,
+      "history": "MOVING_RIGHT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.5048663592734225e-06,
+      "phase": "SOURCE_ON",
+      "relocation_work": 1.4085498443949148e-08,
+      "residual": 2.865353641883688e-21,
+      "source_internal_energy_change": 6.93643009116698e-06,
+      "time_support": [
+        0,
+        47
+      ],
+      "variant": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        1.734723475976807e-17,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.093135945278037e-05,
+      "discrete_evolution_increment": 7.153048029451812e-10,
+      "energy_change": 7.153048029451812e-10,
+      "exact_port_state_increment": 0.0,
+      "external_impulse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 0.0,
+      "history": "MOVING_RIGHT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.5048663592734225e-06,
+      "phase": "SOURCE_OFF",
+      "relocation_work": 0.0,
+      "residual": 0.0,
+      "source_internal_energy_change": 6.93643009116698e-06,
+      "time_support": [
+        48,
+        143
+      ],
+      "variant": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        1.9009113402281008e-17,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.093135945278037e-05,
+      "discrete_evolution_increment": 2.5692537761806238e-08,
+      "energy_change": 1.937265590322077e-05,
+      "exact_port_state_increment": 1.9332877867015013e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 3.8930355734030044e-05,
+      "history": "MOVING_RIGHT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.5048663592734225e-06,
+      "phase": "FULL",
+      "relocation_work": 1.4085498443949148e-08,
+      "residual": 2.865353641883688e-21,
+      "source_internal_energy_change": 6.93643009116698e-06,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        5.1313255944665515e-18,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.093135945278037e-05,
+      "discrete_evolution_increment": 2.4977232958861056e-08,
+      "energy_change": 1.9371940598417826e-05,
+      "exact_port_state_increment": 1.9332877867015013e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 3.8930355734030044e-05,
+      "history": "MOVING_LEFT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.5048663592734223e-06,
+      "phase": "SOURCE_ON",
+      "relocation_work": 1.4085498443949148e-08,
+      "residual": 2.865353641883688e-21,
+      "source_internal_energy_change": 6.93643009116698e-06,
+      "time_support": [
+        0,
+        47
+      ],
+      "variant": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        3.2959746043559335e-17,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.093135945278037e-05,
+      "discrete_evolution_increment": 7.153048029451812e-10,
+      "energy_change": 7.153048029451812e-10,
+      "exact_port_state_increment": 0.0,
+      "external_impulse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 0.0,
+      "history": "MOVING_LEFT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.5048663592734223e-06,
+      "phase": "SOURCE_OFF",
+      "relocation_work": 0.0,
+      "residual": 0.0,
+      "source_internal_energy_change": 6.93643009116698e-06,
+      "time_support": [
+        48,
+        143
+      ],
+      "variant": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        3.8091071638025886e-17,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.093135945278037e-05,
+      "discrete_evolution_increment": 2.5692537761806238e-08,
+      "energy_change": 1.937265590322077e-05,
+      "exact_port_state_increment": 1.9332877867015013e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 3.8930355734030044e-05,
+      "history": "MOVING_LEFT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.5048663592734223e-06,
+      "phase": "FULL",
+      "relocation_work": 1.4085498443949148e-08,
+      "residual": 2.865353641883688e-21,
+      "source_internal_energy_change": 6.93643009116698e-06,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -1.807568309440677e-18,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.0699955491210077e-05,
+      "discrete_evolution_increment": 1.389726725957157e-08,
+      "energy_change": 1.9386891727968444e-05,
+      "exact_port_state_increment": 1.9333147068967877e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 3.8930894137935745e-05,
+      "history": "REARRANGING_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.0149180437618256e-06,
+      "phase": "SOURCE_ON",
+      "relocation_work": 3.9847391740996375e-08,
+      "residual": -9.462946207606637e-22,
+      "source_internal_energy_change": 7.697964113351663e-06,
+      "time_support": [
+        0,
+        47
+      ],
+      "variant": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -3.469446951953614e-18,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.0699955491210077e-05,
+      "discrete_evolution_increment": -2.7582284966982026e-07,
+      "energy_change": 2.5945920355123394e-08,
+      "exact_port_state_increment": 0.0,
+      "external_impulse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 0.0,
+      "history": "REARRANGING_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.0149180437618256e-06,
+      "phase": "SOURCE_OFF",
+      "relocation_work": 3.0176877002494366e-07,
+      "residual": 0.0,
+      "source_internal_energy_change": 7.697964113351663e-06,
+      "time_support": [
+        48,
+        143
+      ],
+      "variant": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -5.277015261394291e-18,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "coupling_potential_change": 1.0699955491210077e-05,
+      "discrete_evolution_increment": -2.619255824102487e-07,
+      "energy_change": 1.9412837648323568e-05,
+      "exact_port_state_increment": 1.9333147068967877e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 3.8930894137935745e-05,
+      "history": "REARRANGING_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.0149180437618256e-06,
+      "phase": "FULL",
+      "relocation_work": 3.4161616176594003e-07,
+      "residual": -9.529120656610879e-22,
+      "source_internal_energy_change": 7.697964113351663e-06,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        1.6618786425129373e-18,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "NOT_ASSESSED",
+      "coupling_potential_change": 1.093135945278037e-05,
+      "discrete_evolution_increment": 2.4977232958861056e-08,
+      "energy_change": 1.9371940598417826e-05,
+      "exact_port_state_increment": 1.9332877867015013e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 3.8930355734030044e-05,
+      "history": "MOVING_RIGHT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.5048663592734225e-06,
+      "phase": "SOURCE_ON",
+      "relocation_work": 1.4085498443949148e-08,
+      "residual": null,
+      "source_internal_energy_change": 6.93643009116698e-06,
+      "time_support": [
+        0,
+        47
+      ],
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        1.734723475976807e-17,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "NOT_ASSESSED",
+      "coupling_potential_change": 1.093135945278037e-05,
+      "discrete_evolution_increment": 7.153048029451812e-10,
+      "energy_change": 7.153048029451812e-10,
+      "exact_port_state_increment": 0.0,
+      "external_impulse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 0.0,
+      "history": "MOVING_RIGHT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.5048663592734225e-06,
+      "phase": "SOURCE_OFF",
+      "relocation_work": 0.0,
+      "residual": null,
+      "source_internal_energy_change": 6.93643009116698e-06,
+      "time_support": [
+        48,
+        143
+      ],
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        1.9009113402281008e-17,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "NOT_ASSESSED",
+      "coupling_potential_change": 1.093135945278037e-05,
+      "discrete_evolution_increment": 2.5692537761806238e-08,
+      "energy_change": 1.937265590322077e-05,
+      "exact_port_state_increment": 1.9332877867015013e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 3.8930355734030044e-05,
+      "history": "MOVING_RIGHT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.5048663592734225e-06,
+      "phase": "FULL",
+      "relocation_work": 1.4085498443949148e-08,
+      "residual": null,
+      "source_internal_energy_change": 6.93643009116698e-06,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        5.1313255944665515e-18,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "NOT_ASSESSED",
+      "coupling_potential_change": 1.093135945278037e-05,
+      "discrete_evolution_increment": 2.4977232958861056e-08,
+      "energy_change": 1.9371940598417826e-05,
+      "exact_port_state_increment": 1.9332877867015013e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 3.8930355734030044e-05,
+      "history": "MOVING_LEFT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.5048663592734223e-06,
+      "phase": "SOURCE_ON",
+      "relocation_work": 1.4085498443949148e-08,
+      "residual": null,
+      "source_internal_energy_change": 6.93643009116698e-06,
+      "time_support": [
+        0,
+        47
+      ],
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        3.2959746043559335e-17,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "NOT_ASSESSED",
+      "coupling_potential_change": 1.093135945278037e-05,
+      "discrete_evolution_increment": 7.153048029451812e-10,
+      "energy_change": 7.153048029451812e-10,
+      "exact_port_state_increment": 0.0,
+      "external_impulse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 0.0,
+      "history": "MOVING_LEFT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.5048663592734223e-06,
+      "phase": "SOURCE_OFF",
+      "relocation_work": 0.0,
+      "residual": null,
+      "source_internal_energy_change": 6.93643009116698e-06,
+      "time_support": [
+        48,
+        143
+      ],
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        3.8091071638025886e-17,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "NOT_ASSESSED",
+      "coupling_potential_change": 1.093135945278037e-05,
+      "discrete_evolution_increment": 2.5692537761806238e-08,
+      "energy_change": 1.937265590322077e-05,
+      "exact_port_state_increment": 1.9332877867015013e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 3.8930355734030044e-05,
+      "history": "MOVING_LEFT_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.5048663592734223e-06,
+      "phase": "FULL",
+      "relocation_work": 1.4085498443949148e-08,
+      "residual": null,
+      "source_internal_energy_change": 6.93643009116698e-06,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -1.807568309440677e-18,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "NOT_ASSESSED",
+      "coupling_potential_change": 1.0699955491210077e-05,
+      "discrete_evolution_increment": 1.389726725957157e-08,
+      "energy_change": 1.9386891727968444e-05,
+      "exact_port_state_increment": 1.9333147068967877e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 3.8930894137935745e-05,
+      "history": "REARRANGING_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.0149180437618256e-06,
+      "phase": "SOURCE_ON",
+      "relocation_work": 3.9847391740996375e-08,
+      "residual": null,
+      "source_internal_energy_change": 7.697964113351663e-06,
+      "time_support": [
+        0,
+        47
+      ],
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -3.469446951953614e-18,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "NOT_ASSESSED",
+      "coupling_potential_change": 1.0699955491210077e-05,
+      "discrete_evolution_increment": -2.7582284966982026e-07,
+      "energy_change": 2.5945920355123394e-08,
+      "exact_port_state_increment": 0.0,
+      "external_impulse": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 0.0,
+      "history": "REARRANGING_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.0149180437618256e-06,
+      "phase": "SOURCE_OFF",
+      "relocation_work": 3.0176877002494366e-07,
+      "residual": null,
+      "source_internal_energy_change": 7.697964113351663e-06,
+      "time_support": [
+        48,
+        143
+      ],
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT"
+    },
+    {
+      "boundary_energy_flux": 0.0,
+      "boundary_impulse": [
+        -5.277015261394291e-18,
+        0.0,
+        0.0
+      ],
+      "cell": "TIME_SUPPORT_MATCHED_REARRANGEMENT_ENERGY_WORK_LEDGER",
+      "classification": "NOT_ASSESSED",
+      "coupling_potential_change": 1.0699955491210077e-05,
+      "discrete_evolution_increment": -2.619255824102487e-07,
+      "energy_change": 1.9412837648323568e-05,
+      "exact_port_state_increment": 1.9333147068967877e-05,
+      "external_impulse": [
+        0.006421711085444976,
+        0.0,
+        0.0
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_work": 3.8930894137935745e-05,
+      "history": "REARRANGING_ON_OFF",
+      "impulse_balance_residual": 0.0,
+      "medium_energy_change": 1.0149180437618256e-06,
+      "phase": "FULL",
+      "relocation_work": 3.4161616176594003e-07,
+      "residual": null,
+      "source_internal_energy_change": 7.697964113351663e-06,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "BOND_ENDPOINT_INCREMENT_PORT"
+    },
+    {
+      "cell": "MATCHED_MOVING_SOURCE_SUCCESSFUL",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_residual": -1.9571785329253223e-05,
+      "history": "MATCHED_MOVING_SOURCE_SUCCESSFUL",
+      "phase": "FULL",
+      "retained_without_selection": true,
+      "state_increment_residual": 2.865353641883688e-21,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "CONTROL",
+      "wake_l2": 0.0015425336791714884
+    },
+    {
+      "cell": "STATIONARY_NO_EXCHANGE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_residual": 0.0,
+      "history": "STATIONARY_NO_EXCHANGE",
+      "phase": "FULL",
+      "retained_without_selection": true,
+      "state_increment_residual": 0.0,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "CONTROL",
+      "wake_l2": 0.0
+    },
+    {
+      "cell": "REVERSAL_REPLAY",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_residual": -1.9571785329253223e-05,
+      "history": "REVERSAL_REPLAY",
+      "phase": "FULL",
+      "retained_without_selection": true,
+      "state_increment_residual": 2.865353641883688e-21,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "CONTROL",
+      "wake_l2": 0.0015425336791714886
+    },
+    {
+      "cell": "SOURCE_SHAPE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_residual": -1.9577746408852168e-05,
+      "history": "SOURCE_SHAPE",
+      "phase": "FULL",
+      "retained_without_selection": true,
+      "state_increment_residual": 0.0,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "CONTROL",
+      "wake_l2": 0.0017935138174697471
+    },
+    {
+      "cell": "TIME_REFINEMENT",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_residual": -5.136895577840277e-06,
+      "history": "TIME_REFINEMENT",
+      "phase": "FULL",
+      "retained_without_selection": true,
+      "state_increment_residual": 5.293955920339377e-23,
+      "time_support": [
+        0,
+        287
+      ],
+      "variant": "CONTROL",
+      "wake_l2": 0.0008146201142817572
+    },
+    {
+      "cell": "BOUNDARY",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_residual": -1.957178746607038e-05,
+      "history": "BOUNDARY",
+      "phase": "FULL",
+      "retained_without_selection": true,
+      "state_increment_residual": 1.1712877473750872e-21,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "CONTROL",
+      "wake_l2": 0.0015277476148278667
+    },
+    {
+      "cell": "AMPLITUDE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_residual": -4.892946332313306e-06,
+      "history": "AMPLITUDE",
+      "phase": "FULL",
+      "retained_without_selection": true,
+      "state_increment_residual": 7.16338410470922e-22,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "CONTROL",
+      "wake_l2": 0.0007712668395857442
+    },
+    {
+      "cell": "PRELOAD",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_residual": -1.3495889411163561e-05,
+      "history": "PRELOAD",
+      "phase": "FULL",
+      "retained_without_selection": true,
+      "state_increment_residual": 0.0,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "CONTROL",
+      "wake_l2": 0.0015462019216040332
+    },
+    {
+      "cell": "CLOSED_CYCLE",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "force_displacement_residual": -1.3547374785647257e-06,
+      "history": "CLOSED_CYCLE",
+      "phase": "FULL",
+      "retained_without_selection": true,
+      "state_increment_residual": -9.926167350636332e-23,
+      "time_support": [
+        0,
+        143
+      ],
+      "variant": "CONTROL",
+      "wake_l2": 0.0002925712903911342
+    },
+    {
+      "cell": "UNIVERSAL_ARROW",
+      "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+      "family": "ALL",
+      "history": "GLOBAL",
+      "phase": "UNDEFINED",
+      "reason": "Finite source-work bookkeeping and wake replay do not define a universal arrow.",
+      "variant": "BOUNDARY"
+    },
+    {
+      "cell": "PHYSICAL_ENERGY_WORK_CLAIM",
+      "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+      "family": "ALL",
+      "history": "PHYSICAL",
+      "phase": "UNDEFINED",
+      "reason": "This is a finite repo-local work construction, not a physical claim.",
+      "variant": "BOUNDARY"
+    }
+  ],
+  "time_support_matching_required_and_emitted": true
+}
