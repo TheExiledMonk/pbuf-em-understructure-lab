@@ -1,0 +1,26 @@
+{
+  "ALL_GATES_NON_BLOCKING": true,
+  "COUNTS": {
+    "CONTRADICTED_IN_SCOPE": 0,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 2,
+    "NOT_ASSESSED": 1,
+    "SUPPORTED_IN_SCOPE": 5,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 1
+  },
+  "EMX010_062_RESULTS_AND_LABELS_PRESERVED": true,
+  "EMX063_RESULT": "WIDE_NET_PATTERN_KINETIC_AND_HISTORY_CLOSURE_SEARCH_COMPLETE",
+  "NONUNIQUENESS_EVIDENCE": "A and B are distinct explicit state sectors with deterministic conservative finite records; translated/reflected zero-placement patterns remain degenerate, so neither statically selects one.",
+  "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+  "NO_ENTROPY_EXTERNAL_MATTER_SECOND_MEDIUM_HIDDEN_ORIGIN_TOPOLOGICAL_CHARGE_FITTED_CONSTANT_OR_UNSPECIFIED_NONLOCAL_KERNEL": true,
+  "NO_EXTERNAL_OR_DESTRUCTIVE_ACTION": true,
+  "NO_E_B_QED_MAPPING": true,
+  "NO_FITTING_OR_RESELECTION": true,
+  "NO_PHYSICAL_VALIDITY_CLAIM": true,
+  "NO_UNIVERSAL_ARROW_CLAIM": true,
+  "RESIDUAL_BOUNDARIES": "C requires declared gauge section/endpoints; E is boundary selection; D has no conservative identity; physical validity and universal arrow are not assessed.",
+  "VIABLE_CLASSES_IN_SCOPE": [
+    "A_CANONICAL_MU_PI",
+    "B_SYMPLECTIC_PHASE_PAIR"
+  ],
+  "artifact_sha256": "5edf8cc4a1b5b508b6b66683c60e1c123347b8f6f876676224cdf4ba288c766f"
+}
