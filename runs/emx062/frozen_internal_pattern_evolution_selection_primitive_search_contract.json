@@ -1,0 +1,105 @@
+{
+  "EMX062_SELECTOR": "INTERNAL_PATTERN_EVOLUTION_SELECTION_PRIMITIVE_SEARCH",
+  "FROZEN_BEFORE_RESULTS": true,
+  "artifact_parameter_rule": "The finite update index and declared dt/refinement are reproducible artifact parameterizations only, not an independent physical external clock. Robustness compares dt=0.02 and dt=0.01 at fixed finite path length.",
+  "classification_vocabulary": [
+    "SUPPORTED_IN_SCOPE",
+    "CONTRADICTED_IN_SCOPE",
+    "DISTINCT_OBSERVABLE_BEHAVIOR",
+    "NOT_ASSESSED",
+    "UNDEFINED_PRIMITIVE_BOUNDARY"
+  ],
+  "contract_sha256": "0811c1b650dad04ebe14bc04fb345e96f974ec2e78da1852000ee47e88ba33ef",
+  "finite_candidate_registry": [
+    {
+      "can_select": false,
+      "class": "control",
+      "id": "NO_SELECTOR_CONTROL",
+      "law": "mu is held or prescribed only as an admissible boundary/history record; no evolution or selection law.",
+      "ledger_status": "EMX060 retained ledger only",
+      "local_relational": true,
+      "reversibility_status": "NO_DYNAMICS"
+    },
+    {
+      "can_select": "only_if_defined",
+      "class": "conservative_coupled_variational_evolution",
+      "id": "CONSERVATIVE_COUPLED_VARIATIONAL",
+      "law": "Stationary discrete coupled action using q and existing placement functional, with no added mu kinetic/conjugate variable.",
+      "ledger_status": "would use exact action ledger",
+      "local_relational": true,
+      "reversibility_status": "FORMALLY_REVERSIBLE_IF_COMPLETED"
+    },
+    {
+      "can_select": false,
+      "class": "constrained_admissible_continuation",
+      "id": "CONSTRAINED_ADMISSIBLE_CONTINUATION",
+      "law": "Continue normalized m(mu) locally subject only to existing N_m=1 and continuity; no tie-break or orientation.",
+      "ledger_status": "no exchange beyond retained placement ledger",
+      "local_relational": true,
+      "reversibility_status": "REVERSIBLE_AS_A_RELATION_NOT_AN_EVOLUTION"
+    },
+    {
+      "can_select": "only_among_states_reached_from_declared_initial_q",
+      "class": "deterministic_local_relaxation_selection",
+      "id": "DETERMINISTIC_LOCAL_RELAXATION",
+      "law": "At each artifact update, move mu along the centered local placement-energy descent relation using only A_int(u,m(mu)); the existing dt is the declared update scale.",
+      "ledger_status": "exact per-update A_int decrease is named D_mu and retained; D_mu is not entropy or a new state variable",
+      "local_relational": true,
+      "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+    }
+  ],
+  "input_sha256": {
+    "runs/emx060/frozen_one_medium_internal_interaction_functional_bridge_contract.json": "9cfd66735b1c04c3693a8dfee14af1e186e7cf6c35701fe84e9b58bbac1de81c",
+    "runs/emx060/one_medium_internal_interaction_ledger.json": "83cc824680839d9e81fbd07037d7384ed1113431bf0526ec26c03e90a7758079",
+    "runs/emx061/final_contract.json": "b165e800c77df8fb7bb819afacaef2581cd184a57126208ccf4d6e784acc6edd",
+    "runs/emx061/frozen_localized_pattern_and_admissible_history_selection_audit_contract.json": "5ffbb214ef0399459df43c614fac5614375feb0d7614953564f1a57890ab12df",
+    "runs/emx061/localized_pattern_and_admissible_history_selection_ledger.json": "1d349cb2f614950332e086b71164097c8e0823b18a07afa0bbef2e43b1473fc0"
+  },
+  "mode": "FINITE_DETERMINISTIC_REPO_LOCAL_NON_BLOCKING_PRIMITIVE_SEARCH",
+  "non_blocking_rule": "Every EMX010-061 artifact and label is retained verbatim. EMX061 nonselection is not relabelled as solved except for an exact EMX062 candidate-and-test conclusion under this new scope; no candidate repairs, fits, maps, or reselects earlier evidence.",
+  "primitive_constraints": {
+    "local_or_relational_only": true,
+    "no_entropy_variable": true,
+    "no_fitted_constant": true,
+    "no_hidden_spatial_origin": true,
+    "no_independent_external_clock": true,
+    "no_second_substance": true,
+    "no_topological_charge": true,
+    "translation_reflection_covariant": true
+  },
+  "prohibitions": {
+    "NO_DESTRUCTIVE_OR_EXTERNAL_ACTION": true,
+    "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING_OR_RESELECTION": true,
+    "NO_PHYSICAL_VALIDITY_CLAIM": true,
+    "NO_UNIVERSAL_ARROW_CLAIM": true
+  },
+  "required_test_axes": [
+    "EMX061_DEGENERATE_LOCALIZED_PATTERNS",
+    "TRANSLATION_REFLECTION_AND_DEGENERACY_COVARIANCE",
+    "FORWARD_REVERSE_HISTORY_AND_RECURRENCE",
+    "LOCAL_STABILITY_PERTURBATION_CONTINUATION",
+    "EMX060_PLACEMENT_FUNCTIONAL_COUPLING",
+    "INTERNAL_ENERGY_MOMENTUM_WORK_LEDGER",
+    "SOURCE_OFF_EMISSION_WAKE_HANDOFF",
+    "BACKGROUND_PRELOAD_SOURCE_SHAPE_BOUNDARY_REFINEMENT",
+    "CLOSED_CYCLE_PARAMETERIZATION_ROBUSTNESS_WITHOUT_HIDDEN_CLOCK"
+  ],
+  "scope_statement": {
+    "complete_state_is_exactly_q_(u,p,m,mu)": true,
+    "mu_is_internal_pattern_variable_and_m_is_reconstructed_from_mu": true,
+    "new_repo_local_primitive_explicitly_authorized": true,
+    "no_E_B_QED_mapping": true,
+    "no_universal_arrow_claim": true,
+    "not_DEV167_provenance": true,
+    "not_a_physical_validity_claim": true,
+    "not_called_derived_from_PBUF_merely_because_testable": true
+  },
+  "selection_distinctions": {
+    "evolution_rule": "a complete update/relation for internal mu",
+    "oriented_history_selection": "one directed history from declared initial q without importing a boundary preparation as selector",
+    "static_selection": "one static m modulo stated symmetries"
+  },
+  "undefined_boundary_rule": "A result needing an unrepresented mu conjugate/kinetic state, endpoint condition, hidden origin, independent clock, entropy, second substance, topological charge, or fitted constant is UNDEFINED_PRIMITIVE_BOUNDARY. A prescribed start/end is a boundary condition, never a derived selector."
+}
