@@ -1,0 +1,96 @@
+{
+  "EMX061_SELECTOR": "LOCALIZED_PATTERN_AND_ADMISSIBLE_HISTORY_SELECTION_AUDIT",
+  "FROZEN_BEFORE_RESULTS": true,
+  "classification_vocabulary": [
+    "SUPPORTED_IN_SCOPE",
+    "CONTRADICTED_IN_SCOPE",
+    "DISTINCT_OBSERVABLE_BEHAVIOR",
+    "NOT_ASSESSED",
+    "UNDEFINED_PRIMITIVE_BOUNDARY"
+  ],
+  "contract_sha256": "16ca9091574d133e1b9562440d99fea6c7afe05aeaf08072c9f73936a9bc97a7",
+  "existing_medium_scope": {
+    "admissibility": "m is the existing normalized compact discrete pattern reconstructed from mu; declared histories are existing continuous piecewise-linear mu(t) schedules.",
+    "represented_invariant": "N_m = sum_x m_x = 1, the existing normalized pattern weight only; it is not a topological or new charge.",
+    "source": "EMX060 complete state q=(u,p,m,mu), its two one-medium interaction functionals, and its fixed numerics only"
+  },
+  "input_sha256": {
+    "runs/emx060/emx058_emx059_direct_comparison.json": "02fa90f34ea8cdfc720250c6b72db98a48500deccd0fafdc480f99448ec462c3",
+    "runs/emx060/final_contract.json": "261d89f4308a6176cae64133c56247adcb758d886203f5d263a7002614bf7bb8",
+    "runs/emx060/frozen_one_medium_internal_interaction_functional_bridge_contract.json": "9cfd66735b1c04c3693a8dfee14af1e186e7cf6c35701fe84e9b58bbac1de81c",
+    "runs/emx060/one_medium_internal_interaction_ledger.json": "83cc824680839d9e81fbd07037d7384ed1113431bf0526ec26c03e90a7758079"
+  },
+  "mode": "FINITE_REPO_LOCAL_EVIDENCE_BUILDING_NON_BLOCKING",
+  "non_blocking_rule": "EMX060 and every earlier artifact, label, and contradiction are retained verbatim. EMX061 neither selects an interaction functional nor repairs, maps, fits, reselects, or relabels prior evidence.",
+  "predeclared_selector_registry": [
+    {
+      "eligible": true,
+      "id": "STATIC_ENERGY_STATIONARITY_MINIMUM",
+      "kind": "select_static_pattern",
+      "principle": "Stationarity/minimum of the existing nonnegative placement energy at fixed admissible m.",
+      "success_condition": "A unique localized m modulo explicitly stated lattice symmetries follows without a preparation."
+    },
+    {
+      "eligible": true,
+      "id": "LOCALIZED_STABILITY_AND_CONTINUATION",
+      "kind": "permission_for_pattern_and_history_class",
+      "principle": "Nonnegative second variation in u and continuation within existing admissible m/mu.",
+      "success_condition": "A stability/continuation result distinguishes one localized pattern or one history class without scheduling."
+    },
+    {
+      "eligible": true,
+      "id": "NORMALIZED_PATTERN_INVARIANT",
+      "kind": "fixed_invariant_constraint",
+      "principle": "The already represented N_m=1 constraint only.",
+      "success_condition": "The existing invariant uniquely selects a localized configuration rather than only a class."
+    },
+    {
+      "eligible": true,
+      "id": "STATIONARY_DISCRETE_ACTION_ALTERNATIVES",
+      "kind": "history_action_alternatives",
+      "principle": "Existing fixed-dt mechanical discrete action, varied only in u at fixed admissible m/mu, where defined.",
+      "success_condition": "Stationarity selects one oriented history without a mu evolution law or endpoint preparation."
+    },
+    {
+      "eligible": true,
+      "id": "NO_SELECTOR_CONTROLS",
+      "kind": "controls",
+      "principle": "Boundary conditions, preload, source-off preparation, finite domain, refinement, and replay records.",
+      "success_condition": "A control is not counted as a selector; it may only expose dependence or covariance."
+    }
+  ],
+  "prohibitions": {
+    "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+    "NO_ENTROPY_CLOCK_SECOND_SUBSTANCE_HIDDEN_ORIGIN_TOPOLOGICAL_CHARGE_OR_FREE_FITTED_CONSTANT": true,
+    "NO_EXTERNAL_OR_DESTRUCTIVE_ACTION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING_OR_RESELECTION": true,
+    "NO_PHYSICAL_VALIDITY_CLAIM": true,
+    "NO_UNIVERSAL_ARROW_CLAIM": true
+  },
+  "required_test_axes": [
+    "LOCALIZATION",
+    "STABILITY_PERTURBATION",
+    "TRANSLATION_REFLECTION_COVARIANCE",
+    "DEGENERACY_NONUNIQUENESS",
+    "FINITE_DOMAIN_REFINEMENT",
+    "BACKGROUND_PRELOAD",
+    "SOURCE_OFF_EMISSION_WAKE_HANDOFF",
+    "REVERSIBLE_HISTORY_REPLAY_WHERE_DEFINED",
+    "ENERGY_MOMENTUM_WORK_LEDGER",
+    "INTERACTION_FUNCTIONAL_COMPATIBILITY"
+  ],
+  "scope_statement": {
+    "finite_repo_local_selection_audit_only": true,
+    "no_E_B_QED_mapping": true,
+    "no_universal_arrow_claim": true,
+    "not_DEV167_provenance": true,
+    "not_a_physical_validity_claim": true
+  },
+  "selection_distinctions": {
+    "history_class": "Permission for a class of admissible mu(t) histories.",
+    "oriented_history": "Dynamic selection of one time-oriented member of a permitted history class.",
+    "static_pattern": "Selection of one static m configuration."
+  },
+  "undefined_primitive_rule": "If a selector requires entropy, a clock, a second substance, a hidden spatial origin, topological charge, a free fitted constant, or an unrepresented mu evolution law, classify the requested conclusion UNDEFINED_PRIMITIVE_BOUNDARY rather than introduce it."
+}

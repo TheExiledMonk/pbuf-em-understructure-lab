@@ -1,0 +1,232 @@
+{
+  "all_outcomes_retained": true,
+  "artifact_sha256": "d956e856ffd6098ad7ceacf138129bd8341604cbf5a780321c56a3c063aaab7f",
+  "contract_sha256": "16ca9091574d133e1b9562440d99fea6c7afe05aeaf08072c9f73936a9bc97a7",
+  "control_evidence": [
+    {
+      "background_preload_retained": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "control_is_not_a_derived_selector": true,
+      "finite_domain_and_refinement_retained": {
+        "FINITE_DOMAIN": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "REFINEMENT": "DISTINCT_OBSERVABLE_BEHAVIOR"
+      },
+      "functional": "LOCAL_PINNING_PATTERN",
+      "ledger_cells_retained": [
+        "SUPPORTED_IN_SCOPE",
+        "SUPPORTED_IN_SCOPE",
+        "SUPPORTED_IN_SCOPE",
+        "SUPPORTED_IN_SCOPE",
+        "SUPPORTED_IN_SCOPE"
+      ],
+      "reversible_replay_control_retained": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "source_off_emission_wake_handoff_retained": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "translation_covariance_control_retained": "DISTINCT_OBSERVABLE_BEHAVIOR"
+    },
+    {
+      "background_preload_retained": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "control_is_not_a_derived_selector": true,
+      "finite_domain_and_refinement_retained": {
+        "FINITE_DOMAIN": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "REFINEMENT": "DISTINCT_OBSERVABLE_BEHAVIOR"
+      },
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "ledger_cells_retained": [
+        "SUPPORTED_IN_SCOPE",
+        "SUPPORTED_IN_SCOPE",
+        "SUPPORTED_IN_SCOPE",
+        "SUPPORTED_IN_SCOPE",
+        "SUPPORTED_IN_SCOPE"
+      ],
+      "reversible_replay_control_retained": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "source_off_emission_wake_handoff_retained": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "translation_covariance_control_retained": "DISTINCT_OBSERVABLE_BEHAVIOR"
+    }
+  ],
+  "emx060_retained_without_reclassification": true,
+  "exact_degeneracy_checks_passed": true,
+  "family_evidence": [
+    {
+      "forward_zero_placement_action": 0.0,
+      "functional": "LOCAL_PINNING_PATTERN",
+      "nonnegative_perturbation_interaction_energy": 0.26250290644883517,
+      "reflection_energy_difference": 0.0,
+      "replay_action_difference": 0.0,
+      "reversed_zero_placement_action": 0.0,
+      "shape_energy_difference": 0.0,
+      "translation_energy_difference": 0.0,
+      "zero_placement_interaction_energies": {
+        "CENTER": 0.0,
+        "REFLECTED_MINUS_X": 0.0,
+        "TRANSLATED_PLUS_X": 0.0,
+        "TWO_LOBE": 0.0
+      }
+    },
+    {
+      "forward_zero_placement_action": 0.0,
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "nonnegative_perturbation_interaction_energy": 1.5749992739416228,
+      "reflection_energy_difference": 0.0,
+      "replay_action_difference": 0.0,
+      "reversed_zero_placement_action": 0.0,
+      "shape_energy_difference": 0.0,
+      "translation_energy_difference": 0.0,
+      "zero_placement_interaction_energies": {
+        "CENTER": 0.0,
+        "REFLECTED_MINUS_X": 0.0,
+        "TRANSLATED_PLUS_X": 0.0,
+        "TWO_LOBE": 0.0
+      }
+    }
+  ],
+  "input_artifact_sha256_verified": {
+    "runs/emx060/emx058_emx059_direct_comparison.json": "02fa90f34ea8cdfc720250c6b72db98a48500deccd0fafdc480f99448ec462c3",
+    "runs/emx060/final_contract.json": "261d89f4308a6176cae64133c56247adcb758d886203f5d263a7002614bf7bb8",
+    "runs/emx060/frozen_one_medium_internal_interaction_functional_bridge_contract.json": "9cfd66735b1c04c3693a8dfee14af1e186e7cf6c35701fe84e9b58bbac1de81c",
+    "runs/emx060/one_medium_internal_interaction_ledger.json": "83cc824680839d9e81fbd07037d7384ed1113431bf0526ec26c03e90a7758079"
+  },
+  "no_dynamic_oriented_history_selected": true,
+  "selector_records": [
+    {
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "exact_evidence": "For each functional, u=0 has A_elastic=A_int=0 for CENTER, TRANSLATED_PLUS_X, REFLECTED_MINUS_X, and TWO_LOBE; nonnegative quadratic energy makes it a minimum at fixed each m. Thus stationarity/minimum does not uniquely select m.",
+      "nonuniqueness_witnesses": [
+        "CENTER",
+        "TRANSLATED_PLUS_X",
+        "REFLECTED_MINUS_X",
+        "TWO_LOBE"
+      ],
+      "preparation_not_selector": true,
+      "selection_target": "static_pattern",
+      "selector": "STATIC_ENERGY_STATIONARITY_MINIMUM"
+    },
+    {
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "exact_evidence": "The zero-placement minimum is stable for every listed localized admissible m, while EMX060 retains distinct finite-domain, refinement, preload, source-off, and covariance records. This permits classes but selects none.",
+      "oriented_history_selection": "UNDEFINED_PRIMITIVE_BOUNDARY",
+      "selection_target": "history_class",
+      "selector": "LOCALIZED_STABILITY_AND_CONTINUATION",
+      "static_pattern_selection": "CONTRADICTED_IN_SCOPE"
+    },
+    {
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "defined_invariant": "N_m=1",
+      "exact_evidence": "Every witness has exactly N_m=sum(m)=1; translation, reflection, and shape remain nonunique under the only represented invariant.",
+      "no_topological_charge_added": true,
+      "selection_target": "static_pattern",
+      "selector": "NORMALIZED_PATTERN_INVARIANT"
+    },
+    {
+      "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+      "dynamic_orientation_not_selected": true,
+      "exact_evidence": "At u=0 the defined fixed-mu mechanical action is exactly zero for forward and reversed admissible pattern paths. EMX060 has no mu evolution law, clock, entropy, or endpoint-selection primitive; varying them would add one.",
+      "fixed_m_path_stationarity_only": true,
+      "selection_target": "oriented_history",
+      "selector": "STATIONARY_DISCRETE_ACTION_ALTERNATIVES"
+    },
+    {
+      "boundary_or_preparation_not_derived_selector": true,
+      "classification": "SUPPORTED_IN_SCOPE",
+      "exact_evidence": "Retained EMX060 preparation/control records have distinct observable behavior and are explicitly not promoted to derived selectors.",
+      "selection_target": "controls",
+      "selector": "NO_SELECTOR_CONTROLS"
+    }
+  ],
+  "test_axis_evidence": {
+    "BACKGROUND_PRELOAD": {
+      "LOCAL_PINNING_PATTERN": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "LOCAL_STRAIN_PATTERN": "DISTINCT_OBSERVABLE_BEHAVIOR"
+    },
+    "DEGENERACY_NONUNIQUENESS": {
+      "LOCAL_PINNING_PATTERN": {
+        "shape_energy_difference": 0.0,
+        "witness_count": 4
+      },
+      "LOCAL_STRAIN_PATTERN": {
+        "shape_energy_difference": 0.0,
+        "witness_count": 4
+      }
+    },
+    "ENERGY_MOMENTUM_WORK_LEDGER": {
+      "LOCAL_PINNING_PATTERN": [
+        "SUPPORTED_IN_SCOPE",
+        "SUPPORTED_IN_SCOPE",
+        "SUPPORTED_IN_SCOPE",
+        "SUPPORTED_IN_SCOPE",
+        "SUPPORTED_IN_SCOPE"
+      ],
+      "LOCAL_STRAIN_PATTERN": [
+        "SUPPORTED_IN_SCOPE",
+        "SUPPORTED_IN_SCOPE",
+        "SUPPORTED_IN_SCOPE",
+        "SUPPORTED_IN_SCOPE",
+        "SUPPORTED_IN_SCOPE"
+      ]
+    },
+    "FINITE_DOMAIN_REFINEMENT": {
+      "LOCAL_PINNING_PATTERN": {
+        "FINITE_DOMAIN": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "REFINEMENT": "DISTINCT_OBSERVABLE_BEHAVIOR"
+      },
+      "LOCAL_STRAIN_PATTERN": {
+        "FINITE_DOMAIN": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "REFINEMENT": "DISTINCT_OBSERVABLE_BEHAVIOR"
+      }
+    },
+    "INTERACTION_FUNCTIONAL_COMPATIBILITY": {
+      "LOCAL_PINNING_PATTERN": {
+        "CENTER": 0.0,
+        "REFLECTED_MINUS_X": 0.0,
+        "TRANSLATED_PLUS_X": 0.0,
+        "TWO_LOBE": 0.0
+      },
+      "LOCAL_STRAIN_PATTERN": {
+        "CENTER": 0.0,
+        "REFLECTED_MINUS_X": 0.0,
+        "TRANSLATED_PLUS_X": 0.0,
+        "TWO_LOBE": 0.0
+      }
+    },
+    "LOCALIZATION": {
+      "normalizations": {
+        "CENTER": 0.9999999999999998,
+        "REFLECTED_MINUS_X": 0.9999999999999998,
+        "TRANSLATED_PLUS_X": 0.9999999999999998,
+        "TWO_LOBE": 1.0
+      },
+      "witnesses": [
+        "CENTER",
+        "TRANSLATED_PLUS_X",
+        "REFLECTED_MINUS_X",
+        "TWO_LOBE"
+      ]
+    },
+    "REVERSIBLE_HISTORY_REPLAY_WHERE_DEFINED": {
+      "LOCAL_PINNING_PATTERN": 0.0,
+      "LOCAL_STRAIN_PATTERN": 0.0
+    },
+    "SOURCE_OFF_EMISSION_WAKE_HANDOFF": {
+      "LOCAL_PINNING_PATTERN": {
+        "no_coupling_control": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "source_off_ledger": "SUPPORTED_IN_SCOPE"
+      },
+      "LOCAL_STRAIN_PATTERN": {
+        "no_coupling_control": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "source_off_ledger": "SUPPORTED_IN_SCOPE"
+      }
+    },
+    "STABILITY_PERTURBATION": {
+      "LOCAL_PINNING_PATTERN": 0.26250290644883517,
+      "LOCAL_STRAIN_PATTERN": 1.5749992739416228
+    },
+    "TRANSLATION_REFLECTION_COVARIANCE": {
+      "LOCAL_PINNING_PATTERN": [
+        0.0,
+        0.0
+      ],
+      "LOCAL_STRAIN_PATTERN": [
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

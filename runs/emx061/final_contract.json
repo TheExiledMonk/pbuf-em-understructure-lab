@@ -1,0 +1,25 @@
+{
+  "ALL_GATES_NON_BLOCKING": true,
+  "COUNTS": {
+    "CONTRADICTED_IN_SCOPE": 2,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 1,
+    "NOT_ASSESSED": 0,
+    "SUPPORTED_IN_SCOPE": 1,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 1
+  },
+  "DYNAMIC_ORIENTED_HISTORY_SELECTED": false,
+  "EMX060_AND_EARLIER_RESULTS_PRESERVED": true,
+  "EMX061_RESULT": "LOCALIZED_PATTERN_AND_ADMISSIBLE_HISTORY_SELECTION_AUDIT_COMPLETE",
+  "EXACT_NONUNIQUENESS_EVIDENCE": "Both functionals give equal zero-placement stationary/minimum energy to four distinct normalized localized pattern witnesses; forward/reversed fixed-mu zero-placement actions are equal.",
+  "HISTORY_CLASS_PERMISSION_ONLY": true,
+  "NEXT_BOUNDARY": "An independently stated evolution/selection primitive for mu would be required to select one localized pattern or oriented history; EMX061 does not introduce one.",
+  "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+  "NO_ENTROPY_CLOCK_SECOND_SUBSTANCE_HIDDEN_ORIGIN_TOPOLOGICAL_CHARGE_OR_FREE_FITTED_CONSTANT": true,
+  "NO_EXTERNAL_OR_DESTRUCTIVE_ACTION": true,
+  "NO_E_B_QED_MAPPING": true,
+  "NO_FITTING_OR_RESELECTION": true,
+  "NO_PHYSICAL_VALIDITY_CLAIM": true,
+  "NO_UNIVERSAL_ARROW_CLAIM": true,
+  "STATIC_PATTERN_SELECTED": false,
+  "artifact_sha256": "6cf6db79e212b1247f64f10681eec3bebb6c9fdc35380e9a8199de09dc9777ed"
+}

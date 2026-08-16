@@ -1,0 +1,58 @@
+{
+  "all_registry_outcomes_retained": true,
+  "artifact_sha256": "6b2c49bf85faab132624f8b11eacc7b7e596fde88c04831dc165e5ef48a62cd3",
+  "predeclared_selector_registry": [
+    {
+      "eligible": true,
+      "id": "STATIC_ENERGY_STATIONARITY_MINIMUM",
+      "kind": "select_static_pattern",
+      "principle": "Stationarity/minimum of the existing nonnegative placement energy at fixed admissible m.",
+      "success_condition": "A unique localized m modulo explicitly stated lattice symmetries follows without a preparation."
+    },
+    {
+      "eligible": true,
+      "id": "LOCALIZED_STABILITY_AND_CONTINUATION",
+      "kind": "permission_for_pattern_and_history_class",
+      "principle": "Nonnegative second variation in u and continuation within existing admissible m/mu.",
+      "success_condition": "A stability/continuation result distinguishes one localized pattern or one history class without scheduling."
+    },
+    {
+      "eligible": true,
+      "id": "NORMALIZED_PATTERN_INVARIANT",
+      "kind": "fixed_invariant_constraint",
+      "principle": "The already represented N_m=1 constraint only.",
+      "success_condition": "The existing invariant uniquely selects a localized configuration rather than only a class."
+    },
+    {
+      "eligible": true,
+      "id": "STATIONARY_DISCRETE_ACTION_ALTERNATIVES",
+      "kind": "history_action_alternatives",
+      "principle": "Existing fixed-dt mechanical discrete action, varied only in u at fixed admissible m/mu, where defined.",
+      "success_condition": "Stationarity selects one oriented history without a mu evolution law or endpoint preparation."
+    },
+    {
+      "eligible": true,
+      "id": "NO_SELECTOR_CONTROLS",
+      "kind": "controls",
+      "principle": "Boundary conditions, preload, source-off preparation, finite domain, refinement, and replay records.",
+      "success_condition": "A control is not counted as a selector; it may only expose dependence or covariance."
+    }
+  ],
+  "required_test_axes": [
+    "LOCALIZATION",
+    "STABILITY_PERTURBATION",
+    "TRANSLATION_REFLECTION_COVARIANCE",
+    "DEGENERACY_NONUNIQUENESS",
+    "FINITE_DOMAIN_REFINEMENT",
+    "BACKGROUND_PRELOAD",
+    "SOURCE_OFF_EMISSION_WAKE_HANDOFF",
+    "REVERSIBLE_HISTORY_REPLAY_WHERE_DEFINED",
+    "ENERGY_MOMENTUM_WORK_LEDGER",
+    "INTERACTION_FUNCTIONAL_COMPATIBILITY"
+  ],
+  "selection_distinctions": {
+    "history_class": "Permission for a class of admissible mu(t) histories.",
+    "oriented_history": "Dynamic selection of one time-oriented member of a permitted history class.",
+    "static_pattern": "Selection of one static m configuration."
+  }
+}
