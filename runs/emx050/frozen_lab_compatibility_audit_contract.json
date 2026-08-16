@@ -1,0 +1,87 @@
+{
+  "EMX050_SELECTOR": "READ_ONLY_LAB_COMPATIBILITY_AND_DIRECTION_AUDIT",
+  "FROZEN_BEFORE_RESULTS": true,
+  "classification_vocabulary": [
+    "SUPPORTED_BY_REPO_EVIDENCE",
+    "COMPATIBLE_BUT_UNDERDETERMINED",
+    "INCOMPATIBLE",
+    "NOT_ASSESSED",
+    "EXTERNAL_REQUIREMENT_UNIMPLEMENTED"
+  ],
+  "contract_sha256": "11e427e1ff9cde1dd3c6371d4caa6101f5692aff3ca73ee7988906b5eadf6d6a",
+  "external_evidence": [
+    {
+      "id": "LAB_README",
+      "path": "README.md",
+      "sha1": "fef5ee2b4a87363772ab30f6eb0cce903c21358a",
+      "statement": "External repository identity/read-only evidence only."
+    },
+    {
+      "id": "LAB_TRANSPORT001",
+      "path": "runs/em_transport001/em_transport001_report.md",
+      "sha1": "299d30d5bac7615a7f2f509be7d0643b77362484",
+      "statement": "V11/CORE-001 has static nearest-neighbour scalar coupling and overdamped evolution, not a Maxwell curl pair; missing closure is positive momentum density or equivalent symplectic structure."
+    },
+    {
+      "id": "LAB_TRANSPORT_RESEARCH001",
+      "path": "runs/transport_research001/transport_research001_report.md",
+      "sha1": null,
+      "statement": "Mechanical/elastic transport needs local state, neighbor coupling, restoring, and inertial resistance; a Maxwell route is structurally incompatible with a scalar-triplet static model."
+    },
+    {
+      "id": "LAB_INERTIA001",
+      "path": "runs/inertia001/inertia_origin_report.md",
+      "sha1": null,
+      "statement": "Kinetic sector remains open and must meet positivity, conservation, reversal, and gauge constraints."
+    },
+    {
+      "id": "LAB_EVOLUTION001",
+      "path": "runs/evolution_law001/native_law_of_successive_state_evolution.md",
+      "sha1": "ad7627cd9e71ba4878c03254b5a6dd6d728132a3",
+      "statement": "History-selection/evolution rule is unselected."
+    },
+    {
+      "id": "LAB_SOURCE_PROJECTION001",
+      "path": "runs/source_projection001/source_projection_report.md",
+      "sha1": "1e3e9a7ca1cf17ef5daa65a8e22260506d2d7337",
+      "statement": "Matter-to-placement load requires a normalized universal interaction/virtual-work principle and is not selected by current ontology."
+    }
+  ],
+  "external_evidence_mode": "USER_SUPPLIED_HASH_PINNED_DOCUMENT_STATEMENTS_ONLY; documents were not opened, copied, imported, or executed. SHA-1 strings are identifiers as supplied, not newly verified external content.",
+  "families": [
+    "HISTORICAL_DEV167",
+    "LOCAL_NEUTRAL_HARMONIC_PERIODIC_N6",
+    "EMX049_NEW_NEUTRAL_REFERENCE_GEOMETRY"
+  ],
+  "input_sha256": {
+    "runs/emx041/shared_observer_definition.json": "b818d86104c15c365a3b86438e4fa29620d256c3d5d9104837bf24099bb4ba74",
+    "runs/emx047/final_contract.json": "200eca90283ad39cc9a1ddb5aa4fbea9c5c1409ead7728adc25ddbbae149c0bf",
+    "runs/emx048/final_contract.json": "817a4fe40eea363e7b06095317b4069f8160761bb0d05e298b847c6c9c4ab0f5",
+    "runs/emx049/cell_registry_and_results.json": "976aa227edc72d21dd91a110698689c58e9a09048a8484a2f8e9ef1efca622bb",
+    "runs/emx049/final_contract.json": "724083530252526dc8c13212af57493d88463173bc348fb9e8e0e80f8c87ca38",
+    "runs/emx049/frozen_new_reference_geometry_primitive_contract.json": "4965001fae2f439c727f230d2825306e9e60548eeeedc52fdb5becf71aaa50f2"
+  },
+  "prohibitions": {
+    "NO_DEV167_MODIFICATION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_HIDDEN_CHOICES": true,
+    "NO_LAB_GIT_IMPORT_EXECUTION_COPY_OR_MODIFICATION": true,
+    "NO_PRIOR_CLASSIFICATION_CHANGES": true
+  },
+  "requirements": [
+    "static_local_coupling",
+    "restoring_structure",
+    "finite_reference_geometry",
+    "kinetic_inertial_or_symplectic_sector",
+    "conservation_reversibility_evidence",
+    "history_selection",
+    "universal_matter_medium_work_source_projection"
+  ],
+  "rules": {
+    "historical_classifications_unchanged": true,
+    "missing_is_not_rejection": true,
+    "no_maxwell_or_E_B_QED_inference": true,
+    "observer_not_physical_validity": true
+  }
+}

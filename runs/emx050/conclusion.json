@@ -1,0 +1,10 @@
+{
+  "conclusion": "Missing external requirements remain unimplemented rather than rejected. EMX041 observer agreement/difference is not physical validity.",
+  "counts": {
+    "COMPATIBLE_BUT_UNDERDETERMINED": 5,
+    "EXTERNAL_REQUIREMENT_UNIMPLEMENTED": 6,
+    "INCOMPATIBLE": 0,
+    "NOT_ASSESSED": 2,
+    "SUPPORTED_BY_REPO_EVIDENCE": 8
+  }
+}

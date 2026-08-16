@@ -1,0 +1,131 @@
+{
+  "count": 21,
+  "records": [
+    {
+      "classification": "SUPPORTED_BY_REPO_EVIDENCE",
+      "evidence": "EMX047 frozen contract records reciprocal N6 pair-force semantics.",
+      "family": "HISTORICAL_DEV167",
+      "requirement": "static_local_coupling"
+    },
+    {
+      "classification": "SUPPORTED_BY_REPO_EVIDENCE",
+      "evidence": "EMX047 records sigma(epsilon) with rest length 1.",
+      "family": "HISTORICAL_DEV167",
+      "requirement": "restoring_structure"
+    },
+    {
+      "classification": "COMPATIBLE_BUT_UNDERDETERMINED",
+      "evidence": "EMX048 preserves that the hash-pinned historical directed geometry is absent.",
+      "family": "HISTORICAL_DEV167",
+      "requirement": "finite_reference_geometry"
+    },
+    {
+      "classification": "COMPATIBLE_BUT_UNDERDETERMINED",
+      "evidence": "Archived u,p trajectory metadata exists, but EMX047/048 forbid a physical replay claim.",
+      "family": "HISTORICAL_DEV167",
+      "requirement": "kinetic_inertial_or_symplectic_sector"
+    },
+    {
+      "classification": "NOT_ASSESSED",
+      "evidence": "No verified historical physical replay/control exists.",
+      "family": "HISTORICAL_DEV167",
+      "requirement": "conservation_reversibility_evidence"
+    },
+    {
+      "classification": "EXTERNAL_REQUIREMENT_UNIMPLEMENTED",
+      "evidence": "LAB_EVOLUTION001 says no rule is selected.",
+      "family": "HISTORICAL_DEV167",
+      "requirement": "history_selection"
+    },
+    {
+      "classification": "EXTERNAL_REQUIREMENT_UNIMPLEMENTED",
+      "evidence": "LAB_SOURCE_PROJECTION001 says no normalized universal principle is selected.",
+      "family": "HISTORICAL_DEV167",
+      "requirement": "universal_matter_medium_work_source_projection"
+    },
+    {
+      "classification": "SUPPORTED_BY_REPO_EVIDENCE",
+      "evidence": "EMX045/046 define periodic nearest-neighbor harmonic coupling.",
+      "family": "LOCAL_NEUTRAL_HARMONIC_PERIODIC_N6",
+      "requirement": "static_local_coupling"
+    },
+    {
+      "classification": "SUPPORTED_BY_REPO_EVIDENCE",
+      "evidence": "Unit harmonic N6 restoring update is repository-local.",
+      "family": "LOCAL_NEUTRAL_HARMONIC_PERIODIC_N6",
+      "requirement": "restoring_structure"
+    },
+    {
+      "classification": "COMPATIBLE_BUT_UNDERDETERMINED",
+      "evidence": "N6 adjacency is finite, but no explicit rest-relation schema is part of this family.",
+      "family": "LOCAL_NEUTRAL_HARMONIC_PERIODIC_N6",
+      "requirement": "finite_reference_geometry"
+    },
+    {
+      "classification": "COMPATIBLE_BUT_UNDERDETERMINED",
+      "evidence": "u,p kick-drift histories are finite, without a frozen positive kinetic/conservation proof.",
+      "family": "LOCAL_NEUTRAL_HARMONIC_PERIODIC_N6",
+      "requirement": "kinetic_inertial_or_symplectic_sector"
+    },
+    {
+      "classification": "NOT_ASSESSED",
+      "evidence": "No predeclared conservation/reversal ledger for this retained family.",
+      "family": "LOCAL_NEUTRAL_HARMONIC_PERIODIC_N6",
+      "requirement": "conservation_reversibility_evidence"
+    },
+    {
+      "classification": "EXTERNAL_REQUIREMENT_UNIMPLEMENTED",
+      "evidence": "LAB_EVOLUTION001 says no rule is selected.",
+      "family": "LOCAL_NEUTRAL_HARMONIC_PERIODIC_N6",
+      "requirement": "history_selection"
+    },
+    {
+      "classification": "EXTERNAL_REQUIREMENT_UNIMPLEMENTED",
+      "evidence": "LAB_SOURCE_PROJECTION001 says no normalized universal principle is selected.",
+      "family": "LOCAL_NEUTRAL_HARMONIC_PERIODIC_N6",
+      "requirement": "universal_matter_medium_work_source_projection"
+    },
+    {
+      "classification": "SUPPORTED_BY_REPO_EVIDENCE",
+      "evidence": "EMX049 freezes directed periodic N6 local pair coupling.",
+      "family": "EMX049_NEW_NEUTRAL_REFERENCE_GEOMETRY",
+      "requirement": "static_local_coupling"
+    },
+    {
+      "classification": "SUPPORTED_BY_REPO_EVIDENCE",
+      "evidence": "EMX049 executes an explicit rest-length restoring pair force.",
+      "family": "EMX049_NEW_NEUTRAL_REFERENCE_GEOMETRY",
+      "requirement": "restoring_structure"
+    },
+    {
+      "classification": "SUPPORTED_BY_REPO_EVIDENCE",
+      "evidence": "EMX049 hash-pins six unit directed rest-relation vectors and verifies distance > 0.5.",
+      "family": "EMX049_NEW_NEUTRAL_REFERENCE_GEOMETRY",
+      "requirement": "finite_reference_geometry"
+    },
+    {
+      "classification": "COMPATIBLE_BUT_UNDERDETERMINED",
+      "evidence": "EMX049 uses velocity Verlet and u,p, but does not prove the external kinetic-sector requirements.",
+      "family": "EMX049_NEW_NEUTRAL_REFERENCE_GEOMETRY",
+      "requirement": "kinetic_inertial_or_symplectic_sector"
+    },
+    {
+      "classification": "SUPPORTED_BY_REPO_EVIDENCE",
+      "evidence": "EMX049's frozen time-reversal control passes; no broader physical validity follows.",
+      "family": "EMX049_NEW_NEUTRAL_REFERENCE_GEOMETRY",
+      "requirement": "conservation_reversibility_evidence"
+    },
+    {
+      "classification": "EXTERNAL_REQUIREMENT_UNIMPLEMENTED",
+      "evidence": "LAB_EVOLUTION001 says no rule is selected.",
+      "family": "EMX049_NEW_NEUTRAL_REFERENCE_GEOMETRY",
+      "requirement": "history_selection"
+    },
+    {
+      "classification": "EXTERNAL_REQUIREMENT_UNIMPLEMENTED",
+      "evidence": "LAB_SOURCE_PROJECTION001 says no normalized universal principle is selected.",
+      "family": "EMX049_NEW_NEUTRAL_REFERENCE_GEOMETRY",
+      "requirement": "universal_matter_medium_work_source_projection"
+    }
+  ]
+}
