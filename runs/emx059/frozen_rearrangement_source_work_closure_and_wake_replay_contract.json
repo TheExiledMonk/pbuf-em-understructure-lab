@@ -1,0 +1,124 @@
+{
+  "EMX059_SELECTOR": "REARRANGEMENT_SOURCE_WORK_CLOSURE_AND_WAKE_REPLAY",
+  "FROZEN_BEFORE_RESULTS": true,
+  "classification_vocabulary": [
+    "SUPPORTED_IN_SCOPE",
+    "CONTRADICTED_IN_SCOPE",
+    "DISTINCT_OBSERVABLE_BEHAVIOR",
+    "NOT_ASSESSED",
+    "UNDEFINED_PRIMITIVE_BOUNDARY"
+  ],
+  "contract_sha256": "7f101ca7aa8c5bb20fcfade5b1719e1870a7c803838aeac968368932e5f9ab0c",
+  "fixed_discrete_timing": {
+    "dt": 0.035,
+    "relocation_schedule": "The named source cell changes only at the fixed end-of-step relocation port.",
+    "source_off_steps": [
+      48,
+      143
+    ],
+    "source_on_steps": [
+      0,
+      47
+    ],
+    "steps": 144,
+    "work_support_rule": "Every ledger term carries exactly one inclusive step support; comparisons require identical support and phase labels."
+  },
+  "fixed_histories": [
+    "MOVING_RIGHT_ON_OFF",
+    "MOVING_LEFT_ON_OFF",
+    "REARRANGING_ON_OFF"
+  ],
+  "input_sha256": {
+    "runs/emx058/elastic_wake_and_history_record_ledger.json": "5e6266f2cc49c53cd0fb54fdd38da5a924eaed6faa1d22af23f0fdce186722f0",
+    "runs/emx058/final_contract.json": "559989f48c013a8c20bea6354c577988ffd3e99ebf3b55860f463d67cce854a3",
+    "runs/emx058/frozen_elastic_wake_and_history_record_battery_contract.json": "4ea49325f4e085ac0b0f189dbdb1bf355f36d106dbb561e0c139655bbdc6cdf4"
+  },
+  "mode": "EVIDENCE_BUILDING_NON_BLOCKING",
+  "non_blocking_rule": "Retain every variant, cell, residual, and prior contradiction. Closure never selects a family or upgrades an EMX058 conclusion.",
+  "predeclared_neutral_accounting_variants": [
+    {
+      "closure_terms": [
+        "source_force_displacement_work",
+        "relocation_work",
+        "coupling_potential_change",
+        "medium_energy_change",
+        "source_internal_energy_change",
+        "boundary_flux",
+        "impulse_balance_residual"
+      ],
+      "defined_for": [
+        "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+        "DIRECTED_BOND"
+      ],
+      "definition": "External source force dotted with the actual discrete source-coordinate displacement; relocation is the exact coupling-potential jump.",
+      "id": "FORCE_DISPLACEMENT_PORT"
+    },
+    {
+      "closure_terms": [
+        "exact_port_state_increment",
+        "exact_relocation_state_increment",
+        "discrete_evolution_increment",
+        "boundary_flux",
+        "impulse_balance_residual"
+      ],
+      "defined_for": [
+        "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+        "DIRECTED_BOND"
+      ],
+      "definition": "Exact state-energy increments at the fixed kick, drift, and relocation maps; the finite map defect is retained as a named discrete evolution term.",
+      "id": "DISCRETE_STATE_INCREMENT_PORT"
+    },
+    {
+      "closure_terms": [
+        "bond_endpoint_work",
+        "relocation_work",
+        "bond_potential_change",
+        "medium_energy_change",
+        "source_internal_energy_change",
+        "boundary_flux",
+        "impulse_balance_residual"
+      ],
+      "defined_for": [
+        "DIRECTED_BOND"
+      ],
+      "definition": "Exact endpoint coupling-potential jump and directed bond-energy change, with source and medium endpoint energies retained separately.",
+      "id": "BOND_ENDPOINT_INCREMENT_PORT"
+    }
+  ],
+  "prohibitions": {
+    "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+    "NO_EXTERNAL_OR_DESTRUCTIVE_ACTION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING_OR_RESELECTION": true,
+    "NO_UNIVERSAL_ARROW_CLAIM": true
+  },
+  "required_controls": [
+    "MATCHED_MOVING_SOURCE_SUCCESSFUL",
+    "STATIONARY_NO_EXCHANGE",
+    "REVERSAL_REPLAY",
+    "SOURCE_SHAPE",
+    "TIME_REFINEMENT",
+    "BOUNDARY",
+    "AMPLITUDE",
+    "PRELOAD",
+    "CLOSED_CYCLE"
+  ],
+  "scope_statement": {
+    "emx058_rearranging_contradictions_not_resolved_without_exact_new_evidence": true,
+    "finite_repo_local_work_construction_refinement": true,
+    "no_E_B_QED_mapping": true,
+    "not_DEV167_provenance": true,
+    "not_a_physical_claim": true,
+    "preserve_EMX055_to_EMX058_results": true
+  },
+  "source_work_families_from_EMX058": {
+    "DIRECTED_BOND": [
+      "GEOMETRY_COVARIANT_BOND_WORK"
+    ],
+    "POTENTIAL_PORT_EQUIVALENCE_CLASS": [
+      "CONSERVATIVE_SOURCE_POTENTIAL",
+      "DISCRETE_PORT_WORK_PAIRING"
+    ]
+  },
+  "wake_replay_rule": "For every variant whose rearranging ledger closes, replay its corresponding moving-source wake cells unchanged and report that closure is source-work closure only, never a universal-arrow claim."
+}
