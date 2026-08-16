@@ -1,0 +1,6 @@
+{
+  "disposition": "Excluded from all registry classifications and conclusions; it is retained solely as an audit of why no surrogate replay was accepted.",
+  "finding": "The attempted substitution of displacement differences for required pair relation vectors generated non-finite force values at rest.",
+  "scope": "uncommitted EMX047 displacement-only smoke attempt",
+  "status": "INVALIDATED_NOT_A_PHYSICAL_RESULT"
+}

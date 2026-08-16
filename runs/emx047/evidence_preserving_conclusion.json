@@ -1,0 +1,11 @@
+{
+  "conclusion": "EMX047 does not execute physical transformed-packet historical dynamics. The required reference geometry is unavailable, so every requested historical/local shape comparison is UNAVAILABLE_PROVENANCE. EMX046 deterministic replay-lift results remain unchanged and are explicitly distinct.",
+  "historical_gates_contextual_only": true,
+  "invalid_smoke_excluded": true,
+  "shape_outcomes": {
+    "COMPACT": "UNAVAILABLE_PROVENANCE",
+    "ELONGATED": "UNAVAILABLE_PROVENANCE",
+    "MIRRORED": "UNAVAILABLE_PROVENANCE",
+    "SPLIT": "UNAVAILABLE_PROVENANCE"
+  }
+}

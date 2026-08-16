@@ -1,0 +1,78 @@
+{
+  "controls": {
+    "dt_half_refinement": {
+      "classification": "UNAVAILABLE_PROVENANCE",
+      "executed": false,
+      "reason": "The available recovered artifacts contain displacement and momentum trajectories, not the reference relation vectors required by r_hat. Treating displacement differences as r makes rest neighbors have norm zero and the specified sigma(epsilon) singular at epsilon=-1."
+    },
+    "identity_reproduction": {
+      "classification": "UNAVAILABLE_PROVENANCE",
+      "executed": false,
+      "reason": "The available recovered artifacts contain displacement and momentum trajectories, not the reference relation vectors required by r_hat. Treating displacement differences as r makes rest neighbors have norm zero and the specified sigma(epsilon) singular at epsilon=-1."
+    },
+    "parity": {
+      "classification": "UNAVAILABLE_PROVENANCE",
+      "executed": false,
+      "reason": "The available recovered artifacts contain displacement and momentum trajectories, not the reference relation vectors required by r_hat. Treating displacement differences as r makes rest neighbors have norm zero and the specified sigma(epsilon) singular at epsilon=-1."
+    },
+    "source_normalization": {
+      "classification": "UNAVAILABLE_PROVENANCE",
+      "executed": false,
+      "reason": "The available recovered artifacts contain displacement and momentum trajectories, not the reference relation vectors required by r_hat. Treating displacement differences as r makes rest neighbors have norm zero and the specified sigma(epsilon) singular at epsilon=-1."
+    },
+    "time_reversal": {
+      "classification": "UNAVAILABLE_PROVENANCE",
+      "executed": false,
+      "reason": "The available recovered artifacts contain displacement and momentum trajectories, not the reference relation vectors required by r_hat. Treating displacement differences as r makes rest neighbors have norm zero and the specified sigma(epsilon) singular at epsilon=-1."
+    },
+    "zero_source": {
+      "classification": "EXECUTED_COMPATIBLE_NONUNIQUE",
+      "executed": false,
+      "reason": "Retained unchanged; not rerun to select a result.",
+      "retained_from": "EMX046 exact compatible zero-source control"
+    }
+  },
+  "registry_frozen_before_execution": true,
+  "shape_cells": [
+    {
+      "cell_id": "EMX047_HISTORICAL_DYNAMICS_COMPACT",
+      "classification": "UNAVAILABLE_PROVENANCE",
+      "executed": false,
+      "historical_family": "HISTORICAL_DEV167_PREPARED_PACKET",
+      "local_family": "LOCAL_NEUTRAL_HARMONIC_PERIODIC_N6",
+      "observer": "EMX041_NATIVE_PERTURBATION_L2_FOUR_SUMMARY_V1",
+      "reason": "The available recovered artifacts contain displacement and momentum trajectories, not the reference relation vectors required by r_hat. Treating displacement differences as r makes rest neighbors have norm zero and the specified sigma(epsilon) singular at epsilon=-1.",
+      "shape": "COMPACT"
+    },
+    {
+      "cell_id": "EMX047_HISTORICAL_DYNAMICS_ELONGATED",
+      "classification": "UNAVAILABLE_PROVENANCE",
+      "executed": false,
+      "historical_family": "HISTORICAL_DEV167_PREPARED_PACKET",
+      "local_family": "LOCAL_NEUTRAL_HARMONIC_PERIODIC_N6",
+      "observer": "EMX041_NATIVE_PERTURBATION_L2_FOUR_SUMMARY_V1",
+      "reason": "The available recovered artifacts contain displacement and momentum trajectories, not the reference relation vectors required by r_hat. Treating displacement differences as r makes rest neighbors have norm zero and the specified sigma(epsilon) singular at epsilon=-1.",
+      "shape": "ELONGATED"
+    },
+    {
+      "cell_id": "EMX047_HISTORICAL_DYNAMICS_MIRRORED",
+      "classification": "UNAVAILABLE_PROVENANCE",
+      "executed": false,
+      "historical_family": "HISTORICAL_DEV167_PREPARED_PACKET",
+      "local_family": "LOCAL_NEUTRAL_HARMONIC_PERIODIC_N6",
+      "observer": "EMX041_NATIVE_PERTURBATION_L2_FOUR_SUMMARY_V1",
+      "reason": "The available recovered artifacts contain displacement and momentum trajectories, not the reference relation vectors required by r_hat. Treating displacement differences as r makes rest neighbors have norm zero and the specified sigma(epsilon) singular at epsilon=-1.",
+      "shape": "MIRRORED"
+    },
+    {
+      "cell_id": "EMX047_HISTORICAL_DYNAMICS_SPLIT",
+      "classification": "UNAVAILABLE_PROVENANCE",
+      "executed": false,
+      "historical_family": "HISTORICAL_DEV167_PREPARED_PACKET",
+      "local_family": "LOCAL_NEUTRAL_HARMONIC_PERIODIC_N6",
+      "observer": "EMX041_NATIVE_PERTURBATION_L2_FOUR_SUMMARY_V1",
+      "reason": "The available recovered artifacts contain displacement and momentum trajectories, not the reference relation vectors required by r_hat. Treating displacement differences as r makes rest neighbors have norm zero and the specified sigma(epsilon) singular at epsilon=-1.",
+      "shape": "SPLIT"
+    }
+  ]
+}
