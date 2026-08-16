@@ -53,7 +53,7 @@ def grad(u,mus,i,family,cfg,ks,shape='COMPACT_GAUSSIAN'):
         out.append((potential(u,plus,family,cfg,ks,shape)[0]-potential(u,minus,family,cfg,ks,shape)[0])/(2*e))
     return np.array(out)
 
-def evolve(family, cls, cfg, *, mus0=None, pairs0=None, nonuniform=False, packet=0., shape='COMPACT_GAUSSIAN', steps=None):
+def evolve(family, cls, cfg, *, mus0=None, pairs0=None, nonuniform=False, packet=0., shape='COMPACT_GAUSSIAN', steps=None, retain_state=False):
     n,dt=cfg['n'],cfg['dt']; steps=steps or cfg['steps']; ks,u=profile(cfg,nonuniform); p=np.zeros_like(u)
     mus=np.array(mus0 if mus0 is not None else [[2.25,4,4],[5.75,4,4]],float); pairs=np.array(pairs0 if pairs0 is not None else [[.045,0,0],[-.045,0,0]],float)
     if packet: p[1,4,4,0]=packet
@@ -68,10 +68,12 @@ def evolve(family, cls, cfg, *, mus0=None, pairs0=None, nonuniform=False, packet
     ef,_,aif=potential(u,mus,family,cfg,ks,shape); ef += .5*np.sum(p*p)+.5*np.sum(pairs*pairs)
     sep=pbc_distance(mus[0],mus[1],n); mid=pbc_distance(paths[len(paths)//2][0],paths[len(paths)//2][1],n)
     outcome='BOUND' if sep<=1.20 and mid<=1.20 else ('SEPARATED' if sep>=2.0 else 'TRANSIENT_INTERACTION')
-    return {'class':cls,'prepared_initial_data':{'mus':initial[2],'paired_states':initial[3],'medium_packet':packet,'shape':shape},'dynamically_preserved_structure':'two labelled coordinate/paired-state sectors; labels persist and neither sector is created/deleted','boundary_condition':'periodic finite lattice; '+('frozen nonuniform stiffness/preload profile' if nonuniform else 'uniform medium control'),'state':{'u':u,'p':p,'mus':mus,'pairs':pairs},'initial_state':initial,'paths':np.array(paths),'energy_initial':e0,'energy_final':ef,'energy_residual':ef-e0,'medium_momentum_initial':np.sum(initial[1],axis=(0,1,2)),'medium_momentum_final':np.sum(p,axis=(0,1,2)),'interaction_medium_impulse':np.sum(impulses,axis=0),'medium_momentum_work_ledger_residual':np.sum(p,axis=(0,1,2))-np.sum(initial[1],axis=(0,1,2))-np.sum(impulses,axis=0),'coordinate_generalized_work_power_max':max(abs(x) for x in powers),'wake_l2':float(np.linalg.norm(u)),'separation_initial':pbc_distance(initial[2][0],initial[2][1],n),'separation_midpoint':mid,'separation_final':sep,'two_pattern_configuration':outcome,'interaction_energy_change':aif-ai0,'reciprocal_mixed_variation_residual':0.0}
+    out={'class':cls,'prepared_initial_data':{'mus':initial[2],'paired_states':initial[3],'medium_packet':packet,'shape':shape},'dynamically_preserved_structure':'two labelled coordinate/paired-state sectors; labels persist and neither sector is created/deleted','boundary_condition':'periodic finite lattice; '+('frozen nonuniform stiffness/preload profile' if nonuniform else 'uniform medium control'),'pattern_final_coordinates':mus,'energy_initial':e0,'energy_final':ef,'energy_residual':ef-e0,'medium_momentum_initial':np.sum(initial[1],axis=(0,1,2)),'medium_momentum_final':np.sum(p,axis=(0,1,2)),'interaction_medium_impulse':np.sum(impulses,axis=0),'medium_momentum_work_ledger_residual':np.sum(p,axis=(0,1,2))-np.sum(initial[1],axis=(0,1,2))-np.sum(impulses,axis=0),'coordinate_generalized_work_power_max':max(abs(x) for x in powers),'wake_l2':float(np.linalg.norm(u)),'separation_initial':pbc_distance(initial[2][0],initial[2][1],n),'separation_midpoint':mid,'separation_final':sep,'two_pattern_configuration':outcome,'interaction_energy_change':aif-ai0,'reciprocal_mixed_variation_residual':0.0}
+    if retain_state: out.update({'state':{'u':u,'p':p,'mus':mus,'pairs':pairs},'initial_state':initial})
+    return out
 
 def reversal(family,cls,cfg,nonuniform=False):
-    a=evolve(family,cls,cfg,nonuniform=nonuniform); s=a['state']; u,p,mus,pairs=s['u'].copy(),-s['p'].copy(),s['mus'].copy(),-s['pairs'].copy(); ks,_=profile(cfg,nonuniform)
+    a=evolve(family,cls,cfg,nonuniform=nonuniform,retain_state=True); s=a['state']; u,p,mus,pairs=s['u'].copy(),-s['p'].copy(),s['mus'].copy(),-s['pairs'].copy(); ks,_=profile(cfg,nonuniform)
     for _ in range(cfg['steps']):
         _,f,_=potential(u,mus,family,cfg,ks);g=np.array([grad(u,mus,i,family,cfg,ks) for i in range(2)]);p+=.5*cfg['dt']*(eforce(u,ks)+f);pairs-=.5*cfg['dt']*g;u+=cfg['dt']*p;mus=(mus+cfg['dt']*pairs)%cfg['n'];_,f,_=potential(u,mus,family,cfg,ks);g=np.array([grad(u,mus,i,family,cfg,ks) for i in range(2)]);p+=.5*cfg['dt']*(eforce(u,ks)+f);pairs-=.5*cfg['dt']*g
     i=a['initial_state']; return float(np.sqrt(np.sum((u-i[0])**2)+np.sum((p+i[1])**2)+np.sum((mus-i[2])**2)+np.sum((pairs+i[3])**2)))
@@ -86,7 +88,7 @@ def record(cell, alt, cfg):
         x={'approach_case':base,'close_case':close,'classification_rule':'BOUND/SEPARATED/TRANSIENT_INTERACTION uses only the two represented labelled coordinates; FUSION_OR_SPLITTING is UNDEFINED_PRIMITIVE_BOUNDARY because no state component represents a changed sector count.','fusion_splitting':{'classification':'UNDEFINED_PRIMITIVE_BOUNDARY','reason':'Exactly two labelled coordinate sectors remain represented throughout.'},'classification':status(max(abs(base['energy_residual']),abs(close['energy_residual'])),cfg)}
     elif cell=='SOURCE_OFF_WAKE_ABSORPTION_SCATTERING':
         packet=evolve(fam,cls,cfg,packet=.03); target=evolve(fam,cls,cfg,packet=.03,pairs0=[[0,0,0],[0,0,0]])
-        x={'source_off_packet':packet,'two_pattern_target':target,'no_post_preparation_forcing':True,'wake_absorption_difference':target['wake_l2']-packet['wake_l2'],'scattering_deflection':float(np.linalg.norm(target['state']['mus']-packet['state']['mus'])),'classification':status(max(abs(packet['energy_residual']),abs(target['energy_residual'])),cfg)}
+        x={'source_off_packet':packet,'two_pattern_target':target,'no_post_preparation_forcing':True,'wake_absorption_difference':target['wake_l2']-packet['wake_l2'],'scattering_deflection':float(np.linalg.norm(target['pattern_final_coordinates']-packet['pattern_final_coordinates'])),'classification':status(max(abs(packet['energy_residual']),abs(target['energy_residual'])),cfg)}
     elif cell=='RECIPROCAL_LEDGER_REVERSAL_RECURRENCE':
         rr=reversal(fam,cls,cfg); x={'ledger':base,'controlled_reversal_residual':rr,'closed_cycle_boundary_conditioned':evolve(fam,cls,cfg,pairs0=[[.045,0,0],[-.045,0,0]],steps=cfg['steps']*2),'classification':status(max(abs(base['energy_residual']),rr),cfg)}
     elif cell=='UNIFORM_COVARIANCE_AND_ROBUSTNESS':
