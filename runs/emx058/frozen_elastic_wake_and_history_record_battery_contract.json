@@ -1,0 +1,92 @@
+{
+  "EMX058_SELECTOR": "ELASTIC_WAKE_AND_HISTORY_RECORD_BATTERY",
+  "FROZEN_BEFORE_RESULTS": true,
+  "classification_vocabulary": [
+    "SUPPORTED_IN_SCOPE",
+    "CONTRADICTED_IN_SCOPE",
+    "DISTINCT_OBSERVABLE_BEHAVIOR",
+    "NOT_ASSESSED",
+    "UNDEFINED_PRIMITIVE_BOUNDARY"
+  ],
+  "contract_sha256": "9b41558cdbfd5ab17f7ec3675a041d7bd15a5bec5a3b43b0d0795303088c7bdf",
+  "families_from_EMX056_EMX055": {
+    "DIRECTED_BOND": [
+      "GEOMETRY_COVARIANT_BOND_WORK"
+    ],
+    "POTENTIAL_PORT_EQUIVALENCE_CLASS": [
+      "CONSERVATIVE_SOURCE_POTENTIAL",
+      "DISCRETE_PORT_WORK_PAIRING"
+    ]
+  },
+  "finite_deterministic_primitive": {
+    "accounting": [
+      "medium_energy",
+      "source_energy",
+      "coupling_energy",
+      "total_energy",
+      "source_work",
+      "exchange_residual",
+      "medium_momentum",
+      "source_momentum",
+      "external_impulse",
+      "momentum_residual"
+    ],
+    "artifact_hashing": "Every emitted result artifact receives SHA-256 over its canonical payload.",
+    "histories": [
+      "MOVING_RIGHT_ON_OFF",
+      "MOVING_LEFT_ON_OFF",
+      "REARRANGING_ON_OFF"
+    ],
+    "medium": "finite artifact-hashed 3D elastic lattice u,p with velocity-Verlet evolution",
+    "no_fitting_or_reselection": true,
+    "source": "localized q,r source coordinate coupled to a deterministic moving/rearranging cell schedule; source-on/source-off histories are fixed below",
+    "wake_observables": [
+      "residual_deformation",
+      "phase_correlation_record",
+      "scattered_modes",
+      "delayed_local_relaxation",
+      "transported_ledger"
+    ]
+  },
+  "fixed_controls": [
+    "STATIONARY",
+    "NO_EXCHANGE",
+    "SOURCE_SHAPE",
+    "DIRECTED_PREPARATION",
+    "CONTROLLED_FULL_STATE_REVERSAL",
+    "REFLECTION",
+    "RECURRENCE",
+    "PERIODIC_AND_FIXED_BOUNDARY",
+    "STIFFNESS_AND_PRELOAD",
+    "AXIS_COVARIANCE",
+    "RELATION_NETWORK_AND_REFINEMENT",
+    "SPEED_AMPLITUDE_AND_FINITE_DOMAIN"
+  ],
+  "input_sha256": {
+    "runs/emx055/frozen_held_out_source_work_discriminator_contract.json": "f685b06bc1784fa667f9ba6a9addaf84a99f5eeaec51a02cfcf84e5f3406a9b1",
+    "runs/emx056/batch_a_exchange_registry.json": "c69419fd09c36c3b4046983f3be4cecd1dab43d86d70b2b92135bbf58d8180f6",
+    "runs/emx056/frozen_pbuf_elasticity_emission_wide_net_contract.json": "72c266b4c25acfb2cc6cdd58c52e75be9a5d01b4057133d358ecbf624b36cb77"
+  },
+  "interpretation_limits": [
+    "Prior-passage direction reconstruction is an in-scope record test only.",
+    "Dynamic exclusion of exact global reversal is an undefined primitive boundary, distinct from local finite replay.",
+    "All wake claims are finite, source-history and boundary conditioned."
+  ],
+  "mode": "EVIDENCE_BUILDING_NON_BLOCKING",
+  "non_blocking_rule": "Retain every outcome and candidate. Missing closure never rejects a candidate or changes earlier labels.",
+  "prohibitions": {
+    "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+    "NO_EXTERNAL_OR_DESTRUCTIVE_ACTION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING_OR_RESELECTION": true,
+    "NO_UNIVERSAL_ARROW_CLAIM": true
+  },
+  "scope_statement": {
+    "new_repo_local_non_historical_wake_record_experiment": true,
+    "no_E_B_QED_mapping": true,
+    "no_arbitrary_origin": "Global records use sorted density and Fourier magnitude; local ledgers name their moving source cell explicitly.",
+    "no_dissipation_assumption": true,
+    "not_DEV167_provenance": true,
+    "not_a_physical_clock_or_universal_arrow_claim": true
+  }
+}
