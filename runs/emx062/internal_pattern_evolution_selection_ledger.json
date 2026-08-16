@@ -1,0 +1,2949 @@
+{
+  "EMX010_061_preserved_without_relabel": true,
+  "EMX061_nonselection_preserved_except_exact_new_scope_results": true,
+  "all_outcomes_retained": true,
+  "artifact_sha256": "9ca8445c75c451c92c52749b5998f323f9c0bb02abaaf55f0dbac4b84fabd4fb",
+  "candidate_records": [
+    {
+      "adds_irreversibility": false,
+      "boundary_condition_only": true,
+      "candidate": "NO_SELECTOR_CONTROL",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "result": "Retained prescribed/held mu records expose dependence but select no pattern or oriented history.",
+      "selection_target": "control"
+    },
+    {
+      "adds_irreversibility": false,
+      "boundary_condition_only": true,
+      "candidate": "CONSERVATIVE_COUPLED_VARIATIONAL",
+      "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+      "result": "With q=(u,p,m,mu) only, a coupled conservative mu variation requires an unrepresented mu conjugate/kinetic state or endpoint boundary condition. Neither is added.",
+      "selection_target": "evolution_rule"
+    },
+    {
+      "adds_irreversibility": false,
+      "boundary_condition_only": false,
+      "candidate": "CONSTRAINED_ADMISSIBLE_CONTINUATION",
+      "classification": "CONTRADICTED_IN_SCOPE",
+      "result": "N_m=1 and local continuity retain translated/reflected degenerate localized patterns and provide no tie-break or orientation.",
+      "selection_target": "static_selection"
+    },
+    {
+      "adds_irreversibility": true,
+      "boundary_condition_only": false,
+      "candidate": "DETERMINISTIC_LOCAL_RELAXATION",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "oriented_history_selection": "SUPPORTED_IN_SCOPE",
+      "oriented_history_selection_scope": "only from declared initial q; that declaration is not promoted to a selector",
+      "result": "A complete local A_int descent update is executable from declared q, has exact named internal decrease ledger, and is explicitly irreversible. It does not select among zero-placement EMX061 degenerate patterns.",
+      "selection_target": "evolution_rule",
+      "static_selection": "CONTRADICTED_IN_SCOPE"
+    },
+    {
+      "candidate": "ALL_CANDIDATES",
+      "classification": "NOT_ASSESSED",
+      "result": "Outside the frozen scope; no claim is made.",
+      "selection_target": "physical_validity_or_universal_arrow"
+    }
+  ],
+  "candidate_test_matrix": {
+    "CONSERVATIVE_COUPLED_VARIATIONAL": {
+      "BACKGROUND_PRELOAD_SOURCE_SHAPE_BOUNDARY_REFINEMENT": {
+        "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+        "result": "No executable mu evolution exists in q without the prohibited additional conjugate/endpoint primitive."
+      },
+      "CLOSED_CYCLE_PARAMETERIZATION_ROBUSTNESS_WITHOUT_HIDDEN_CLOCK": {
+        "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+        "result": "No executable mu evolution exists in q without the prohibited additional conjugate/endpoint primitive."
+      },
+      "EMX060_PLACEMENT_FUNCTIONAL_COUPLING": {
+        "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+        "result": "No executable mu evolution exists in q without the prohibited additional conjugate/endpoint primitive."
+      },
+      "EMX061_DEGENERATE_LOCALIZED_PATTERNS": {
+        "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+        "result": "No executable mu evolution exists in q without the prohibited additional conjugate/endpoint primitive."
+      },
+      "FORWARD_REVERSE_HISTORY_AND_RECURRENCE": {
+        "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+        "result": "No executable mu evolution exists in q without the prohibited additional conjugate/endpoint primitive."
+      },
+      "INTERNAL_ENERGY_MOMENTUM_WORK_LEDGER": {
+        "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+        "result": "No executable mu evolution exists in q without the prohibited additional conjugate/endpoint primitive."
+      },
+      "LOCAL_STABILITY_PERTURBATION_CONTINUATION": {
+        "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+        "result": "No executable mu evolution exists in q without the prohibited additional conjugate/endpoint primitive."
+      },
+      "SOURCE_OFF_EMISSION_WAKE_HANDOFF": {
+        "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+        "result": "No executable mu evolution exists in q without the prohibited additional conjugate/endpoint primitive."
+      },
+      "TRANSLATION_REFLECTION_AND_DEGENERACY_COVARIANCE": {
+        "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+        "result": "No executable mu evolution exists in q without the prohibited additional conjugate/endpoint primitive."
+      }
+    },
+    "CONSTRAINED_ADMISSIBLE_CONTINUATION": {
+      "BACKGROUND_PRELOAD_SOURCE_SHAPE_BOUNDARY_REFINEMENT": {
+        "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "result": "A relation/constraint is not an oriented update or selector; declared continuations remain boundary records."
+      },
+      "CLOSED_CYCLE_PARAMETERIZATION_ROBUSTNESS_WITHOUT_HIDDEN_CLOCK": {
+        "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "result": "A relation/constraint is not an oriented update or selector; declared continuations remain boundary records."
+      },
+      "EMX060_PLACEMENT_FUNCTIONAL_COUPLING": {
+        "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "result": "A relation/constraint is not an oriented update or selector; declared continuations remain boundary records."
+      },
+      "EMX061_DEGENERATE_LOCALIZED_PATTERNS": {
+        "classification": "CONTRADICTED_IN_SCOPE",
+        "result": "A relation/constraint is not an oriented update or selector; declared continuations remain boundary records."
+      },
+      "FORWARD_REVERSE_HISTORY_AND_RECURRENCE": {
+        "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "result": "A relation/constraint is not an oriented update or selector; declared continuations remain boundary records."
+      },
+      "INTERNAL_ENERGY_MOMENTUM_WORK_LEDGER": {
+        "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "result": "A relation/constraint is not an oriented update or selector; declared continuations remain boundary records."
+      },
+      "LOCAL_STABILITY_PERTURBATION_CONTINUATION": {
+        "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "result": "A relation/constraint is not an oriented update or selector; declared continuations remain boundary records."
+      },
+      "SOURCE_OFF_EMISSION_WAKE_HANDOFF": {
+        "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "result": "A relation/constraint is not an oriented update or selector; declared continuations remain boundary records."
+      },
+      "TRANSLATION_REFLECTION_AND_DEGENERACY_COVARIANCE": {
+        "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "result": "A relation/constraint is not an oriented update or selector; declared continuations remain boundary records."
+      }
+    },
+    "DETERMINISTIC_LOCAL_RELAXATION": {
+      "BACKGROUND_PRELOAD_SOURCE_SHAPE_BOUNDARY_REFINEMENT": {
+        "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "result": "Executed deterministically in the family evidence; exact ledger and explicit irreversibility are retained."
+      },
+      "CLOSED_CYCLE_PARAMETERIZATION_ROBUSTNESS_WITHOUT_HIDDEN_CLOCK": {
+        "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "result": "Executed deterministically in the family evidence; exact ledger and explicit irreversibility are retained."
+      },
+      "EMX060_PLACEMENT_FUNCTIONAL_COUPLING": {
+        "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "result": "Executed deterministically in the family evidence; exact ledger and explicit irreversibility are retained."
+      },
+      "EMX061_DEGENERATE_LOCALIZED_PATTERNS": {
+        "classification": "CONTRADICTED_IN_SCOPE",
+        "result": "At u=0 every translated/reflected witness remains stationary; no static selection occurs."
+      },
+      "FORWARD_REVERSE_HISTORY_AND_RECURRENCE": {
+        "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "result": "Executed deterministically in the family evidence; exact ledger and explicit irreversibility are retained."
+      },
+      "INTERNAL_ENERGY_MOMENTUM_WORK_LEDGER": {
+        "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "result": "Executed deterministically in the family evidence; exact ledger and explicit irreversibility are retained."
+      },
+      "LOCAL_STABILITY_PERTURBATION_CONTINUATION": {
+        "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "result": "Executed deterministically in the family evidence; exact ledger and explicit irreversibility are retained."
+      },
+      "SOURCE_OFF_EMISSION_WAKE_HANDOFF": {
+        "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "result": "Executed deterministically in the family evidence; exact ledger and explicit irreversibility are retained."
+      },
+      "TRANSLATION_REFLECTION_AND_DEGENERACY_COVARIANCE": {
+        "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+        "result": "Executed deterministically in the family evidence; exact ledger and explicit irreversibility are retained."
+      }
+    },
+    "NO_SELECTOR_CONTROL": {
+      "BACKGROUND_PRELOAD_SOURCE_SHAPE_BOUNDARY_REFINEMENT": {
+        "classification": "SUPPORTED_IN_SCOPE",
+        "result": "Control retained without promotion to a derived selector."
+      },
+      "CLOSED_CYCLE_PARAMETERIZATION_ROBUSTNESS_WITHOUT_HIDDEN_CLOCK": {
+        "classification": "SUPPORTED_IN_SCOPE",
+        "result": "Control retained without promotion to a derived selector."
+      },
+      "EMX060_PLACEMENT_FUNCTIONAL_COUPLING": {
+        "classification": "SUPPORTED_IN_SCOPE",
+        "result": "Control retained without promotion to a derived selector."
+      },
+      "EMX061_DEGENERATE_LOCALIZED_PATTERNS": {
+        "classification": "SUPPORTED_IN_SCOPE",
+        "result": "Control retained without promotion to a derived selector."
+      },
+      "FORWARD_REVERSE_HISTORY_AND_RECURRENCE": {
+        "classification": "SUPPORTED_IN_SCOPE",
+        "result": "Control retained without promotion to a derived selector."
+      },
+      "INTERNAL_ENERGY_MOMENTUM_WORK_LEDGER": {
+        "classification": "SUPPORTED_IN_SCOPE",
+        "result": "Control retained without promotion to a derived selector."
+      },
+      "LOCAL_STABILITY_PERTURBATION_CONTINUATION": {
+        "classification": "SUPPORTED_IN_SCOPE",
+        "result": "Control retained without promotion to a derived selector."
+      },
+      "SOURCE_OFF_EMISSION_WAKE_HANDOFF": {
+        "classification": "SUPPORTED_IN_SCOPE",
+        "result": "Control retained without promotion to a derived selector."
+      },
+      "TRANSLATION_REFLECTION_AND_DEGENERACY_COVARIANCE": {
+        "classification": "SUPPORTED_IN_SCOPE",
+        "result": "Control retained without promotion to a derived selector."
+      }
+    }
+  },
+  "contract_sha256": "0811c1b650dad04ebe14bc04fb345e96f974ec2e78da1852000ee47e88ba33ef",
+  "counts": {
+    "CONTRADICTED_IN_SCOPE": 1,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 1,
+    "NOT_ASSESSED": 1,
+    "SUPPORTED_IN_SCOPE": 1,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 1
+  },
+  "family_evidence": {
+    "LOCAL_PINNING_PATTERN": {
+      "emx060_coupling_and_controls": {
+        "closed_cycle": {
+          "ledger_residual": 0.0,
+          "wake_l2": 0.0,
+          "wake_mode_l2": 0.0
+        },
+        "finite_domain": {
+          "ledger_residual": 0.0,
+          "wake_l2": 0.0,
+          "wake_mode_l2": 0.0
+        },
+        "preload": {
+          "ledger_residual": 2.117582368135751e-22,
+          "wake_l2": 0.10930248611237707,
+          "wake_mode_l2": 0.00597365691296684
+        },
+        "refinement": {
+          "ledger_residual": 0.0,
+          "wake_l2": 0.0,
+          "wake_mode_l2": 0.0
+        },
+        "source_off": {
+          "ledger_residual": 7.242131699024268e-20,
+          "wake_l2": 0.014008205671617622,
+          "wake_mode_l2": 0.003037725302787325
+        },
+        "source_shape": {
+          "ledger_residual": 0.0,
+          "wake_l2": 0.0,
+          "wake_mode_l2": 0.0
+        }
+      },
+      "forward_reverse_history": {
+        "forward": {
+          "A_int_final": 2.2693830709899246e-08,
+          "A_int_initial": 2.2693830710789815e-08,
+          "D_mu_named_irreversible_decrease": 8.905691172541913e-19,
+          "all_decreases_nonnegative_to_roundoff": true,
+          "dissipation_status": "D_mu is retained as an exact nonnegative algorithmic decrease; it is neither entropy nor a new q variable",
+          "energy_ledger_residual": 0.0,
+          "momentum_final": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_initial": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_ledger_residual": 0.0,
+          "mu_final": [
+            4.999999999346187,
+            5.0,
+            5.0
+          ],
+          "mu_initial": [
+            5.0,
+            5.0,
+            5.0
+          ],
+          "mu_path": [
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999972758,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999945516,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999918273,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999891031,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999863789,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999836547,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999998093045,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999782062,
+              5.0,
+              5.0
+            ],
+            [
+              4.99999999975482,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999727578,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999700336,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999996730935,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999645851,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999618609,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999591367,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999564125,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999995368825,
+              5.0,
+              5.0
+            ],
+            [
+              4.99999999950964,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999482398,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999455156,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999427914,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999400671,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999373429,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999346187,
+              5.0,
+              5.0
+            ]
+          ],
+          "pattern_work_on_placement": -8.905691172541913e-19,
+          "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+        },
+        "recurrence_status": "NO_RECURRENCE_REQUIRED_OR_CLAIMED_FOR_EXPLICITLY_IRREVERSIBLE_RULE",
+        "reverse_attempt_is_not_candidate_law": {
+          "A_int_final": 2.2693830709008667e-08,
+          "A_int_initial": 2.2693830708118085e-08,
+          "D_mu_named_irreversible_decrease": -8.905823521439921e-19,
+          "all_decreases_nonnegative_to_roundoff": true,
+          "dissipation_status": "D_mu is retained as an exact nonnegative algorithmic decrease; it is neither entropy nor a new q variable",
+          "energy_ledger_residual": 0.0,
+          "momentum_final": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_initial": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_ledger_residual": 0.0,
+          "mu_final": [
+            5.0,
+            5.0,
+            5.0
+          ],
+          "mu_initial": [
+            4.999999999346187,
+            5.0,
+            5.0
+          ],
+          "mu_path": [
+            [
+              4.999999999346187,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999373429,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999400671,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999427914,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999455156,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999482398,
+              5.0,
+              5.0
+            ],
+            [
+              4.99999999950964,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999995368825,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999564125,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999591367,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999618609,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999645851,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999996730935,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999700336,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999727578,
+              5.0,
+              5.0
+            ],
+            [
+              4.99999999975482,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999782062,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999998093045,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999836547,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999863789,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999891031,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999918273,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999945516,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999972758,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ]
+          ],
+          "pattern_work_on_placement": 8.905823521439921e-19,
+          "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+        }
+      },
+      "parameterization": {
+        "difference": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dt_0_01_2x_steps": [
+          4.999999999346187,
+          5.0,
+          5.0
+        ],
+        "dt_0_02": [
+          4.999999999346187,
+          5.0,
+          5.0
+        ],
+        "independent_clock_introduced": false
+      },
+      "reflection_covariance_final_pair_residual": [
+        -1.3076473237561004e-09,
+        0.0,
+        0.0
+      ],
+      "seeded_relaxation": {
+        "CENTER": {
+          "A_int_final": 2.2693830709899246e-08,
+          "A_int_initial": 2.2693830710789815e-08,
+          "D_mu_named_irreversible_decrease": 8.905691172541913e-19,
+          "all_decreases_nonnegative_to_roundoff": true,
+          "dissipation_status": "D_mu is retained as an exact nonnegative algorithmic decrease; it is neither entropy nor a new q variable",
+          "energy_ledger_residual": 0.0,
+          "momentum_final": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_initial": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_ledger_residual": 0.0,
+          "mu_final": [
+            4.999999999346187,
+            5.0,
+            5.0
+          ],
+          "mu_initial": [
+            5.0,
+            5.0,
+            5.0
+          ],
+          "mu_path": [
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999972758,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999945516,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999918273,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999891031,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999863789,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999836547,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999998093045,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999782062,
+              5.0,
+              5.0
+            ],
+            [
+              4.99999999975482,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999727578,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999700336,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999996730935,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999645851,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999618609,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999591367,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999564125,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999995368825,
+              5.0,
+              5.0
+            ],
+            [
+              4.99999999950964,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999482398,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999455156,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999427914,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999400671,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999373429,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999346187,
+              5.0,
+              5.0
+            ]
+          ],
+          "pattern_work_on_placement": -8.905691172541913e-19,
+          "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+        },
+        "REFLECTED_MINUS_X": {
+          "A_int_final": 2.269386201971059e-08,
+          "A_int_initial": 2.2693862020601092e-08,
+          "D_mu_named_irreversible_decrease": 8.90502942805187e-19,
+          "all_decreases_nonnegative_to_roundoff": true,
+          "dissipation_status": "D_mu is retained as an exact nonnegative algorithmic decrease; it is neither entropy nor a new q variable",
+          "energy_ledger_residual": 0.0,
+          "momentum_final": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_initial": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_ledger_residual": 0.0,
+          "mu_final": [
+            3.9999999993462083,
+            5.0,
+            5.0
+          ],
+          "mu_initial": [
+            4.0,
+            5.0,
+            5.0
+          ],
+          "mu_path": [
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999999727587,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999999455174,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999999918276,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999998910347,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999998637934,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999999836552,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999998093108,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999997820694,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999999754828,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999999727587,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999997003455,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999999673104,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999999645863,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999996186215,
+              5.0,
+              5.0
+            ],
+            [
+              3.99999999959138,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999999564139,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999995368976,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999995096562,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999999482415,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999994551736,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999994279323,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999999400691,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999993734496,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999993462083,
+              5.0,
+              5.0
+            ]
+          ],
+          "pattern_work_on_placement": -8.90502942805187e-19,
+          "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+        },
+        "TRANSLATED_PLUS_X": {
+          "A_int_final": 2.269386201970635e-08,
+          "A_int_initial": 2.2693862020597016e-08,
+          "D_mu_named_irreversible_decrease": 8.906650702052474e-19,
+          "all_decreases_nonnegative_to_roundoff": true,
+          "dissipation_status": "D_mu is retained as an exact nonnegative algorithmic decrease; it is neither entropy nor a new q variable",
+          "energy_ledger_residual": 0.0,
+          "momentum_final": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_initial": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_ledger_residual": 0.0,
+          "mu_final": [
+            5.999999999346144,
+            5.0,
+            5.0
+          ],
+          "mu_initial": [
+            6.0,
+            5.0,
+            5.0
+          ],
+          "mu_path": [
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999972756,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999945512,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999918268,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999891024,
+              5.0,
+              5.0
+            ],
+            [
+              5.99999999986378,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999836536,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999809292,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999782048,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999754804,
+              5.0,
+              5.0
+            ],
+            [
+              5.99999999972756,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999700316,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999673072,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999645828,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999618584,
+              5.0,
+              5.0
+            ],
+            [
+              5.99999999959134,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999564096,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999536852,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999509608,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999482364,
+              5.0,
+              5.0
+            ],
+            [
+              5.99999999945512,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999427876,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999400632,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999373388,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999346144,
+              5.0,
+              5.0
+            ]
+          ],
+          "pattern_work_on_placement": -8.906650702052474e-19,
+          "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+        }
+      },
+      "source_off_emission_wake_handoff": "EMX060 source-off internal-placement wake record is retained as a coupling test; it is not a selector or external source.",
+      "static_relaxation": {
+        "CENTER": {
+          "A_int_final": 0.0,
+          "A_int_initial": 0.0,
+          "D_mu_named_irreversible_decrease": 0.0,
+          "all_decreases_nonnegative_to_roundoff": true,
+          "dissipation_status": "D_mu is retained as an exact nonnegative algorithmic decrease; it is neither entropy nor a new q variable",
+          "energy_ledger_residual": 0.0,
+          "momentum_final": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_initial": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_ledger_residual": 0.0,
+          "mu_final": [
+            5.0,
+            5.0,
+            5.0
+          ],
+          "mu_initial": [
+            5.0,
+            5.0,
+            5.0
+          ],
+          "mu_path": [
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ]
+          ],
+          "pattern_work_on_placement": 0.0,
+          "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+        },
+        "REFLECTED_MINUS_X": {
+          "A_int_final": 0.0,
+          "A_int_initial": 0.0,
+          "D_mu_named_irreversible_decrease": 0.0,
+          "all_decreases_nonnegative_to_roundoff": true,
+          "dissipation_status": "D_mu is retained as an exact nonnegative algorithmic decrease; it is neither entropy nor a new q variable",
+          "energy_ledger_residual": 0.0,
+          "momentum_final": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_initial": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_ledger_residual": 0.0,
+          "mu_final": [
+            4.0,
+            5.0,
+            5.0
+          ],
+          "mu_initial": [
+            4.0,
+            5.0,
+            5.0
+          ],
+          "mu_path": [
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ]
+          ],
+          "pattern_work_on_placement": 0.0,
+          "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+        },
+        "TRANSLATED_PLUS_X": {
+          "A_int_final": 0.0,
+          "A_int_initial": 0.0,
+          "D_mu_named_irreversible_decrease": 0.0,
+          "all_decreases_nonnegative_to_roundoff": true,
+          "dissipation_status": "D_mu is retained as an exact nonnegative algorithmic decrease; it is neither entropy nor a new q variable",
+          "energy_ledger_residual": 0.0,
+          "momentum_final": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_initial": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_ledger_residual": 0.0,
+          "mu_final": [
+            6.0,
+            5.0,
+            5.0
+          ],
+          "mu_initial": [
+            6.0,
+            5.0,
+            5.0
+          ],
+          "mu_path": [
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ]
+          ],
+          "pattern_work_on_placement": 0.0,
+          "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+        }
+      },
+      "translation_covariance_final_offset_minus_unit_x": [
+        -4.263256414560601e-14,
+        0.0,
+        0.0
+      ],
+      "zero_placement_degenerate_energies": {
+        "CENTER": 0.0,
+        "REFLECTED_MINUS_X": 0.0,
+        "TRANSLATED_PLUS_X": 0.0
+      }
+    },
+    "LOCAL_STRAIN_PATTERN": {
+      "emx060_coupling_and_controls": {
+        "closed_cycle": {
+          "ledger_residual": 0.0,
+          "wake_l2": 0.0,
+          "wake_mode_l2": 0.0
+        },
+        "finite_domain": {
+          "ledger_residual": 0.0,
+          "wake_l2": 0.0,
+          "wake_mode_l2": 0.0
+        },
+        "preload": {
+          "ledger_residual": 0.0,
+          "wake_l2": 0.10944861808172937,
+          "wake_mode_l2": 0.0059895
+        },
+        "refinement": {
+          "ledger_residual": 0.0,
+          "wake_l2": 0.0,
+          "wake_mode_l2": 0.0
+        },
+        "source_off": {
+          "ledger_residual": 1.7279472123987727e-19,
+          "wake_l2": 0.01399336703213981,
+          "wake_mode_l2": 0.0030142361332609743
+        },
+        "source_shape": {
+          "ledger_residual": 0.0,
+          "wake_l2": 0.0,
+          "wake_mode_l2": 0.0
+        }
+      },
+      "forward_reverse_history": {
+        "forward": {
+          "A_int_final": 4.659072848629887e-08,
+          "A_int_initial": 4.6590728539883855e-08,
+          "D_mu_named_irreversible_decrease": 5.358498507431175e-17,
+          "all_decreases_nonnegative_to_roundoff": true,
+          "dissipation_status": "D_mu is retained as an exact nonnegative algorithmic decrease; it is neither entropy nor a new q variable",
+          "energy_ledger_residual": 0.0,
+          "momentum_final": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_initial": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_ledger_residual": 0.0,
+          "mu_final": [
+            4.99999999492843,
+            5.0,
+            5.0
+          ],
+          "mu_initial": [
+            5.0,
+            5.0,
+            5.0
+          ],
+          "mu_path": [
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999788685,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999577369,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999366054,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999154738,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999998943423,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999987321075,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999998520792,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999998309477,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999998098161,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999997886846,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999976755305,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999997464215,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999972529,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999997041584,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999996830269,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999966189534,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999996407638,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999996196323,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999995985007,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999995773692,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999995562376,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999995351061,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999995139746,
+              5.0,
+              5.0
+            ],
+            [
+              4.99999999492843,
+              5.0,
+              5.0
+            ]
+          ],
+          "pattern_work_on_placement": -5.358498507431175e-17,
+          "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+        },
+        "recurrence_status": "NO_RECURRENCE_REQUIRED_OR_CLAIMED_FOR_EXPLICITLY_IRREVERSIBLE_RULE",
+        "reverse_attempt_is_not_candidate_law": {
+          "A_int_final": 4.6590728551771916e-08,
+          "A_int_initial": 4.659072849818692e-08,
+          "D_mu_named_irreversible_decrease": -5.358499830920155e-17,
+          "all_decreases_nonnegative_to_roundoff": true,
+          "dissipation_status": "D_mu is retained as an exact nonnegative algorithmic decrease; it is neither entropy nor a new q variable",
+          "energy_ledger_residual": 0.0,
+          "momentum_final": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_initial": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_ledger_residual": 0.0,
+          "mu_final": [
+            5.0,
+            5.0,
+            5.0
+          ],
+          "mu_initial": [
+            4.99999999492843,
+            5.0,
+            5.0
+          ],
+          "mu_path": [
+            [
+              4.99999999492843,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999995139746,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999995351061,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999995562376,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999995773692,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999995985007,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999996196323,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999996407638,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999966189534,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999996830269,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999997041584,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999972529,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999997464215,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999976755305,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999997886846,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999998098161,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999998309477,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999998520792,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999987321075,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999998943423,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999154738,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999366054,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999577369,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999788685,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ]
+          ],
+          "pattern_work_on_placement": 5.358499830920155e-17,
+          "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+        }
+      },
+      "parameterization": {
+        "difference": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dt_0_01_2x_steps": [
+          4.99999999492843,
+          5.0,
+          5.0
+        ],
+        "dt_0_02": [
+          4.99999999492843,
+          5.0,
+          5.0
+        ],
+        "independent_clock_introduced": false
+      },
+      "reflection_covariance_final_pair_residual": [
+        -1.0143150319663619e-08,
+        0.0,
+        0.0
+      ],
+      "seeded_relaxation": {
+        "CENTER": {
+          "A_int_final": 4.659072848629887e-08,
+          "A_int_initial": 4.6590728539883855e-08,
+          "D_mu_named_irreversible_decrease": 5.358498507431175e-17,
+          "all_decreases_nonnegative_to_roundoff": true,
+          "dissipation_status": "D_mu is retained as an exact nonnegative algorithmic decrease; it is neither entropy nor a new q variable",
+          "energy_ledger_residual": 0.0,
+          "momentum_final": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_initial": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_ledger_residual": 0.0,
+          "mu_final": [
+            4.99999999492843,
+            5.0,
+            5.0
+          ],
+          "mu_initial": [
+            5.0,
+            5.0,
+            5.0
+          ],
+          "mu_path": [
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999788685,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999577369,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999366054,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999999154738,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999998943423,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999987321075,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999998520792,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999998309477,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999998098161,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999997886846,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999976755305,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999997464215,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999972529,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999997041584,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999996830269,
+              5.0,
+              5.0
+            ],
+            [
+              4.9999999966189534,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999996407638,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999996196323,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999995985007,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999995773692,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999995562376,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999995351061,
+              5.0,
+              5.0
+            ],
+            [
+              4.999999995139746,
+              5.0,
+              5.0
+            ],
+            [
+              4.99999999492843,
+              5.0,
+              5.0
+            ]
+          ],
+          "pattern_work_on_placement": -5.358498507431175e-17,
+          "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+        },
+        "REFLECTED_MINUS_X": {
+          "A_int_final": 4.659079276284597e-08,
+          "A_int_initial": 4.6590792816429875e-08,
+          "D_mu_named_irreversible_decrease": 5.358390643079298e-17,
+          "all_decreases_nonnegative_to_roundoff": true,
+          "dissipation_status": "D_mu is retained as an exact nonnegative algorithmic decrease; it is neither entropy nor a new q variable",
+          "energy_ledger_residual": 0.0,
+          "momentum_final": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_initial": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_ledger_residual": 0.0,
+          "mu_final": [
+            3.9999999949284835,
+            5.0,
+            5.0
+          ],
+          "mu_initial": [
+            4.0,
+            5.0,
+            5.0
+          ],
+          "mu_path": [
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999999788687,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999995773736,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999993660604,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999991547472,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999998943434,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999998732121,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999985208077,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999983094945,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999980981813,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999997886868,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999997675555,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999974642417,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999972529285,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999970416154,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999996830302,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999996618989,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999996407676,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999961963626,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999959850494,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999995773736,
+              5.0,
+              5.0
+            ],
+            [
+              3.999999995562423,
+              5.0,
+              5.0
+            ],
+            [
+              3.99999999535111,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999951397966,
+              5.0,
+              5.0
+            ],
+            [
+              3.9999999949284835,
+              5.0,
+              5.0
+            ]
+          ],
+          "pattern_work_on_placement": -5.358390643079298e-17,
+          "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+        },
+        "TRANSLATED_PLUS_X": {
+          "A_int_final": 4.659079276431763e-08,
+          "A_int_initial": 4.659079281790399e-08,
+          "D_mu_named_irreversible_decrease": 5.3586361502851035e-17,
+          "all_decreases_nonnegative_to_roundoff": true,
+          "dissipation_status": "D_mu is retained as an exact nonnegative algorithmic decrease; it is neither entropy nor a new q variable",
+          "energy_ledger_residual": 0.0,
+          "momentum_final": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_initial": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_ledger_residual": 0.0,
+          "mu_final": [
+            5.999999994928366,
+            5.0,
+            5.0
+          ],
+          "mu_initial": [
+            6.0,
+            5.0,
+            5.0
+          ],
+          "mu_path": [
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999788682,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999577364,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999366046,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999999154728,
+              5.0,
+              5.0
+            ],
+            [
+              5.99999999894341,
+              5.0,
+              5.0
+            ],
+            [
+              5.9999999987320916,
+              5.0,
+              5.0
+            ],
+            [
+              5.9999999985207735,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999998309455,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999998098137,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999997886819,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999997675501,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999997464183,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999997252865,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999997041547,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999996830229,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999996618911,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999996407593,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999996196275,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999995984957,
+              5.0,
+              5.0
+            ],
+            [
+              5.9999999957736385,
+              5.0,
+              5.0
+            ],
+            [
+              5.99999999556232,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999995351002,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999995139684,
+              5.0,
+              5.0
+            ],
+            [
+              5.999999994928366,
+              5.0,
+              5.0
+            ]
+          ],
+          "pattern_work_on_placement": -5.3586361502851035e-17,
+          "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+        }
+      },
+      "source_off_emission_wake_handoff": "EMX060 source-off internal-placement wake record is retained as a coupling test; it is not a selector or external source.",
+      "static_relaxation": {
+        "CENTER": {
+          "A_int_final": 0.0,
+          "A_int_initial": 0.0,
+          "D_mu_named_irreversible_decrease": 0.0,
+          "all_decreases_nonnegative_to_roundoff": true,
+          "dissipation_status": "D_mu is retained as an exact nonnegative algorithmic decrease; it is neither entropy nor a new q variable",
+          "energy_ledger_residual": 0.0,
+          "momentum_final": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_initial": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_ledger_residual": 0.0,
+          "mu_final": [
+            5.0,
+            5.0,
+            5.0
+          ],
+          "mu_initial": [
+            5.0,
+            5.0,
+            5.0
+          ],
+          "mu_path": [
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ],
+            [
+              5.0,
+              5.0,
+              5.0
+            ]
+          ],
+          "pattern_work_on_placement": 0.0,
+          "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+        },
+        "REFLECTED_MINUS_X": {
+          "A_int_final": 0.0,
+          "A_int_initial": 0.0,
+          "D_mu_named_irreversible_decrease": 0.0,
+          "all_decreases_nonnegative_to_roundoff": true,
+          "dissipation_status": "D_mu is retained as an exact nonnegative algorithmic decrease; it is neither entropy nor a new q variable",
+          "energy_ledger_residual": 0.0,
+          "momentum_final": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_initial": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_ledger_residual": 0.0,
+          "mu_final": [
+            4.0,
+            5.0,
+            5.0
+          ],
+          "mu_initial": [
+            4.0,
+            5.0,
+            5.0
+          ],
+          "mu_path": [
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ],
+            [
+              4.0,
+              5.0,
+              5.0
+            ]
+          ],
+          "pattern_work_on_placement": 0.0,
+          "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+        },
+        "TRANSLATED_PLUS_X": {
+          "A_int_final": 0.0,
+          "A_int_initial": 0.0,
+          "D_mu_named_irreversible_decrease": 0.0,
+          "all_decreases_nonnegative_to_roundoff": true,
+          "dissipation_status": "D_mu is retained as an exact nonnegative algorithmic decrease; it is neither entropy nor a new q variable",
+          "energy_ledger_residual": 0.0,
+          "momentum_final": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_initial": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "momentum_ledger_residual": 0.0,
+          "mu_final": [
+            6.0,
+            5.0,
+            5.0
+          ],
+          "mu_initial": [
+            6.0,
+            5.0,
+            5.0
+          ],
+          "mu_path": [
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ],
+            [
+              6.0,
+              5.0,
+              5.0
+            ]
+          ],
+          "pattern_work_on_placement": 0.0,
+          "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+        }
+      },
+      "translation_covariance_final_offset_minus_unit_x": [
+        -6.394884621840902e-14,
+        0.0,
+        0.0
+      ],
+      "zero_placement_degenerate_energies": {
+        "CENTER": 0.0,
+        "REFLECTED_MINUS_X": 0.0,
+        "TRANSLATED_PLUS_X": 0.0
+      }
+    }
+  },
+  "finite_registry": [
+    {
+      "can_select": false,
+      "class": "control",
+      "id": "NO_SELECTOR_CONTROL",
+      "law": "mu is held or prescribed only as an admissible boundary/history record; no evolution or selection law.",
+      "ledger_status": "EMX060 retained ledger only",
+      "local_relational": true,
+      "reversibility_status": "NO_DYNAMICS"
+    },
+    {
+      "can_select": "only_if_defined",
+      "class": "conservative_coupled_variational_evolution",
+      "id": "CONSERVATIVE_COUPLED_VARIATIONAL",
+      "law": "Stationary discrete coupled action using q and existing placement functional, with no added mu kinetic/conjugate variable.",
+      "ledger_status": "would use exact action ledger",
+      "local_relational": true,
+      "reversibility_status": "FORMALLY_REVERSIBLE_IF_COMPLETED"
+    },
+    {
+      "can_select": false,
+      "class": "constrained_admissible_continuation",
+      "id": "CONSTRAINED_ADMISSIBLE_CONTINUATION",
+      "law": "Continue normalized m(mu) locally subject only to existing N_m=1 and continuity; no tie-break or orientation.",
+      "ledger_status": "no exchange beyond retained placement ledger",
+      "local_relational": true,
+      "reversibility_status": "REVERSIBLE_AS_A_RELATION_NOT_AN_EVOLUTION"
+    },
+    {
+      "can_select": "only_among_states_reached_from_declared_initial_q",
+      "class": "deterministic_local_relaxation_selection",
+      "id": "DETERMINISTIC_LOCAL_RELAXATION",
+      "law": "At each artifact update, move mu along the centered local placement-energy descent relation using only A_int(u,m(mu)); the existing dt is the declared update scale.",
+      "ledger_status": "exact per-update A_int decrease is named D_mu and retained; D_mu is not entropy or a new state variable",
+      "local_relational": true,
+      "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+    }
+  ],
+  "input_artifact_sha256_verified": {
+    "runs/emx060/frozen_one_medium_internal_interaction_functional_bridge_contract.json": "9cfd66735b1c04c3693a8dfee14af1e186e7cf6c35701fe84e9b58bbac1de81c",
+    "runs/emx060/one_medium_internal_interaction_ledger.json": "83cc824680839d9e81fbd07037d7384ed1113431bf0526ec26c03e90a7758079",
+    "runs/emx061/final_contract.json": "b165e800c77df8fb7bb819afacaef2581cd184a57126208ccf4d6e784acc6edd",
+    "runs/emx061/frozen_localized_pattern_and_admissible_history_selection_audit_contract.json": "5ffbb214ef0399459df43c614fac5614375feb0d7614953564f1a57890ab12df",
+    "runs/emx061/localized_pattern_and_admissible_history_selection_ledger.json": "1d349cb2f614950332e086b71164097c8e0823b18a07afa0bbef2e43b1473fc0"
+  },
+  "no_fitted_constant": true,
+  "no_hidden_origin_or_independent_clock": true,
+  "required_test_axes": [
+    "EMX061_DEGENERATE_LOCALIZED_PATTERNS",
+    "TRANSLATION_REFLECTION_AND_DEGENERACY_COVARIANCE",
+    "FORWARD_REVERSE_HISTORY_AND_RECURRENCE",
+    "LOCAL_STABILITY_PERTURBATION_CONTINUATION",
+    "EMX060_PLACEMENT_FUNCTIONAL_COUPLING",
+    "INTERNAL_ENERGY_MOMENTUM_WORK_LEDGER",
+    "SOURCE_OFF_EMISSION_WAKE_HANDOFF",
+    "BACKGROUND_PRELOAD_SOURCE_SHAPE_BOUNDARY_REFINEMENT",
+    "CLOSED_CYCLE_PARAMETERIZATION_ROBUSTNESS_WITHOUT_HIDDEN_CLOCK"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "all_candidates_retained": true,
+  "artifact_sha256": "6b99b5b0843b456ebf290342f46afd3b25bb9576c43af02ffa6135cf1098a5e6",
+  "contract_sha256": "0811c1b650dad04ebe14bc04fb345e96f974ec2e78da1852000ee47e88ba33ef",
+  "frozen_registry": [
+    {
+      "can_select": false,
+      "class": "control",
+      "id": "NO_SELECTOR_CONTROL",
+      "law": "mu is held or prescribed only as an admissible boundary/history record; no evolution or selection law.",
+      "ledger_status": "EMX060 retained ledger only",
+      "local_relational": true,
+      "reversibility_status": "NO_DYNAMICS"
+    },
+    {
+      "can_select": "only_if_defined",
+      "class": "conservative_coupled_variational_evolution",
+      "id": "CONSERVATIVE_COUPLED_VARIATIONAL",
+      "law": "Stationary discrete coupled action using q and existing placement functional, with no added mu kinetic/conjugate variable.",
+      "ledger_status": "would use exact action ledger",
+      "local_relational": true,
+      "reversibility_status": "FORMALLY_REVERSIBLE_IF_COMPLETED"
+    },
+    {
+      "can_select": false,
+      "class": "constrained_admissible_continuation",
+      "id": "CONSTRAINED_ADMISSIBLE_CONTINUATION",
+      "law": "Continue normalized m(mu) locally subject only to existing N_m=1 and continuity; no tie-break or orientation.",
+      "ledger_status": "no exchange beyond retained placement ledger",
+      "local_relational": true,
+      "reversibility_status": "REVERSIBLE_AS_A_RELATION_NOT_AN_EVOLUTION"
+    },
+    {
+      "can_select": "only_among_states_reached_from_declared_initial_q",
+      "class": "deterministic_local_relaxation_selection",
+      "id": "DETERMINISTIC_LOCAL_RELAXATION",
+      "law": "At each artifact update, move mu along the centered local placement-energy descent relation using only A_int(u,m(mu)); the existing dt is the declared update scale.",
+      "ledger_status": "exact per-update A_int decrease is named D_mu and retained; D_mu is not entropy or a new state variable",
+      "local_relational": true,
+      "reversibility_status": "EXPLICITLY_IRREVERSIBLE_ORIENTED_UPDATE"
+    }
+  ]
+}

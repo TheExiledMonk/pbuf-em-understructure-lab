@@ -1,0 +1,22 @@
+{
+  "ALL_GATES_NON_BLOCKING": true,
+  "COUNTS": {
+    "CONTRADICTED_IN_SCOPE": 1,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 1,
+    "NOT_ASSESSED": 1,
+    "SUPPORTED_IN_SCOPE": 1,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 1
+  },
+  "EMX010_061_RESULTS_PRESERVED": true,
+  "EMX061_NONSELECTION_NOT_RELABELLED_AS_SOLVED": true,
+  "EMX062_RESULT": "INTERNAL_PATTERN_EVOLUTION_SELECTION_PRIMITIVE_SEARCH_COMPLETE",
+  "EXACT_NEW_SCOPE_CONCLUSION": "The only executable new rule is local relaxation and it supplies an explicitly irreversible oriented update from declared q, not static selection among EMX061 degeneracies.",
+  "NO_DESTRUCTIVE_OR_EXTERNAL_ACTION": true,
+  "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+  "NO_E_B_QED_MAPPING": true,
+  "NO_FITTING_OR_RESELECTION": true,
+  "NO_PHYSICAL_VALIDITY_CLAIM": true,
+  "NO_UNIVERSAL_ARROW_CLAIM": true,
+  "REMAINING_BOUNDARY": "A conservative coupled mu evolution needs a further state component or stated endpoint primitive; this search does not add either.",
+  "artifact_sha256": "660a4ebcbbe08cb0b2ff5ec41ff035953fe1b2f37924d7430f60124281cca776"
+}
