@@ -1,0 +1,17 @@
+{
+  "candidate_formulas": {
+    "CONSERVATIVE_SOURCE_POTENTIAL": "HYPOTHESIS: V_source(t,u)=-g(t) dot u; load is exact variation and total energy includes V_source.",
+    "DISCRETE_PORT_WORK_PAIRING": "HYPOTHESIS: prescribed half-kick port exchange updates an explicit source reservoir by the exact half-kick kinetic work.",
+    "GEOMETRY_COVARIANT_BOND_WORK": "HYPOTHESIS: antisymmetric directed EMX049 bond load; bond reservoir records exact pair work and forces sum to zero."
+  },
+  "fixed_kinetic": "SYMPLECTIC_PAIRED_STATE",
+  "source_supports": [
+    "zero",
+    "one_step_impulse",
+    "finite_compact",
+    "finite_elongated",
+    "finite_mirrored",
+    "finite_split",
+    "sign_reversal"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "EMX054_SELECTOR": "FINITE_SOURCE_WORK_CONSTRUCTION_SEARCH",
+  "FROZEN_BEFORE_RESULTS": true,
+  "candidates": {
+    "CONSERVATIVE_SOURCE_POTENTIAL": "HYPOTHESIS: V_source(t,u)=-g(t) dot u; load is exact variation and total energy includes V_source.",
+    "DISCRETE_PORT_WORK_PAIRING": "HYPOTHESIS: prescribed half-kick port exchange updates an explicit source reservoir by the exact half-kick kinetic work.",
+    "GEOMETRY_COVARIANT_BOND_WORK": "HYPOTHESIS: antisymmetric directed EMX049 bond load; bond reservoir records exact pair work and forces sum to zero."
+  },
+  "classification_vocabulary": [
+    "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+    "FAILS_SOURCE_WORK_BALANCE",
+    "FAILS_SOURCE_WORK_REVERSAL",
+    "FAILS_SOURCE_WORK_REFINEMENT",
+    "FAILS_SOURCE_WORK_NORMALIZATION",
+    "FAILS_BOND_ACCOUNTING",
+    "DIFFERENTIATES_FROM_EMX049",
+    "COMPATIBLE_NONUNIQUE",
+    "INSUFFICIENT_TO_DISTINGUISH",
+    "UNAVAILABLE_PROVENANCE"
+  ],
+  "contract_sha256": "b1d4c74e4ed28e78f3055138e0dbbdaf49cd72295d2f4dad1a90aa6de32aaab2",
+  "discrete_work": "same temporal-support sum of exact source half-kick kinetic increments; potential switching work is exact change in V_source at fixed state",
+  "fixed_kinetic_history_implementation": "SYMPLECTIC_PAIRED_STATE exactly as EMX051/053; no law or integrator changes",
+  "input_sha256": {
+    "runs/emx049/frozen_new_reference_geometry_primitive_contract.json": "4965001fae2f439c727f230d2825306e9e60548eeeedc52fdb5becf71aaa50f2",
+    "runs/emx052/emx053_ready_rerun_contract.json": "ffbe41d938714b676f7a46288a378d907fd83bbd9da82184c0c9b9bcfaa2243d",
+    "runs/emx052/virtual_work_audit.json": "18e53057c9a49b469be45fe79c755d270555ee207ce8cabf42ad9b7b5dbb9a28",
+    "runs/emx053/corrected_rerun_results.json": "6bf5c1f32d11367926cfb6dc39911d1b3609c9e303bc78bd6eeaf2b40ffb38c8",
+    "runs/emx053/frozen_corrected_closure_rerun_contract.json": "72279563b8cc05768c66a5fca9c193218347e5b8bec0992f5287a350744ec1b1",
+    "tools/emx051_finite_closure_candidates.py": "1591602c4c81377fc5ecef534e8a2f5a69efe6ec3072f6927be58cfe3f209d9a"
+  },
+  "ladders": {
+    "dt": [
+      0.04,
+      0.02
+    ],
+    "duration": [
+      7.2,
+      14.4
+    ],
+    "held_out": "elongated duration 14.4 at dt .04"
+  },
+  "observer": {
+    "diagnostic_only": true,
+    "version": "EMX041_NATIVE_PERTURBATION_L2_FOUR_SUMMARY_V1"
+  },
+  "prohibitions": {
+    "NO_DESTRUCTIVE_OPERATIONS": true,
+    "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+    "NO_EMX051_053_RECLASSIFICATION": true,
+    "NO_EXTERNAL_CODE": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_HIDDEN_OR_RESULT_SELECTED_CHOICES": true
+  },
+  "provenance": "All EMX054 source-work laws are explicit hypotheses, not derived physical laws or historical provenance.",
+  "source_supports": [
+    "zero",
+    "one_step_impulse",
+    "finite_compact",
+    "finite_elongated",
+    "finite_mirrored",
+    "finite_split",
+    "sign_reversal"
+  ],
+  "state": "u,p plus source/bond reservoir accounting variable only; source rules are not derived",
+  "thresholds": {
+    "accounting": 1e-12,
+    "bond_force_sum": 1e-15,
+    "normalization": 1e-15,
+    "refinement": 5e-05,
+    "reversal": 1e-12,
+    "source_free_conservation": 0.003
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "controls": [
+    {
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "positivity"
+    },
+    {
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "source_free_conservation",
+      "value": 0.002751755637501073
+    },
+    {
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "forward_reverse",
+      "value": 5.637851296924623e-18
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "zero",
+      "shape": "COMPACT"
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "one_step_impulse",
+      "shape": "COMPACT"
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "finite_compact",
+      "shape": "COMPACT"
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "finite_elongated",
+      "shape": "ELONGATED"
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "finite_mirrored",
+      "shape": "MIRRORED"
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "finite_split",
+      "shape": "SPLIT"
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "sign_reversal",
+      "shape": "COMPACT"
+    },
+    {
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "refinement",
+      "value": 3.556725798696536e-05
+    },
+    {
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "normalization"
+    },
+    {
+      "balance_residual": 0.0,
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "held_out_duration",
+      "duration": 14.4
+    },
+    {
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "positivity"
+    },
+    {
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "source_free_conservation",
+      "value": 0.002751755637501073
+    },
+    {
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "forward_reverse",
+      "value": 5.637851296924623e-18
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "zero",
+      "shape": "COMPACT"
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "one_step_impulse",
+      "shape": "COMPACT"
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "finite_compact",
+      "shape": "COMPACT"
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "finite_elongated",
+      "shape": "ELONGATED"
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "finite_mirrored",
+      "shape": "MIRRORED"
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "finite_split",
+      "shape": "SPLIT"
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "sign_reversal",
+      "shape": "COMPACT"
+    },
+    {
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "refinement",
+      "value": 3.556725798696536e-05
+    },
+    {
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "normalization"
+    },
+    {
+      "balance_residual": 0.0,
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "held_out_duration",
+      "duration": 14.4
+    },
+    {
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "positivity"
+    },
+    {
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "source_free_conservation",
+      "value": 0.002751755637501073
+    },
+    {
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "forward_reverse",
+      "value": 5.637851296924623e-18
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "zero",
+      "shape": "COMPACT"
+    },
+    {
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "zero_bond_accounting",
+      "value": 0.0
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 1.2705494208814505e-21,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "one_step_impulse",
+      "shape": "COMPACT"
+    },
+    {
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "one_step_impulse_bond_accounting",
+      "value": 1.2705494208814505e-21
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 1.2705494208814505e-21,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "finite_compact",
+      "shape": "COMPACT"
+    },
+    {
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "finite_compact_bond_accounting",
+      "value": 1.2705494208814505e-21
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 4.235164736271502e-22,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "finite_elongated",
+      "shape": "ELONGATED"
+    },
+    {
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "finite_elongated_bond_accounting",
+      "value": 4.235164736271502e-22
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "finite_mirrored",
+      "shape": "MIRRORED"
+    },
+    {
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "finite_mirrored_bond_accounting",
+      "value": 0.0
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "finite_split",
+      "shape": "SPLIT"
+    },
+    {
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "finite_split_bond_accounting",
+      "value": 0.0
+    },
+    {
+      "balance_residual": 0.0,
+      "bond_force_sum": 1.2705494208814505e-21,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "sign_reversal",
+      "shape": "COMPACT"
+    },
+    {
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "sign_reversal_bond_accounting",
+      "value": 1.2705494208814505e-21
+    },
+    {
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "refinement",
+      "value": 3.5574670117888285e-05
+    },
+    {
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "normalization"
+    },
+    {
+      "balance_residual": 0.0,
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "PASSES_VALIDATED_SOURCE_WORK_CONTROLS",
+      "control": "held_out_duration",
+      "duration": 14.4
+    }
+  ],
+  "survivors": [
+    "CONSERVATIVE_SOURCE_POTENTIAL",
+    "DISCRETE_PORT_WORK_PAIRING",
+    "GEOMETRY_COVARIANT_BOND_WORK"
+  ]
+}

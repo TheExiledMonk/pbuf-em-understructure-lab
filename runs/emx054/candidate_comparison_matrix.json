@@ -1,0 +1,221 @@
+{
+  "observer_diagnostic_only": true,
+  "rows": [
+    {
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215893,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448324509840498,
+        0.013259145044039137,
+        0.03233001210407574
+      ],
+      "shape": "COMPACT"
+    },
+    {
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.01349779344650608,
+        0.011560557542679883,
+        0.014443858908171443
+      ],
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.02293687976309718,
+        0.013259145044039137,
+        0.02862575135804302
+      ],
+      "shape": "ELONGATED"
+    },
+    {
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215896,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448324509840498,
+        0.013259145044039137,
+        0.032330012104075746
+      ],
+      "shape": "MIRRORED"
+    },
+    {
+      "candidate": "CONSERVATIVE_SOURCE_POTENTIAL",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039135,
+        0.019515475618913387,
+        0.013259145044039135,
+        0.019524555629912007
+      ],
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039135,
+        0.02524069712790232,
+        0.013259145044039135,
+        0.032331835615027955
+      ],
+      "shape": "SPLIT"
+    },
+    {
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215893,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448324509840498,
+        0.013259145044039137,
+        0.03233001210407574
+      ],
+      "shape": "COMPACT"
+    },
+    {
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.01349779344650608,
+        0.011560557542679883,
+        0.014443858908171443
+      ],
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.02293687976309718,
+        0.013259145044039137,
+        0.02862575135804302
+      ],
+      "shape": "ELONGATED"
+    },
+    {
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215896,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448324509840498,
+        0.013259145044039137,
+        0.032330012104075746
+      ],
+      "shape": "MIRRORED"
+    },
+    {
+      "candidate": "DISCRETE_PORT_WORK_PAIRING",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039135,
+        0.019515475618913387,
+        0.013259145044039135,
+        0.019524555629912007
+      ],
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039135,
+        0.02524069712790232,
+        0.013259145044039135,
+        0.032331835615027955
+      ],
+      "shape": "SPLIT"
+    },
+    {
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215893,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448324509840498,
+        0.013259145044039137,
+        0.03233001210407574
+      ],
+      "shape": "COMPACT"
+    },
+    {
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.01349779344650608,
+        0.011560557542679883,
+        0.014443858908171443
+      ],
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.02293687976309718,
+        0.013259145044039137,
+        0.02862575135804302
+      ],
+      "shape": "ELONGATED"
+    },
+    {
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039137,
+        0.017857789332215896,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039137,
+        0.025448324509840498,
+        0.013259145044039137,
+        0.032330012104075746
+      ],
+      "shape": "MIRRORED"
+    },
+    {
+      "candidate": "GEOMETRY_COVARIANT_BOND_WORK",
+      "classification": "DIFFERENTIATES_FROM_EMX049",
+      "emx049_vector": [
+        0.013259145044039135,
+        0.019515475618913387,
+        0.013259145044039135,
+        0.019524555629912007
+      ],
+      "observer_diagnostic_only": true,
+      "observer_vector": [
+        0.013259145044039135,
+        0.02524069712790232,
+        0.013259145044039135,
+        0.032331835615027955
+      ],
+      "shape": "SPLIT"
+    }
+  ]
+}
