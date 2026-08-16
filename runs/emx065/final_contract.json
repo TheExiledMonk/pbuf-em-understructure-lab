@@ -1,0 +1,40 @@
+{
+  "ALL_GATES_NON_BLOCKING": true,
+  "COUNTS": {
+    "CONTRADICTED_IN_SCOPE": 0,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 4,
+    "NOT_ASSESSED": 4,
+    "SUPPORTED_IN_SCOPE": 36,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 4
+  },
+  "EMX010_064_OUTCOMES_PRESERVED": true,
+  "EMX065_RESULT": "TWO_PATTERN_INTERACTION_AND_NONUNIFORM_MEDIUM_BRIDGE_COMPLETE",
+  "EXACT_EQUIVALENCE_GRAPH": {
+    "edges": [
+      {
+        "classification": "SUPPORTED_IN_SCOPE",
+        "from": "A_CANONICAL_TWO_MU_PI",
+        "relation": "FINITE_HELD_OUT_NONIDENTIFIABLE_UNDER_PI_I_EQUALS_XI_I",
+        "scope": "four frozen EMX065 alternatives and held-out observables only",
+        "to": "B_SYMPLECTIC_TWO_PHASE_PAIR"
+      }
+    ],
+    "nodes": [
+      "A_LOCAL_PINNING_TWO_PATTERN",
+      "A_LOCAL_STRAIN_TWO_PATTERN",
+      "B_LOCAL_PINNING_TWO_PATTERN",
+      "B_LOCAL_STRAIN_TWO_PATTERN"
+    ],
+    "non_elimination_rule": "No edge claims universal equivalence or changes EMX064 viability."
+  },
+  "EXACT_RESULTS": "All four frozen two-pattern alternatives retained finite energy-ledger, source-off, reversal, uniform covariance, and nonuniform transport records. The frozen nonuniform profile makes translation covariance not assessed while retaining its y/z profile symmetries; held-out A/B coordinates are nonidentifying only under pi_i=xi_i in this finite scope.",
+  "NEXT_FINITE_BOUNDARY": "A physical interpretation, a sector-changing fusion/splitting state, or a universal equivalence criterion remains outside this finite repository-local bridge.",
+  "NO_ARBITRARY_MATTER_SPECIES_HIDDEN_ORIGIN_OR_UNREPRESENTED_STATE": true,
+  "NO_DESTRUCTIVE_OR_EXTERNAL_ACTION": true,
+  "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+  "NO_EXTERNAL_FORCING": true,
+  "NO_E_B_QED_MAPPING": true,
+  "NO_FITTING_RESELECTION_OR_OUTCOME_RULES": true,
+  "NO_PHYSICAL_VALIDITY_OR_UNIVERSAL_ARROW_CLAIM": true,
+  "artifact_sha256": "356925d5850f89f71754c631fc4c1781f50c7954e2ebcd62258ac44e9c876141"
+}

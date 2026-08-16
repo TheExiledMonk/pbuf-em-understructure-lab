@@ -1,0 +1,114 @@
+{
+  "all_cells_predeclared": true,
+  "cells": [
+    {
+      "boundary": "periodic finite lattice",
+      "controls": [
+        "impact",
+        "separation",
+        "direction"
+      ],
+      "id": "TWO_PATTERN_COLLISION_CONTROLS",
+      "prepared": "two localized coordinate/momentum pairs"
+    },
+    {
+      "boundary": "classification only from represented two-coordinate state",
+      "controls": [
+        "approach",
+        "separation threshold"
+      ],
+      "id": "BINDING_TRANSIENT_FUSION_SPLITTING_CLASSIFICATION",
+      "prepared": "two localized pairs"
+    },
+    {
+      "boundary": "periodic finite lattice",
+      "controls": [
+        "prepared medium packet",
+        "two-pattern target"
+      ],
+      "id": "SOURCE_OFF_WAKE_ABSORPTION_SCATTERING",
+      "prepared": "initial momentum only; no later source"
+    },
+    {
+      "boundary": "periodic finite lattice",
+      "controls": [
+        "state reversal",
+        "closed cycle"
+      ],
+      "id": "RECIPROCAL_LEDGER_REVERSAL_RECURRENCE",
+      "prepared": "declared finite state"
+    },
+    {
+      "boundary": "uniform periodic control",
+      "controls": [
+        "translation",
+        "reflection",
+        "rotation",
+        "refinement",
+        "domain",
+        "source shape"
+      ],
+      "id": "UNIFORM_COVARIANCE_AND_ROBUSTNESS",
+      "prepared": "matched transformations"
+    },
+    {
+      "boundary": "periodic finite lattice; profile is part of medium",
+      "controls": [
+        "stiffness gradient",
+        "preload gradient",
+        "propagation",
+        "reflection",
+        "refraction"
+      ],
+      "id": "NONUNIFORM_GRADIENT_TRANSPORT",
+      "prepared": "frozen smooth profiles and two-pattern/medium packets"
+    },
+    {
+      "boundary": "periodic finite lattice",
+      "controls": [
+        "held-out direction",
+        "closed cycle"
+      ],
+      "id": "HELD_OUT_OBSERVABLES",
+      "prepared": "not used for any selection"
+    }
+  ],
+  "contract_sha256": "94afabc4a2912691d1a8ffb3a60f74f11e986536a116b53aa15a36d0eb0b8099",
+  "eligible_classes": [
+    {
+      "extends": "A_CANONICAL_MU_PI",
+      "id": "A_CANONICAL_TWO_MU_PI",
+      "identification": "pi_i are canonical conservative momenta",
+      "state": "(u,p,mu_1,pi_1,mu_2,pi_2)"
+    },
+    {
+      "extends": "B_SYMPLECTIC_PHASE_PAIR",
+      "id": "B_SYMPLECTIC_TWO_PHASE_PAIR",
+      "identification": "xi_i are the declared paired phase coordinates",
+      "state": "(u,p,mu_1,xi_1,mu_2,xi_2)"
+    }
+  ],
+  "neutral_alternatives": [
+    {
+      "class": "A_CANONICAL_TWO_MU_PI",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "id": "A_LOCAL_PINNING_TWO_PATTERN"
+    },
+    {
+      "class": "A_CANONICAL_TWO_MU_PI",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "id": "A_LOCAL_STRAIN_TWO_PATTERN"
+    },
+    {
+      "class": "B_SYMPLECTIC_TWO_PHASE_PAIR",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "id": "B_LOCAL_PINNING_TWO_PATTERN"
+    },
+    {
+      "class": "B_SYMPLECTIC_TWO_PHASE_PAIR",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "id": "B_LOCAL_STRAIN_TWO_PATTERN"
+    }
+  ],
+  "result_free_registry": true
+}

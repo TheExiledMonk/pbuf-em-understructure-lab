@@ -1,0 +1,192 @@
+{
+  "EMX065_SELECTOR": "TWO_PATTERN_INTERACTION_AND_NONUNIFORM_MEDIUM_BRIDGE",
+  "FROZEN_BEFORE_RESULTS": true,
+  "boundaries": {
+    "finite_domain_note": "Finite periodic recurrence is boundary-conditioned, not an arrow claim.",
+    "geometry": "periodic N^3 lattice",
+    "two_pattern_classification": {
+      "bound": "separation <= 1.20 at final and midpoint",
+      "otherwise": "transient interaction",
+      "separated": "separation >= 2.00 at final"
+    }
+  },
+  "classification_vocabulary": [
+    "SUPPORTED_IN_SCOPE",
+    "CONTRADICTED_IN_SCOPE",
+    "DISTINCT_OBSERVABLE_BEHAVIOR",
+    "NOT_ASSESSED",
+    "UNDEFINED_PRIMITIVE_BOUNDARY"
+  ],
+  "contract_sha256": "94afabc4a2912691d1a8ffb3a60f74f11e986536a116b53aa15a36d0eb0b8099",
+  "covariance_rule": "Uniform-medium translation/reflection/axis-swap controls are applicable. In the nonuniform medium, translation is deliberately broken by the frozen profile; y/z reflection and y-z swap remain applicable profile symmetries.",
+  "eligible_emx064_classes": [
+    {
+      "extends": "A_CANONICAL_MU_PI",
+      "id": "A_CANONICAL_TWO_MU_PI",
+      "identification": "pi_i are canonical conservative momenta",
+      "state": "(u,p,mu_1,pi_1,mu_2,pi_2)"
+    },
+    {
+      "extends": "B_SYMPLECTIC_PHASE_PAIR",
+      "id": "B_SYMPLECTIC_TWO_PHASE_PAIR",
+      "identification": "xi_i are the declared paired phase coordinates",
+      "state": "(u,p,mu_1,xi_1,mu_2,xi_2)"
+    }
+  ],
+  "frozen_numerics": {
+    "comparison_tolerance": 2e-09,
+    "dt": 0.006,
+    "elastic_k": 1.0,
+    "finite_difference_epsilon": 0.0002,
+    "gamma": 0.35,
+    "identity_tolerance": 8e-07,
+    "n": 8,
+    "pattern_radius": 1.35,
+    "preload_gradient": 0.006,
+    "steps": 36,
+    "stiffness_gradient": 0.2
+  },
+  "initialization_normalization": {
+    "coordinates": [
+      [
+        2.25,
+        4.0,
+        4.0
+      ],
+      [
+        5.75,
+        4.0,
+        4.0
+      ]
+    ],
+    "medium_packet": 0.03,
+    "normalization": "fixed amplitudes and profiles; no fitting or reselection",
+    "paired_states": [
+      [
+        0.045,
+        0,
+        0
+      ],
+      [
+        -0.045,
+        0,
+        0
+      ]
+    ]
+  },
+  "input_sha256": {
+    "runs/emx060/frozen_one_medium_internal_interaction_functional_bridge_contract.json": "9cfd66735b1c04c3693a8dfee14af1e186e7cf6c35701fe84e9b58bbac1de81c",
+    "runs/emx064/final_contract.json": "30b9eac476a01a972a9a7775f46d78e6aa1438999cd4b87e8816c0ab4f0e8875",
+    "runs/emx064/finite_registry.json": "0a3eb416833402c1708f7b2a0478ff409a1bef7bd38c89b91c40136573bfa703",
+    "runs/emx064/frozen_wide_net_conservative_pattern_closure_discriminator_contract.json": "527223006377abd7f3c3de8d475f94001e372cd1cac5734c83ce70b8fe2d958c",
+    "runs/emx064/wide_net_conservative_pattern_closure_discriminator_ledger.json": "ede0be1e3724883cf338397ee8f8e6df41fa6e7647d700994e2ef357fc68b50c"
+  },
+  "medium_functional": "H = sum |p|^2/2 + sum directed-bonds k(x+1/2)|u(x+1)-u(x)|^2/2 + sum_i [A_int(u,m(mu_i)) + |pair_i|^2/2]. k(x+1/2)=k0[1+s cos(2pi(x+1/2)/N)]; preload(x)=a sin(2pi x/N) e_x. Both are frozen smooth periodic medium fields, not forcing.",
+  "mode": "NEW_REPOSITORY_LOCAL_FINITE_BRIDGE_NON_BLOCKING",
+  "neutral_alternatives": [
+    {
+      "class": "A_CANONICAL_TWO_MU_PI",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "id": "A_LOCAL_PINNING_TWO_PATTERN"
+    },
+    {
+      "class": "A_CANONICAL_TWO_MU_PI",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "id": "A_LOCAL_STRAIN_TWO_PATTERN"
+    },
+    {
+      "class": "B_SYMPLECTIC_TWO_PHASE_PAIR",
+      "functional": "LOCAL_PINNING_PATTERN",
+      "id": "B_LOCAL_PINNING_TWO_PATTERN"
+    },
+    {
+      "class": "B_SYMPLECTIC_TWO_PHASE_PAIR",
+      "functional": "LOCAL_STRAIN_PATTERN",
+      "id": "B_LOCAL_STRAIN_TWO_PATTERN"
+    }
+  ],
+  "predeclared_artifact_hashed_cells": [
+    {
+      "boundary": "periodic finite lattice",
+      "controls": [
+        "impact",
+        "separation",
+        "direction"
+      ],
+      "id": "TWO_PATTERN_COLLISION_CONTROLS",
+      "prepared": "two localized coordinate/momentum pairs"
+    },
+    {
+      "boundary": "classification only from represented two-coordinate state",
+      "controls": [
+        "approach",
+        "separation threshold"
+      ],
+      "id": "BINDING_TRANSIENT_FUSION_SPLITTING_CLASSIFICATION",
+      "prepared": "two localized pairs"
+    },
+    {
+      "boundary": "periodic finite lattice",
+      "controls": [
+        "prepared medium packet",
+        "two-pattern target"
+      ],
+      "id": "SOURCE_OFF_WAKE_ABSORPTION_SCATTERING",
+      "prepared": "initial momentum only; no later source"
+    },
+    {
+      "boundary": "periodic finite lattice",
+      "controls": [
+        "state reversal",
+        "closed cycle"
+      ],
+      "id": "RECIPROCAL_LEDGER_REVERSAL_RECURRENCE",
+      "prepared": "declared finite state"
+    },
+    {
+      "boundary": "uniform periodic control",
+      "controls": [
+        "translation",
+        "reflection",
+        "rotation",
+        "refinement",
+        "domain",
+        "source shape"
+      ],
+      "id": "UNIFORM_COVARIANCE_AND_ROBUSTNESS",
+      "prepared": "matched transformations"
+    },
+    {
+      "boundary": "periodic finite lattice; profile is part of medium",
+      "controls": [
+        "stiffness gradient",
+        "preload gradient",
+        "propagation",
+        "reflection",
+        "refraction"
+      ],
+      "id": "NONUNIFORM_GRADIENT_TRANSPORT",
+      "prepared": "frozen smooth profiles and two-pattern/medium packets"
+    },
+    {
+      "boundary": "periodic finite lattice",
+      "controls": [
+        "held-out direction",
+        "closed cycle"
+      ],
+      "id": "HELD_OUT_OBSERVABLES",
+      "prepared": "not used for any selection"
+    }
+  ],
+  "preservation_rule": "EMX010-064 outcomes, labels, files, and class viability are retained verbatim; EMX065 does not fit, reselect, eliminate, or establish physical validity or universal equivalence.",
+  "prohibitions": {
+    "NO_ARBITRARY_MATTER_SPECIES_HIDDEN_ORIGIN_OR_UNREPRESENTED_STATE": true,
+    "NO_DESTRUCTIVE_OR_EXTERNAL_ACTION": true,
+    "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+    "NO_EXTERNAL_FORCING": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING_RESELECTION_OR_OUTCOME_RULES": true,
+    "NO_PHYSICAL_VALIDITY_OR_UNIVERSAL_ARROW_CLAIM": true
+  },
+  "state_rule": "Only u,p and two explicitly declared localized pattern coordinate/paired-state pairs are represented. Fusion/splitting are classifications of these two tracked coordinates, never creation or deletion of a species."
+}
