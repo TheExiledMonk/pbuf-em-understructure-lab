@@ -1,0 +1,102 @@
+{
+  "all_candidates_retained": true,
+  "contract_sha256": "4cf4b800b30fd64e54396678cb3194f5d8c5d3377cda220b9ac35706aea6bb95",
+  "frozen_registry": [
+    {
+      "assumptions": [
+        "H_mu=1/2|pi_mu|^2+A_int(u,m(mu))",
+        "unit coefficients are fixed neutral normalizations, not fitted"
+      ],
+      "family": "A_CANONICAL_PATTERN_CONJUGATE_PAIR",
+      "id": "A_CANONICAL_MU_PI",
+      "kind": "conservative deterministic evolution",
+      "provenance": "new explicit neutral EMX063 internal pattern momentum primitive",
+      "state_additions": [
+        "pi_mu"
+      ]
+    },
+    {
+      "assumptions": [
+        "d(mu,xi)/ds=J grad A_int with stated antisymmetric J",
+        "no orientation or origin"
+      ],
+      "family": "B_PAIRED_PHASE_SECTOR",
+      "id": "B_SYMPLECTIC_PHASE_PAIR",
+      "kind": "conservative deterministic evolution",
+      "provenance": "new explicit neutral EMX063 paired internal phase primitive",
+      "state_additions": [
+        "xi_mu"
+      ]
+    },
+    {
+      "assumptions": [
+        "degree-one homogeneous local history action",
+        "rho_rel is a gauge variable and requires a stated endpoint/gauge section for a finite record"
+      ],
+      "family": "C_CONSTRAINED_DEGREE_ONE_HISTORY_ACTION",
+      "id": "C_RELATIONAL_DEGREE_ONE_HISTORY",
+      "kind": "constrained history relation",
+      "provenance": "new explicit relational duration/gauge primitive rho_rel, not an external clock",
+      "state_additions": [
+        "rho_rel",
+        "pi_mu"
+      ]
+    },
+    {
+      "assumptions": [
+        "finite initialized local jet update",
+        "no unspecified nonlocal kernel",
+        "unit neutral normalization"
+      ],
+      "family": "D_HIGHER_ORDER_LOCAL_HISTORY",
+      "id": "D_HIGHER_ORDER_LOCAL_HISTORY",
+      "kind": "deterministic local-history evolution",
+      "provenance": "new explicit finite local-history jet variables",
+      "state_additions": [
+        "v_mu",
+        "a_mu",
+        "j_mu"
+      ]
+    },
+    {
+      "assumptions": [
+        "fixed initial/final mu and duration section"
+      ],
+      "family": "E_ENDPOINT_BOUNDARY_SELECTED_VARIATIONAL_HISTORY",
+      "id": "E_ENDPOINT_STATIONARY_CONTROL",
+      "kind": "boundary selection rather than dynamics",
+      "provenance": "declared endpoint data only",
+      "state_additions": []
+    },
+    {
+      "assumptions": [
+        "path is supplied as boundary data"
+      ],
+      "family": "E_ENDPOINT_BOUNDARY_SELECTED_VARIATIONAL_HISTORY",
+      "id": "E_BOUNDARY_DIRECT_PATH_CONTROL",
+      "kind": "boundary selection rather than dynamics",
+      "provenance": "declared path/endpoint data only",
+      "state_additions": []
+    },
+    {
+      "assumptions": [
+        "mu held or prescribed"
+      ],
+      "family": "F_NO_SELECTOR_AND_IRREVERSIBLE_CONTROLS",
+      "id": "F_NO_SELECTOR_CONTROL",
+      "kind": "no selector",
+      "provenance": "retained EMX061/062 control",
+      "state_additions": []
+    },
+    {
+      "assumptions": [
+        "A_int descent with declared update index"
+      ],
+      "family": "F_NO_SELECTOR_AND_IRREVERSIBLE_CONTROLS",
+      "id": "F_IRREVERSIBLE_RELAXATION_CONTROL",
+      "kind": "explicitly irreversible control",
+      "provenance": "retained EMX062 explicit update",
+      "state_additions": []
+    }
+  ]
+}

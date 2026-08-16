@@ -1,0 +1,156 @@
+{
+  "EMX063_SELECTOR": "WIDE_NET_PATTERN_KINETIC_AND_HISTORY_CLOSURE_SEARCH",
+  "FROZEN_BEFORE_RESULTS": true,
+  "classification_vocabulary": [
+    "SUPPORTED_IN_SCOPE",
+    "CONTRADICTED_IN_SCOPE",
+    "DISTINCT_OBSERVABLE_BEHAVIOR",
+    "NOT_ASSESSED",
+    "UNDEFINED_PRIMITIVE_BOUNDARY"
+  ],
+  "contract_sha256": "4cf4b800b30fd64e54396678cb3194f5d8c5d3377cda220b9ac35706aea6bb95",
+  "distinctions": {
+    "conserved_ledger": "named finite identity for a defined conservative candidate",
+    "declared_boundary_data": "a supplied start/end/path, classified only as boundary selection.",
+    "deterministic_evolution": "complete finite initialized local state update",
+    "oriented_history_selection": "an oriented history selected by a law rather than endpoint preparation",
+    "static_pattern_selection": "unique static m without declared boundary data"
+  },
+  "finite_candidate_registry": [
+    {
+      "assumptions": [
+        "H_mu=1/2|pi_mu|^2+A_int(u,m(mu))",
+        "unit coefficients are fixed neutral normalizations, not fitted"
+      ],
+      "family": "A_CANONICAL_PATTERN_CONJUGATE_PAIR",
+      "id": "A_CANONICAL_MU_PI",
+      "kind": "conservative deterministic evolution",
+      "provenance": "new explicit neutral EMX063 internal pattern momentum primitive",
+      "state_additions": [
+        "pi_mu"
+      ]
+    },
+    {
+      "assumptions": [
+        "d(mu,xi)/ds=J grad A_int with stated antisymmetric J",
+        "no orientation or origin"
+      ],
+      "family": "B_PAIRED_PHASE_SECTOR",
+      "id": "B_SYMPLECTIC_PHASE_PAIR",
+      "kind": "conservative deterministic evolution",
+      "provenance": "new explicit neutral EMX063 paired internal phase primitive",
+      "state_additions": [
+        "xi_mu"
+      ]
+    },
+    {
+      "assumptions": [
+        "degree-one homogeneous local history action",
+        "rho_rel is a gauge variable and requires a stated endpoint/gauge section for a finite record"
+      ],
+      "family": "C_CONSTRAINED_DEGREE_ONE_HISTORY_ACTION",
+      "id": "C_RELATIONAL_DEGREE_ONE_HISTORY",
+      "kind": "constrained history relation",
+      "provenance": "new explicit relational duration/gauge primitive rho_rel, not an external clock",
+      "state_additions": [
+        "rho_rel",
+        "pi_mu"
+      ]
+    },
+    {
+      "assumptions": [
+        "finite initialized local jet update",
+        "no unspecified nonlocal kernel",
+        "unit neutral normalization"
+      ],
+      "family": "D_HIGHER_ORDER_LOCAL_HISTORY",
+      "id": "D_HIGHER_ORDER_LOCAL_HISTORY",
+      "kind": "deterministic local-history evolution",
+      "provenance": "new explicit finite local-history jet variables",
+      "state_additions": [
+        "v_mu",
+        "a_mu",
+        "j_mu"
+      ]
+    },
+    {
+      "assumptions": [
+        "fixed initial/final mu and duration section"
+      ],
+      "family": "E_ENDPOINT_BOUNDARY_SELECTED_VARIATIONAL_HISTORY",
+      "id": "E_ENDPOINT_STATIONARY_CONTROL",
+      "kind": "boundary selection rather than dynamics",
+      "provenance": "declared endpoint data only",
+      "state_additions": []
+    },
+    {
+      "assumptions": [
+        "path is supplied as boundary data"
+      ],
+      "family": "E_ENDPOINT_BOUNDARY_SELECTED_VARIATIONAL_HISTORY",
+      "id": "E_BOUNDARY_DIRECT_PATH_CONTROL",
+      "kind": "boundary selection rather than dynamics",
+      "provenance": "declared path/endpoint data only",
+      "state_additions": []
+    },
+    {
+      "assumptions": [
+        "mu held or prescribed"
+      ],
+      "family": "F_NO_SELECTOR_AND_IRREVERSIBLE_CONTROLS",
+      "id": "F_NO_SELECTOR_CONTROL",
+      "kind": "no selector",
+      "provenance": "retained EMX061/062 control",
+      "state_additions": []
+    },
+    {
+      "assumptions": [
+        "A_int descent with declared update index"
+      ],
+      "family": "F_NO_SELECTOR_AND_IRREVERSIBLE_CONTROLS",
+      "id": "F_IRREVERSIBLE_RELAXATION_CONTROL",
+      "kind": "explicitly irreversible control",
+      "provenance": "retained EMX062 explicit update",
+      "state_additions": []
+    }
+  ],
+  "input_sha256": {
+    "runs/emx060/frozen_one_medium_internal_interaction_functional_bridge_contract.json": "9cfd66735b1c04c3693a8dfee14af1e186e7cf6c35701fe84e9b58bbac1de81c",
+    "runs/emx060/one_medium_internal_interaction_ledger.json": "83cc824680839d9e81fbd07037d7384ed1113431bf0526ec26c03e90a7758079",
+    "runs/emx061/frozen_localized_pattern_and_admissible_history_selection_audit_contract.json": "5ffbb214ef0399459df43c614fac5614375feb0d7614953564f1a57890ab12df",
+    "runs/emx061/localized_pattern_and_admissible_history_selection_ledger.json": "1d349cb2f614950332e086b71164097c8e0823b18a07afa0bbef2e43b1473fc0",
+    "runs/emx062/final_contract.json": "ca9acd38b68606113c1da6f48b262c86258664f71b4bbf167f2b6712045ed2b8",
+    "runs/emx062/frozen_internal_pattern_evolution_selection_primitive_search_contract.json": "0c5a3d4a936735547daa3c716b404ed3fe5710994901679a8af140eef0ad6cb4",
+    "runs/emx062/internal_pattern_evolution_selection_ledger.json": "8a8d379c30863e191b83298396bc081eb9e291ef0b5480d978e8d455fc277b8a"
+  },
+  "mode": "FINITE_DETERMINISTIC_ARTIFACT_HASHED_REPO_LOCAL_NON_BLOCKING_SEARCH",
+  "non_blocking_rule": "All EMX010-062 artifacts and labels are retained verbatim. This is neither fitting nor reselection and does not repair an earlier conclusion.",
+  "prohibitions": {
+    "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+    "NO_ENTROPY_EXTERNAL_MATTER_SECOND_MEDIUM_HIDDEN_ORIGIN_TOPOLOGICAL_CHARGE_FITTED_CONSTANT_OR_UNSPECIFIED_NONLOCAL_KERNEL": true,
+    "NO_EXTERNAL_OR_DESTRUCTIVE_ACTION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING_OR_RESELECTION": true,
+    "NO_PHYSICAL_VALIDITY_CLAIM": true,
+    "NO_UNIVERSAL_ARROW_CLAIM": true
+  },
+  "required_test_axes": [
+    "EMX061_DEGENERACIES_AND_HISTORY_SELECTION",
+    "CONSERVATIVE_LEDGER_AND_ACTION_OR_CONSTRAINT_IDENTITY",
+    "REVERSAL_RECURRENCE_AND_CONTROLLED_REVERSE",
+    "TRANSLATION_REFLECTION_COVARIANCE",
+    "LOCAL_STABILITY_PERTURBATION_CONTINUATION",
+    "BOTH_EMX060_INTERACTION_FUNCTIONALS",
+    "SOURCE_OFF_EMISSION_WAKE_HANDOFF",
+    "CLOSED_CYCLES",
+    "PARAMETERIZATION_DURATION_GAUGE_ROBUSTNESS",
+    "PRELOAD_FINITE_DOMAIN_SOURCE_SHAPE_LATTICE_REFINEMENT_CONTROLS"
+  ],
+  "state_scope": {
+    "all_new_state_additions_must_be_listed_with_provenance": true,
+    "existing_reconstruction": "m=m(mu)",
+    "localized_pattern_variable": "mu",
+    "relational_duration_rule": "rho_rel is an explicit candidate gauge primitive, never a hidden clock."
+  },
+  "undefined_primitive_rule": "If a candidate needs state, normalization, endpoint, gauge section, or kernel data not explicitly represented by its frozen neutral alternative, classify that requested conclusion UNDEFINED_PRIMITIVE_BOUNDARY; do not invent it."
+}
