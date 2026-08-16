@@ -1,0 +1,106 @@
+{
+  "EMX060_SELECTOR": "ONE_MEDIUM_INTERNAL_INTERACTION_FUNCTIONAL_BRIDGE",
+  "FROZEN_BEFORE_RESULTS": true,
+  "classification_vocabulary": [
+    "SUPPORTED_IN_SCOPE",
+    "CONTRADICTED_IN_SCOPE",
+    "DISTINCT_OBSERVABLE_BEHAVIOR",
+    "NOT_ASSESSED",
+    "UNDEFINED_PRIMITIVE_BOUNDARY"
+  ],
+  "comparison_rule": "Compare EMX060 directly to the retained EMX058/059 records by family and label only; do not relabel, fit, map, or reselect. Report whether each functional has an exact named rearrangement ledger, wake change, and source-work-family distinction.",
+  "complete_discrete_medium_state": {
+    "admissible_history_rule": "Translation and rearrangement are continuous piecewise-linear histories mu(t) of the same q; m is reconstructed from mu(t) by a normalized compact discrete kernel.",
+    "matter_definition": "Matter is the localized normalized configuration distinction m within q. It is neither an external object, secondary substance, scheduled attachment, nor separately imposed source path.",
+    "name": "q",
+    "variables": {
+      "m": "normalized localized matter-pattern weight field at every finite lattice cell",
+      "mu": "admissible continuous matter-pattern path parameter used to form m, not an external object or source path",
+      "p": "placement momentum field at every finite lattice cell",
+      "u": "placement field at every finite lattice cell"
+    }
+  },
+  "contract_sha256": "28d76304c04f574aff4c6e45cac9cfc7825092e08775a3ce368bb0dc94bcaed4",
+  "fixed_numerics": {
+    "axis": 0,
+    "dt": 0.02,
+    "elastic_k": 1.0,
+    "gamma": 0.35,
+    "n": 11,
+    "pattern_radius": 1.35,
+    "steps": 160
+  },
+  "input_sha256": {
+    "runs/emx055/final_contract.json": "e2f0bc891a3d0dc7744ddf5a75166bf5b2b0f27519149d1651165305903892a2",
+    "runs/emx055/held_out_registry_and_results.json": "628c1704a3e12888d807d56028faaa12a89ab9850f823a5a6f4d089b106192f2",
+    "runs/emx056/final_contract.json": "7c0aa23d60f7618b96c1bc948469545d4a75b209f27e76c1dcaceadd53db7825",
+    "runs/emx057/final_contract.json": "623c1f1ca5052f653887d0add21cbe4d8babf41831d233ca775e31a1d8fb08ca",
+    "runs/emx058/elastic_wake_and_history_record_ledger.json": "5e6266f2cc49c53cd0fb54fdd38da5a924eaed6faa1d22af23f0fdce186722f0",
+    "runs/emx058/final_contract.json": "559989f48c013a8c20bea6354c577988ffd3e99ebf3b55860f463d67cce854a3",
+    "runs/emx059/final_contract.json": "1b42b423af865ecb8454f547b01aa446cb61a9f2594f910059741a6c42501012",
+    "runs/emx059/rearrangement_source_work_ledger.json": "5e942d9e86a7cc22dbf26cb41fde51d9a15f2a4bfc13f963d649064ef51708dd",
+    "runs/emx059/wake_replay_ledger.json": "b5ad4b0bb3242ab89e072ce8b964ece37face05a8110f91aeaf0e3d78d12d145"
+  },
+  "interaction_functional_alternatives": [
+    {
+      "A_int": "gamma/2 * sum_x m_x |u_x|^2",
+      "id": "LOCAL_PINNING_PATTERN",
+      "placement_load": "-delta A_int/delta u_x = -gamma*m_x*u_x"
+    },
+    {
+      "A_int": "gamma/2 * sum_<x,y> (m_x+m_y)/2 * |u_y-u_x|^2",
+      "id": "LOCAL_STRAIN_PATTERN",
+      "placement_load": "negative discrete placement variation of this bond functional only"
+    }
+  ],
+  "limits": {
+    "adiabatic": "same fixed path with declared slower duration",
+    "interaction_free": "gamma = 0",
+    "source_free": "mu(t) is constant and p(t=0)=0",
+    "static": "mu(t) is constant"
+  },
+  "mode": "EVIDENCE_BUILDING_NON_BLOCKING",
+  "non_blocking_rule": "Retain every cell, residual, comparison, and EMX055-059 label verbatim. No EMX060 result selects a family, repairs a prior contradiction, or changes an earlier classification.",
+  "partition_and_accounting": {
+    "boundary_flux_convention": "Periodic boundary has zero declared boundary flux. Fixed boundary flux is the energy difference attributable to the frozen edge constraint and is retained as a record.",
+    "shared_total_energy": "K_placement(q) + A_elastic(q) + A_int(q)",
+    "shared_total_momentum": "sum_cells p",
+    "work_convention": "Pattern work is the exact A_int jump caused by the internally represented m change at fixed placement. Integrator evolution defect is named and retained; it is not discarded as conservation."
+  },
+  "predeclared_histories": [
+    "STATIONARY_PATTERN",
+    "INTERNAL_TRANSLATION",
+    "INTERNAL_REARRANGEMENT",
+    "SOURCE_OFF_EMISSION",
+    "CLOSED_CYCLE"
+  ],
+  "prohibitions": {
+    "NO_DESTRUCTIVE_ACTION": true,
+    "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+    "NO_EXTERNAL_CODE_OR_ACTION": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING_OR_RESELECTION": true,
+    "NO_PHYSICAL_VALIDITY_CLAIM": true,
+    "NO_UNIVERSAL_ARROW_CLAIM": true
+  },
+  "required_controls": [
+    "NO_COUPLING",
+    "STATIC",
+    "ADIABATIC",
+    "CONTROLLED_REVERSAL",
+    "REFLECTION_RECURRENCE",
+    "COVARIANCE",
+    "REFINEMENT",
+    "PRELOAD",
+    "FINITE_DOMAIN",
+    "SOURCE_SHAPE"
+  ],
+  "scope_statement": {
+    "conceptual_evidence_only_from_prior_repo_artifacts": true,
+    "new_repo_local_finite_realization": true,
+    "no_E_B_QED_mapping": true,
+    "no_universal_arrow_claim": true,
+    "not_DEV167_provenance": true,
+    "not_a_physical_validity_claim": true
+  }
+}
