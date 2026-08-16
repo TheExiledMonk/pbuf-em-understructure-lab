@@ -1,0 +1,155 @@
+{
+  "EMX049_SELECTOR": "EXPLICIT_NEW_REFERENCE_GEOMETRY_AND_SOURCE_HISTORY_PRIMITIVE",
+  "FROZEN_BEFORE_RESULTS": true,
+  "candidate_family_identifier": "EMX049_NEW_NEUTRAL_REST_RELATION_N6",
+  "classification_vocabulary": [
+    "COMPATIBLE_NONUNIQUE",
+    "DIFFERENTIATES_FROM_HISTORICAL",
+    "DIFFERENTIATES_FROM_LOCAL",
+    "INSUFFICIENT_TO_DISTINGUISH",
+    "REPRODUCTION_CONTRADICTED",
+    "UNAVAILABLE_PROVENANCE"
+  ],
+  "contract_sha256": "171e5923e97559905d498d40bbf0179fb932a41cb9f3c67f87e38d5a4951982e",
+  "controls": [
+    "finite rest force",
+    "identity reproduction",
+    "zero source",
+    "parity",
+    "time reversal",
+    "normalization",
+    "dt-half refinement"
+  ],
+  "finite_registry": {
+    "comparison_families": [
+      "HISTORICAL_REPLAY_LIFT_EMX046_OBSERVER_ONLY",
+      "LOCAL_NEUTRAL_HARMONIC_PERIODIC_N6_EMX046"
+    ],
+    "shapes": [
+      "COMPACT",
+      "ELONGATED",
+      "MIRRORED",
+      "SPLIT"
+    ]
+  },
+  "geometry_schema": {
+    "boundary": "periodic N6",
+    "directed_order": [
+      "+x",
+      "-x",
+      "+y",
+      "-y",
+      "+z",
+      "-z"
+    ],
+    "geometry_sha256": "397b9cf5c341e2ab2a6cac4be2113bab2fe1329f6d85db8bd83ac88f6b98c0f7",
+    "lattice": [
+      11,
+      11,
+      11
+    ],
+    "rest_relation_vectors": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "zero_distance_prevention": "Each rest vector has norm 1; every force evaluation asserts min |r| > 0.5."
+  },
+  "initialization": "u=predeclared packet, p=0; no inferred historical source",
+  "input_sha256": {
+    "runs/emx041/shared_observer_definition.json": "b818d86104c15c365a3b86438e4fa29620d256c3d5d9104837bf24099bb4ba74",
+    "runs/emx046/packet_shape_cell_registry_and_results.json": "2fe01008d00337f262676bb82dc5574cfe53e15982b98f0631544a8a7fcb41a0"
+  },
+  "observer": {
+    "control_tolerances": {
+      "normalization": 1e-15,
+      "parity": 1e-12,
+      "refinement": 5e-05,
+      "reproduction": 1e-15,
+      "rest_force": 1e-15,
+      "time_reversal": 1e-12
+    },
+    "family_comparison_tolerance": 1e-12,
+    "metric": "(s(0),s(180),min s,max s)",
+    "version": "EMX041_NATIVE_PERTURBATION_L2_FOUR_SUMMARY_V1"
+  },
+  "prohibitions": {
+    "NO_DESTRUCTIVE_OPERATIONS": true,
+    "NO_DEV167_MODIFICATION": true,
+    "NO_EXTERNAL_CODE": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING": true,
+    "NO_HIDDEN_OR_RESULT_SELECTED_CHOICES": true,
+    "NO_LAB_GIT_IMPORT_OR_MODIFICATION": true
+  },
+  "provenance_separation": "This is an explicitly new repository-local candidate family. It is not historical DEV167 provenance and changes no EMX047/EMX048 classification.",
+  "source_history_construction": {
+    "artifacts": {
+      "COMPACT": {
+        "initial_l2": 0.013259145044039137,
+        "initial_p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+        "initial_u_sha256": "dad88d6957977599278312d2e0b6f349fbb283e465f79b1b16127c8f8542c76f",
+        "source_history_sha256": "ff7ba34676b529bd7dc209ae1aa2696dc115b7c0f242101b1feb97369fa30cd2"
+      },
+      "ELONGATED": {
+        "initial_l2": 0.013259145044039137,
+        "initial_p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+        "initial_u_sha256": "043aedae8c1ce0e9c30595a171baf11cbd90bc171879f3d398eb7d549e4d86c2",
+        "source_history_sha256": "ff7ba34676b529bd7dc209ae1aa2696dc115b7c0f242101b1feb97369fa30cd2"
+      },
+      "MIRRORED": {
+        "initial_l2": 0.013259145044039137,
+        "initial_p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+        "initial_u_sha256": "59d4c3652a12a089da79bcc36ff40eceb86cc723f84167f655a147244a91bcfc",
+        "source_history_sha256": "ff7ba34676b529bd7dc209ae1aa2696dc115b7c0f242101b1feb97369fa30cd2"
+      },
+      "SPLIT": {
+        "initial_l2": 0.013259145044039137,
+        "initial_p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+        "initial_u_sha256": "04cb5e34ab3a2191679414dc638f40b2aad03a0feb8916a76d535b31d16df7fb",
+        "source_history_sha256": "ff7ba34676b529bd7dc209ae1aa2696dc115b7c0f242101b1feb97369fa30cd2"
+      }
+    },
+    "normalization": "each shape has initial native L2 exactly NORM=0.013259145044039137, frozen numerical scale only",
+    "rule": "fixed packet is initialized in u at t=0; p=0; deterministic external source history is identically zero for all 181 frames",
+    "shape_rules": {
+      "COMPACT": "one +x displacement at (6,5,5)",
+      "ELONGATED": "periodic x shifts -1,0,+1 summed then normalized",
+      "MIRRORED": "x reflection then normalized",
+      "SPLIT": "periodic x shifts -2,+2 summed then normalized"
+    }
+  },
+  "update": {
+    "dt": 0.04,
+    "force": "sum directed sigma(epsilon) r_hat, epsilon=|r|-1, sigma=epsilon/(1-epsilon^2)",
+    "method": "velocity Verlet",
+    "steps": 180
+  }
+}

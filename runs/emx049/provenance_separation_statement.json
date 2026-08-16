@@ -1,0 +1,6 @@
+{
+  "candidate_family_identifier": "EMX049_NEW_NEUTRAL_REST_RELATION_N6",
+  "emx047_emx048_preserved_unchanged": true,
+  "prohibited_inference": "No EMX049 result is historical DEV167 provenance, a repair of missing history, a mechanism-equivalence claim, or physical-validity evidence.",
+  "statement": "This is an explicitly new repository-local candidate family. It is not historical DEV167 provenance and changes no EMX047/EMX048 classification."
+}

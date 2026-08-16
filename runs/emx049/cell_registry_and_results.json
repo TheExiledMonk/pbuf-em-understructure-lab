@@ -1,0 +1,196 @@
+{
+  "comparison_cells": [
+    {
+      "classification": "UNAVAILABLE_PROVENANCE",
+      "comparison_family": "HISTORICAL_REPLAY_LIFT_EMX046_OBSERVER_ONLY",
+      "meaningfully_comparable": false,
+      "new_vector": [
+        0.013259145044039137,
+        0.017857789332215893,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "reference_vector": [
+        0.013259145044039137,
+        0.01320462176396582,
+        0.012748107683194794,
+        0.01390961628034952
+      ],
+      "scope": "The EMX041 vector schema is shared, but EMX046 uses a distinct hash-pinned historical replay-lift packet. EMX049's new canonical packet is not an identical preparation, so a numerical difference cannot discriminate families.",
+      "shape": "COMPACT"
+    },
+    {
+      "classification": "DIFFERENTIATES_FROM_LOCAL",
+      "comparison_family": "LOCAL_NEUTRAL_HARMONIC_PERIODIC_N6_EMX049_MATCHED",
+      "meaningfully_comparable": true,
+      "new_vector": [
+        0.013259145044039137,
+        0.017857789332215893,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "reference_vector": [
+        0.013259145044039137,
+        0.025078521421024045,
+        0.013259145044039137,
+        0.03165172532007514
+      ],
+      "scope": "same EMX049 source artifact, normalization, lattice, boundary, velocity-Verlet update, and EMX041 observer; numerical compatibility does not establish physical validity",
+      "shape": "COMPACT"
+    },
+    {
+      "classification": "UNAVAILABLE_PROVENANCE",
+      "comparison_family": "HISTORICAL_REPLAY_LIFT_EMX046_OBSERVER_ONLY",
+      "meaningfully_comparable": false,
+      "new_vector": [
+        0.013259145044039137,
+        0.01349779344650608,
+        0.011560557542679883,
+        0.014443858908171443
+      ],
+      "reference_vector": [
+        0.013259145044039137,
+        0.013597157839123176,
+        0.012723749002635424,
+        0.01370037868270099
+      ],
+      "scope": "The EMX041 vector schema is shared, but EMX046 uses a distinct hash-pinned historical replay-lift packet. EMX049's new canonical packet is not an identical preparation, so a numerical difference cannot discriminate families.",
+      "shape": "ELONGATED"
+    },
+    {
+      "classification": "DIFFERENTIATES_FROM_LOCAL",
+      "comparison_family": "LOCAL_NEUTRAL_HARMONIC_PERIODIC_N6_EMX049_MATCHED",
+      "meaningfully_comparable": true,
+      "new_vector": [
+        0.013259145044039137,
+        0.01349779344650608,
+        0.011560557542679883,
+        0.014443858908171443
+      ],
+      "reference_vector": [
+        0.013259145044039137,
+        0.022587257198334036,
+        0.013259145044039137,
+        0.0279207381008371
+      ],
+      "scope": "same EMX049 source artifact, normalization, lattice, boundary, velocity-Verlet update, and EMX041 observer; numerical compatibility does not establish physical validity",
+      "shape": "ELONGATED"
+    },
+    {
+      "classification": "UNAVAILABLE_PROVENANCE",
+      "comparison_family": "HISTORICAL_REPLAY_LIFT_EMX046_OBSERVER_ONLY",
+      "meaningfully_comparable": false,
+      "new_vector": [
+        0.013259145044039137,
+        0.017857789332215896,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "reference_vector": [
+        0.013259145044039135,
+        0.013204621763965817,
+        0.01274810768319479,
+        0.013909616280349518
+      ],
+      "scope": "The EMX041 vector schema is shared, but EMX046 uses a distinct hash-pinned historical replay-lift packet. EMX049's new canonical packet is not an identical preparation, so a numerical difference cannot discriminate families.",
+      "shape": "MIRRORED"
+    },
+    {
+      "classification": "DIFFERENTIATES_FROM_LOCAL",
+      "comparison_family": "LOCAL_NEUTRAL_HARMONIC_PERIODIC_N6_EMX049_MATCHED",
+      "meaningfully_comparable": true,
+      "new_vector": [
+        0.013259145044039137,
+        0.017857789332215896,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "reference_vector": [
+        0.013259145044039137,
+        0.025078521421024045,
+        0.013259145044039137,
+        0.03165172532007514
+      ],
+      "scope": "same EMX049 source artifact, normalization, lattice, boundary, velocity-Verlet update, and EMX041 observer; numerical compatibility does not establish physical validity",
+      "shape": "MIRRORED"
+    },
+    {
+      "classification": "UNAVAILABLE_PROVENANCE",
+      "comparison_family": "HISTORICAL_REPLAY_LIFT_EMX046_OBSERVER_ONLY",
+      "meaningfully_comparable": false,
+      "new_vector": [
+        0.013259145044039135,
+        0.019515475618913387,
+        0.013259145044039135,
+        0.019524555629912007
+      ],
+      "reference_vector": [
+        0.013259145044039135,
+        0.01305396704001876,
+        0.012520156202493398,
+        0.013881669766921349
+      ],
+      "scope": "The EMX041 vector schema is shared, but EMX046 uses a distinct hash-pinned historical replay-lift packet. EMX049's new canonical packet is not an identical preparation, so a numerical difference cannot discriminate families.",
+      "shape": "SPLIT"
+    },
+    {
+      "classification": "DIFFERENTIATES_FROM_LOCAL",
+      "comparison_family": "LOCAL_NEUTRAL_HARMONIC_PERIODIC_N6_EMX049_MATCHED",
+      "meaningfully_comparable": true,
+      "new_vector": [
+        0.013259145044039135,
+        0.019515475618913387,
+        0.013259145044039135,
+        0.019524555629912007
+      ],
+      "reference_vector": [
+        0.013259145044039135,
+        0.02497515323664395,
+        0.013259145044039135,
+        0.03165365204871622
+      ],
+      "scope": "same EMX049 source artifact, normalization, lattice, boundary, velocity-Verlet update, and EMX041 observer; numerical compatibility does not establish physical validity",
+      "shape": "SPLIT"
+    }
+  ],
+  "controls": {
+    "identity_reproduction": {
+      "classification": "COMPATIBLE_NONUNIQUE"
+    },
+    "normalization": {
+      "all_initial_l2": [
+        0.013259145044039137,
+        0.013259145044039137,
+        0.013259145044039137,
+        0.013259145044039135
+      ],
+      "classification": "COMPATIBLE_NONUNIQUE"
+    },
+    "parity": {
+      "classification": "COMPATIBLE_NONUNIQUE",
+      "max_difference": 3.469446951953614e-18
+    },
+    "refinement": {
+      "classification": "COMPATIBLE_NONUNIQUE",
+      "max_difference": 7.855771414697066e-06
+    },
+    "rest_force": {
+      "classification": "COMPATIBLE_NONUNIQUE",
+      "max_force": 0.0,
+      "minimum_distance": 1.0
+    },
+    "time_reversal": {
+      "classification": "COMPATIBLE_NONUNIQUE",
+      "max_state_difference": 5.394280320720762e-17
+    },
+    "zero_source": {
+      "classification": "COMPATIBLE_NONUNIQUE",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

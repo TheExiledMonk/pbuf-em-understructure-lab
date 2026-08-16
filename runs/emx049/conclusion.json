@@ -1,0 +1,11 @@
+{
+  "conclusion": "EMX049 is a new neutral candidate. Shared-observer differences are discriminator observations only; neither numerical agreement nor disagreement establishes historical provenance, mechanism equivalence, or physical validity.",
+  "counts": {
+    "COMPATIBLE_NONUNIQUE": 7,
+    "DIFFERENTIATES_FROM_HISTORICAL": 0,
+    "DIFFERENTIATES_FROM_LOCAL": 4,
+    "INSUFFICIENT_TO_DISTINGUISH": 0,
+    "REPRODUCTION_CONTRADICTED": 0,
+    "UNAVAILABLE_PROVENANCE": 4
+  }
+}

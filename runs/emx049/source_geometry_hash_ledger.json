@@ -1,0 +1,107 @@
+{
+  "executed": [
+    {
+      "local_new_family_vector": [
+        0.013259145044039137,
+        0.025078521421024045,
+        0.013259145044039137,
+        0.03165172532007514
+      ],
+      "minimum_relation_distance": 0.9867408549559609,
+      "new_vector": [
+        0.013259145044039137,
+        0.017857789332215893,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+      "shape": "COMPACT",
+      "source_history_sha256": "ff7ba34676b529bd7dc209ae1aa2696dc115b7c0f242101b1feb97369fa30cd2",
+      "u_sha256": "dad88d6957977599278312d2e0b6f349fbb283e465f79b1b16127c8f8542c76f"
+    },
+    {
+      "local_new_family_vector": [
+        0.013259145044039137,
+        0.022587257198334036,
+        0.013259145044039137,
+        0.0279207381008371
+      ],
+      "minimum_relation_distance": 0.9923448290395998,
+      "new_vector": [
+        0.013259145044039137,
+        0.01349779344650608,
+        0.011560557542679883,
+        0.014443858908171443
+      ],
+      "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+      "shape": "ELONGATED",
+      "source_history_sha256": "ff7ba34676b529bd7dc209ae1aa2696dc115b7c0f242101b1feb97369fa30cd2",
+      "u_sha256": "043aedae8c1ce0e9c30595a171baf11cbd90bc171879f3d398eb7d549e4d86c2"
+    },
+    {
+      "local_new_family_vector": [
+        0.013259145044039137,
+        0.025078521421024045,
+        0.013259145044039137,
+        0.03165172532007514
+      ],
+      "minimum_relation_distance": 0.9867408549559609,
+      "new_vector": [
+        0.013259145044039137,
+        0.017857789332215896,
+        0.013259145044039137,
+        0.019440763505429972
+      ],
+      "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+      "shape": "MIRRORED",
+      "source_history_sha256": "ff7ba34676b529bd7dc209ae1aa2696dc115b7c0f242101b1feb97369fa30cd2",
+      "u_sha256": "59d4c3652a12a089da79bcc36ff40eceb86cc723f84167f655a147244a91bcfc"
+    },
+    {
+      "local_new_family_vector": [
+        0.013259145044039135,
+        0.02497515323664395,
+        0.013259145044039135,
+        0.03165365204871622
+      ],
+      "minimum_relation_distance": 0.990624368626624,
+      "new_vector": [
+        0.013259145044039135,
+        0.019515475618913387,
+        0.013259145044039135,
+        0.019524555629912007
+      ],
+      "p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+      "shape": "SPLIT",
+      "source_history_sha256": "ff7ba34676b529bd7dc209ae1aa2696dc115b7c0f242101b1feb97369fa30cd2",
+      "u_sha256": "04cb5e34ab3a2191679414dc638f40b2aad03a0feb8916a76d535b31d16df7fb"
+    }
+  ],
+  "geometry_sha256": "397b9cf5c341e2ab2a6cac4be2113bab2fe1329f6d85db8bd83ac88f6b98c0f7",
+  "source_artifacts": {
+    "COMPACT": {
+      "initial_l2": 0.013259145044039137,
+      "initial_p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+      "initial_u_sha256": "dad88d6957977599278312d2e0b6f349fbb283e465f79b1b16127c8f8542c76f",
+      "source_history_sha256": "ff7ba34676b529bd7dc209ae1aa2696dc115b7c0f242101b1feb97369fa30cd2"
+    },
+    "ELONGATED": {
+      "initial_l2": 0.013259145044039137,
+      "initial_p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+      "initial_u_sha256": "043aedae8c1ce0e9c30595a171baf11cbd90bc171879f3d398eb7d549e4d86c2",
+      "source_history_sha256": "ff7ba34676b529bd7dc209ae1aa2696dc115b7c0f242101b1feb97369fa30cd2"
+    },
+    "MIRRORED": {
+      "initial_l2": 0.013259145044039137,
+      "initial_p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+      "initial_u_sha256": "59d4c3652a12a089da79bcc36ff40eceb86cc723f84167f655a147244a91bcfc",
+      "source_history_sha256": "ff7ba34676b529bd7dc209ae1aa2696dc115b7c0f242101b1feb97369fa30cd2"
+    },
+    "SPLIT": {
+      "initial_l2": 0.013259145044039137,
+      "initial_p_sha256": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+      "initial_u_sha256": "04cb5e34ab3a2191679414dc638f40b2aad03a0feb8916a76d535b31d16df7fb",
+      "source_history_sha256": "ff7ba34676b529bd7dc209ae1aa2696dc115b7c0f242101b1feb97369fa30cd2"
+    }
+  }
+}
