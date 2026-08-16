@@ -1,0 +1,10 @@
+{
+  "conclusion": "Two-sector exchange/emission observations are new repository-local evidence only, not DEV167 provenance or a physical claim.",
+  "counts": {
+    "CONTRADICTED_IN_SCOPE": 0,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 0,
+    "NOT_ASSESSED": 2,
+    "SUPPORTED_IN_SCOPE": 21,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 0
+  }
+}

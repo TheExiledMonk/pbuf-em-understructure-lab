@@ -1,0 +1,156 @@
+{
+  "controls": [
+    "no_exchange",
+    "prepared_packet",
+    "orientation",
+    "time_reversal",
+    "source_off",
+    "spatial",
+    "refinement"
+  ],
+  "new_primitive": "neutral localized matter-bearing q,r sector coupled to EMX049 elastic placement u,p; never DEV167 provenance",
+  "records": [
+    {
+      "cell": "BASE_two_sector_ledger",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "energy_drift": 0.00017356220965159075,
+      "family": "DIRECTED_BOND",
+      "momentum_residual": 7.892991815694472e-17
+    },
+    {
+      "cell": "BASE_outgoing_disturbance",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "outer_norm_max": 0.00039401778887192214
+    },
+    {
+      "cell": "BASE_source_off",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "evidence": "No external source term is applied after initial q preparation.",
+      "family": "DIRECTED_BOND"
+    },
+    {
+      "cell": "ORIENTATION_Y_two_sector_ledger",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "energy_drift": 0.00017356220965159075,
+      "family": "DIRECTED_BOND",
+      "momentum_residual": 7.892991815694472e-17
+    },
+    {
+      "cell": "ORIENTATION_Y_outgoing_disturbance",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "outer_norm_max": 0.00039401778887192214
+    },
+    {
+      "cell": "ORIENTATION_Y_source_off",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "evidence": "No external source term is applied after initial q preparation.",
+      "family": "DIRECTED_BOND"
+    },
+    {
+      "cell": "ORIENTATION_Z_two_sector_ledger",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "energy_drift": 0.00017356220965159075,
+      "family": "DIRECTED_BOND",
+      "momentum_residual": 7.892991815694472e-17
+    },
+    {
+      "cell": "ORIENTATION_Z_outgoing_disturbance",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "outer_norm_max": 0.00039401778887192214
+    },
+    {
+      "cell": "ORIENTATION_Z_source_off",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "evidence": "No external source term is applied after initial q preparation.",
+      "family": "DIRECTED_BOND"
+    },
+    {
+      "cell": "NO_EXCHANGE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND"
+    },
+    {
+      "cell": "PREPARED_PACKET_CONTROL",
+      "classification": "NOT_ASSESSED",
+      "family": "DIRECTED_BOND",
+      "reason": "EMX049 prepared packet retained as distinct one-sector control; no equivalence claimed."
+    },
+    {
+      "cell": "BASE_two_sector_ledger",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "energy_drift": 0.00017356220965159075,
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "momentum_residual": 7.892991815694472e-17
+    },
+    {
+      "cell": "BASE_outgoing_disturbance",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "outer_norm_max": 0.00039401778887192214
+    },
+    {
+      "cell": "BASE_source_off",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "evidence": "No external source term is applied after initial q preparation.",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS"
+    },
+    {
+      "cell": "ORIENTATION_Y_two_sector_ledger",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "energy_drift": 0.00017356220965159075,
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "momentum_residual": 7.892991815694472e-17
+    },
+    {
+      "cell": "ORIENTATION_Y_outgoing_disturbance",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "outer_norm_max": 0.00039401778887192214
+    },
+    {
+      "cell": "ORIENTATION_Y_source_off",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "evidence": "No external source term is applied after initial q preparation.",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS"
+    },
+    {
+      "cell": "ORIENTATION_Z_two_sector_ledger",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "energy_drift": 0.00017356220965159075,
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "momentum_residual": 7.892991815694472e-17
+    },
+    {
+      "cell": "ORIENTATION_Z_outgoing_disturbance",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "outer_norm_max": 0.00039401778887192214
+    },
+    {
+      "cell": "ORIENTATION_Z_source_off",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "evidence": "No external source term is applied after initial q preparation.",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS"
+    },
+    {
+      "cell": "NO_EXCHANGE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS"
+    },
+    {
+      "cell": "PREPARED_PACKET_CONTROL",
+      "classification": "NOT_ASSESSED",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "reason": "EMX049 prepared packet retained as distinct one-sector control; no equivalence claimed."
+    },
+    {
+      "cell": "TIME_REVERSED_ABSORPTION",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "ALL",
+      "reason": "Source-off two-sector velocity-Verlet reverse replay is defined; finite round-trip is retained as numerical control."
+    }
+  ]
+}
