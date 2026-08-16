@@ -1,0 +1,54 @@
+{
+  "all_cells_predeclared": true,
+  "cells": [
+    {
+      "boundary": "periodic",
+      "id": "RECIPROCAL_LEDGER",
+      "prepared_data": "localized mu and paired-state momentum",
+      "rule": "conserved evolution"
+    },
+    {
+      "boundary": "periodic",
+      "id": "PACKET_SOURCE_OFF_WAKE_ABSORB_SCATTER_REVERSE",
+      "prepared_data": "localized packet or two separated packets; source-off is initial p only",
+      "rule": "conserved evolution"
+    },
+    {
+      "boundary": "periodic",
+      "id": "STABILITY_NONLINEAR_COLLISION_BINDING",
+      "prepared_data": "single perturbation, finite amplitude, or two packet configuration",
+      "rule": "conserved evolution"
+    },
+    {
+      "boundary": "periodic recurrence; finite-domain size is a boundary condition",
+      "id": "COVARIANCE_REFINEMENT_BOUNDARY_GRADIENT_LIMITS",
+      "prepared_data": "translated/reflected/rotated packets and frozen preload/shape/stiffness choices",
+      "rule": "conserved evolution"
+    },
+    {
+      "boundary": "periodic",
+      "id": "STRUCTURE_REVERSIBILITY_NORMALIZATION_SENSITIVITY",
+      "prepared_data": "frozen normalization and initialization variants",
+      "rule": "conserved evolution"
+    },
+    {
+      "boundary": "periodic",
+      "id": "HELD_OUT_CROSS_PREDICTION",
+      "prepared_data": "identical held-out packet state under A/B coordinate identification",
+      "rule": "conserved evolution"
+    }
+  ],
+  "classes": [
+    {
+      "evolution": "canonical velocity-Verlet update of H=K(p)+A_elastic(u)+A_int(u,m(mu))+|pi_mu|^2/2",
+      "id": "A_CANONICAL_MU_PI",
+      "state": "(u,p,mu,pi_mu)"
+    },
+    {
+      "evolution": "the same frozen canonical symplectic form written with xi_mu as the paired phase coordinate",
+      "id": "B_SYMPLECTIC_PHASE_PAIR",
+      "state": "(u,p,mu,xi_mu)"
+    }
+  ],
+  "contract_sha256": "c099720feb40087184430ad2fa41e1fbf903e3808febe2577ba6b88cbe754e29"
+}

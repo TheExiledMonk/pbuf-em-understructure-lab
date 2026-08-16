@@ -1,0 +1,108 @@
+{
+  "EMX064_SELECTOR": "WIDE_NET_CONSERVATIVE_PATTERN_CLOSURE_DISCRIMINATOR",
+  "FROZEN_BEFORE_RESULTS": true,
+  "allowed_emx063_classes_only": [
+    {
+      "evolution": "canonical velocity-Verlet update of H=K(p)+A_elastic(u)+A_int(u,m(mu))+|pi_mu|^2/2",
+      "id": "A_CANONICAL_MU_PI",
+      "state": "(u,p,mu,pi_mu)"
+    },
+    {
+      "evolution": "the same frozen canonical symplectic form written with xi_mu as the paired phase coordinate",
+      "id": "B_SYMPLECTIC_PHASE_PAIR",
+      "state": "(u,p,mu,xi_mu)"
+    }
+  ],
+  "classification_rule": "Every retained finite result uses only the stated vocabulary. Numerical identity is evaluated against frozen tolerances; a missing primitive is UNDEFINED_PRIMITIVE_BOUNDARY, never a reason to eliminate either class.",
+  "classification_vocabulary": [
+    "SUPPORTED_IN_SCOPE",
+    "CONTRADICTED_IN_SCOPE",
+    "DISTINCT_OBSERVABLE_BEHAVIOR",
+    "NOT_ASSESSED",
+    "UNDEFINED_PRIMITIVE_BOUNDARY"
+  ],
+  "contract_sha256": "c099720feb40087184430ad2fa41e1fbf903e3808febe2577ba6b88cbe754e29",
+  "emx060_interaction_functionals": [
+    "LOCAL_PINNING_PATTERN",
+    "LOCAL_STRAIN_PATTERN"
+  ],
+  "frozen_numerics": {
+    "comparison_tolerance": 2e-10,
+    "dt": 0.01,
+    "elastic_k": 1.0,
+    "finite_difference_epsilon": 0.0001,
+    "gamma": 0.35,
+    "identity_tolerance": 2e-08,
+    "n": 9,
+    "pattern_radius": 1.35,
+    "steps": 48
+  },
+  "held_out_observables": [
+    "total_ledger_residual",
+    "exchange_identity_residual",
+    "time_reversal_state_residual",
+    "packet_centroid",
+    "wake_l2",
+    "translation_reflection_rotation_residual"
+  ],
+  "input_sha256": {
+    "runs/emx060/frozen_one_medium_internal_interaction_functional_bridge_contract.json": "9cfd66735b1c04c3693a8dfee14af1e186e7cf6c35701fe84e9b58bbac1de81c",
+    "runs/emx060/one_medium_internal_interaction_ledger.json": "83cc824680839d9e81fbd07037d7384ed1113431bf0526ec26c03e90a7758079",
+    "runs/emx063/candidate_registry.json": "aa88acb46b0e244dab929382839ebf655f920b8c4fc63fd7b3bcfe52a0f74db3",
+    "runs/emx063/final_contract.json": "4ec3012bb80890caabb6bc023e7e564c4deb980cb5696ccb115029b2916fa0ee",
+    "runs/emx063/frozen_wide_net_pattern_kinetic_and_history_closure_search_contract.json": "6329a108e7c3c1bc6e7dbe17c3a91180acc823cff813086009ae800ca8f2d439",
+    "runs/emx063/wide_net_pattern_kinetic_and_history_closure_ledger.json": "34b331e1a510b53792e50da7591554899bb5d8316317733efc809a70f28e0ef3"
+  },
+  "mode": "FINITE_DETERMINISTIC_ARTIFACT_HASHED_NON_BLOCKING_DISCRIMINATOR",
+  "non_blocking_rule": "EMX010-063 artifacts, results, and labels are retained verbatim. EMX064 neither fits, reselects, eliminates a class, nor closes any larger primitive.",
+  "predeclared_artifact_hashed_cells": [
+    {
+      "boundary": "periodic",
+      "id": "RECIPROCAL_LEDGER",
+      "prepared_data": "localized mu and paired-state momentum",
+      "rule": "conserved evolution"
+    },
+    {
+      "boundary": "periodic",
+      "id": "PACKET_SOURCE_OFF_WAKE_ABSORB_SCATTER_REVERSE",
+      "prepared_data": "localized packet or two separated packets; source-off is initial p only",
+      "rule": "conserved evolution"
+    },
+    {
+      "boundary": "periodic",
+      "id": "STABILITY_NONLINEAR_COLLISION_BINDING",
+      "prepared_data": "single perturbation, finite amplitude, or two packet configuration",
+      "rule": "conserved evolution"
+    },
+    {
+      "boundary": "periodic recurrence; finite-domain size is a boundary condition",
+      "id": "COVARIANCE_REFINEMENT_BOUNDARY_GRADIENT_LIMITS",
+      "prepared_data": "translated/reflected/rotated packets and frozen preload/shape/stiffness choices",
+      "rule": "conserved evolution"
+    },
+    {
+      "boundary": "periodic",
+      "id": "STRUCTURE_REVERSIBILITY_NORMALIZATION_SENSITIVITY",
+      "prepared_data": "frozen normalization and initialization variants",
+      "rule": "conserved evolution"
+    },
+    {
+      "boundary": "periodic",
+      "id": "HELD_OUT_CROSS_PREDICTION",
+      "prepared_data": "identical held-out packet state under A/B coordinate identification",
+      "rule": "conserved evolution"
+    }
+  ],
+  "prohibitions": {
+    "NO_DEV167_OR_LAB_GIT_MODIFICATION_IMPORT_OR_EXECUTION": true,
+    "NO_EXTERNAL_FORCING_TO_MIMIC_SOURCE": true,
+    "NO_EXTERNAL_OR_DESTRUCTIVE_ACTION": true,
+    "NO_EXTRA_MATTER_SPECIES_OR_ARBITRARY_STATE_COMPONENTS": true,
+    "NO_E_B_QED_MAPPING": true,
+    "NO_FITTING_OR_RESELECTION": true,
+    "NO_OUTCOME_DEPENDENT_THRESHOLDS_OR_HIDDEN_SELECTION": true,
+    "NO_PHYSICAL_VALIDITY_CLAIM": true,
+    "NO_UNIVERSAL_ARROW_CLAIM": true
+  },
+  "provenance_rule": "Prepared initial data, conserved evolution rules, and boundary conditions are recorded separately in every execution cell. Source-off means no forcing after its prepared initial data."
+}
