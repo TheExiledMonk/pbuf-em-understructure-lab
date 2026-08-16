@@ -1,0 +1,10 @@
+{
+  "conclusion": "Positive constitutive completions are finite hypotheses sharing a reference 2-jet; no coefficient fit or microstructure inference occurred.",
+  "counts": {
+    "CONTRADICTED_IN_SCOPE": 0,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 6,
+    "NOT_ASSESSED": 6,
+    "SUPPORTED_IN_SCOPE": 24,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 0
+  }
+}

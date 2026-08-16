@@ -1,0 +1,302 @@
+{
+  "controls": [
+    "hard boundary",
+    "blowup barrier",
+    "finite endpoint",
+    "preload",
+    "stiffness gradient/reflection/refraction placeholder",
+    "modes",
+    "symmetry",
+    "lattice refinement"
+  ],
+  "new_primitive": "positive hyperelastic constitutive completions with fixed reference 2-jet; no microstructure inference",
+  "records": [
+    {
+      "cell": "acoustic_tangent_positivity",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "HARD_ADMISSIBILITY",
+      "minimum_tangent": 1.0
+    },
+    {
+      "cell": "small_vs_finite_deformation",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "energy_samples": [
+        0.047025,
+        0.005025000000000001,
+        0.0,
+        0.005025000000000001,
+        0.047025
+      ],
+      "family": "DIRECTED_BOND",
+      "law": "HARD_ADMISSIBILITY"
+    },
+    {
+      "cell": "preload_incremental_response",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "HARD_ADMISSIBILITY",
+      "preload_tangent": 1.27
+    },
+    {
+      "cell": "finite_domain_endpoint",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "HARD_ADMISSIBILITY"
+    },
+    {
+      "cell": "longitudinal_transverse_mixed_modes",
+      "classification": "NOT_ASSESSED",
+      "family": "DIRECTED_BOND",
+      "law": "HARD_ADMISSIBILITY",
+      "reason": "Scalar frozen completions do not infer material microstructure or a full transverse constitutive sector."
+    },
+    {
+      "cell": "rotation_reflection_relation_network_refinement",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "HARD_ADMISSIBILITY",
+      "reason": "Energy is an even scalar of frozen relation strain; no continuum promotion claimed."
+    },
+    {
+      "cell": "acoustic_tangent_positivity",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "BLOWUP_BARRIER",
+      "minimum_tangent": 1.0
+    },
+    {
+      "cell": "small_vs_finite_deformation",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "energy_samples": [
+        0.047155339735620645,
+        0.005025167926750725,
+        -0.0,
+        0.005025167926750725,
+        0.047155339735620645
+      ],
+      "family": "DIRECTED_BOND",
+      "law": "BLOWUP_BARRIER"
+    },
+    {
+      "cell": "preload_incremental_response",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "BLOWUP_BARRIER",
+      "preload_tangent": 1.3162661514309866
+    },
+    {
+      "cell": "finite_domain_endpoint",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "BLOWUP_BARRIER"
+    },
+    {
+      "cell": "longitudinal_transverse_mixed_modes",
+      "classification": "NOT_ASSESSED",
+      "family": "DIRECTED_BOND",
+      "law": "BLOWUP_BARRIER",
+      "reason": "Scalar frozen completions do not infer material microstructure or a full transverse constitutive sector."
+    },
+    {
+      "cell": "rotation_reflection_relation_network_refinement",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "BLOWUP_BARRIER",
+      "reason": "Energy is an even scalar of frozen relation strain; no continuum promotion claimed."
+    },
+    {
+      "cell": "acoustic_tangent_positivity",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "FINITE_CONSTRAINED_ENDPOINT",
+      "minimum_tangent": 1.0
+    },
+    {
+      "cell": "small_vs_finite_deformation",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "energy_samples": [
+        0.045405,
+        0.005005000000000001,
+        0.0,
+        0.005005000000000001,
+        0.045405
+      ],
+      "family": "DIRECTED_BOND",
+      "law": "FINITE_CONSTRAINED_ENDPOINT"
+    },
+    {
+      "cell": "preload_incremental_response",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "FINITE_CONSTRAINED_ENDPOINT",
+      "preload_tangent": 1.27
+    },
+    {
+      "cell": "finite_domain_endpoint",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "FINITE_CONSTRAINED_ENDPOINT"
+    },
+    {
+      "cell": "longitudinal_transverse_mixed_modes",
+      "classification": "NOT_ASSESSED",
+      "family": "DIRECTED_BOND",
+      "law": "FINITE_CONSTRAINED_ENDPOINT",
+      "reason": "Scalar frozen completions do not infer material microstructure or a full transverse constitutive sector."
+    },
+    {
+      "cell": "rotation_reflection_relation_network_refinement",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "FINITE_CONSTRAINED_ENDPOINT",
+      "reason": "Energy is an even scalar of frozen relation strain; no continuum promotion claimed."
+    },
+    {
+      "cell": "acoustic_tangent_positivity",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "HARD_ADMISSIBILITY",
+      "minimum_tangent": 1.0
+    },
+    {
+      "cell": "small_vs_finite_deformation",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "energy_samples": [
+        0.047025,
+        0.005025000000000001,
+        0.0,
+        0.005025000000000001,
+        0.047025
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "HARD_ADMISSIBILITY"
+    },
+    {
+      "cell": "preload_incremental_response",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "HARD_ADMISSIBILITY",
+      "preload_tangent": 1.27
+    },
+    {
+      "cell": "finite_domain_endpoint",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "HARD_ADMISSIBILITY"
+    },
+    {
+      "cell": "longitudinal_transverse_mixed_modes",
+      "classification": "NOT_ASSESSED",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "HARD_ADMISSIBILITY",
+      "reason": "Scalar frozen completions do not infer material microstructure or a full transverse constitutive sector."
+    },
+    {
+      "cell": "rotation_reflection_relation_network_refinement",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "HARD_ADMISSIBILITY",
+      "reason": "Energy is an even scalar of frozen relation strain; no continuum promotion claimed."
+    },
+    {
+      "cell": "acoustic_tangent_positivity",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "BLOWUP_BARRIER",
+      "minimum_tangent": 1.0
+    },
+    {
+      "cell": "small_vs_finite_deformation",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "energy_samples": [
+        0.047155339735620645,
+        0.005025167926750725,
+        -0.0,
+        0.005025167926750725,
+        0.047155339735620645
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "BLOWUP_BARRIER"
+    },
+    {
+      "cell": "preload_incremental_response",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "BLOWUP_BARRIER",
+      "preload_tangent": 1.3162661514309866
+    },
+    {
+      "cell": "finite_domain_endpoint",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "BLOWUP_BARRIER"
+    },
+    {
+      "cell": "longitudinal_transverse_mixed_modes",
+      "classification": "NOT_ASSESSED",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "BLOWUP_BARRIER",
+      "reason": "Scalar frozen completions do not infer material microstructure or a full transverse constitutive sector."
+    },
+    {
+      "cell": "rotation_reflection_relation_network_refinement",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "BLOWUP_BARRIER",
+      "reason": "Energy is an even scalar of frozen relation strain; no continuum promotion claimed."
+    },
+    {
+      "cell": "acoustic_tangent_positivity",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "FINITE_CONSTRAINED_ENDPOINT",
+      "minimum_tangent": 1.0
+    },
+    {
+      "cell": "small_vs_finite_deformation",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "energy_samples": [
+        0.045405,
+        0.005005000000000001,
+        0.0,
+        0.005005000000000001,
+        0.045405
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "FINITE_CONSTRAINED_ENDPOINT"
+    },
+    {
+      "cell": "preload_incremental_response",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "FINITE_CONSTRAINED_ENDPOINT",
+      "preload_tangent": 1.27
+    },
+    {
+      "cell": "finite_domain_endpoint",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "FINITE_CONSTRAINED_ENDPOINT"
+    },
+    {
+      "cell": "longitudinal_transverse_mixed_modes",
+      "classification": "NOT_ASSESSED",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "FINITE_CONSTRAINED_ENDPOINT",
+      "reason": "Scalar frozen completions do not infer material microstructure or a full transverse constitutive sector."
+    },
+    {
+      "cell": "rotation_reflection_relation_network_refinement",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "FINITE_CONSTRAINED_ENDPOINT",
+      "reason": "Energy is an even scalar of frozen relation strain; no continuum promotion claimed."
+    }
+  ],
+  "reference_2jet": {
+    "V(0)": 0,
+    "V_double_prime(0)": 1,
+    "V_prime(0)": 0
+  }
+}
