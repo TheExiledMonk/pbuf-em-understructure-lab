@@ -1,0 +1,10 @@
+{
+  "conclusion": "Neutral finite alternatives preserve reversible ledgers but do not resolve the native action/history primitive; boundary is retained and non-blocking.",
+  "counts": {
+    "CONTRADICTED_IN_SCOPE": 0,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 0,
+    "NOT_ASSESSED": 2,
+    "SUPPORTED_IN_SCOPE": 4,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 2
+  }
+}

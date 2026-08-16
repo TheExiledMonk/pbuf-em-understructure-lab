@@ -1,0 +1,61 @@
+{
+  "nonblocking": true,
+  "promotion_requirements": [
+    "a uniquely specified native action",
+    "constraint/gauge generator and degree-one rule",
+    "clock/duration observable",
+    "reparameterization control",
+    "source-work and two-sector ledger compatibility"
+  ],
+  "provenance": "neutral finite clock/duration alternatives only, explicitly new repository-local history/action primitives",
+  "records": [
+    {
+      "alternative": "AFFINE_CLOCK_DURATION",
+      "assumption": "NEW repo-local finite parameterized action with fixed endpoint/duration constraint; not derived from DEV167.",
+      "cell": "finite_action_assumptions",
+      "classification": "SUPPORTED_IN_SCOPE"
+    },
+    {
+      "alternative": "AFFINE_CLOCK_DURATION",
+      "cell": "reversal_ledger",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "evidence": "Underlying source-off velocity-Verlet ledger is reversible within its frozen numerical control."
+    },
+    {
+      "alternative": "AFFINE_CLOCK_DURATION",
+      "cell": "parameterization_robustness",
+      "classification": "NOT_ASSESSED",
+      "reason": "Finite clock choice supplies a parameter but does not establish native reparameterization invariance."
+    },
+    {
+      "alternative": "AFFINE_CLOCK_DURATION",
+      "cell": "degree_one_native_action_direction",
+      "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+      "reason": "No repository-local degree-one, constrained native-action definition uniquely selects the clock/duration sector."
+    },
+    {
+      "alternative": "LAGRANGE_MULTIPLIER_DURATION",
+      "assumption": "NEW repo-local finite parameterized action with fixed endpoint/duration constraint; not derived from DEV167.",
+      "cell": "finite_action_assumptions",
+      "classification": "SUPPORTED_IN_SCOPE"
+    },
+    {
+      "alternative": "LAGRANGE_MULTIPLIER_DURATION",
+      "cell": "reversal_ledger",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "evidence": "Underlying source-off velocity-Verlet ledger is reversible within its frozen numerical control."
+    },
+    {
+      "alternative": "LAGRANGE_MULTIPLIER_DURATION",
+      "cell": "parameterization_robustness",
+      "classification": "NOT_ASSESSED",
+      "reason": "Finite clock choice supplies a parameter but does not establish native reparameterization invariance."
+    },
+    {
+      "alternative": "LAGRANGE_MULTIPLIER_DURATION",
+      "cell": "degree_one_native_action_direction",
+      "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+      "reason": "No repository-local degree-one, constrained native-action definition uniquely selects the clock/duration sector."
+    }
+  ]
+}

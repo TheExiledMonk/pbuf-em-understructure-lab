@@ -1,0 +1,485 @@
+{
+  "all_gates_non_blocking": true,
+  "counts": {
+    "CONTRADICTED_IN_SCOPE": 0,
+    "DISTINCT_OBSERVABLE_BEHAVIOR": 6,
+    "NOT_ASSESSED": 10,
+    "SUPPORTED_IN_SCOPE": 49,
+    "UNDEFINED_PRIMITIVE_BOUNDARY": 2
+  },
+  "physical_claim_promotion_requirements": "Independent reproducible action, conservation, source-work, constitutive, and provenance evidence under separately frozen primitives.",
+  "records": [
+    {
+      "cell": "BASE_two_sector_ledger",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "energy_drift": 0.00017356220965159075,
+      "family": "DIRECTED_BOND",
+      "momentum_residual": 7.892991815694472e-17
+    },
+    {
+      "cell": "BASE_outgoing_disturbance",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "outer_norm_max": 0.00039401778887192214
+    },
+    {
+      "cell": "BASE_source_off",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "evidence": "No external source term is applied after initial q preparation.",
+      "family": "DIRECTED_BOND"
+    },
+    {
+      "cell": "ORIENTATION_Y_two_sector_ledger",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "energy_drift": 0.00017356220965159075,
+      "family": "DIRECTED_BOND",
+      "momentum_residual": 7.892991815694472e-17
+    },
+    {
+      "cell": "ORIENTATION_Y_outgoing_disturbance",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "outer_norm_max": 0.00039401778887192214
+    },
+    {
+      "cell": "ORIENTATION_Y_source_off",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "evidence": "No external source term is applied after initial q preparation.",
+      "family": "DIRECTED_BOND"
+    },
+    {
+      "cell": "ORIENTATION_Z_two_sector_ledger",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "energy_drift": 0.00017356220965159075,
+      "family": "DIRECTED_BOND",
+      "momentum_residual": 7.892991815694472e-17
+    },
+    {
+      "cell": "ORIENTATION_Z_outgoing_disturbance",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "outer_norm_max": 0.00039401778887192214
+    },
+    {
+      "cell": "ORIENTATION_Z_source_off",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "evidence": "No external source term is applied after initial q preparation.",
+      "family": "DIRECTED_BOND"
+    },
+    {
+      "cell": "NO_EXCHANGE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND"
+    },
+    {
+      "cell": "PREPARED_PACKET_CONTROL",
+      "classification": "NOT_ASSESSED",
+      "family": "DIRECTED_BOND",
+      "reason": "EMX049 prepared packet retained as distinct one-sector control; no equivalence claimed."
+    },
+    {
+      "cell": "BASE_two_sector_ledger",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "energy_drift": 0.00017356220965159075,
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "momentum_residual": 7.892991815694472e-17
+    },
+    {
+      "cell": "BASE_outgoing_disturbance",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "outer_norm_max": 0.00039401778887192214
+    },
+    {
+      "cell": "BASE_source_off",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "evidence": "No external source term is applied after initial q preparation.",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS"
+    },
+    {
+      "cell": "ORIENTATION_Y_two_sector_ledger",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "energy_drift": 0.00017356220965159075,
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "momentum_residual": 7.892991815694472e-17
+    },
+    {
+      "cell": "ORIENTATION_Y_outgoing_disturbance",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "outer_norm_max": 0.00039401778887192214
+    },
+    {
+      "cell": "ORIENTATION_Y_source_off",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "evidence": "No external source term is applied after initial q preparation.",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS"
+    },
+    {
+      "cell": "ORIENTATION_Z_two_sector_ledger",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "energy_drift": 0.00017356220965159075,
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "momentum_residual": 7.892991815694472e-17
+    },
+    {
+      "cell": "ORIENTATION_Z_outgoing_disturbance",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "outer_norm_max": 0.00039401778887192214
+    },
+    {
+      "cell": "ORIENTATION_Z_source_off",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "evidence": "No external source term is applied after initial q preparation.",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS"
+    },
+    {
+      "cell": "NO_EXCHANGE",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS"
+    },
+    {
+      "cell": "PREPARED_PACKET_CONTROL",
+      "classification": "NOT_ASSESSED",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "reason": "EMX049 prepared packet retained as distinct one-sector control; no equivalence claimed."
+    },
+    {
+      "cell": "TIME_REVERSED_ABSORPTION",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "ALL",
+      "reason": "Source-off two-sector velocity-Verlet reverse replay is defined; finite round-trip is retained as numerical control."
+    },
+    {
+      "cell": "acoustic_tangent_positivity",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "HARD_ADMISSIBILITY",
+      "minimum_tangent": 1.0
+    },
+    {
+      "cell": "small_vs_finite_deformation",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "energy_samples": [
+        0.047025,
+        0.005025000000000001,
+        0.0,
+        0.005025000000000001,
+        0.047025
+      ],
+      "family": "DIRECTED_BOND",
+      "law": "HARD_ADMISSIBILITY"
+    },
+    {
+      "cell": "preload_incremental_response",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "HARD_ADMISSIBILITY",
+      "preload_tangent": 1.27
+    },
+    {
+      "cell": "finite_domain_endpoint",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "HARD_ADMISSIBILITY"
+    },
+    {
+      "cell": "longitudinal_transverse_mixed_modes",
+      "classification": "NOT_ASSESSED",
+      "family": "DIRECTED_BOND",
+      "law": "HARD_ADMISSIBILITY",
+      "reason": "Scalar frozen completions do not infer material microstructure or a full transverse constitutive sector."
+    },
+    {
+      "cell": "rotation_reflection_relation_network_refinement",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "HARD_ADMISSIBILITY",
+      "reason": "Energy is an even scalar of frozen relation strain; no continuum promotion claimed."
+    },
+    {
+      "cell": "acoustic_tangent_positivity",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "BLOWUP_BARRIER",
+      "minimum_tangent": 1.0
+    },
+    {
+      "cell": "small_vs_finite_deformation",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "energy_samples": [
+        0.047155339735620645,
+        0.005025167926750725,
+        -0.0,
+        0.005025167926750725,
+        0.047155339735620645
+      ],
+      "family": "DIRECTED_BOND",
+      "law": "BLOWUP_BARRIER"
+    },
+    {
+      "cell": "preload_incremental_response",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "BLOWUP_BARRIER",
+      "preload_tangent": 1.3162661514309866
+    },
+    {
+      "cell": "finite_domain_endpoint",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "BLOWUP_BARRIER"
+    },
+    {
+      "cell": "longitudinal_transverse_mixed_modes",
+      "classification": "NOT_ASSESSED",
+      "family": "DIRECTED_BOND",
+      "law": "BLOWUP_BARRIER",
+      "reason": "Scalar frozen completions do not infer material microstructure or a full transverse constitutive sector."
+    },
+    {
+      "cell": "rotation_reflection_relation_network_refinement",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "BLOWUP_BARRIER",
+      "reason": "Energy is an even scalar of frozen relation strain; no continuum promotion claimed."
+    },
+    {
+      "cell": "acoustic_tangent_positivity",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "FINITE_CONSTRAINED_ENDPOINT",
+      "minimum_tangent": 1.0
+    },
+    {
+      "cell": "small_vs_finite_deformation",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "energy_samples": [
+        0.045405,
+        0.005005000000000001,
+        0.0,
+        0.005005000000000001,
+        0.045405
+      ],
+      "family": "DIRECTED_BOND",
+      "law": "FINITE_CONSTRAINED_ENDPOINT"
+    },
+    {
+      "cell": "preload_incremental_response",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "FINITE_CONSTRAINED_ENDPOINT",
+      "preload_tangent": 1.27
+    },
+    {
+      "cell": "finite_domain_endpoint",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "FINITE_CONSTRAINED_ENDPOINT"
+    },
+    {
+      "cell": "longitudinal_transverse_mixed_modes",
+      "classification": "NOT_ASSESSED",
+      "family": "DIRECTED_BOND",
+      "law": "FINITE_CONSTRAINED_ENDPOINT",
+      "reason": "Scalar frozen completions do not infer material microstructure or a full transverse constitutive sector."
+    },
+    {
+      "cell": "rotation_reflection_relation_network_refinement",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "DIRECTED_BOND",
+      "law": "FINITE_CONSTRAINED_ENDPOINT",
+      "reason": "Energy is an even scalar of frozen relation strain; no continuum promotion claimed."
+    },
+    {
+      "cell": "acoustic_tangent_positivity",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "HARD_ADMISSIBILITY",
+      "minimum_tangent": 1.0
+    },
+    {
+      "cell": "small_vs_finite_deformation",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "energy_samples": [
+        0.047025,
+        0.005025000000000001,
+        0.0,
+        0.005025000000000001,
+        0.047025
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "HARD_ADMISSIBILITY"
+    },
+    {
+      "cell": "preload_incremental_response",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "HARD_ADMISSIBILITY",
+      "preload_tangent": 1.27
+    },
+    {
+      "cell": "finite_domain_endpoint",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "HARD_ADMISSIBILITY"
+    },
+    {
+      "cell": "longitudinal_transverse_mixed_modes",
+      "classification": "NOT_ASSESSED",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "HARD_ADMISSIBILITY",
+      "reason": "Scalar frozen completions do not infer material microstructure or a full transverse constitutive sector."
+    },
+    {
+      "cell": "rotation_reflection_relation_network_refinement",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "HARD_ADMISSIBILITY",
+      "reason": "Energy is an even scalar of frozen relation strain; no continuum promotion claimed."
+    },
+    {
+      "cell": "acoustic_tangent_positivity",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "BLOWUP_BARRIER",
+      "minimum_tangent": 1.0
+    },
+    {
+      "cell": "small_vs_finite_deformation",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "energy_samples": [
+        0.047155339735620645,
+        0.005025167926750725,
+        -0.0,
+        0.005025167926750725,
+        0.047155339735620645
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "BLOWUP_BARRIER"
+    },
+    {
+      "cell": "preload_incremental_response",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "BLOWUP_BARRIER",
+      "preload_tangent": 1.3162661514309866
+    },
+    {
+      "cell": "finite_domain_endpoint",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "BLOWUP_BARRIER"
+    },
+    {
+      "cell": "longitudinal_transverse_mixed_modes",
+      "classification": "NOT_ASSESSED",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "BLOWUP_BARRIER",
+      "reason": "Scalar frozen completions do not infer material microstructure or a full transverse constitutive sector."
+    },
+    {
+      "cell": "rotation_reflection_relation_network_refinement",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "BLOWUP_BARRIER",
+      "reason": "Energy is an even scalar of frozen relation strain; no continuum promotion claimed."
+    },
+    {
+      "cell": "acoustic_tangent_positivity",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "FINITE_CONSTRAINED_ENDPOINT",
+      "minimum_tangent": 1.0
+    },
+    {
+      "cell": "small_vs_finite_deformation",
+      "classification": "DISTINCT_OBSERVABLE_BEHAVIOR",
+      "energy_samples": [
+        0.045405,
+        0.005005000000000001,
+        0.0,
+        0.005005000000000001,
+        0.045405
+      ],
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "FINITE_CONSTRAINED_ENDPOINT"
+    },
+    {
+      "cell": "preload_incremental_response",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "FINITE_CONSTRAINED_ENDPOINT",
+      "preload_tangent": 1.27
+    },
+    {
+      "cell": "finite_domain_endpoint",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "FINITE_CONSTRAINED_ENDPOINT"
+    },
+    {
+      "cell": "longitudinal_transverse_mixed_modes",
+      "classification": "NOT_ASSESSED",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "FINITE_CONSTRAINED_ENDPOINT",
+      "reason": "Scalar frozen completions do not infer material microstructure or a full transverse constitutive sector."
+    },
+    {
+      "cell": "rotation_reflection_relation_network_refinement",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "family": "POTENTIAL_PORT_EQUIVALENCE_CLASS",
+      "law": "FINITE_CONSTRAINED_ENDPOINT",
+      "reason": "Energy is an even scalar of frozen relation strain; no continuum promotion claimed."
+    },
+    {
+      "alternative": "AFFINE_CLOCK_DURATION",
+      "assumption": "NEW repo-local finite parameterized action with fixed endpoint/duration constraint; not derived from DEV167.",
+      "cell": "finite_action_assumptions",
+      "classification": "SUPPORTED_IN_SCOPE"
+    },
+    {
+      "alternative": "AFFINE_CLOCK_DURATION",
+      "cell": "reversal_ledger",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "evidence": "Underlying source-off velocity-Verlet ledger is reversible within its frozen numerical control."
+    },
+    {
+      "alternative": "AFFINE_CLOCK_DURATION",
+      "cell": "parameterization_robustness",
+      "classification": "NOT_ASSESSED",
+      "reason": "Finite clock choice supplies a parameter but does not establish native reparameterization invariance."
+    },
+    {
+      "alternative": "AFFINE_CLOCK_DURATION",
+      "cell": "degree_one_native_action_direction",
+      "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+      "reason": "No repository-local degree-one, constrained native-action definition uniquely selects the clock/duration sector."
+    },
+    {
+      "alternative": "LAGRANGE_MULTIPLIER_DURATION",
+      "assumption": "NEW repo-local finite parameterized action with fixed endpoint/duration constraint; not derived from DEV167.",
+      "cell": "finite_action_assumptions",
+      "classification": "SUPPORTED_IN_SCOPE"
+    },
+    {
+      "alternative": "LAGRANGE_MULTIPLIER_DURATION",
+      "cell": "reversal_ledger",
+      "classification": "SUPPORTED_IN_SCOPE",
+      "evidence": "Underlying source-off velocity-Verlet ledger is reversible within its frozen numerical control."
+    },
+    {
+      "alternative": "LAGRANGE_MULTIPLIER_DURATION",
+      "cell": "parameterization_robustness",
+      "classification": "NOT_ASSESSED",
+      "reason": "Finite clock choice supplies a parameter but does not establish native reparameterization invariance."
+    },
+    {
+      "alternative": "LAGRANGE_MULTIPLIER_DURATION",
+      "cell": "degree_one_native_action_direction",
+      "classification": "UNDEFINED_PRIMITIVE_BOUNDARY",
+      "reason": "No repository-local degree-one, constrained native-action definition uniquely selects the clock/duration sector."
+    }
+  ]
+}
